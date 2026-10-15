@@ -71,7 +71,7 @@ def fig_div(key):
 # tables
 comp = pd.read_csv(T/"acs_composition_povgrp.csv")
 def comp_rows(fname, label):
-    d = pd.read_csv(T/fname); d = d[d.iloc[:,0]!="n/a"]
+    d = pd.read_csv(T/fname); d = d[d.iloc[:,0].notna() & ~d.iloc[:,0].astype(str).str.startswith("not computed")]  # drop the group-quarters row, which has no poverty status
     rows = []
     for _, r in d.iterrows():
         rows.append(f"<tr><td>{r.iloc[0]}</td><td>{'girls' if r.sex==2 else 'boys'}</td><td>{r['2008-10']:.2f}</td><td>{r['2017-19']:.2f}</td><td>{r['rel_chg_1719']:+.0f}%</td><td>{r['rel_chg_2224']:+.0f}%</td><td>{r['share_pop_0810']:.0f}%</td></tr>")
