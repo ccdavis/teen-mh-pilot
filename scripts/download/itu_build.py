@@ -9,7 +9,7 @@ Output: data/compiled/itu/itu_country_year.csv with columns
     iso3, country, year, indicator, value, source
 plus data/compiled/itu/itu_coverage_table.csv (indicator x year -> n countries).
 
-Run:  uv run python scripts/19_itu_build.py
+Run from the repository root:  uv run python scripts/download/itu_build.py
 """
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "external" / "itu"
-OUT = ROOT / "data" / "extracts" / "itu"
+OUT = ROOT / "data" / "compiled" / "itu"
 OUT.mkdir(parents=True, exist_ok=True)
 
 YEAR_MIN, YEAR_MAX = 2005, 2024

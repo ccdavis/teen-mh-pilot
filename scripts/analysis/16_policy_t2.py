@@ -22,7 +22,7 @@ yr = pd.read_csv(T/"yrbs_state_year_sex.csv"); yr = yr[yr.item=="sad"]; yr["stat
 run(yr[yr.sexlab=="girls"], "y", "wt", "YRBS sad/hopeless girls"); run(yr[yr.sexlab=="boys"], "y", "wt", "YRBS sad/hopeless boys")
 ns = pd.read_csv(T/"validation_state_nsduh_vs_acs.csv"); ns["year"] = (ns.year+0.5).astype(int); ns["wt"] = 1/ns.nsduh_se**2  # period label = second year
 run(ns, "nsduh", "wt", "NSDUH youth MDE (2-yr, labelled by end year)")
-O = pd.DataFrame(out); O.to_csv(T/"policy_t2_results.csv", index=False)
+O = pd.DataFrame(out)
 print(O[~O.policy.str.startswith("joint")].pivot(index="policy", columns="outcome", values="coef").round(3).to_string())
 print(O[~O.policy.str.startswith("joint")].pivot(index="policy", columns="outcome", values="se").round(3).to_string())
 # T1 x T2 interaction at market level

@@ -7,11 +7,13 @@ Outputs (data/compiled/school_policy/):
 
 Every dated cell in state_policy_timing.csv has a corresponding row in state_policy_events.csv
 carrying the source URL and a note. See notes/school_policy.md for conventions and caveats.
-Run:  uv run python scripts/school_policy/build_state_policy_timing.py
+Run from the repository root:  uv run python scripts/download/school_policy/build_state_policy_timing.py
+Input: data/compiled/school_policy/sources/corestandards_2012_adoption_dates.csv (transcribed from the June 2012 Wayback capture of
+corestandards.org/in-the-states; see notes/school_policy.md).
 """
 import csv, os
 
-ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[2])
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3])
 OUT = os.path.join(ROOT, "data/compiled/school_policy")
 os.makedirs(OUT, exist_ok=True)
 
@@ -149,9 +151,9 @@ for st in WAIVER:
 
 # ----------------------------------------------------------------------------- 3. Common Core
 # Adoption dates from archived corestandards.org "In the States" map (June 2012 capture); per-state source links in
-# data/external/school_policy/corestandards_2012_adoption_dates.csv
+# data/compiled/school_policy/sources/corestandards_2012_adoption_dates.csv
 CC_ADOPT = {}
-with open(os.path.join(ROOT,"data/external/school_policy/corestandards_2012_adoption_dates.csv")) as f:
+with open(os.path.join(ROOT,"data/compiled/school_policy/sources/corestandards_2012_adoption_dates.csv")) as f:
     import datetime
     name2st = {v:k for k,v in STATES.items()}
     for r in csv.DictReader(f):
@@ -420,8 +422,14 @@ sy = []
 for st in STATES:
     for year in range(2005,2020):
         d = {"state":st,"year":year}
-        # RTTT: grant period from award year through 2015 (4-year grants, most with no-cost extensions into 2015)
-        d["rttt_winner"] = int(st in RTTT and year >= int(RTTT[st][1][:4]) and year <= 2015)
+        # RTTT: grant period through 2015 (4-year grants, most with no-cost extensions into 2015), starting with the school year the award
+        # fell in under the same month rule as the waivers below: awards through September count from the school year ending that year
+        # (Phase 1 March 2010 and Phase 2 August 2010 -> SY ending 2010), later awards from the next (Phase 3 December 2011 -> SY ending 2012)
+        if st in RTTT:
+            ay, am = int(RTTT[st][1][:4]), int(RTTT[st][1][5:7]); rstart = ay if am <= 9 else ay + 1
+            d["rttt_winner"] = int(rstart <= year <= 2015)
+        else:
+            d["rttt_winner"] = 0
         # Waiver: approvals in Feb-Sept 2012 cover SY 2011-12 (year 2012) onward; SY convention = spring of year
         wf = 0
         if st in WAIVER:

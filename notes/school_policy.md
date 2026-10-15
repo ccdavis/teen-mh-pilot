@@ -20,9 +20,10 @@ CSVs `esea_flex_state_pages_parsed.csv`, `corestandards_2012_adoption_dates.csv`
 
 `year` = the school year ending in spring of that calendar year (2013 = SY 2012-13). Rules:
 
-* `rttt_winner`: 1 from the award year (Phase 1/2 = 2010, Phase 3 = 2011 - note Phase 3 awards came Dec 2011, so
-  2011 is generous; use 2012 if you prefer money-in-hand) through 2015 (four-year grants, most with no-cost
-  extensions into 2015). 0 after.
+* `rttt_winner`: 1 from the school year containing the award under the same month rule as the waivers (awards through
+  September count from the school year ending that year: Phase 1 March 2010 and Phase 2 August 2010 -> 2010; Phase 3
+  December 2011 -> 2012) through 2015 (four-year grants, most with no-cost extensions into 2015). 0 after. (Until
+  2026-10-15 Phase 3 was coded from 2011.)
 * `waiver_in_force`: 1 from the school year containing the approval date (Feb-Sept 2012 approvals -> 2012)
   through 2016 (all ESEA flexibility waivers void Aug 1 2016). WA = 0 from 2015 (revoked Apr 24 2014); OK kept
   at 1 for 2015 (revoked Aug 28 2014, reinstated Nov 2014). Never-approved: CA (statewide; 8 CORE districts had a

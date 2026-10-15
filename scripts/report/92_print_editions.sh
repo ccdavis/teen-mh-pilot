@@ -1,16 +1,26 @@
 #!/bin/bash
-# Rebuild the print editions (PDF + Word) into docs/ from build/report.html. Run from the repo root after scripts/report/90_build_report.py.
+# Rebuild the print editions (PDF + Word) into docs/ from build/report.html. Run after scripts/report/90_build_report.py.
+# Needs: playwright with Chromium (`uv run playwright install chromium`), pandoc, and docs/assets/{plotly.min.js,fonts.css} (written by 94_build_site.py on first run).
 set -e; cd "$(dirname "$0")/../.."
 uv run python - <<'PY'
 from playwright.sync_api import sync_playwright
 import pathlib, glob, re, os
 html = pathlib.Path("build/report.html").read_text()
+FONTS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">'
+assert FONTS in html, "fonts link not found in build/report.html"
+html = html.replace(FONTS, '<link rel="stylesheet" href="../docs/assets/fonts.css">')  # local fonts, so the PDF renders offline
 src = html.replace('src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.3/plotly.min.js"', 'src="../docs/assets/plotly.min.js"').replace("<nav>", "<nav style='display:none'>")
 pathlib.Path("build/_preview.html").write_text("<!doctype html><html data-theme='light'><head><meta charset='utf-8'></head><body>" + src + "</body></html>")
-exe = sorted(glob.glob(os.path.expanduser("~/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell")))[-1]
+def launch(p):
+    # the browser installed by `uv run playwright install chromium`; fall back to any headless shell in the playwright cache
+    try: return p.chromium.launch()
+    except Exception:
+        exes = sorted(glob.glob(os.path.expanduser("~/.cache/ms-playwright/chromium*/chrome-linux*/chrome")) + glob.glob(os.path.expanduser("~/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell")))
+        if not exes: raise SystemExit("no Chromium found: run `uv run playwright install chromium`")
+        return p.chromium.launch(executable_path=exes[-1])
 keys = re.findall(r'id="fig-([a-z_0-9]+)"', html); pathlib.Path("build/figures").mkdir(exist_ok=True)
 with sync_playwright() as p:
-    b = p.chromium.launch(executable_path=exe); pg = b.new_page(viewport={"width":1000,"height":900}, device_scale_factor=2)
+    b = launch(p); pg = b.new_page(viewport={"width":1000,"height":900}, device_scale_factor=2)
     pg.goto("file://"+str(pathlib.Path("build/_preview.html").resolve())); pg.wait_for_timeout(9000)
     for k in keys: pg.locator(f"#fig-{k}").screenshot(path=f"build/figures/{k}.png")
     b.close()
@@ -21,7 +31,7 @@ pathlib.Path("build/report_static.html").write_text(static)
 print_css = "<style>@page{size:Letter;margin:0.8in 0.75in} body{font-size:11pt;line-height:1.45;padding:0;max-width:none} .wrap{max-width:none} h1{font-size:22pt;margin-top:0} h2{font-size:16pt;page-break-after:avoid} h3{font-size:13pt;page-break-after:avoid} h4,h5{page-break-after:avoid} p,li{max-width:none} p.figimg{page-break-inside:avoid;margin:10px 0 4px} p.figimg img{border:1px solid #d6dbe3;border-radius:4px;width:100%} table{font-size:9pt} tr{page-break-inside:avoid} .tw{overflow:visible} .note{page-break-inside:avoid} a{color:inherit;text-decoration:underline}</style>"
 pathlib.Path("build/_print.html").write_text("<!doctype html><html data-theme='light'><head><meta charset='utf-8'></head><body>" + static.replace("</style>", "</style>" + print_css, 1) + "</body></html>")
 with sync_playwright() as p:
-    b = p.chromium.launch(executable_path=exe); pg = b.new_page()
+    b = launch(p); pg = b.new_page()
     pg.goto("file://"+str(pathlib.Path("build/_print.html").resolve()), wait_until="networkidle"); pg.wait_for_timeout(2000); pg.emulate_media(media="print")
     pg.pdf(path="docs/Teen_Distress_Pilot.pdf", format="Letter", print_background=True, margin={"top":"0.8in","bottom":"0.8in","left":"0.75in","right":"0.75in"}, display_header_footer=True, header_template="<div></div>", footer_template="<div style='font-size:8pt;color:#777;width:100%;text-align:center;font-family:sans-serif'>Teen Distress Pilot · page <span class='pageNumber'></span> of <span class='totalPages'></span></div>")
     b.close()

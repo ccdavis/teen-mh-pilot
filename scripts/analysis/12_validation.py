@@ -12,7 +12,7 @@ d2 = pd.read_sas(EXT/"nsduh/sae-datasets/state_saes_final_2124.sas7bdat", format
 m2 = d2[(d2.outcome=="MDEYR")&(d2.agegrp==1)&(d2.pyearnm.str.contains("-"))].copy(); m2["year"] = m2.pyearnm.str[:4].astype(int)+0.5
 rows += [dict(source="NSDUH MDE 12-17 (2021+ mode)", year=r.year, sex="all", value=100*r.BSAE, se=100*r.ste_sae) for r in m2[m2.area==0].itertuples()]
 st = m[m.area==2][["state","year","BSAE","ste_sae"]].rename(columns={"state":"statefip","BSAE":"nsduh","ste_sae":"nsduh_se"})
-# --- NHANES PHQ-9 >= 10, ages 12-17, by sex
+# --- NHANES PHQ-9 >= 10, ages 18-24, by sex (the public-use NHANES files carry the PHQ-9 only for adults)
 cyc = {"D":(2005,"2005-2006"),"E":(2007,"2007-2008"),"F":(2009,"2009-2010"),"G":(2011,"2011-2012"),"H":(2013,"2013-2014"),"I":(2015,"2015-2016"),"J":(2017,"2017-2018"),"L":(2021,"2021-2023")}
 nh = []
 for k,(y0,lab) in cyc.items():
@@ -28,13 +28,14 @@ for k,(y0,lab) in cyc.items():
 cs = [(0,5),(113,121),(124,134),(134,142),(142,150),(158,161),(161,164),(164,167),(280,281),(281,282),(282,283),(283,284)]
 names = ["sitecode","year","weight","stratum","psu","age","sex","grade","q26","q27","q28","q29"]
 def read_yrbs(path):
-    y = pd.read_fwf(path, colspecs=cs, names=names, dtype={"q26":str,"q27":str,"q28":str,"q29":str}, na_values=[" ",""]); return y
+    y = pd.read_fwf(path, colspecs=cs, names=names, dtype={"sitecode":str,"age":str,"sex":str,"grade":str,"q26":str,"q27":str,"q28":str,"q29":str}, na_values=[" ",""]); return y
 yn = read_yrbs(EXT/"yrbs/sadc_2023/sadc_2023_national.dat")
 yn["sad"] = yn.q26.map({"1":1.0,"2":0.0}); yn["consider"] = yn.q27.map({"1":1.0,"2":0.0})
 def wprop(s, col):
     s = s[s[col].notna() & s.weight.notna()]
     if len(s) < 50: return np.nan, np.nan, len(s)
-    w = s.weight; p = np.average(s[col], weights=w); neff = w.sum()**2/(w**2).sum(); return p, np.sqrt(p*(1-p)/neff), len(s)
+    w = s.weight; p = np.average(s[col], weights=w); neff = w.sum()**2/(w**2).sum(); pc = min(max(p, 0.5/len(s)), 1-0.5/len(s))
+    return p, np.sqrt(pc*(1-pc)/neff), len(s)
 for (yr, sx), s in yn.groupby(["year","sex"]):
     lab = {"1":"girls","2":"boys"}.get(str(sx).strip());
     if lab is None: continue
@@ -72,6 +73,7 @@ P["wt"] = 1/(P.nsduh_se**2)
 print("\nState x period panel:", P.shape, "periods", sorted(P.year.unique()))
 print("cross-section (pooled):", pf.feols("nsduh ~ acs", data=P, weights="wt", vcov={"CRV1":"statefip"}).summary())
 print("within-state (state + period FE):"); print(pf.feols("nsduh ~ acs | statefip + year", data=P, weights="wt", vcov={"CRV1":"statefip"}).summary())
-b = P[P.year.between(2008,2010.6)].groupby("statefip")[["nsduh","acs"]].mean(); e = P[P.year.between(2017,2019)].groupby("statefip")[["nsduh","acs"]].mean()
+# two NSDUH two-year periods at each end (2008-09 and 2009-10 vs 2017-18 and 2018-19), so the ACS and NSDUH windows cover the same years
+b = P[P.year.between(2008.4,2009.6)].groupby("statefip")[["nsduh","acs"]].mean(); e = P[P.year.between(2017.4,2018.6)].groupby("statefip")[["nsduh","acs"]].mean()
 C = (e-b).dropna(); C.columns=["d_nsduh","d_acs"]; print("\nlong change 2008-10 -> 2017-19 across states: corr =", round(C.corr().iloc[0,1],3)); print(pf.feols("d_nsduh ~ d_acs", data=C.reset_index(), vcov="hetero").summary())
 C.reset_index().to_csv(T/"validation_state_change.csv", index=False)

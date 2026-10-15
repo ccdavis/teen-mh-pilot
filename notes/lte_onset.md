@@ -9,12 +9,13 @@ Built 2026-09-16 from carrier press releases and contemporaneous tech-press copi
 |---|---|
 | `lte_launches_long.csv` | one row per (carrier, market-as-announced, launch date). Columns: `carrier`, `market_name_as_announced`, `state`, `launch_date` (YYYY-MM-DD, or YYYY-MM when only the month is known/bracketed), `cbsa_code` (2013 CBSA, blank if no CBSA), `cbsa_name`, `cbsa_type`, `source_url`, `source_note`, `confidence`. |
 | `lte_onset_by_cbsa.csv` | one row per CBSA (big-four carriers only; MetroPCS excluded): `first_launch_date`, `first_carrier`, `second_carrier_date`, `verizon_date`, `att_date`, `sprint_date`, `tmobile_date` (+ a `*_confidence` for each), `n_carriers`, `n_sources`, `pop_2013`, `pop_rank_2013` (rank among metropolitan statistical areas, Census 2013 estimates). |
-| `list1_2013.xls`, `list2_2013.xls` | Census Feb-2013 CBSA delineation files (counties; principal cities) used for name matching. |
-| `cbsa-est2013-alldata.csv` | Census population estimates (for ranking). |
-| `att_lte_markets_1512.pdf` | AT&T's own "4G LTE markets" one-pager (26 markets, ~Jan 2012). |
+| `county_cbsa_2013.csv` | county FIPS to 2013 CBSA crosswalk (from Census list1), used by the state-survey county panel. |
+| `list1_2013.xls`, `list2_2013.xls` (in `data/external/lte/`, fetched by the builder) | Census Feb-2013 CBSA delineation files (counties; principal cities) used for name matching. |
+| `cbsa-est2013-alldata.csv` (in `data/external/lte/`, fetched by the builder) | Census population estimates (for ranking). |
+| `att_lte_markets_1512.pdf` (in `data/external/lte/`) | AT&T's own "4G LTE markets" one-pager (26 markets, ~Jan 2012), transcribed into the waves file. |
 
-Code: `scripts/lte_waves_raw.py` (every wave transcribed with its URL) and `scripts/build_lte_launches.py`
-(`uv run --with xlrd python scripts/build_lte_launches.py`). Re-run after editing the raw file.
+Code: `scripts/download/lte/lte_waves_raw.py` (every wave transcribed with its URL) and `scripts/download/lte/build_lte_launches.py`
+(`uv run --with xlrd python scripts/download/lte/build_lte_launches.py`, from the repository root). Re-run after editing the raw file.
 
 ## Method
 

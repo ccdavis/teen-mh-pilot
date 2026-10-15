@@ -8,10 +8,10 @@ Output: data/external/gshs/<iso3>_<year>/ with data files + variables.json + fil
 import json, re, sys, time, pathlib, html
 import requests
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
+ROOT = pathlib.Path(__file__).resolve().parents[3]
 OUT = ROOT / 'data/external/gshs'
 BASE = 'https://extranet.who.int/ncdsmicrodata/index.php'
-UA = 'Mozilla/5.0 (academic research; colin.c.davis@gmail.com)'
+UA = 'teen-mh-pilot research downloader (python-requests)'
 SLEEP = 1.5
 
 s = requests.Session(); s.headers['User-Agent'] = UA
@@ -44,6 +44,12 @@ def parse_files(page):
 def main(only=None):
     rows = catalog()
     rows.sort(key=lambda r: (r['nation'], r['year_start']))
+    # catalog listing kept with the compiled tables (165 country-rounds at the 2026-09-16 download)
+    import csv
+    comp = ROOT / 'data/compiled/gshs'; comp.mkdir(parents=True, exist_ok=True)
+    with open(comp / 'gshs_who_catalog_165.csv', 'w', newline='') as fh:
+        w = csv.writer(fh); w.writerow(['id', 'idno', 'nation', 'year_start', 'form_model', 'varcount', 'url'])
+        for r in rows: w.writerow([r.get('id'), r.get('idno'), r.get('nation'), r.get('year_start'), r.get('form_model'), r.get('varcount'), f"{BASE}/catalog/{r.get('id')}"])
     inv = []
     for row in rows:
         d, iso, yr = dirname(row)

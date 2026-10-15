@@ -3,7 +3,7 @@ Each figure page has three age panels; each panel is emitted as: n male values, 
 The order of the '<age>-year-olds' labels in the flow gives the panel order (verified against coordinates on p.27:
 the panel whose bar-end labels sit just above the '15-year-olds' axis label is the first panel in the flow)."""
 import re, pymupdf, pandas as pd
-EXT="data/external/hbsc"
+EXT = str(__import__("pathlib").Path(__file__).resolve().parents[3]/"data/external/hbsc")
 DOC="hbsc_1997_98_health_and_health_behaviour.pdf"
 PAGES={27:("feel_low_at_least_weekly","Fig. 3.1"),51:("like_school","Fig. 5.1"),64:("schoolwork_pressure_a_lot","Fig. 5.8")}
 CN={"Czech Republic":"Czechia","USA":"United States","Germany*":"Germany","France*":"France","Russian Federation*":"Russian Federation"}

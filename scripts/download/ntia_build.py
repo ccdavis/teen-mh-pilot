@@ -8,7 +8,7 @@ Outputs: data/extracts/ntia/ntia_person_all.parquet
          data/compiled/ntia/ntia_cbsa_year.csv
          data/compiled/ntia/ntia_national_sanity.csv
 
-Run: uv run python scripts/09_ntia_build.py
+Run from the repository root: uv run python scripts/download/ntia_build.py
 """
 from __future__ import annotations
 
@@ -19,8 +19,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data/external/ntia/raw"
 DICT = ROOT / "data/external/ntia/dictionaries"
-OUT = ROOT / "data/extracts/ntia"
-OUT.mkdir(parents=True, exist_ok=True)
+OUT = ROOT / "data/extracts/ntia"  # person-level parquet (not committed)
+COMP = ROOT / "data/compiled/ntia"  # aggregates (committed)
+OUT.mkdir(parents=True, exist_ok=True); COMP.mkdir(parents=True, exist_ok=True)
 
 WAVES = [  # (wave tag, year, month)
     ("oct09", 2009, 10), ("oct10", 2010, 10), ("jul11", 2011, 7), ("oct12", 2012, 10),
@@ -268,8 +269,8 @@ if __name__ == "__main__":
     uni = allp[allp["in_universe"]].copy()
 
     nat = aggregate(uni, None)
-    nat.to_csv(OUT / "ntia_national_sanity.csv", index=False)
-    aggregate(uni, "state").to_csv(OUT / "ntia_state_year.csv", index=False)
-    aggregate(uni, "cbsa").to_csv(OUT / "ntia_cbsa_year.csv", index=False)
+    nat.to_csv(COMP / "ntia_national_sanity.csv", index=False)
+    aggregate(uni, "state").to_csv(COMP / "ntia_state_year.csv", index=False)
+    aggregate(uni, "cbsa").to_csv(COMP / "ntia_cbsa_year.csv", index=False)
     piv = nat[nat["group"] == "all"].pivot(index="year", columns="indicator", values="share")
     print(piv.round(3).to_string())

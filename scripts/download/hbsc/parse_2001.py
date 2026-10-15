@@ -1,6 +1,6 @@
 """Parse 2001/02 report figures (text flow: per age panel, girls values, boys values, country names)."""
 import re, pymupdf, pandas as pd
-EXT="data/external/hbsc"
+EXT = str(__import__("pathlib").Path(__file__).resolve().parents[3]/"data/external/hbsc")
 DOC="hbsc_2001_02_young_peoples_health_in_context_1_9789289013727-eng.pdf"
 PAGES={57:"like_school",61:"schoolwork_pressure",72:"multiple_complaints",73:"high_life_satisfaction"}
 CN={"TFYR Macedonia":"North Macedonia","Czech Republic":"Czechia","USA":"United States"}

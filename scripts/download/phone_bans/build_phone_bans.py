@@ -1,6 +1,6 @@
 """Build the school smartphone-ban tables in data/compiled/phone_bans/.
 
-Re-run with:  uv run python scripts/phone_bans/build_phone_bans.py
+Re-run from the repository root with:  uv run python scripts/download/phone_bans/build_phone_bans.py
 
 Every row is hard-coded here with its source URL. Downloads and text extractions of the
 sources are in data/external/phone_bans/ (see README.md there); notes in notes/phone_bans.md.
@@ -11,7 +11,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parents[2] / "data" / "extracts" / "phone_bans"
+OUT = Path(__file__).resolve().parents[3] / "data" / "compiled" / "phone_bans"
 OUT.mkdir(parents=True, exist_ok=True)
 
 BP = "https://ballotpedia.org/State_policies_on_cellphone_use_in_K-12_public_schools"

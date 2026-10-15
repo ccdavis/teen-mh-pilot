@@ -1,9 +1,11 @@
+import pathlib
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 import duckdb, pandas as pd, numpy as np, matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt, pathlib
-FIG = pathlib.Path("results/figures_exploratory"); PAL = ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#4a3aa7","#e34948"]
+FIG = ROOT/"results/figures_exploratory"; FIG.mkdir(parents=True, exist_ok=True); PAL = ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#4a3aa7","#e34948"]
 plt.rcParams.update({"font.size":10,"axes.spines.top":False,"axes.spines.right":False,"axes.grid":True,"grid.alpha":.25,"figure.dpi":130})
 con = duckdb.connect()
-con.sql("""create view a as select *, case when YEARP=2020 then WT20/1e6 else try_cast(WT as double) end as w
-  from read_parquet('data/extracts/atus/atus_*.parquet', union_by_name=true) where AGE between 15 and 17""")
+con.sql(f"""create view a as select *, case when YEARP=2020 then WT20/1e6 else try_cast(WT as double) end as w
+  from read_parquet('{ROOT.as_posix()}/data/extracts/atus/atus_*.parquet', union_by_name=true) where AGE between 15 and 17""")
 cats = {"Homework":"ACTIVITY between 60300 and 60399","Sleep":"ACTIVITY between 10100 and 10199","In-person socializing":"ACTIVITY between 120100 and 120299",
         "TV & movies":"ACTIVITY in (120303,120304)","Games":"ACTIVITY=120307","Computer leisure (non-game)":"ACTIVITY=120308","Sports & exercise":"ACTIVITY between 130100 and 130199","Class time":"ACTIVITY between 60100 and 60199"}
 sel = ", ".join(f'sum(case when {c} then DURATION else 0 end) as "{k}"' for k,c in cats.items())
@@ -22,4 +24,4 @@ for i,(k,ax) in enumerate(zip(cats, axes)):
     if i%4==0: ax.set_ylabel("Minutes per day")
 fig.suptitle("ATUS, ages 15-17, school-year weekdays (non-holiday): weighted minutes per day, pooled 2-3 year periods, 95% CI", x=0.01, ha="left", fontsize=11)
 fig.tight_layout(); fig.savefig(FIG/"fig5_atus_1517_mediators.png"); plt.close()
-t = pd.concat({k: r.groupby("period", observed=True).apply(lambda g: wstats(g,k), include_groups=False) for k in cats}, axis=1); t.to_csv("results/tables/atus_1517_schoolweekday_period_se.csv"); print(t.round(1).to_string())
+t = pd.concat({k: r.groupby("period", observed=True).apply(lambda g: wstats(g,k), include_groups=False) for k in cats}, axis=1); t.to_csv(ROOT/"results/tables/atus_1517_schoolweekday_period_se.csv"); print(t.round(1).to_string())

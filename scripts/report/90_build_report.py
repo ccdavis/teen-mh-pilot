@@ -1,5 +1,5 @@
 """Build build/report.html (the pilot report artifact) from results/tables and notes. Re-run after each new result."""
-import json, pathlib, pandas as pd, numpy as np, plotly.graph_objects as go
+import json, ast, pathlib, pandas as pd, numpy as np, plotly.graph_objects as go
 from plotly.subplots import make_subplots
 ROOT = pathlib.Path(__file__).resolve().parents[2]; T = ROOT/"results/tables"; OUT = ROOT/"build/report.html"
 BOY, GIRL, ALL, MUTED = "#2a78d6", "#eb6834", "#1baf7a", "#8a919c"
@@ -21,7 +21,7 @@ fig = make_subplots(rows=1, cols=3, subplot_titles=["Ages 12–14","Ages 15–17
 for c, ag in enumerate(["12-14","15-17","65+"], start=1):
     for sx, col, name in [(1,BOY,"Boys / men"),(2,GIRL,"Girls / women")]:
         d = nat[(nat.agegrp==ag)&(nat.sex==sx)]
-        fig.add_trace(go.Scatter(x=list(d.year)+list(d.year[::-1]), y=list(d.rate+1.96*d.se)+list((d.rate-1.96*d.se)[::-1]), fill="toself", fillcolor=col.replace(")",",.15)").replace("#","rgba(") if False else None, line=dict(width=0), hoverinfo="skip", showlegend=False, opacity=.18, marker=dict(color=col)), row=1, col=c)
+        fig.add_trace(go.Scatter(x=list(d.year)+list(d.year[::-1]), y=list(d.rate+1.96*d.se)+list((d.rate-1.96*d.se)[::-1]), fill="toself", fillcolor=None, line=dict(width=0), hoverinfo="skip", showlegend=False, opacity=.18, marker=dict(color=col)), row=1, col=c)
         fig.add_trace(go.Scatter(x=d.year, y=d.rate, mode="lines", line=dict(color=col, width=2.2), name=name, showlegend=(c==1), hovertemplate="%{y:.2f}%<extra>"+name+"</extra>"), row=1, col=c)
     covid_band(fig, row=1, col=c)
 fig.update_yaxes(title_text="% with cognitive difficulty", row=1, col=1); figs["acs_levels"] = base(fig, h=360)
@@ -67,7 +67,6 @@ figs["atus"] = base(fig, h=520, hovermode="closest")
 
 def fig_div(key):
     return f'<div class="chart" id="fig-{key}"></div>'
-figjson = {k: json.loads(v.to_json()) for k, v in figs.items()}
 
 # tables
 comp = pd.read_csv(T/"acs_composition_povgrp.csv")
@@ -85,7 +84,7 @@ sexrows = "".join(f"<tr><td>{ag}</td><td>{s}</td><td>{per(2008,2010,sx,ag):.2f}<
 
 
 # ---- validation section
-SEC = ROOT/"build/sections"; SEC.mkdir(exist_ok=True)
+SEC = ROOT/"build/sections"; SEC.mkdir(parents=True, exist_ok=True)
 V = pd.read_csv(T/"validation_national_timing.csv")
 srcs = [("NSDUH MDE 12-17","NSDUH: depression 12–17"),("YRBS sad/hopeless","YRBS: sad/hopeless"),("YRBS considered suicide","YRBS: considered suicide"),("ACS cognitive difficulty 12-17","ACS: cognitive difficulty"),("NHANES PHQ-9 ≥10, 18-24","NHANES: PHQ-9 ≥10, 18–24")]
 fig = make_subplots(rows=1, cols=5, subplot_titles=[t for _,t in srcs], horizontal_spacing=0.045)
@@ -99,7 +98,7 @@ for c,(src,_) in enumerate(srcs, start=1):
     fig.update_xaxes(range=[2004,2025], row=1, col=c); fig.update_yaxes(rangemode="tozero", row=1, col=c); covid_band(fig, row=1, col=c)
 fig.update_annotations(font_size=11); figs["val_timing"] = base(fig, h=380, hovermode="closest")
 Cst = pd.read_csv(T/"validation_state_change.csv")
-fig = go.Figure(go.Scatter(x=Cst.d_acs, y=Cst.d_nsduh, mode="markers+text", text=[ST.get(int(x),"?")[:2] if False else "" for x in Cst.statefip], marker=dict(color=ALL, size=8), customdata=[ST.get(int(x),str(x)) for x in Cst.statefip], hovertemplate="%{customdata}<br>ACS Δ %{x:.2f} pp<br>NSDUH Δ %{y:.2f} pp<extra></extra>", name="State"))
+fig = go.Figure(go.Scatter(x=Cst.d_acs, y=Cst.d_nsduh, mode="markers", marker=dict(color=ALL, size=8), customdata=[ST.get(int(x),str(x)) for x in Cst.statefip], hovertemplate="%{customdata}<br>ACS Δ %{x:.2f} pp<br>NSDUH Δ %{y:.2f} pp<extra></extra>", name="State"))
 b = np.polyfit(Cst.d_acs, Cst.d_nsduh, 1); xs = np.linspace(Cst.d_acs.min(), Cst.d_acs.max(), 10); fig.add_trace(go.Scatter(x=xs, y=np.polyval(b, xs), mode="lines", line=dict(color=MUTED, dash="dash"), showlegend=False, hoverinfo="skip"))
 fig.update_xaxes(title_text="ACS cognitive difficulty 12–17, change 2008–10 → 2017–19 (pp)"); fig.update_yaxes(title_text="NSDUH youth MDE, change (pp)"); figs["val_state"] = base(fig, h=420, hovermode="closest", showlegend=False)
 def rc(src, sex, y0, y1):
@@ -116,8 +115,8 @@ val_html = f"""
 <p>In every source the girls' relative rise exceeds the boys'. The ACS item passes this check: if it were mainly picking up ADHD diagnoses, the boys' change would dominate.</p>
 <h3>Do states move together? (check a)</h3>
 {fig_div('val_state')}
-<p class="caption">51 states. Each point is the state's change in both measures between 2008–10 and 2017–19; dashed line is the OLS fit (slope 0.55, SE 0.21, r = 0.32).</p>
-<p>Across states there is no relation between the levels of the two measures (the ACS item is a disability screener, NSDUH is a diagnostic interview), but their <em>changes</em> are related: a state-and-period fixed-effects regression of NSDUH youth MDE on the ACS rate gives a slope of 0.14 (SE 0.05, p = 0.01) across 714 state-by-period observations, and the decade-long changes correlate at 0.32. Against the YRBS state files (39 states, by sex), the ACS rate moves together with "sad or hopeless" at a slope of 0.35 (SE 0.18) with state-by-sex and year-by-sex effects, and not at all with "considered suicide."</p>
+<p class="caption">51 states. Each point is the state's change in both measures between 2008–10 and 2017–19; dashed line is the OLS fit (slope 0.37, SE 0.18, r = 0.22).</p>
+<p>Across states there is no relation between the levels of the two measures (the ACS item is a disability screener, NSDUH is a diagnostic interview), but their <em>changes</em> are related: a state-and-period fixed-effects regression of NSDUH youth MDE on the ACS rate gives a slope of 0.14 (SE 0.05, p = 0.01) across 714 state-by-period observations, and the decade-long changes correlate at 0.22 (slope 0.37, SE 0.18). Against the YRBS state files (39 states, by sex), the ACS rate moves together with "sad or hopeless" at a slope of 0.35 (SE 0.18) with state-by-sex and year-by-sex effects, and not at all with "considered suicide."</p>
 <div class="note"><strong>Conclusion.</strong> The ACS item passes the sex check and moves, weakly but genuinely, with depression within states. It can serve as one main outcome, with two caveats: it captures perhaps a sixth of the depression rise, and the part of its change that is specific to girls is small relative to sampling error. The state youth surveys (the YRBS state files here, and the county surveys later in the report) deserve equal standing rather than a supporting role.</div>
 """
 (SEC/"validation.html").write_text(val_html)
@@ -278,7 +277,7 @@ policy_html = f"""
 <h3>State-year regressions</h3>
 <div class="tw"><table><thead><tr><th>Policy (each estimated alone)</th><th>ACS girls</th><th>ACS boys</th><th>YRBS sad girls</th><th>YRBS sad boys</th><th>NSDUH youth MDE</th></tr></thead><tbody>{prow}</tbody></table></div>
 <p class="caption">Coefficients in percentage points, state and year fixed effects, inverse-variance weights, SE clustered by state, 2008–2019 (YRBS biennial, 39 states; NSDUH two-year periods labelled by end year). Bold = |t| &gt; 1.96.</p>
-<p>Common Core aligned testing, waivers, teacher evaluation, exit exams and the summed index show no relation to any of the three outcomes; several point estimates are negative. The one exception is Race to the Top: winning states saw larger subsequent rises in NSDUH youth depression (+0.36 pp) and in YRBS girls' sadness (+1.1 pp), with the ACS item flat. RTTT winners are a selected group (19 jurisdictions with the capacity to write winning applications, including DC, NY, MA, FL). Tracing the same states year by year around the award, in the U.S. follow-ups below, shows this coefficient is an artifact of how the indicator was coded; there is no rise after the award.</p>
+<p>Common Core aligned testing, waivers, teacher evaluation, exit exams and the summed index show no relation to any of the three outcomes; several point estimates are negative. The one exception is Race to the Top: winning states saw larger subsequent rises in NSDUH youth depression (+0.29 pp) and in YRBS girls' sadness (+1.2 pp), with the ACS item flat. RTTT winners are a selected group (19 jurisdictions with the capacity to write winning applications, including DC, NY, MA, FL). Tracing the same states year by year around the award, in the U.S. follow-ups below, shows this coefficient is an artifact of how the indicator was coded; there is no rise after the award.</p>
 <h3>Does phone timing matter more in high-pressure states? (H3)</h3>
 <div class="tw"><table><thead><tr><th>Outcome (ACS 12–17, market panel)</th><th>LTE × policy</th><th>Interaction (SE)</th></tr></thead><tbody>{irow}</tbody></table></div>
 <p class="caption">State-by-year fixed effects absorb the policy's own effect; what remains is whether early-LTE metros within a state rose more when the state had the policy. "Not identified": the policy switches on in the same year for nearly every metro in the state, so there is nothing left to compare.</p>
@@ -289,8 +288,7 @@ a_, b_ = policy_html.split("<h3>Does phone timing matter more in high-pressure s
 
 # ---- MICS section
 MP = pd.read_csv(T/"mics_prevalence_sample_age_sex.csv"); MC = pd.read_csv(T/"mics_cluster_dose.csv"); MO = pd.read_csv(T/"mics_own_use_1517.csv")
-ch = pd.read_parquet(ROOT/"data/extracts/mics/mics_child_analysis.parquet")
-sm = ch[ch.AGEFS.between(10,17)].groupby(["sample","iso3","year"]).apply(lambda g: pd.Series({"anx_g": 100*np.average(g[g.girl==1].anx_dw, weights=g[g.girl==1].wt), "anx_b": 100*np.average(g[g.girl==0].anx_dw, weights=g[g.girl==0].wt), "dose": 100*np.nanmean(g.y_net_daily), "hh_net": 100*np.nanmean(g.hh_net), "n": len(g)}), include_groups=False).reset_index()
+sm = pd.read_csv(T/"mics_survey_summary.csv")  # survey-level summary written by scripts/analysis/18_mics_analysis.py
 fig = make_subplots(rows=1, cols=2, subplot_titles=["Girls 10–17","Boys 10–17"], shared_yaxes=True, horizontal_spacing=0.05)
 for c,(col,colr) in enumerate([("anx_g",GIRL),("anx_b",BOY)], start=1):
     fig.add_trace(go.Scatter(x=sm.dose, y=sm[col], mode="markers", marker=dict(color=colr, size=8, opacity=.75), text=[f"{i} {y}" for i,y in zip(sm.iso3, sm.year)], name="Survey", showlegend=False, hovertemplate="%{text}<br>young-adult daily internet %{x:.0f}%<br>anxious daily/weekly %{y:.1f}%<extra></extra>"), row=1, col=c)
@@ -315,14 +313,14 @@ figs["mics_coef"] = base(fig, h=440, hovermode="closest", margin=dict(l=300, r=1
 tr = pd.read_csv(T/"mics_two_round.csv"); tr = tr[tr.iso3!="PAK"]
 trrows = "".join(f"<tr><td>{r.iso3}</td><td>{r.agegrp}</td><td>{'girls' if r.girl==1 else 'boys'}</td><td>{int(r.y0)} → {int(r.y1)}</td><td>{r.anx0:.1f} → {r.anx1:.1f}</td><td>{r.dep0:.1f} → {r.dep1:.1f}</td></tr>" for r in tr.itertuples())
 mics_html = f"""
-<p>MICS6 and MICS7 (2017 onward) carry the Washington Group / UNICEF Child Functioning Module for every child aged 5–17: the caregiver reports how often the child "seems very anxious, nervous or worried" and how often "very sad or depressed" on a daily / weekly / monthly / a few times a year / never scale, with identical wording in every country. The same surveys ask women 15–49 (and men in about half the surveys) about mobile ownership and how often they used the internet and a mobile phone in the past three months, and the household questionnaire records internet access. All 68 samples on the IPUMS-MICS server with the module were read from the fixed-width files: {len(ch):,} children with valid responses in {ch['sample'].nunique()} surveys.</p>
+<p>MICS6 and MICS7 (2017 onward) carry the Washington Group / UNICEF Child Functioning Module for every child aged 5–17: the caregiver reports how often the child "seems very anxious, nervous or worried" and how often "very sad or depressed" on a daily / weekly / monthly / a few times a year / never scale, with identical wording in every country. The same surveys ask women 15–49 (and men in about half the surveys) about mobile ownership and how often they used the internet and a mobile phone in the past three months, and the household questionnaire records internet access. All 68 samples on the IPUMS-MICS server with the module were read from the fixed-width files: {int(MP.n.sum()):,} children with valid responses in {MP['sample'].nunique()} surveys.</p>
 <h4>Prevalence across surveys</h4>
 {fig_div('mics_scatter')}
 <p class="caption">One point per survey, ages 10–17. Cross-survey variation in caregiver-reported anxiety is enormous (from under 1% in Turkmenistan to 40% in Tunisia) and is dominated by reporting culture, which is why all tests below are within country.</p>
 <h4>Use and symptoms within countries</h4>
 {fig_div('mics_coef')}
 <p class="caption">Cluster rows: children's anxiety against the share of 15–24-year-olds in their sampling cluster who use the internet almost daily (or own a mobile, or the household-internet share), with survey-by-region fixed effects, wealth quintile, urban and age controls, SE clustered by sampling cluster. Own-use rows: 15–17-year-olds linked to their own record in the women's or men's questionnaire (85% of girls matched, 24% of boys), comparing users to non-users within the same cluster.</p>
-<p>Girls aged 10–17 in clusters where more young adults use the internet daily are reported slightly more anxious (+0.33 pp per 10-point rise in the cluster share, SE 0.13). But the same coefficient appears for 5–9-year-old girls (+0.21, SE 0.12), who are not the exposed group, so this is a property of connected clusters rather than of adolescent phone use. Mobile ownership in the cluster is <em>negatively</em> related to anxiety for every age and sex, household internet is flat, and depression shows no relation to any measure of connectivity. The within-cluster own-use comparison, the closest MICS comes to the individual exposure Haidt describes, shows no effect or negative for girls: daily internet use −0.6 pp on anxiety (SE 1.4) and −2.1 pp on depression (SE 1.2), daily phone use −2.4 pp (SE 1.2). For boys the own-phone-use coefficients are positive (+4.4 and +5.5 pp, SE ~2) but rest on the quarter of boys with a men's-questionnaire record. The learning and friendship functioning items are flat throughout.</p>
+<p>Girls aged 10–17 in clusters where more young adults use the internet daily are reported slightly more anxious (+0.34 pp per 10-point rise in the cluster share, SE 0.13). But a similar coefficient appears for 5–9-year-old girls (+0.19, SE 0.13), who are not the exposed group, so this is a property of connected clusters rather than of adolescent phone use. Mobile ownership in the cluster is <em>negatively</em> related to anxiety for every age and sex, household internet is small and positive for girls only (+0.26 per 10 points, SE 0.12, with nothing at 5–9), and depression shows no relation to any measure of connectivity. The within-cluster own-use comparison, the closest MICS comes to the individual exposure Haidt describes, shows no effect or negative for girls: daily internet use −0.1 pp on anxiety (SE 1.4) and −1.8 pp on depression (SE 1.3), daily phone use −2.2 pp (SE 1.2). For boys the own-phone-use coefficients are positive (+4.4 and +5.5 pp, SE ~2) but rest on the quarter of boys with a men's-questionnaire record. The learning and friendship functioning items are flat throughout.</p>
 <h4>Two-round countries</h4>
 <div class="tw"><table><thead><tr><th>Country</th><th>Ages</th><th>Sex</th><th>Rounds</th><th>Anxious daily/weekly %</th><th>Depressed daily/weekly %</th></tr></thead><tbody>{trrows}</tbody></table></div>
 <h4>DHS-8 self-reports: Nepal 2022</h4>
@@ -352,7 +350,7 @@ usdose_html = f"""
 <p>This has the pattern the phone hypothesis predicts (girls, not boys; the self-report sadness item, not the ACS disability item), and it is fragile: five biennial YRBS waves, an interpolated exposure level, and a p-value near 0.04 with 39 clusters. The county-level version in the next subsection does not reproduce it, so it stays suggestive.</p>
 <h3>Race to the Top, traced year by year</h3>
 {fig_div('rttt_es')}
-<p class="caption">State and year fixed effects, coefficients relative to the year before the award (Phase 1 and 2: 2010; Phase 3: 2011), 2005–2019.</p>
+<p class="caption">State and year fixed effects, coefficients relative to the year before the award (school year ending 2010 for Phase 1 and 2, 2012 for the December 2011 Phase 3 awards), 2005–2019.</p>
 <p>The static Race to the Top coefficient from the school-policy section does not survive being traced year by year around the award: afterwards, YRBS sadness and NSDUH youth depression in winning states move flat to downward relative to other states. The static estimate arose from coding the indicator as 1 only for 2010–2015, so the winners' post-2016 years served as controls. There is no evidence that RTTT states' teenagers became more distressed. The U.S. policy-shock version of H2 is therefore not supported; testing H2 further needs school-level pressure items, which no U.S. public survey carries.</p>
 """
 a_, b_ = usdose_html.split("<h3>Race to the Top, traced year by year</h3>")
@@ -369,7 +367,7 @@ mh_html = f"""
 <h4>Asking adolescents directly: mobile-phone hours in the 2022–23 rounds</h4>
 <p>Five GSHS rounds (Ghana 2022, India 2022, Jamaica 2023, Morocco 2023, Wallis and Futuna 2023) added "hours per day you used a mobile phone in the past 7 days". This puts each student's own reported phone use next to the same student's loneliness and suicidality answers.</p>
 {fig_div('gshs_hours')}
-<p class="caption">Country fixed effects and age controls, survey weights, SE clustered by school; 5,654 girls and 5,487 boys. The full gradient is monotonic: relative to under an hour a day, girls at 5+ hours report loneliness +21 pp, suicidal ideation +18 pp, attempts +15 pp.</p>
+<p class="caption">Country fixed effects and age controls, survey weights, SE clustered by school; 7,708 girls and 7,102 boys, including students who had no phone. Girls using a phone three or more hours a day report loneliness +8 pp (SE 1.4), suicidal ideation +10 pp (1.5) and attempts +6 pp (1.6) compared with everyone else; boys +5, +4 and +2. The gradient rises with hours: relative to under an hour a day, girls at more than 8 hours report loneliness +20 pp, suicidal ideation +17 pp, attempts +14 pp. Students without a phone sit a few points above the under-an-hour group, not below it.</p>
 <p>This is the pattern the phone hypothesis predicts: large, concentrated in girls, and rising steadily with hours of use. It is also exactly the kind of one-time self-report association the two camps disagree about, since heavy phone use and distress can share causes or run the other way. It cannot settle the timing question, but it does mark the 2022–23 GSHS rounds (and the MICS7 rounds with adolescent modules) as the place to bring in network-coverage timing, because here the exposure is measured on the adolescent rather than inferred from adults.</p>
 """
 (SEC/"gshs.html").write_text((SEC/"gshs.html").read_text() + mh_html)
@@ -382,7 +380,7 @@ itu_html = f"""
 <h4>Network coverage at country level (ITU)</h4>
 <p>With the ITU series, the same comparison can use network coverage rather than reported use. Same model: country and year fixed effects, inverse-variance weights, SE clustered by country, countries with two or more rounds.</p>
 <div class="tw"><table><thead><tr><th>Exposure (per +10 points)</th><th>Countries / rounds</th><th>Lonely, girls</th><th>Lonely, boys</th><th>Considered suicide, girls</th><th>…boys</th><th>Attempted, girls</th><th>…boys</th></tr></thead><tbody>{itrows}</tbody></table></div>
-<p>Nothing here favors H1: 4G coverage, 3G coverage and mobile-broadband subscriptions all give coefficients within about ±0.5 pp per 10 points, with the girls' loneliness coefficient on 3G coverage negative. Country-level coverage is still a crude measure (within-country changes are large, 20–35 points, but they move with everything else that changed between 2007 and 2019), which leaves local, cluster-level coverage as the remaining test.</p>
+<p>Nothing here favors H1: 4G coverage, 3G coverage and mobile-broadband subscriptions all give coefficients within about ±0.5 pp per 10 points (the largest, −0.5 pp for girls' suicidal ideation on 4G coverage, has a standard error of 0.6), with the girls' loneliness coefficient on 3G coverage negative. The 4G rows rest on the 15 countries with a reported 4G series in two or more survey years. Country-level coverage is still a crude measure (within-country changes are large, 20–35 points, but they move with everything else that changed between 2007 and 2019), which leaves local, cluster-level coverage as the remaining test.</p>
 """
 (SEC/"gshs.html").write_text((SEC/"gshs.html").read_text() + itu_html)
 
@@ -399,7 +397,7 @@ for c, it in enumerate(["sad_hopeless","considered_suicide"], start=1):
     fig.add_vrect(x0=2019.5, x1=2020.5, fillcolor="rgba(128,128,128,.12)", line_width=0, row=1, col=c)
 fig.update_yaxes(title_text="% of students (mean across counties)", row=1, col=1); figs["state_trends"] = base(fig, h=400)
 lerows = "".join(f"<tr><td>{s_}</td><td>{g[g.k==0].Estimate.iloc[0] if len(g[g.k==0]) else float('nan'):+.2f}</td></tr>" for s_, g in LE.groupby('series'))
-ndrows = "".join(f"<tr><td>{r.item.replace('_',' ')}</td><td>{r.sex}</td><td>{r.coef_per10pp:+.2f} ({r.se:.2f})</td><td>{r.counties} / {r.cbsas}</td><td>{', '.join(eval(r.states))}</td></tr>" for r in ND.itertuples())
+ndrows = "".join(f"<tr><td>{r.item.replace('_',' ')}</td><td>{r.sex}</td><td>{r.coef_per10pp:+.2f} ({r.se:.2f})</td><td>{r.counties} / {r.cbsas}</td><td>{', '.join(r.states.split(';'))}</td></tr>" for r in ND.itertuples())
 ss_html = f"""
 <h3>State youth surveys at county level</h3>
 <p>The state youth surveys are the self-report outcome the ACS lacks. County tables were compiled for six states: Minnesota (1998–2019, 87 counties), Washington (2010–2025, 38), Maine (2009–2023, 16), California (2013–2019, 54, by sex), Pennsylvania (2015–2023, 60) and Illinois (2018–2024, 78), 34,439 county rows with source and wording recorded for each. Minnesota's pre-2013 sadness item has different wording and is excluded from the sadness series.</p>
@@ -442,8 +440,8 @@ pisa_html = f"""
 {fig_div('pisa_ban')}
 <p class="caption">Binary items in percentage points; PISA indices in hundredths of a standard deviation. The ICT module (smartphone use at school) covers 51 systems; the well-being module (life satisfaction, experienced well-being) covers 13–14.</p>
 <div class="tw"><table><thead><tr><th>Outcome</th><th>All</th><th>Girls</th><th>Boys</th><th>Mean</th></tr></thead><tbody>{prrows}</tbody></table></div>
-<p>Three findings. First, bans change behaviour, partly: daily smartphone use at school is 12 points lower in ban schools (from a 55% base, so 43% of students in ban schools still use one daily), leisure screen use at school falls, and after-school use is unchanged, which is the right placebo comparison pattern. Second, the well-being differences run in the direction the Norwegian study found and are concentrated in girls: less nervousness without a device, 1.4 pp less loneliness at school for girls (none for boys), and +0.02 to +0.03 SD on belonging and life satisfaction. Third, ban schools report <em>more</em> classroom distraction by devices (+3.7 pp), a sign that schools adopt bans where phones are already a problem. That selection works against finding benefits, so the small favorable girl-specific differences are, if anything, understated, but a cross-section cannot say by how much.</p>
-<div class="note"><strong>What this shows.</strong> The only public, multi-country microdata on school phone rules show a modest, girl-specific association between bans and lower loneliness and device anxiety, alongside clear evidence that bans reduce in-school use and clear evidence of selection into bans. Together with Norway's result, that is enough to make the 2024–25 U.S. state bans the most valuable natural experiment now pending in this project; the 2025 YRBS and the 2025–27 state-survey waves are where it will be tested, using the approach set out above.</div>
+<p>Three findings. First, bans change behaviour, partly: daily smartphone use at school is 12 points lower in ban schools (from a 55% base, so 43% of students in ban schools still use one daily), leisure screen use at school falls, and after-school use is unchanged, which is the right placebo comparison pattern. Second, the well-being differences run in the direction the Norwegian study found and are concentrated in girls: less nervousness without a device, 1.4 pp less loneliness at school for girls (none for boys), and +0.02 to +0.03 SD on belonging and life satisfaction. Third, students in ban schools report less classroom distraction by digital devices (3.5 pp fewer say they are distracted in most or every lesson; 4.2 pp for girls, 2.9 for boys), in line with the lower in-school use. All of this is a comparison across schools at one point in time: schools choose whether to ban, and nothing here says how a ban school would have looked without its ban, so the small favorable girl-specific differences could reflect which schools ban as much as what bans do.</p>
+<div class="note"><strong>What this shows.</strong> The only public, multi-country microdata on school phone rules show a modest, girl-specific association between bans and lower loneliness and device anxiety, alongside clear evidence that bans reduce in-school use and reported classroom distraction. Because the comparison is across schools at one time, it cannot separate the effect of a ban from the kind of school that adopts one. Together with Norway's result, that is enough to make the 2024–25 U.S. state bans the most valuable natural experiment now pending in this project; the 2025 YRBS and the 2025–27 state-survey waves are where it will be tested, using the approach set out above.</div>
 """
 (SEC/"pisa.html").write_text(pisa_html)
 
@@ -544,7 +542,7 @@ figjson = {k: json.loads(v.to_json()) for k, v in figs.items()}
 extra = {}
 import shutil
 for hand in (ROOT/"scripts/report/sections").glob("*.html"): shutil.copy(hand, SEC/hand.name)
-for name in ["validation","lte","policy","hbsc","gshs","ntia","mics","usdose","statesurveys","reconcile","bans","policy_inter","usdose_adopt","usdose_rttt","ss_trends","ss_tests","h3"]:
+for name in ["validation","lte","policy","hbsc","gshs","ntia","mics","reconcile","bans","policy_inter","usdose_adopt","usdose_rttt","ss_trends","ss_tests","h3"]:
     p = ROOT/f"build/sections/{name}.html"; extra[name] = p.read_text() if p.exists() else f'<p class="pending">Pending: this section fills in when the {name} inputs arrive.</p>'
     if name in ("validation","lte","policy","policy_inter","usdose_rttt","ntia","mics","gshs","hbsc","bans"):
         extra[name] = extra[name].replace("<h4>", "<h5>").replace("</h4>", "</h5>").replace("<h3>", "<h4>").replace("</h3>", "</h4>").replace("<h3 id=", "<h4 id=")
@@ -601,7 +599,7 @@ code{{font-family:'IBM Plex Mono',monospace;font-size:.85em;background:var(--sof
 <tr><td>Timing in early vs late LTE markets</td><td>No timing effect. Metros that got LTE early and late track each other through 2013; the event study is 0.02 pp (SE 0.15) on 279 dated metros, −0.04 (0.19) for girls; no effect again at county level in six state surveys.</td><td><span class="pill against">not H1 via rollout timing</span></td></tr>
 <tr><td>U.S. adoption exposure level</td><td>Teen-household smartphone-internet share predicts YRBS girls' sadness within states (+0.9 pp per 10 points, SE 0.44) but not at county level (+0.1, SE 0.1). Suggestive at most.</td><td><span class="pill">weak H1</span></td></tr>
 <tr><td>Phone-first countries, use-based exposure</td><td>MICS (68 surveys): caregiver-reported anxiety and depression show no relation to cluster connectivity or a girl's own daily phone/internet use; the one positive coefficient is matched by the 5–9-year-olds (a placebo comparison, since they are not the exposed group). GSHS (39 countries): no relation to internet penetration, mobile-broadband subscriptions or 3G/4G coverage. Census cognitive item uninformative.</td><td><span class="pill against">not H1 on adult- or cluster-measured use</span></td></tr>
-<tr><td>Self-reported phone hours</td><td>GSHS 2022–23 (five countries): girls on a phone 3+ h/day report loneliness +11 pp and suicidal ideation +12 pp, monotonic in hours; boys about half. Nepal 2022 PHQ-9/GAD-7 point the same way for 15–19-year-olds. One-time self-report, so the direction of cause is open.</td><td><span class="pill for">H1 pattern, not timing</span></td></tr>
+<tr><td>Self-reported phone hours</td><td>GSHS 2022–23 (five countries): girls on a phone 3+ h/day report loneliness +8 pp and suicidal ideation +10 pp, rising with hours; boys about half. Nepal 2022 PHQ-9/GAD-7 point the same way for 15–19-year-olds. One-time self-report, so the direction of cause is open.</td><td><span class="pill for">H1 pattern, not timing</span></td></tr>
 
 <tr><td colspan="3"><strong>School pressure (H2)</strong></td></tr>
 <tr><td>Age pattern and seasonality</td><td>Through 2019 the 12–14 and 15–17 rises are similar and 18–24 rises more, so no high-stakes-years signature. Seasonality is not testable in public ACS. ATUS: homework on school weekdays up about 40% (52 → 71 min) between 2003–08 and 2015–19, sleep flat, in-person socializing down.</td><td><span class="pill for">school demand rose</span> (H2 premise)</td></tr>
@@ -609,7 +607,7 @@ code{{font-family:'IBM Plex Mono',monospace;font-size:.85em;background:var(--sof
 <tr><td>State accountability policy</td><td>Waivers, Common Core testing, teacher evaluation and exit exams show no relation to ACS, YRBS or NSDUH outcomes; the apparent Race to the Top effect disappears when traced year by year.</td><td><span class="pill against">not H2 via U.S. policy shocks</span></td></tr>
 <tr><td colspan="3"><strong>Interaction (H3)</strong></td></tr>
 <tr><td>LTE × school pressure</td><td>Early-LTE markets in high-pressure states did not rise more; where the comparison can be made, the interaction is negative for girls.</td><td><span class="pill against">not H3 via state policy</span></td></tr>
-<tr><td>School phone bans</td><td>PISA 2022, 80 systems: ban schools have 12 pp less daily in-school use; girls report 1.4 pp less loneliness and 2 pp less device anxiety, +0.02–0.03 SD belonging and life satisfaction; also more reported distraction (selection). U.S. statewide bans (2024–26) not yet testable. Nationally, school prohibitions fell 91% → 66% during 2009–16 and then re-tightened while sadness first rose and then fell.</td><td><span class="pill for">H1 / H3 direction, small; U.S. test pending</span></td></tr>
+<tr><td>School phone bans</td><td>PISA 2022, 80 systems: ban schools have 12 pp less daily in-school use; girls report 1.4 pp less loneliness and 2 pp less device anxiety, +0.02–0.03 SD belonging and life satisfaction; 3.5 pp less reported classroom distraction. Cross-school comparison, so selection cannot be ruled out. U.S. statewide bans (2024–26) not yet testable. Nationally, school prohibitions fell 91% → 66% during 2009–16 and then re-tightened while sadness first rose and then fell.</td><td><span class="pill for">H1 / H3 direction, small; U.S. test pending</span></td></tr>
 <tr><td>Bans × academic pressure</td><td>PISA 2022: the ban's association with less loneliness is larger for students with high schoolwork anxiety (girls −1.2 vs −0.3 pp; boys −0.8 vs +1.1), but the difference is within its standard error and the pressure measure is a proxy.</td><td><span class="pill">H3 direction, not established</span></td></tr>
 </tbody></table></div>
 
@@ -706,7 +704,7 @@ code{{font-family:'IBM Plex Mono',monospace;font-size:.85em;background:var(--sof
 <li>Apply for the HBSC microdata to run the concentration test (are complaints increasingly concentrated among high-pressure students?) and the student-level social-media × pressure interaction, which is the only available test of H3.</li>
 <li>Stop extending the ACS market event study and the census cognitive item; they have done what they can. Defer the restricted-data route (the Census Bureau research data centers) until a state-survey or ban result justifies it.</li>
 </ul></div>
-<p class="caption">Reproducibility: scripts in <code>~/teen-mh-pilot/scripts</code>, tables in <code>results/tables</code>. Data: IPUMS USA (ACS 1-year 2005–2024), IPUMS ATUS 2003–2024, IPUMS International (ke2009a, ke2019a, mx2010a, mx2020a), IPUMS CPS; public NSDUH, NHANES, YRBS, HBSC, GSHS, NTIA files as noted in each section.</p>
+<p class="caption">Reproducibility: scripts in <code>scripts/</code>, tables in <code>results/tables/</code> of the project repository. Data: IPUMS USA (ACS 1-year 2005–2024), IPUMS ATUS 2003–2024, IPUMS International (ke2009a, ke2019a, mx2010a, mx2020a), IPUMS CPS; public NSDUH, NHANES, YRBS, HBSC, GSHS, NTIA files as noted in each section.</p>
 </div>
 <script>
 const FIGS = {json.dumps(figjson)};

@@ -4,14 +4,15 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]; T = ROOT/"results/tables"; E
 cs = [(0,5),(113,121),(124,134),(158,161),(161,164),(280,281),(281,282),(282,283)]; names = ["sitecode","year","weight","age","sex","q26","q27","q28"]
 out = []
 for f in sorted(glob.glob(str(EXT/"sadc_2023_state_*.dat"))):
-    for chunk in pd.read_fwf(f, colspecs=cs, names=names, dtype={"sitecode":str,"q26":str,"q27":str,"q28":str}, chunksize=300000):
+    for chunk in pd.read_fwf(f, colspecs=cs, names=names, dtype={"sitecode":str,"age":str,"sex":str,"q26":str,"q27":str,"q28":str}, chunksize=300000):
         chunk["sad"] = chunk.q26.map({"1":1.0,"2":0.0}); chunk["consider"] = chunk.q27.map({"1":1.0,"2":0.0})
         chunk = chunk[chunk.weight.notna() & chunk.sex.isin(["1","2"])]
         for col in ["sad","consider"]:
             c = chunk[chunk[col].notna()].assign(sw=lambda d: d.weight, sw2=lambda d: d.weight**2, swy=lambda d: d.weight*d[col], n=1)
             g = c.groupby(["sitecode","year","sex"])[["sw","sw2","swy","n"]].sum().reset_index(); g["item"] = col; out.append(g)
 d = pd.concat(out).groupby(["sitecode","year","sex","item"]).sum().reset_index()
-d["p"] = d.swy/d.sw; d["neff"] = d.sw**2/d.sw2; d["se"] = np.sqrt(d.p*(1-d.p)/d.neff)
+d["p"] = d.swy/d.sw; d["neff"] = d.sw**2/d.sw2
+pc = d.p.clip(lower=0.5/d.n, upper=1-0.5/d.n); d["se"] = np.sqrt(pc*(1-pc)/d.neff)  # floor keeps SE > 0 when every respondent answered the same way
 d["sexlab"] = d.sex.map({"1":"girls","2":"boys"}); d.to_csv(T/"yrbs_state_year_sex.csv", index=False)
 print(d.groupby(["item","year"]).sitecode.nunique().unstack(0).to_string())
 # state FIPS from postal code

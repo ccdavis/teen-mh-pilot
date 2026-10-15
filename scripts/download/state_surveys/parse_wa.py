@@ -3,7 +3,7 @@
 2014-2021: multi-grade PDF 'Report of Participating Schools' (Grade 6/8/10/12 columns).
 2012: single-grade PDFs (Your Students / Statewide columns). 2010: Word .doc converted to .txt (same layout as 2012)."""
 import re, os, glob, sys, openpyxl, pdfplumber, pandas as pd
-D = "data/external/state_surveys/wa"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); D = f"{ROOT}/data/external/state_surveys/wa"; fails = []
 idx = pd.read_csv(f"{D}/index.csv")
 ITEMS = {
     "sad_hopeless": (r"feel so sad or hopeless almost\s+every day for two weeks", "yes"),
@@ -144,7 +144,7 @@ for _, r in idx[idx.report != "Excel"].iterrows():
             with pdfplumber.open(f) as pdf:
                 text = "\n".join((p.extract_text() or "") for p in pdf.pages)
     except Exception as e:
-        print("fail", f, e); continue
+        fails.append((f, str(e))); continue
     res = parse_txt2010(text) if f.endswith(".txt") else parse_text(text)
     if r.report.startswith("Multi-grade"):
         grades = ["6", "8", "10", "12"] if "12" in r.report else ["6", "8", "10"]
@@ -157,6 +157,7 @@ for _, r in idx[idx.report != "Excel"].iterrows():
                 add(r.year, r.geo, r["name"], grade, item, v[ci], n, src)
     if not res: print("no items", f)
 df = pd.DataFrame(out).drop_duplicates(["geography_type", "geography_name", "year", "grade_or_age", "item"])
-df.to_csv("data/compiled/state_surveys/wa_hys_county.csv", index=False)
+df.to_csv(f"{ROOT}/data/compiled/state_surveys/wa_hys_county.csv", index=False)
 print(df.groupby(["item", "year"]).size().unstack(fill_value=0))
 print(df[(df.geography_name=="King County")&(df.grade_or_age=="10")].pivot_table(index="item", columns="year", values="value_pct"))
+if fails: raise SystemExit(f"{len(fails)} report files could not be read: " + "; ".join(f"{a}: {b}" for a, b in fails))

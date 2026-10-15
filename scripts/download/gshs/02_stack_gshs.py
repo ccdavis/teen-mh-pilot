@@ -11,9 +11,9 @@ QN* dichotomies where present, and writes:
 import json, re, glob, pathlib, sys, warnings
 import numpy as np, pandas as pd
 warnings.filterwarnings('ignore')
-ROOT = pathlib.Path(__file__).resolve().parents[2]
-EXT, OUT = ROOT / 'data/external/gshs', ROOT / 'data/extracts/gshs'
-OUT.mkdir(parents=True, exist_ok=True)
+ROOT = pathlib.Path(__file__).resolve().parents[3]
+EXT, OUT, COMP = ROOT / 'data/external/gshs', ROOT / 'data/extracts/gshs', ROOT / 'data/compiled/gshs'
+OUT.mkdir(parents=True, exist_ok=True); COMP.mkdir(parents=True, exist_ok=True)
 
 # construct -> (label regex, exclude regex)
 ITEMS = {
@@ -212,7 +212,7 @@ def main():
         parts, rows = process_round(d)
         print(pathlib.Path(d).name, [(r['file'], r['n']) for r in rows], flush=True)
         allparts += parts; allrows += rows
-    files = pd.DataFrame(allrows); files.to_csv(OUT / 'gshs_files.csv', index=False)
+    files = pd.DataFrame(allrows); files.to_csv(COMP / 'gshs_files.csv', index=False)
     st = pd.concat(allparts, ignore_index=True)
     for c in st.columns:
         if c.startswith('src_') or c in ('psu', 'stratum', 'datafile', 'catalog_id'): st[c] = st[c].astype('string')
@@ -233,7 +233,7 @@ def main():
         row['net_items'] = '; '.join(sorted(set(x for x in files.loc[files['round'] == f'{iso}_{yr}', 'net_items'].dropna() if x)))
         inv.append(row)
     inv = pd.DataFrame(inv); inv['weight_var'] = inv.weight_var.str[0]
-    inv.to_csv(OUT / 'gshs_inventory.csv', index=False)
+    inv.to_csv(COMP / 'gshs_inventory.csv', index=False)
     print(inv.to_string()); print('stacked', st.shape)
 
 if __name__ == '__main__':

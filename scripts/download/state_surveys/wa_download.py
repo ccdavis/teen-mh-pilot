@@ -1,8 +1,10 @@
 """Download Washington Healthy Youth Survey county frequency reports from AskHYS.
 2023/2025: Excel (one workbook per county, sheets by grade). 2014-2021: multi-grade PDF.
-2010/2012: single-grade PDFs (8, 10, 12). Also ESD-level reports (same formats)."""
+2010/2012: single-grade PDFs (8, 10, 12). Also ESD-level reports (same formats). Run from the repository root; files land in
+data/external/state_surveys/wa/ with an index.csv, and parse_wa.py reads them (the 2010 .doc reports are first converted to text with
+LibreOffice: soffice --headless --convert-to txt, into wa/doc2010/)."""
 import re, os, sys, time, requests
-OUT = "data/external/state_surveys/wa"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); OUT = f"{ROOT}/data/external/state_surveys/wa"; fails = []
 os.makedirs(OUT, exist_ok=True)
 BASE = "https://www.askhys.net/SurveyResults"
 YEARS = [2010, 2012, 2014, 2016, 2018, 2021, 2023, 2025]
@@ -43,9 +45,11 @@ for y in YEARS:
                         print("bad", y, name, lab, r.status_code, len(r.content)); time.sleep(2)
                     except Exception as e:
                         print("err", y, name, lab, e); time.sleep(5)
+                else: fails.append(fn)
                 print(y, geo, name, lab, os.path.exists(fn) and os.path.getsize(fn))
                 time.sleep(0.3)
 import csv
 with open(f"{OUT}/index.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerow(["year", "geo", "name", "askhys_id", "report", "file"]); w.writerows(index)
 print("done", len(index))
+if fails: raise SystemExit(f"{len(fails)} downloads failed: {fails}")

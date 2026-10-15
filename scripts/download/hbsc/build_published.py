@@ -5,7 +5,7 @@ import pandas as pd, pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from chart_extract import find_charts, page_lines, norm_country, KNOWN
 
-ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[2])
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3])
 EXT = f"{ROOT}/data/external/hbsc"
 
 ITEM_RX = [

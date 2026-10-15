@@ -27,7 +27,7 @@ no close friends) across many LMIC country-rounds 2003-2023, for the mobile-inte
   It is idempotent: re-running skips finished entries. When it ends, run `uv run python scripts/gshs/02_stack_gshs.py`
   to rebuild the stacked parquet + inventory over everything downloaded. As of this note 13/165 entries were down and
   stacked (110,586 students) with all mappings validated against the CDC QN* dichotomies (agreement = 1.0 wherever both exist).
-- Full WHO catalog listing (165 country-rounds with catalog ids) saved to `data/extracts/gshs/gshs_who_catalog_165.csv`.
+- Full WHO catalog listing (165 country-rounds with catalog ids) saved to `data/compiled/gshs/gshs_who_catalog_165.csv` (written by `scripts/download/gshs/01_download_gshs.py`).
 
 ## Harmonization (02_stack_gshs.py)
 Items are located by variable-label regex (Q-numbers shift across rounds: e.g. lonely = Q22 nearly always, but suicide

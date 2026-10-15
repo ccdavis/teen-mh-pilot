@@ -1,9 +1,11 @@
+import pathlib
+ROOT = pathlib.Path(__file__).resolve().parents[2]
 import pandas as pd, numpy as np, matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt, pathlib
-FIG = pathlib.Path("results/figures_exploratory"); FIG.mkdir(parents=True, exist_ok=True)
+FIG = ROOT/"results/figures_exploratory"; FIG.mkdir(parents=True, exist_ok=True)
 PAL = ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#4a3aa7","#e34948"]
 plt.rcParams.update({"font.size":10,"axes.spines.top":False,"axes.spines.right":False,"axes.grid":True,"grid.alpha":.25,"figure.dpi":130})
-nat = pd.read_csv("results/tables/acs_national_year_sex_age.csv"); nat = nat[nat.year>=2008]
+nat = pd.read_csv(ROOT/"results/tables/acs_national_year_sex_age.csv"); nat = nat[nat.year>=2008]
 nat["rate"]*=100; nat["se"]*=100
 sexlab = {1:"Boys/Men",2:"Girls/Women"}
 # Fig 1: 12-14, 15-17 by sex, with 65+ placebo, levels

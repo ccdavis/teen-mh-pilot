@@ -85,7 +85,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 44140,"Springfield, MA",Metropolitan Statistical Area,626915.0,86.0,2011-07-21,Verizon,high,2012-12-18,AT&T,2011-07-21,high,2012-12-18,high,2013-07-29,high,,,3,3
 29460,"Lakeland-Winter Haven, FL",Metropolitan Statistical Area,623009.0,87.0,2011-07-21,Verizon,high,2013-10-29,Sprint,2011-07-21,high,,,2013-10-29,high,,,2,2
 36260,"Ogden-Clearfield, UT",Metropolitan Statistical Area,621580.0,88.0,2011-06-16,Verizon,high,2012-12-21,AT&T,2011-06-16,high,2012-12-21,high,,,,,2,2
-45780,"Toledo, OH",Metropolitan Statistical Area,608145.0,89.0,2011-07-21,Verizon,high,2012-11-16,AT&T,2011-07-21,high,2012-11-16,high,,,,,2,3
+45780,"Toledo, OH",Metropolitan Statistical Area,608145.0,89.0,2011-07-21,Verizon,high,2012-11-16,AT&T,2011-07-21,high,2012-11-16,high,,,,,2,2
 19660,"Deltona-Daytona Beach-Ormond Beach, FL",Metropolitan Statistical Area,600756.0,90.0,2011-09-15,Verizon,high,2012-11,AT&T,2011-09-15,high,2012-11,medium,2013-07-29,high,,,3,3
 19780,"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,599789.0,91.0,2011-11-17,Verizon,high,2013-11-06,AT&T,2011-11-17,high,2013-11-06,high,,,,,2,2
 12260,"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,580270.0,92.0,2011-07-21,Verizon,high,2013-03-14,AT&T,2011-07-21,high,2013-03-14,high,,,,,2,2
@@ -97,7 +97,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 37340,"Palm Bay-Melbourne-Titusville, FL",Metropolitan Statistical Area,550823.0,98.0,2012-07-19,Verizon,high,2012-12-18,AT&T,2012-07-19,high,2012-12-18,high,2013-04-18,high,,,3,3
 16860,"Chattanooga, TN-GA",Metropolitan Statistical Area,541744.0,99.0,2011-07-21,Verizon,high,2013-05-03,AT&T,2011-07-21,high,2013-05-03,medium,,,,,2,2
 44060,"Spokane-Spokane Valley, WA",Metropolitan Statistical Area,535724.0,100.0,2011-06-16,Verizon,high,2013-06,AT&T,2011-06-16,high,2013-06,medium,2013-10-29,high,,,3,3
-20500,"Durham-Chapel Hill, NC",Metropolitan Statistical Area,534578.0,101.0,2011-07-21,Verizon,high,2012-01-05,AT&T,2011-07-21,high,2012-01-05,high,2013-06-17,high,,,3,6
+20500,"Durham-Chapel Hill, NC",Metropolitan Statistical Area,534578.0,101.0,2011-07-21,Verizon,high,2012-01-05,AT&T,2011-07-21,high,2012-01-05,high,2013-07-29,high,,,3,4
 29540,"Lancaster, PA",Metropolitan Statistical Area,529600.0,102.0,2012-05-17,Verizon,high,2012-12-21,AT&T,2012-05-17,high,2012-12-21,high,,,,,2,2
 33700,"Modesto, CA",Metropolitan Statistical Area,525491.0,103.0,2011-10-20,Verizon,high,2012-09-06,AT&T,2011-10-20,high,2012-09-06,high,,,,,2,2
 38860,"Portland-South Portland, ME",Metropolitan Statistical Area,519900.0,104.0,2012-06-21,Verizon,high,2012-11-16,AT&T,2012-06-21,high,2012-11-16,high,,,,,2,2
@@ -236,7 +236,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 26980,"Iowa City, IA",Metropolitan Statistical Area,161170.0,252.0,2011-09-15,Verizon,high,,,2011-09-15,high,,,,,,,1,1
 27500,"Janesville-Beloit, WI",Metropolitan Statistical Area,160739.0,253.0,2012-06-21,Verizon,high,2013-10-29,Sprint,2012-06-21,high,,,2013-10-29,high,,,2,2
 27100,"Jackson, MI",Metropolitan Statistical Area,160369.0,254.0,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
-27980,"Kahului-Wailuku-Lahaina, HI",Metropolitan Statistical Area,160292.0,255.0,2011-07-21,Verizon,high,,,2011-07-21,high,,,,,,,1,2
+27980,"Kahului-Wailuku-Lahaina, HI",Metropolitan Statistical Area,160292.0,255.0,2011-07-21,Verizon,high,,,2011-07-21,high,,,,,,,1,1
 33260,"Midland, TX",Metropolitan Statistical Area,156780.0,257.0,2012-06-21,Verizon,high,2013-07-03,AT&T,2012-06-21,high,2013-07-03,medium,2013-09-16,high,,,3,3
 44300,"State College, PA",Metropolitan Statistical Area,155403.0,259.0,2011-06-16,Verizon,high,,,2011-06-16,high,,,,,,,1,1
 35660,"Niles-Benton Harbor, MI",Metropolitan Statistical Area,155252.0,260.0,2012-05-17,Verizon,high,2013-06-17,Sprint,2012-05-17,high,,,2013-06-17,high,,,2,2
@@ -247,7 +247,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 21060,"Elizabethtown-Fort Knox, KY",Metropolitan Statistical Area,151465.0,267.0,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
 48660,"Wichita Falls, TX",Metropolitan Statistical Area,151201.0,268.0,2011-09-15,Verizon,high,,,2011-09-15,high,,,,,,,1,1
 12220,"Auburn-Opelika, AL",Metropolitan Statistical Area,150933.0,270.0,2012-04-19,Verizon,high,2013-10-29,Sprint,2012-04-19,high,,,2013-10-29,high,,,2,2
-40580,"Rocky Mount, NC",Metropolitan Statistical Area,150667.0,271.0,2012-07-19,Verizon,high,2013-04-18,Sprint,2012-07-19,high,,,2013-04-18,high,,,2,3
+40580,"Rocky Mount, NC",Metropolitan Statistical Area,150667.0,271.0,2012-07-19,Verizon,high,2013-07-29,Sprint,2012-07-19,high,,,2013-07-29,high,,,2,2
 27620,"Jefferson City, MO",Metropolitan Statistical Area,150494.0,272.0,2012-06-21,Verizon,high,2013-10-29,Sprint,2012-06-21,high,,,2013-10-29,high,,,2,2
 33780,"Monroe, MI",Metropolitan Statistical Area,150376.0,273.0,2012-11-16,AT&T,high,2013-09-16,Sprint,,,2012-11-16,high,2013-09-16,high,,,2,2
 45500,"Texarkana, TX-AR",Metropolitan Statistical Area,149619.0,274.0,2012-08-16,Verizon,high,2013-10-29,Sprint,2012-08-16,high,,,2013-10-29,high,,,2,2
@@ -333,9 +333,9 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 10300,"Adrian, MI",Micropolitan Statistical Area,,,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
 10620,"Albemarle, NC",Micropolitan Statistical Area,,,2013-04-18,Sprint,high,,,,,,,2013-04-18,high,,,1,1
 10820,"Alexandria, MN",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,,,2012-10-18,medium,,,,,,,1,1
-11380,"Andrews, TX",Micropolitan Statistical Area,,,2013-05-03,AT&T,medium,2013-10-29,Sprint,,,2013-05-03,medium,2013-10-29,high,,,2,2
 11620,"Ardmore, OK",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,2012-11-13,Sprint,2012-04-19,high,,,2012-11-13,high,,,2,3
 11780,"Ashtabula, OH",Micropolitan Statistical Area,,,2012-05-17,Verizon,high,,,2012-05-17,high,,,,,,,1,1
+11980,"Athens, TX",Micropolitan Statistical Area,,,2013-05-03,AT&T,medium,2013-10-29,Sprint,,,2013-05-03,medium,2013-10-29,high,,,2,2
 12300,"Augusta-Waterville, ME",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,,,2012-10-18,medium,,,,,,,1,1
 12660,"Baraboo, WI",Micropolitan Statistical Area,,,2013-07-29,Sprint,high,,,,,,,2013-07-29,high,,,1,1
 12780,"Bartlesville, OK",Micropolitan Statistical Area,,,2011-10-20,Verizon,high,,,2011-10-20,high,,,,,,,1,1
@@ -373,6 +373,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 19860,"Dickinson, ND",Micropolitan Statistical Area,,,2012-05-17,Verizon,high,,,2012-05-17,high,,,,,,,1,1
 19980,"Dodge City, KS",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,,,2012-04-19,high,,,,,,,1,1
 20180,"DuBois, PA",Micropolitan Statistical Area,,,2012-07-19,Verizon,high,,,2012-07-19,high,,,,,,,1,1
+20380,"Dunn, NC",Micropolitan Statistical Area,,,2013-06-17,Sprint,high,2013-07-02,AT&T,,,2013-07-02,medium,2013-06-17,high,,,2,2
 20420,"Durango, CO",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
 20540,"Dyersburg, TN",Micropolitan Statistical Area,,,2011-09-15,Verizon,high,2013-07-29,Sprint,2011-09-15,high,,,2013-07-29,high,,,2,2
 20580,"Eagle Pass, TX",Micropolitan Statistical Area,,,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
@@ -390,9 +391,9 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 24460,"Great Bend, KS",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,,,2012-04-19,high,,,,,,,1,1
 24620,"Greeneville, TN",Micropolitan Statistical Area,,,2013-04-18,Sprint,high,,,,,,,2013-04-18,high,,,1,1
 24740,"Greenville, MS",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-08-07,AT&T,2012-06-21,high,2013-08-07,medium,2013-09-16,high,,,3,3
-24900,"Greenwood, MS",Micropolitan Statistical Area,,,2013-07-03,AT&T,medium,,,,,2013-07-03,medium,,,,,1,1
+24900,"Greenwood, MS",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-07-02,AT&T,2012-06-21,high,2013-07-02,medium,2013-07-29,high,,,3,4
 24940,"Greenwood, SC",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-10-29,Sprint,2012-06-21,high,,,2013-10-29,high,,,2,2
-24980,"Grenada, MS",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-07-02,AT&T,2012-06-21,high,2013-07-02,medium,2013-07-29,high,,,3,4
+24980,"Grenada, MS",Micropolitan Statistical Area,,,2013-07-03,AT&T,medium,,,,,2013-07-03,medium,,,,,1,1
 25460,"Harrison, AR",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,,,2012-06-21,high,,,,,,,1,1
 25580,"Hastings, NE",Micropolitan Statistical Area,,,2012-12-20,Verizon,high,,,2012-12-20,high,,,,,,,1,1
 25700,"Hays, KS",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,,,2012-04-19,high,,,,,,,1,1
@@ -405,7 +406,7 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 27380,"Jacksonville, TX",Micropolitan Statistical Area,,,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
 27460,"Jamestown-Dunkirk-Fredonia, NY",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,,,2012-10-18,medium,,,,,,,1,1
 28060,"Kalispell, MT",Micropolitan Statistical Area,,,2012-07-19,Verizon,high,2013-12,AT&T,2012-07-19,high,2013-12,low,,,,,2,2
-28180,"Kapaa, HI",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
+28180,"Kapaa, HI",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-12,AT&T,2012-06-21,high,2013-12,low,,,,,2,2
 28260,"Kearney, NE",Micropolitan Statistical Area,,,2012-12-20,Verizon,high,,,2012-12-20,high,,,,,,,1,1
 28500,"Kerrville, TX",Micropolitan Statistical Area,,,2013-04-18,Sprint,high,,,,,,,2013-04-18,high,,,1,1
 28580,"Key West, FL",Micropolitan Statistical Area,,,2012-11-13,Sprint,high,,,,,,,2012-11-13,high,,,1,1
@@ -417,13 +418,15 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 29660,"Laramie, WY",Micropolitan Statistical Area,,,2012-11-15,Verizon,medium,,,2012-11-15,medium,,,,,,,1,1
 29860,"Laurel, MS",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,2013-10-29,Sprint,2012-10-18,medium,,,2013-10-29,high,,,2,2
 30380,"Lewistown, PA",Micropolitan Statistical Area,,,2013-09-16,Sprint,high,,,,,,,2013-09-16,high,,,1,1
+30880,"Logan, WV",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,,,2012-06-21,high,,,,,,,1,1
 30900,"Logansport, IN",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,,,2012-04-19,high,,,,,,,1,1
 31260,"Lufkin, TX",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,2013-05-03,AT&T,2012-06-21,high,2013-05-03,medium,2013-09-16,high,,,3,3
 31300,"Lumberton, NC",Micropolitan Statistical Area,,,2011-05-19,Verizon,high,2013-09-16,Sprint,2011-05-19,high,,,2013-09-16,high,,,2,2
 31620,"Magnolia, AR",Micropolitan Statistical Area,,,2012-07-19,Verizon,high,,,2012-07-19,high,,,,,,,1,1
 31820,"Manitowoc, WI",Micropolitan Statistical Area,,,2012-08-16,Verizon,high,,,2012-08-16,high,,,,,,,1,1
-31940,"Marinette, WI-MI",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,,,2012-10-18,medium,,,,,,,1,1
 31980,"Marion, IN",Micropolitan Statistical Area,,,2012-04-19,Verizon,high,,,2012-04-19,high,,,,,,,1,1
+32100,"Marquette, MI",Micropolitan Statistical Area,,,2012-10-18,Verizon,medium,,,2012-10-18,medium,,,,,,,1,1
+32220,"Marshall, TX",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
 32260,"Marshalltown, IA",Micropolitan Statistical Area,,,2012-12-20,Verizon,high,,,2012-12-20,high,,,,,,,1,1
 32280,"Martin, TN",Micropolitan Statistical Area,,,2011-10-20,Verizon,high,,,2011-10-20,high,,,,,,,1,1
 32300,"Martinsville, VA",Micropolitan Statistical Area,,,2012-05-17,Verizon,high,,,2012-05-17,high,,,,,,,1,1
@@ -490,11 +493,13 @@ cbsa_code,cbsa_name,cbsa_type,pop_2013,pop_rank_2013,first_launch_date,first_car
 44260,"Starkville, MS",Micropolitan Statistical Area,,,2011-11-17,Verizon,high,,,2011-11-17,high,,,,,,,1,1
 44620,"Stevens Point, WI",Micropolitan Statistical Area,,,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
 44660,"Stillwater, OK",Micropolitan Statistical Area,,,2013-09-16,Sprint,high,,,,,,,2013-09-16,high,,,1,1
-45620,"Thomasville, GA",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
+45660,"Tiffin, OH",Micropolitan Statistical Area,,,2011-12-15,Verizon,high,,,2011-12-15,high,,,,,,,1,1
+45700,"Tifton, GA",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
 45900,"Traverse City, MI",Micropolitan Statistical Area,,,2012-06-21,Verizon,high,,,2012-06-21,high,,,,,,,1,1
 46100,"Tullahoma-Manchester, TN",Micropolitan Statistical Area,,,2013-04-18,Sprint,high,,,,,,,2013-04-18,high,,,1,1
+46180,"Tupelo, MS",Micropolitan Statistical Area,,,2011-10-20,Verizon,high,2013-07-29,Sprint,2011-10-20,high,,,2013-07-29,high,,,2,2
 46300,"Twin Falls, ID",Micropolitan Statistical Area,,,2013-12,AT&T,low,,,,,2013-12,low,,,,,1,1
-46980,"Vicksburg, MS",Micropolitan Statistical Area,,,2011-10-20,Verizon,high,2013-07-29,Sprint,2011-10-20,high,2013-08-07,medium,2013-07-29,high,,,3,3
+46980,"Vicksburg, MS",Micropolitan Statistical Area,,,2013-08-07,AT&T,medium,,,,,2013-08-07,medium,,,,,1,1
 47240,"Vineyard Haven, MA",Micropolitan Statistical Area,,,2013-10-29,Sprint,high,,,,,,,2013-10-29,high,,,1,1
 47700,"Warsaw, IN",Micropolitan Statistical Area,,,2013-06-17,Sprint,high,,,,,,,2013-06-17,high,,,1,1
 48020,"Watertown-Fort Atkinson, WI",Micropolitan Statistical Area,,,2013-09-16,Sprint,high,,,,,,,2013-09-16,high,,,1,1

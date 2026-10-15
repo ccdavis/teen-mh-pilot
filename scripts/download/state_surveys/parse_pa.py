@@ -1,7 +1,7 @@
 """Pennsylvania Youth Survey county profile reports (Bach Harrison PDFs). Each report's 'Suicide risk' table gives
 County y-4, County y-2, County y, State y for 5 items x grades 6/8/10/12/All; 2023 reports also have a 'Mental Health Concerns' table."""
 import re, glob, os, pandas as pd, pdfplumber
-D = "data/external/state_surveys/pa"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); D = f"{ROOT}/data/external/state_surveys/pa"; fails = []
 SUIC = ["sad_hopeless", "considered_suicide", "planned_suicide", "attempted_suicide", "suicide_attempt_injury"]
 SUIC_W = {"sad_hopeless": "PAYS: During the past 12 months did you ever feel so sad or hopeless almost every day for two weeks or more in a row that you stopped doing some usual activities? (% yes)",
           "considered_suicide": "PAYS: During the past 12 months did you ever seriously consider attempting suicide? (% yes)",
@@ -51,7 +51,7 @@ for f in sorted(glob.glob(f"{D}/pays_*.pdf")):
     src = "https://www.pa.gov/agencies/pccd/programs-and-services/juvenile-justice-and-delinquency-prevention/pays"
     try:
         with pdfplumber.open(f) as pdf: pages = [(p.extract_text() or "") for p in pdf.pages]
-    except Exception as e: print("fail", f, e); continue
+    except Exception as e: fails.append((f, str(e))); continue
     got = False
     for t in pages:
         lines = [l.strip() for l in t.split("\n")]
@@ -65,6 +65,7 @@ df = pd.DataFrame(out).drop_duplicates(["geography_type", "geography_name", "yea
 # where the same county-year-item appears in two reports (e.g. 2019 in both the 2019 and 2023 reports) keep the later report
 df["rep"] = df.note.str.extract(r"from (\d{4})").astype(int)
 df = df.sort_values("rep").drop_duplicates(["geography_type", "geography_name", "year", "grade_or_age", "item"], keep="last").drop(columns="rep")
-df.to_csv("data/compiled/state_surveys/pa_pays_county.csv", index=False)
+df.to_csv(f"{ROOT}/data/compiled/state_surveys/pa_pays_county.csv", index=False)
 print(df.groupby(["item", "year"]).size().unstack(fill_value=0))
 print(df[(df.item=="sad_hopeless")&(df.grade_or_age=="10")].pivot_table(index="geography_name", columns="year", values="value_pct").head(8))
+if fails: raise SystemExit(f"{len(fails)} report files could not be read: " + "; ".join(f"{a}: {b}" for a, b in fails))

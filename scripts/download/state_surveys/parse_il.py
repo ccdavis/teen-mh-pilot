@@ -1,6 +1,6 @@
 """Illinois Youth Survey county frequency reports (PDF, 2018-2024; grades 8/10/12 columns as '% N')."""
 import re, glob, os, pandas as pd, pdfplumber
-D = "data/external/state_surveys/il"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); D = f"{ROOT}/data/external/state_surveys/il"; fails = []
 WORD = {"sad_hopeless": "IYS: During the past 12 months did you ever feel so sad or hopeless almost every day for two weeks or more in a row that you stopped doing some usual activities (% yes)",
         "considered_suicide": "IYS: During the past 12 months did you ever seriously consider attempting suicide (% yes; asked of grades 10/12 only)"}
 out = []
@@ -9,7 +9,7 @@ for f in sorted(glob.glob(f"{D}/iys_*.pdf")):
     county = re.sub(r" \d$", "", county)
     try:
         with pdfplumber.open(f) as pdf: pages = [(p.extract_text() or "") for p in pdf.pages]
-    except Exception as e: print("fail", f, e); continue
+    except Exception as e: fails.append((f, str(e))); continue
     got = False
     for t in pages:
         if "sad or hopeless" not in t: continue
@@ -35,6 +35,7 @@ for f in sorted(glob.glob(f"{D}/iys_*.pdf")):
                 take(vl, "sad_hopeless"); got = True
     if not got: print("no items", os.path.basename(f))
 df = pd.DataFrame(out).drop_duplicates(["geography_name", "year", "grade_or_age", "item"])
-df.to_csv("data/compiled/state_surveys/il_iys_county.csv", index=False)
+df.to_csv(f"{ROOT}/data/compiled/state_surveys/il_iys_county.csv", index=False)
 print(df.groupby(["item", "year"]).size().unstack(fill_value=0))
 print(df[df.item=="sad_hopeless"].pivot_table(index="geography_name", columns=["year"], values="value_pct", aggfunc="mean").head(8))
+if fails: raise SystemExit(f"{len(fails)} report files could not be read: " + "; ".join(f"{a}: {b}" for a, b in fails))

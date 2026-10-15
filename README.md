@@ -15,19 +15,19 @@ What large-scale public microdata can say about the two leading explanations for
 | `scripts/extract/` | Turning IPUMS extracts into the slim files the analysis uses (ACS, CPS, ATUS, MICS, IPUMS International, DHS), with the sample and variable lists |
 | `scripts/download/` | Acquiring and compiling the public sources (NSDUH, YRBS, NHANES, NTIA/CPS supplement, GSHS, HBSC, PISA, ITU, WDI, state youth surveys, school policy, phone bans, LTE launches) |
 | `scripts/analysis/` | The numbered analyses, in the order they were run |
-| `scripts/report/` | Report builder, language pass, print editions, site builder, hand-written sections |
+| `scripts/report/` | Report builder, print editions, site builder, hand-written sections |
 | `notes/` | Methods notes on each source: wording, coding, weights, gaps |
 
 `DATA_SOURCES.md` lists every dataset with its provider, access route, the variables used, and the script that consumes it.
 
 ## Reproducing
 
-Python is managed with [uv](https://docs.astral.sh/uv/); `uv sync` installs the environment from `pyproject.toml`. Run everything from the repository root.
+Python is managed with [uv](https://docs.astral.sh/uv/); `uv sync` installs the environment from `pyproject.toml`. Run everything from the repository root (scripts resolve their paths from their own location, so other working directories also work). The print editions need Chromium for Playwright (`uv run playwright install chromium`) and [pandoc](https://pandoc.org). The LTE builder needs `xlrd` (`uv run --with xlrd ...`); LibreOffice is used only to convert the 2010 Washington survey reports from `.doc`.
 
 1. Obtain the IPUMS extracts and public files described in `DATA_SOURCES.md` and `data/README.md`.
 2. `scripts/extract/`: build the slim microdata files (see its README for the exact variable lists).
 3. `scripts/download/`: fetch and compile the public sources (the compiled outputs are already committed in `data/compiled/`).
-4. `scripts/analysis/`: run the numbered scripts in order; they write to `results/tables/`.
+4. `scripts/analysis/`: run the numbered scripts in order (10a before 10; 18 before the report builder); they write to `results/tables/`.
 5. `scripts/report/90_build_report.py`, then `scripts/report/92_print_editions.sh`, then `scripts/report/94_build_site.py` to rebuild `docs/`.
 
 Steps 4 and 5 can be run from the committed `results/tables/` and `data/compiled/` alone; steps 1 to 3 are needed only to regenerate those from the sources.

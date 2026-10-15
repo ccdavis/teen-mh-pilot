@@ -1,6 +1,6 @@
 """Do market-level (CBSA + state non-metro) changes in 12-17 cognitive difficulty vary more than sampling noise?"""
 import pandas as pd, numpy as np, pathlib
-OUT = pathlib.Path("results/tables")
+ROOT = pathlib.Path(__file__).resolve().parents[2]; OUT = ROOT/"results/tables"
 def pool(d, yrs):
     d = d[d.year.isin(yrs) & (d.pop_ > 0)]
     if len(d) < len(yrs): return pd.Series({"rate": np.nan, "se": np.nan, "n": 0})

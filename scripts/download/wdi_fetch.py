@@ -6,7 +6,7 @@ frames = []
 for code, name in inds.items():
     rows = []; page = 1
     while True:
-        j = requests.get(f"https://api.worldbank.org/v2/country/all/indicator/{code}", params={"format":"json","per_page":20000,"page":page,"date":"2000:2024"}, timeout=60).json()
+        r = requests.get(f"https://api.worldbank.org/v2/country/all/indicator/{code}", params={"format":"json","per_page":20000,"page":page,"date":"2000:2024"}, timeout=60); r.raise_for_status(); j = r.json()
         rows += [dict(iso3=x["countryiso3code"], country=x["country"]["value"], year=int(x["date"]), value=x["value"]) for x in j[1] if x["countryiso3code"]]
         if page >= j[0]["pages"]: break
         page += 1; time.sleep(0.3)

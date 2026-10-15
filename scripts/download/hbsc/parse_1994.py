@@ -2,11 +2,12 @@
 The PDF's text layer is unusable (custom font encoding), so pages are rendered at 220 dpi and read with RapidOCR.
 Figure layout: three age panels left-to-right (11, 13, 15); each row = country label, with the female value printed
 above the male value at the right of the bars (legend: Female = dark, Male = light)."""
-import re, pymupdf, pandas as pd
+import re, pathlib, pymupdf, pandas as pd
 from rapidocr_onnxruntime import RapidOCR
-EXT="data/external/hbsc"
+ROOT = pathlib.Path(__file__).resolve().parents[3]
+EXT = str(ROOT/"data/external/hbsc")
 DOC="hbsc_1993_94_health_of_youth.pdf"
-S="/tmp/claude-1000/-home-ccd/39cfc7c3-ebec-4031-88de-95020340706c/scratchpad"
+S = str(ROOT/"data/external/hbsc/_render"); pathlib.Path(S).mkdir(parents=True, exist_ok=True)  # rendered page images (not committed)
 PAGES={107:("feel_low_at_least_weekly","Fig. 6.10 (printed p.97)")}
 CN={"Russia**":"Russian Federation","Germany**":"Germany","France**":"France","N. Ireland":"Northern Ireland",
     "Belgium Fl.":"Belgium (Flemish)","Belgium Fr.":"Belgium (French)","Czech Rep.":"Czechia"}

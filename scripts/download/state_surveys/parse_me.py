@@ -2,7 +2,7 @@
 2015-2023: SAS HTML output saved as .xls (pandas.read_html); 2009-2013 and PDF-only counties: pdfplumber text.
 Each question page: title, question text (+code), 'Percentage of students who answered Yes', then Total/Female/Male x (% CI N) by age, grade, ..."""
 import re, glob, os, pandas as pd, pdfplumber
-D = "data/external/state_surveys/me"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); D = f"{ROOT}/data/external/state_surveys/me"; fails = []
 ITEMS = [(r"feel so sad or hopeless almost every day for two weeks", "sad_hopeless", "MIYHS HS: During the past 12 months, did you ever feel so sad or hopeless almost every day for two weeks or more in a row that you stopped doing some usual activities? (% yes)"),
          (r"seriously consider attempting suicide", "considered_suicide", "MIYHS HS: During the past 12 months, did you ever seriously consider attempting suicide? (% yes)"),
          (r"how many times did you actually attempt suicide", "attempted_suicide", "MIYHS HS: During the past 12 months, how many times did you actually attempt suicide? (% 1 or more times)"),
@@ -16,7 +16,7 @@ def pnum(s):
     s = str(s).strip()
     if s in ("*", "nan", "", "None", "^"): return None
     try: return float(s.replace("%", "").replace(",", ""))
-    except: return None
+    except ValueError: return None
 out = []
 def add(y, county, grade, sex, code, note, v, n, src, extra=""):
     if v is None: return
@@ -33,7 +33,7 @@ for f in files:
     got = False
     if f.endswith(".xls"):
         try: tabs = pd.read_html(f)
-        except Exception as e: print("fail", f, e); continue
+        except Exception as e: fails.append((f, str(e))); continue
         for i, t in enumerate(tabs):
             if t.shape[1] != 1 or t.shape[0] < 3: continue
             q = " ".join(str(x) for x in t.iloc[:, 0])
@@ -55,7 +55,7 @@ for f in files:
     else:
         try:
             with pdfplumber.open(f) as pdf: pages = [(p.extract_text() or "") for p in pdf.pages]
-        except Exception as e: print("fail", f, e); continue
+        except Exception as e: fails.append((f, str(e))); continue
         for t in pages:
             if "answered 'Yes'" not in t and "answered “Yes”" not in t and "1 or more" not in t: continue
             head = t.split("Total Female Male")[0] if "Total Female Male" in t else t[:600]
@@ -80,7 +80,7 @@ for f in sorted(glob.glob(f"{D}/miyhs_*High_School_Report.pdf")):
     src = f"https://www.maine.gov/miyhs/{y}-results"
     try:
         with pdfplumber.open(f) as pdf: pages = [(p.extract_text() or "") for p in pdf.pages]
-    except Exception as e: print("fail", f, e); continue
+    except Exception as e: fails.append((f, str(e))); continue
     for t in pages:
         if "Suicide & Depression" not in t: continue
         txt = t.replace("\n", " ")
@@ -96,6 +96,7 @@ for f in sorted(glob.glob(f"{D}/miyhs_*High_School_Report.pdf")):
                 have.add((county, yy, code))
 
 df = pd.DataFrame(out).drop_duplicates(["geography_name", "year", "grade_or_age", "sex", "item"])
-df.to_csv("data/compiled/state_surveys/me_miyhs_county.csv", index=False)
+df.to_csv(f"{ROOT}/data/compiled/state_surveys/me_miyhs_county.csv", index=False)
 print(df.groupby(["item", "year"]).size().unstack(fill_value=0))
 print(df[(df.grade_or_age=="9-12")&(df.sex=="all")&(df.item=="sad_hopeless")].pivot_table(index="geography_name", columns="year", values="value_pct"))
+if fails: raise SystemExit(f"{len(fails)} report files could not be read: " + "; ".join(f"{a}: {b}" for a, b in fails))

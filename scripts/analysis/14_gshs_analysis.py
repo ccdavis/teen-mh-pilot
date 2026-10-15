@@ -22,10 +22,9 @@ multi = R[R.groupby("iso3").year.transform("nunique") >= 2]
 out = []
 for it in items:
     for sex in ["girls","boys"]:
-        d = multi[(multi.item==it)&(multi.sex==sex)&multi.internet_users_pct.notna()].copy(); d["wt"] = 1/d.se**2
+        d = multi[(multi.item==it)&(multi.sex==sex)&multi.internet_users_pct.notna()&multi.log_gdp.notna()].copy()
+        d = d[d.groupby("iso3").year.transform("nunique") >= 2]; d["wt"] = 1/d.se**2  # countries still observed twice after dropping rounds without WDI values
         if d.iso3.nunique() < 5: continue
-        try:
-            m = pf.feols("rate ~ internet_users_pct + log_gdp | iso3 + year", data=d, weights="wt", vcov={"CRV1":"iso3"})
-            out.append(dict(item=it, sex=sex, n_rounds=len(d), n_countries=d.iso3.nunique(), coef_per10pp=10*m.coef()["internet_users_pct"], se_per10pp=10*m.se()["internet_users_pct"]))
-        except Exception as e: print(it, sex, "failed:", str(e)[:80])
+        m = pf.feols("rate ~ internet_users_pct + log_gdp | iso3 + year", data=d, weights="wt", vcov={"CRV1":"iso3"})
+        out.append(dict(item=it, sex=sex, n_rounds=m._N, n_countries=d.iso3.nunique(), coef_per10pp=10*m.coef()["internet_users_pct"], se_per10pp=10*m.se()["internet_users_pct"]))
 O = pd.DataFrame(out); O.to_csv(T/"gshs_fe_internet.csv", index=False); print(O.round(3).to_string())

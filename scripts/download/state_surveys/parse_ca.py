@@ -2,7 +2,7 @@
 Topics: 662 depressive feelings by grade; 387 by gender x grade; 1825 suicidal ideation by grade; 1826 by gender x grade.
 Two-school-year windows (e.g. 2011_2013 = 2011-12 + 2012-13); year is coded as the window end year."""
 import pandas as pd, glob
-D = "data/external/state_surveys/ca"
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); D = f"{ROOT}/data/external/state_surveys/ca"
 SLUG = {662: "depressive-feelings-grade", 387: "depressive-feelings-gender", 1825: "suicidal-ideation-grade", 1826: "suicidal-ideation-gender"}
 ITEM = {662: "sad_hopeless", 387: "sad_hopeless", 1825: "considered_suicide", 1826: "considered_suicide"}
 WORD = {"sad_hopeless": "CHKS: during the past 12 months, did you ever feel so sad or hopeless almost every day for two weeks or more that you stopped doing some usual activities? (% yes)",
@@ -28,7 +28,7 @@ for t, slug in SLUG.items():
                         source_url=f"https://www.kidsdata.org/topic/{t}/{slug}/table",
                         note=f"{WORD[ITEM[t]]}; pooled school years {y0}-{int(y0)+1} and {int(y1)-1}-{y1}; kidsdata topic {t}"))
 df = pd.DataFrame(out).drop_duplicates(["geography_name", "year", "grade_or_age", "sex", "item"])
-df.to_csv("data/compiled/state_surveys/ca_chks_county.csv", index=False)
+df.to_csv(f"{ROOT}/data/compiled/state_surveys/ca_chks_county.csv", index=False)
 print(df.groupby(["item", "sex", "year"]).size().unstack(fill_value=0))
 print(df.geography_name.nunique(), "geographies;", df[df.geography_type=="county"].geography_name.nunique(), "counties")
 print(sorted(df.grade_or_age.unique()))

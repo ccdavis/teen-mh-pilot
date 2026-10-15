@@ -58,7 +58,7 @@ for row in rows[3:]:
         out.append(dict(state="MN", geography_type=gtype, geography_name=geo, geography_fips=None, year=y, grade_or_age=grade, sex="all",
                         item=code, value_pct=round(v, 2), n=None, source_url=URL, note=note))
 df = pd.DataFrame(out)
-df.to_csv("data/compiled/state_surveys/mn_mss_county.csv", index=False)
+df.to_csv(str(__import__("pathlib").Path(__file__).resolve().parents[3]/"data/compiled/state_surveys/mn_mss_county.csv"), index=False)
 print(df.groupby(["item", "year"]).size().unstack(fill_value=0))
 print(df.geography_type.value_counts().to_dict())
 print(df[(df.geography_name=="State of Minnesota")&(df.grade_or_age.isin(["9","11"]))].pivot_table(index=["item","grade_or_age"],columns="year",values="value_pct"))

@@ -1,7 +1,7 @@
 # CPS Computer and Internet Use Supplement (NTIA) – IPUMS CPS extract
 
 Source: IPUMS CPS (cps.ipums.org), the monthly samples carrying the Computer and Internet Use Supplement; household variables attached to each person record.
-Extract SQL: `scripts/extract/cps_internet_supplement.sql` (duckdb, against the extract converted to parquet). Sanity script: `scripts/analysis/cps_ci_sanity.py` (`uv run python scripts/cps_ci_sanity.py`).
+Extract SQL: written by `scripts/extract/cps_extract_sql.py` into `build/sql/cps_internet_supplement.sql` (duckdb, against the extract converted to parquet; weights scaled to the person level). Sanity script: `scripts/analysis/cps_ci_sanity.py` (`uv run python scripts/cps_ci_sanity.py`).
 Output: `data/extracts/cps/cps_ci_<sample>.parquet`, one person-level file per sample, uniform schema (columns absent in a year are NULL).
 Unweighted code frequencies for every CI item by sample: `notes/cps_ci_code_freqs.csv`.
 

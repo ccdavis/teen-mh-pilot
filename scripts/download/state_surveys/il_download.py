@@ -1,5 +1,8 @@
+"""Download Illinois Youth Survey county report PDFs. Usage: uv run python scripts/download/state_surveys/il_download.py <link list>
+The link list is a text file with one report URL (or site-relative path) per line, as listed on the IYS county-report pages
+(https://iys.cprd.illinois.edu/; see notes/state_surveys.md). Files land in data/external/state_surveys/il/ and are parsed by parse_il.py."""
 import os, re, time, requests, sys
-OUT = "data/external/state_surveys/il"; os.makedirs(OUT, exist_ok=True)
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3]); OUT = f"{ROOT}/data/external/state_surveys/il"; os.makedirs(OUT, exist_ok=True); fails = []
 s = requests.Session(); s.headers["User-Agent"] = "Mozilla/5.0 research (teen-mh-pilot)"
 for l in open(sys.argv[1]):
     l = l.strip()
@@ -19,5 +22,7 @@ for l in open(sys.argv[1]):
             print('bad', url, r.status_code); time.sleep(3)
         except Exception as e:
             print('err', url, e); time.sleep(5)
+    else: fails.append(fn)
     time.sleep(0.3)
 print('done')
+if fails: raise SystemExit(f'{len(fails)} downloads failed: {fails}')

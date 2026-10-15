@@ -1,6 +1,6 @@
 """County-level social-media / screen-time items vs sadness in WA (2023, 2025) and ME (2017-2021)."""
 import pandas as pd, pyfixest as pf, pathlib
-T = pathlib.Path("results/tables"); S = pd.read_csv(T/"state_survey_county_series.csv"); S = S[S.sex=="all"]
+ROOT = pathlib.Path(__file__).resolve().parents[2]; T = ROOT/"results/tables"; S = pd.read_csv(T/"state_survey_county_series.csv"); S = S[S.sex=="all"]
 W = S.pivot_table(index=["state","fips","year"], columns="item", values="value").reset_index(); rows = []
 for st, x in [("WA","social_media_daily"),("WA","screen_time_3plus"),("ME","screen_time_3plus")]:
     for y in ["sad_hopeless","considered_suicide"]:

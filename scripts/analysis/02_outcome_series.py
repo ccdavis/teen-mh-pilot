@@ -9,7 +9,7 @@ PERWT has 2 implied decimals; REPWTP are integral, so PERWT/100 is on the same s
 """
 import duckdb, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-OUT = ROOT / "output" / "tables"; OUT.mkdir(parents=True, exist_ok=True)
+OUT = ROOT / "results" / "tables"; OUT.mkdir(parents=True, exist_ok=True)
 con = duckdb.connect()
 con.sql(f"create view cells as select * from read_parquet('{ROOT}/data/extracts/acs/cells_*.parquet')")
 

@@ -1,10 +1,11 @@
 """Extract selected PISA 2022 student-questionnaire columns from the OECD SPSS file to parquet.
-Run: uv run python scripts/pisa2022/extract_student.py
+Run from the repository root: uv run python scripts/download/pisa2022/extract_student.py
+Input: data/external/pisa2022/CY08MSP_STU_QQQ.SAV (from STU_QQQ_SPSS.zip; see data/external/pisa2022/README.md for the OECD URLs).
 """
 import re, os, json, time
 import pyreadstat, pandas as pd
 
-ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[2])
+ROOT = str(__import__("pathlib").Path(__file__).resolve().parents[3])
 SRC = f"{ROOT}/data/external/pisa2022/CY08MSP_STU_QQQ.SAV"
 OUT = f"{ROOT}/data/extracts/pisa2022/pisa2022_student.parquet"
 META_OUT = f"{ROOT}/data/extracts/pisa2022/_stu_meta.pkl"
