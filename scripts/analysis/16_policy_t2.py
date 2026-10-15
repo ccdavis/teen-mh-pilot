@@ -8,9 +8,13 @@ scol = [c for c in P.columns if c.lower() in ("state","st","state_abbr","postal"
 pol = ["rttt_winner","waiver_in_force","cc_aligned_test_in_force","teacher_eval_test_based_in_force","exit_exam_in_force","pressure_index"]
 P = P[["statefip","year"]+pol]; P.to_csv(T/"state_year_policy_fips.csv", index=False)
 print(P.groupby("year")[pol].mean().round(2).to_string())
+# NSDUH reports two-year periods (2008-09, 2009-10, ...), labelled here by their end year; each is matched to the policy averaged over its two survey years
+Pavg = P.merge(P.assign(year=P.year + 1), on=["statefip","year"], suffixes=("", "_prev"))
+for v in pol: Pavg[v] = (Pavg[v] + Pavg[v + "_prev"]) / 2
+Pavg = Pavg[["statefip","year"] + pol]
 out = []
-def run(df, y, wcol, label, extra_fe=""):
-    d = df.merge(P, on=["statefip","year"]); d = d[d.year.between(2008,2019)]
+def run(df, y, wcol, label, extra_fe="", policy=P):
+    d = df.merge(policy, on=["statefip","year"]); d = d[d.year.between(2008,2019)]
     for v in pol:
         m = pf.feols(f"{y} ~ {v} | statefip + year{extra_fe}", data=d, weights=wcol, vcov={"CRV1":"statefip"})
         out.append(dict(outcome=label, policy=v, coef=m.coef().iloc[0], se=m.se().iloc[0], n=m._N))
@@ -21,7 +25,8 @@ run(a[a.sex==2], "y", "wt", "ACS 12-17 girls"); run(a[a.sex==1], "y", "wt", "ACS
 yr = pd.read_csv(T/"yrbs_state_year_sex.csv"); yr = yr[yr.item=="sad"]; yr["statefip"] = yr.sitecode.astype(str).str[:2].map(fips); yr = yr[yr.statefip.notna()]; yr["statefip"] = yr.statefip.astype(int); yr["y"] = 100*yr.p; yr["wt"] = 1/(100*yr.se)**2
 run(yr[yr.sexlab=="girls"], "y", "wt", "YRBS sad/hopeless girls"); run(yr[yr.sexlab=="boys"], "y", "wt", "YRBS sad/hopeless boys")
 ns = pd.read_csv(T/"validation_state_nsduh_vs_acs.csv"); ns["year"] = (ns.year+0.5).astype(int); ns["wt"] = 1/ns.nsduh_se**2  # period label = second year
-run(ns, "nsduh", "wt", "NSDUH youth MDE (2-yr, labelled by end year)")
+run(ns, "nsduh", "wt", "NSDUH youth MDE (2-yr periods, policy averaged over both years)", policy=Pavg)
+run(ns[ns.year % 2 == 1], "nsduh", "wt", "NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19)", policy=Pavg)  # check: consecutive periods share no respondents
 O = pd.DataFrame(out)
 print(O[~O.policy.str.startswith("joint")].pivot(index="policy", columns="outcome", values="coef").round(3).to_string())
 print(O[~O.policy.str.startswith("joint")].pivot(index="policy", columns="outcome", values="se").round(3).to_string())
@@ -37,6 +42,9 @@ for sx, lab in [(2,"girls"),(1,"boys")]:
     d = g[g.sex==sx]
     for v in ["pressure_index","cc_aligned_test_in_force","waiver_in_force","rttt_winner"]:
         d["inter"] = d.treated*d[v]; m = pf.feols("y ~ treated + inter | market + sy", data=d, weights="pop", vcov={"CRV1":"market"})
+        if "inter" not in m.coef().index:  # the interaction is (numerically) collinear with the state x year effects: not identified
+            print(f"  {lab:5s} {v:32s} treated x {v}: not identified (collinear with the fixed effects)  N={m._N}")
+            out.append(dict(outcome=f"ACS market {lab}", policy="LTE x "+v, coef=np.nan, se=np.nan, n=m._N)); continue
         print(f"  {lab:5s} {v:32s} treated={m.coef()['treated']:+.3f} ({m.se()['treated']:.3f})  treated x {v}={m.coef()['inter']:+.3f} ({m.se()['inter']:.3f})  N={m._N}")
         out.append(dict(outcome=f"ACS market {lab}", policy="LTE x "+v, coef=m.coef()["inter"], se=m.se()["inter"], n=m._N))
 pd.DataFrame(out).to_csv(T/"policy_t2_results.csv", index=False)

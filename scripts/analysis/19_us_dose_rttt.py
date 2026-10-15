@@ -22,8 +22,13 @@ for sx in ["girls","boys"]:
 # (b) RTTT event time
 P = pd.read_csv(T/"state_year_policy_fips.csv"); win = P[P.rttt_winner==1].groupby("statefip").year.min().rename("award"); 
 def es(df, y, wt, label):
+    # event time relative to the first school year the award is in force (Phase 1 and 2: 2010; Phase 3: 2012); k <= -6 and k >= 8 are endpoint
+    # bins; never-winners sit at the reference. The YRBS is biennial (odd years), so with both award years even every winning cohort is
+    # observed at k = -1 (2009 and 2011) and only at odd k; the check below prints the event years each cohort contributes.
     d = df.merge(win, on="statefip", how="left"); d["k"] = (d.year - d.award).clip(-6, 8); d.loc[d.award.isna(), "k"] = -1; d["k"] = d.k.astype(int)
     d = d[d.year.between(2005, 2019)]
+    cov = d[d.award.notna()].groupby("award").k.apply(lambda s: sorted(s.unique())); print(f"  {label}: event years observed per award cohort:", dict(cov))
+    assert all(-1 in ks for ks in cov), f"{label}: a winning cohort is never observed at k = -1"
     m = pf.feols(f"{y} ~ i(k, ref=-1) | statefip + year", data=d, weights=wt, vcov={"CRV1":"statefip"}); t = m.tidy().reset_index(); t["k"] = t.Coefficient.astype(str).str.extract(r"(-?\d+)\]?$")[0].astype(float); t["series"] = label; return t[["series","k","Estimate","Std. Error"]]
 out = [es(yr[yr.sexlab=="girls"], "y", "wt", "YRBS sad/hopeless girls"), es(yr[yr.sexlab=="boys"], "y", "wt", "YRBS sad/hopeless boys"), es(a[a.sexlab=="girls"], "y", "wt", "ACS girls"), es(a[a.sexlab=="boys"], "y", "wt", "ACS boys")]
 ns = pd.read_csv(T/"validation_state_nsduh_vs_acs.csv"); ns["year"] = (ns.year+0.5).astype(int); ns["wt"] = 1/ns.nsduh_se**2; out.append(es(ns, "nsduh", "wt", "NSDUH youth MDE"))

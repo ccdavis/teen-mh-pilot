@@ -257,14 +257,14 @@ gshs_html = f"""
 # ---- policy section
 R = pd.read_csv(T/"policy_t2_results.csv"); Rs = R[~R.policy.str.startswith(("joint","LTE"))]
 names = {"rttt_winner":"Race to the Top winner (award year–2015)","waiver_in_force":"ESEA waiver in force","cc_aligned_test_in_force":"Common Core aligned test in force","teacher_eval_test_based_in_force":"Test-based teacher evaluation in force","exit_exam_in_force":"High-school exit exam in force","pressure_index":"Pressure index (sum of the five)"}
-outs = ["ACS 12-17 girls","ACS 12-17 boys","YRBS sad/hopeless girls","YRBS sad/hopeless boys","NSDUH youth MDE (2-yr, labelled by end year)"]
+outs = ["ACS 12-17 girls","ACS 12-17 boys","YRBS sad/hopeless girls","YRBS sad/hopeless boys","NSDUH youth MDE (2-yr periods, policy averaged over both years)"]
 def cell(pol, o):
     r = Rs[(Rs.policy==pol)&(Rs.outcome==o)]
     if len(r)==0: return "–"
     r = r.iloc[0]; star = "<strong>" if abs(r.coef) > 1.96*r.se else ""; return f"{star}{r.coef:+.2f} ({r.se:.2f}){'</strong>' if star else ''}"
 prow = "".join(f"<tr><td>{names[pol]}</td>" + "".join(f"<td>{cell(pol,o)}</td>" for o in outs) + "</tr>" for pol in names)
 Ri = R[R.policy.str.startswith("LTE")]
-irow = "".join(f"<tr><td>{r.outcome.replace('ACS market ','')}</td><td>{r.policy.replace('LTE x ','')}</td><td>{'not identified' if r.se>50 else f'{r.coef:+.2f} ({r.se:.2f})'}</td></tr>" for r in Ri.itertuples())
+irow = "".join(f"<tr><td>{r.outcome.replace('ACS market ','')}</td><td>{r.policy.replace('LTE x ','')}</td><td>{f'{r.coef:+.2f} ({r.se:.2f})' if r.se < 50 else 'not identified'}</td></tr>" for r in Ri.itertuples())
 Pm = pd.read_csv(T/"state_year_policy_fips.csv").groupby("year")[list(names)[:-1]].mean().reset_index()
 fig = go.Figure()
 for i, pol in enumerate(list(names)[:-1]):
@@ -276,12 +276,12 @@ policy_html = f"""
 <p class="caption">Share of states with each policy in force. The near-simultaneous 2012–2015 adoption of waivers, teacher evaluation and aligned tests is exactly the timing problem the study design anticipated.</p>
 <h3>State-year regressions</h3>
 <div class="tw"><table><thead><tr><th>Policy (each estimated alone)</th><th>ACS girls</th><th>ACS boys</th><th>YRBS sad girls</th><th>YRBS sad boys</th><th>NSDUH youth MDE</th></tr></thead><tbody>{prow}</tbody></table></div>
-<p class="caption">Coefficients in percentage points, state and year fixed effects, inverse-variance weights, SE clustered by state, 2008–2019 (YRBS biennial, 39 states; NSDUH two-year periods labelled by end year). Bold = |t| &gt; 1.96.</p>
-<p>Common Core aligned testing, waivers, teacher evaluation, exit exams and the summed index show no relation to any of the three outcomes; several point estimates are negative. The one exception is Race to the Top: winning states saw larger subsequent rises in NSDUH youth depression (+0.29 pp) and in YRBS girls' sadness (+1.2 pp), with the ACS item flat. RTTT winners are a selected group (19 jurisdictions with the capacity to write winning applications, including DC, NY, MA, FL). Tracing the same states year by year around the award, in the U.S. follow-ups below, shows this coefficient is an artifact of how the indicator was coded; there is no rise after the award.</p>
+<p class="caption">Coefficients in percentage points, state and year fixed effects, inverse-variance weights, SE clustered by state, 2008–2019 (YRBS biennial, 39 states). NSDUH reports two-year periods; each is matched to the policy averaged over its two survey years. Consecutive periods share half their sample, which the state clustering absorbs; keeping only non-overlapping periods moves every NSDUH coefficient by less than 0.15 pp. Bold = |t| &gt; 1.96.</p>
+<p>Common Core aligned testing, waivers, teacher evaluation, exit exams and the summed index show no relation to any of the three outcomes; several point estimates are negative. The one coefficient beyond two standard errors is Race to the Top on YRBS girls' sadness (+1.2 pp, SE 0.4; boys +0.7, SE 0.3); the NSDUH coefficient is +0.16 pp (SE 0.14) once each two-year period is matched to the policy in force across both of its years, and the ACS item is flat. RTTT winners are a selected group (19 jurisdictions with the capacity to write winning applications, including DC, NY, MA, FL). Tracing the same states year by year around the award, in the U.S. follow-ups below, shows this coefficient is an artifact of how the indicator was coded; there is no rise after the award.</p>
 <h3>Does phone timing matter more in high-pressure states? (H3)</h3>
 <div class="tw"><table><thead><tr><th>Outcome (ACS 12–17, market panel)</th><th>LTE × policy</th><th>Interaction (SE)</th></tr></thead><tbody>{irow}</tbody></table></div>
 <p class="caption">State-by-year fixed effects absorb the policy's own effect; what remains is whether early-LTE metros within a state rose more when the state had the policy. "Not identified": the policy switches on in the same year for nearly every metro in the state, so there is nothing left to compare.</p>
-<p>Where identified, the interaction is negative for girls (LTE × pressure index −0.45, SE 0.27; LTE × RTTT −0.93, SE 0.45): early-LTE markets in high-pressure states did not rise more. This is the opposite of what H3 predicts, though with the same market-level caveats as the main event study.</p>
+<p>Where identified, the interaction is negative for girls (LTE × pressure index −0.34, SE 0.25; LTE × RTTT −0.94, SE 0.49): early-LTE markets in high-pressure states did not rise more. This is the opposite of what H3 predicts, though with the same market-level caveats as the main event study.</p>
 """
 a_, b_ = policy_html.split("<h3>Does phone timing matter more in high-pressure states? (H3)</h3>")
 (SEC/"policy.html").write_text(a_); (SEC/"policy_inter.html").write_text(b_)
@@ -350,7 +350,7 @@ usdose_html = f"""
 <p>This has the pattern the phone hypothesis predicts (girls, not boys; the self-report sadness item, not the ACS disability item), and it is fragile: five biennial YRBS waves, an interpolated exposure level, and a p-value near 0.04 with 39 clusters. The county-level version in the next subsection does not reproduce it, so it stays suggestive.</p>
 <h3>Race to the Top, traced year by year</h3>
 {fig_div('rttt_es')}
-<p class="caption">State and year fixed effects, coefficients relative to the year before the award (school year ending 2010 for Phase 1 and 2, 2012 for the December 2011 Phase 3 awards), 2005–2019.</p>
+<p class="caption">State and year fixed effects, coefficients relative to the year before the award (school year ending 2010 for Phase 1 and 2, 2012 for the December 2011 Phase 3 awards), 2005–2019; both award cohorts are observed in the YRBS wave before their award (2009 and 2011), and years 6 or more before and 8 or more after are pooled into end bins.</p>
 <p>The static Race to the Top coefficient from the school-policy section does not survive being traced year by year around the award: afterwards, YRBS sadness and NSDUH youth depression in winning states move flat to downward relative to other states. The static estimate arose from coding the indicator as 1 only for 2010–2015, so the winners' post-2016 years served as controls. There is no evidence that RTTT states' teenagers became more distressed. The U.S. policy-shock version of H2 is therefore not supported; testing H2 further needs school-level pressure items, which no U.S. public survey carries.</p>
 """
 a_, b_ = usdose_html.split("<h3>Race to the Top, traced year by year</h3>")
@@ -385,7 +385,7 @@ itu_html = f"""
 (SEC/"gshs.html").write_text((SEC/"gshs.html").read_text() + itu_html)
 
 # ---- state survey section
-TR = pd.read_csv(T/"state_survey_trends.csv"); LE = pd.read_csv(T/"state_survey_lte_event.csv"); ND = pd.read_csv(T/"state_survey_ntia_dose.csv")
+TR = pd.read_csv(T/"state_survey_trends.csv"); LE = pd.read_csv(T/"state_survey_lte_event.csv"); ND = pd.read_csv(T/"state_survey_ntia_dose.csv"); LD = pd.read_csv(T/"state_survey_lte_did.csv")
 fig = make_subplots(rows=1, cols=2, subplot_titles=["Sad or hopeless ≥2 weeks (YRBS wording)","Seriously considered suicide"], horizontal_spacing=0.06)
 stcol = {"WA":PAL[0],"ME":PAL[1],"CA":PAL[2],"PA":PAL[3],"IL":PAL[4],"MN":PAL[6]}
 for c, it in enumerate(["sad_hopeless","considered_suicide"], start=1):
@@ -397,24 +397,23 @@ for c, it in enumerate(["sad_hopeless","considered_suicide"], start=1):
     fig.add_vrect(x0=2019.5, x1=2020.5, fillcolor="rgba(128,128,128,.12)", line_width=0, row=1, col=c)
 fig.update_yaxes(title_text="% of students (mean across counties)", row=1, col=1); figs["state_trends"] = base(fig, h=400)
 lerows = "".join(f"<tr><td>{s_}</td><td>{g[g.k==0].Estimate.iloc[0] if len(g[g.k==0]) else float('nan'):+.2f}</td></tr>" for s_, g in LE.groupby('series'))
+ldrows = "".join(f"<tr><td>{r.series.replace('counties ', 'counties, ').replace('WA+ME+MN', 'WA + ME + MN').replace('WA+ME', 'WA + ME')} ({r.counties} counties, {r.dated_counties} dated-metro, {r.units} county-grade series)</td><td>{r.did:+.2f} (SE {r.se:.2f})</td></tr>" for r in LD.itertuples())
 ndrows = "".join(f"<tr><td>{r.item.replace('_',' ')}</td><td>{r.sex}</td><td>{r.coef_per10pp:+.2f} ({r.se:.2f})</td><td>{r.counties} / {r.cbsas}</td><td>{', '.join(r.states.split(';'))}</td></tr>" for r in ND.itertuples())
 ss_html = f"""
 <h3>State youth surveys at county level</h3>
 <p>The state youth surveys are the self-report outcome the ACS lacks. County tables were compiled for six states: Minnesota (1998–2019, 87 counties), Washington (2010–2025, 38), Maine (2009–2023, 16), California (2013–2019, 54, by sex), Pennsylvania (2015–2023, 60) and Illinois (2018–2024, 78), 34,439 county rows with source and wording recorded for each. Minnesota's pre-2013 sadness item has different wording and is excluded from the sadness series.</p>
 {fig_div('state_trends')}
-<p class="caption">Unweighted county means; grades pooled. Minnesota's 2022 county tables sit behind a CAPTCHA and are not yet included.</p>
-<p>Three things stand out. Sadness rose in every state from about 2013 to a 2021 peak (Washington 28% → 41%, Maine 22% → 37%, Illinois 35% → 41%). Minnesota's suicidal-ideation series, the only one that reaches back to the 1990s, <em>fell</em> from 20% in 1998 to 10.5% in 2013 before turning up. And the post-2021 declines are large: Washington's 2025 sadness rate (27%) is below its 2010 level and Illinois' 2024 ideation rate (13.5%) is the lowest in its series.</p>
+<p class="caption">Unweighted county means over the grades each state reports in every survey year (Washington 8, 10 and 12; Maine's and Pennsylvania's all-grade rows; Minnesota grade 9; California 7, 9 and 11; Illinois 8, 10 and 12). Minnesota's 2022 county tables sit behind a CAPTCHA and are not yet included.</p>
+<p>Three things stand out. Sadness rose in every state from about 2013 to a 2021 peak (Washington 28% → 41%, Maine 22% → 37%, Illinois 35% → 41%). Minnesota's suicidal-ideation series (grade 9), the only one that reaches back to the 1990s, <em>fell</em> from 24% in 1998 to 12% in 2013 before turning up. And the post-2021 declines are large: Washington's 2025 sadness rate (27%) is below its 2010 level and Illinois' 2024 ideation rate (13.5%) is the lowest in its series.</p>
 <h4>LTE onset at county level</h4>
-<p>Counties mapped to 2013 CBSAs and to the LTE first-launch date; county and state-by-year fixed effects; non-metro and undated counties as untreated (a bound, since rural LTE arrived 2013–14).</p>
+<p>Counties mapped to 2013 CBSAs and to the LTE first-launch date. The unit is a county-by-grade series, with county-by-grade and state-by-year fixed effects, so a state changing which grades it surveys cannot register as a change in distress; non-metro and undated counties as untreated (a bound, since rural LTE arrived 2013–14); standard errors clustered by metro area (by county outside metro areas). In the year-by-year version the three years before onset are the reference, because the surveys are biennial or triennial and no single pre-onset year is observed for every metro.</p>
 <div class="tw"><table><thead><tr><th>Panel</th><th>DiD on "LTE in force" (pp)</th></tr></thead><tbody>
-<tr><td>Sad/hopeless, WA + ME counties, 2009–2019 (54 counties, 26 dated-metro)</td><td>+0.48 (SE 0.72)</td></tr>
-<tr><td>Considered suicide, WA + ME + MN, 1998–2019 (141 counties, 59 dated-metro)</td><td>−0.72 (SE 0.41)</td></tr>
-<tr><td>Considered suicide, MN alone, 1998–2019 (87 counties)</td><td>−1.07 (SE 0.52)</td></tr>
+{ldrows}
 </tbody></table></div>
 <h4>Smartphone adoption at the metro level</h4>
 <div class="tw"><table><thead><tr><th>Outcome</th><th>Sex</th><th>Effect per +10 pp teen-household smartphone internet (SE)</th><th>Counties / CBSAs</th><th>States</th></tr></thead><tbody>{ndrows}</tbody></table></div>
-<p class="caption">NTIA CBSA shares interpolated between waves (only areas with 30 or more respondents), county and state-by-year fixed effects, SE clustered by CBSA, 2011–2019.</p>
-<div class="note"><strong>What this shows.</strong> With the self-report outcome measured at county level, neither LTE onset nor smartphone adoption predicts where sadness or suicidal thoughts rose. The state-level result for girls reported above does not reappear here (+0.4 pp per 10 points, SE 0.4, in the two states with county data by sex), so it should be read as suggestive at best. The rise was broad, happened at the same time in counties with very different connectivity histories, and, in the latest waves, is reversing.</div>
+<p class="caption">NTIA CBSA shares interpolated between waves (only areas with 30 or more respondents), county-by-grade and state-by-year fixed effects, SE clustered by CBSA, 2011–2019.</p>
+<div class="note"><strong>What this shows.</strong> With the self-report outcome measured at county level, neither LTE onset nor smartphone adoption predicts where sadness or suicidal thoughts rose. The one coefficient beyond two standard errors, Minnesota's suicidal ideation after LTE (−1.8 pp, SE 0.7), has the wrong sign for the phone hypothesis, and its pre-onset coefficients lean the same way, so it reads as the metro counties' earlier decline continuing rather than as an effect of LTE in either direction. The state-level result for girls reported above does not reappear here (+0.2 pp per 10 points, SE 0.3, in the two states with county data by sex), so it should be read as suggestive at best. The rise was broad, happened at the same time in counties with very different connectivity histories, and, in the latest waves, is reversing.</div>
 """
 a_, b_ = ss_html.split("<h4>LTE onset at county level</h4>")
 (SEC/"ss_trends.html").write_text(a_); (SEC/"ss_tests.html").write_text("<h3>Rollout and adoption at county level, state youth surveys</h3><h4>LTE onset at county level</h4>" + b_)
@@ -531,9 +530,9 @@ bans_html = f"""
 <div class="tw"><table><thead><tr><th>Study</th><th>Setting</th><th>Design</th><th>Outcome domain</th><th>Headline</th></tr></thead><tbody>{strows}</tbody></table></div>
 <p>Two readings. On mental health specifically, the strongest evidence is Norway's staggered middle-school bans (fewer psychological consultations for girls, less bullying, no effect for boys), which is the girl-specific pattern H1 predicts. The English one-time comparison shows no effect on well-being, and the 2026 U.S. Yondr-pouch study finds well-being dips at adoption and recovers by year two with no change in online bullying. Achievement effects are small and positive where found, and vanish in Sweden. So bans are a plausible policy with mixed evidence rather than a settled one, and the mental-health effect, where it appears, is on girls.</p>
 <h3>County social-media use and sadness</h3>
-<div class="tw"><table><thead><tr><th>State</th><th>County item</th><th>Outcome</th><th>County-years</th><th>Across counties (SE)</th><th>Within county (SE)</th></tr></thead><tbody>{csrows}</tbody></table></div>
-<p class="caption">Percentage points of outcome per percentage point of the county item; year fixed effects (across) or county and year fixed effects (within). Washington 2023 and 2025; Maine 2017–2021.</p>
-<p>In Washington, counties where more students use social media daily report more sadness, and the 2023-to-2025 changes carry the same slope (both fell: daily social media 74% → 72%, sadness 31% → 27%). General screen time does not. This is the school-survey version of the individual association, with the same limits.</p>
+<div class="tw"><table><thead><tr><th>State</th><th>County item</th><th>Outcome</th><th>County-grade-years</th><th>Across counties (SE)</th><th>Within county and grade (SE)</th></tr></thead><tbody>{csrows}</tbody></table></div>
+<p class="caption">Percentage points of outcome per percentage point of the county item, on county-by-grade cells so that item and outcome cover the same grades; year fixed effects (across) or county-by-grade and year fixed effects (within); SE clustered by county. Washington grades 8, 10 and 12 in 2023 and 2025; Maine's all-grade rows 2017–2021.</p>
+<p>In Washington, county-grade groups where more students use social media daily report more sadness (0.22 pp per pp, SE 0.04), and the same holds for screen time of three hours or more (0.25, SE 0.06). Both items and sadness fell between 2023 and 2025 (daily social media 75% → 73%, sadness 31% → 27%), but the county-by-county changes do not line up: within the same county and grade, the two-year change in sadness is unrelated to the change in either item (−0.09, SE 0.16, and 0.01, SE 0.08). Maine shows nothing in either direction. So the cross-sectional link is there, as in the individual-level studies, while the only two-wave change available does not reproduce it.</p>
 {'<h3>PISA 2022: school phone rules and well-being within countries</h3>' + (ROOT/'build/sections/pisa.html').read_text() if (ROOT/'build/sections/pisa.html').exists() else '<p class="pending">PISA 2022 within-country comparison of students in schools with and without phone rules: pending the microdata extraction.</p>'}
 """
 (SEC/"bans.html").write_text(bans_html)

@@ -1,64 +1,75 @@
 outcome,policy,coef,se,n
-ACS 12-17 girls,rttt_winner,-0.06314966824765267,0.07238597377410831,612
-ACS 12-17 girls,waiver_in_force,-0.011587781058842879,0.08140474991477262,612
-ACS 12-17 girls,cc_aligned_test_in_force,-0.001104520307138459,0.08381236695062669,612
-ACS 12-17 girls,teacher_eval_test_based_in_force,-0.03314576498043963,0.056383774681785,612
-ACS 12-17 girls,exit_exam_in_force,-0.042837172511664114,0.07086200037259337,612
-ACS 12-17 girls,pressure_index,-0.027753675179049628,0.026345520384348058,612
-ACS 12-17 girls,joint:rttt_winner,-0.06863280724795384,0.0762837725749966,612
-ACS 12-17 girls,joint:waiver_in_force,0.00793466065753188,0.07732419310354356,612
-ACS 12-17 girls,joint:cc_aligned_test_in_force,-0.02053040119451411,0.08313792709871164,612
-ACS 12-17 girls,joint:teacher_eval_test_based_in_force,-0.012856411522548869,0.0655644400013319,612
-ACS 12-17 girls,joint:exit_exam_in_force,-0.05225467896945883,0.07871190423406571,612
-ACS 12-17 boys,rttt_winner,-0.004243881658078645,0.10319150447492456,612
-ACS 12-17 boys,waiver_in_force,0.12985423707755084,0.06916905396324372,612
-ACS 12-17 boys,cc_aligned_test_in_force,0.013377212016095057,0.11858057131777378,612
-ACS 12-17 boys,teacher_eval_test_based_in_force,-0.1301802674576429,0.0917635255700233,612
-ACS 12-17 boys,exit_exam_in_force,-0.028516407746133652,0.11902706431790713,612
-ACS 12-17 boys,pressure_index,-0.012184546814337453,0.036778878618475154,612
-ACS 12-17 boys,joint:rttt_winner,-0.004493876958998419,0.11157253768322714,612
-ACS 12-17 boys,joint:waiver_in_force,0.17469941470234243,0.07872598918658046,612
-ACS 12-17 boys,joint:cc_aligned_test_in_force,0.0038947308892847334,0.14193576799940433,612
-ACS 12-17 boys,joint:teacher_eval_test_based_in_force,-0.1633416204958382,0.1109319765718097,612
-ACS 12-17 boys,joint:exit_exam_in_force,0.006186734073289546,0.14319927906463664,612
-YRBS sad/hopeless girls,rttt_winner,1.2055984062940168,0.4145123257516819,201
-YRBS sad/hopeless girls,waiver_in_force,-0.9939068990724198,0.5779742055000132,201
-YRBS sad/hopeless girls,cc_aligned_test_in_force,-0.799803737114112,0.7911816468865092,201
-YRBS sad/hopeless girls,teacher_eval_test_based_in_force,-0.37853092318606313,0.5983760719614484,201
-YRBS sad/hopeless girls,exit_exam_in_force,-0.47149160288115793,0.8175378455128014,201
-YRBS sad/hopeless girls,pressure_index,-0.10617684392219699,0.25413474516225065,201
-YRBS sad/hopeless girls,joint:rttt_winner,1.7860215781030186,0.5339982784115498,201
-YRBS sad/hopeless girls,joint:waiver_in_force,-1.6344742945577766,0.7658655223920524,201
-YRBS sad/hopeless girls,joint:cc_aligned_test_in_force,-0.6121983392556828,0.7794494209325512,201
-YRBS sad/hopeless girls,joint:teacher_eval_test_based_in_force,-0.7475634681870257,0.5389595891624871,201
-YRBS sad/hopeless girls,joint:exit_exam_in_force,-0.28212131888881375,0.7248167505823867,201
-YRBS sad/hopeless boys,rttt_winner,0.6811416098024853,0.34118891434412635,201
-YRBS sad/hopeless boys,waiver_in_force,-0.16295097224268495,0.48482430829899165,201
-YRBS sad/hopeless boys,cc_aligned_test_in_force,-0.8001236809233315,0.7737028812724553,201
-YRBS sad/hopeless boys,teacher_eval_test_based_in_force,-0.27812350579877604,0.35958391124019196,201
-YRBS sad/hopeless boys,exit_exam_in_force,-0.09496776049104516,0.8607916386129091,201
-YRBS sad/hopeless boys,pressure_index,-0.036773132021184964,0.20211827558997894,201
-YRBS sad/hopeless boys,joint:rttt_winner,0.9112281702047365,0.32091571759786763,201
-YRBS sad/hopeless boys,joint:waiver_in_force,-0.49567746071777924,0.5470272648955744,201
-YRBS sad/hopeless boys,joint:cc_aligned_test_in_force,-0.7314106236337237,0.7578101897121197,201
-YRBS sad/hopeless boys,joint:teacher_eval_test_based_in_force,-0.4904671381716638,0.3423081357601144,201
-YRBS sad/hopeless boys,joint:exit_exam_in_force,0.01288237298788782,0.8019372450854988,201
-"NSDUH youth MDE (2-yr, labelled by end year)",rttt_winner,0.29225875813275604,0.1274144088961376,612
-"NSDUH youth MDE (2-yr, labelled by end year)",waiver_in_force,-0.12278758465045626,0.19708514151800344,612
-"NSDUH youth MDE (2-yr, labelled by end year)",cc_aligned_test_in_force,-0.30081251700659445,0.24395545628391815,612
-"NSDUH youth MDE (2-yr, labelled by end year)",teacher_eval_test_based_in_force,-0.016184716291953956,0.15891741420040204,612
-"NSDUH youth MDE (2-yr, labelled by end year)",exit_exam_in_force,0.2768393266976464,0.24775195446100176,612
-"NSDUH youth MDE (2-yr, labelled by end year)",pressure_index,0.04330452036901961,0.08107497385243694,612
-"NSDUH youth MDE (2-yr, labelled by end year)",joint:rttt_winner,0.3359575840398766,0.12264498725728273,612
-"NSDUH youth MDE (2-yr, labelled by end year)",joint:waiver_in_force,-0.14914157202133255,0.19492685044484193,612
-"NSDUH youth MDE (2-yr, labelled by end year)",joint:cc_aligned_test_in_force,-0.2599196920508941,0.254637701341498,612
-"NSDUH youth MDE (2-yr, labelled by end year)",joint:teacher_eval_test_based_in_force,-0.049626813916674235,0.16921975423817734,612
-"NSDUH youth MDE (2-yr, labelled by end year)",joint:exit_exam_in_force,0.29822247421871645,0.24784815548201397,612
-ACS market girls,LTE x pressure_index,-0.34277229675137466,0.25435091144944005,1666
-ACS market girls,LTE x cc_aligned_test_in_force,0.8403632518474435,1072.0068592355872,1666
-ACS market girls,LTE x waiver_in_force,0.11662757566402118,1.0202436478606052,1666
-ACS market girls,LTE x rttt_winner,-0.9371901638043845,0.49419505662808705,1666
-ACS market boys,LTE x pressure_index,0.35681883241055123,0.34286647421521166,1719
-ACS market boys,LTE x cc_aligned_test_in_force,0.7356676936164888,4196.373003547644,1719
-ACS market boys,LTE x waiver_in_force,-0.04183976044647869,1.6326133500243314,1719
-ACS market boys,LTE x rttt_winner,0.6084862180814097,0.7453270845832694,1719
+ACS 12-17 girls,rttt_winner,-0.06314966824765263,0.07238597374532735,612
+ACS 12-17 girls,waiver_in_force,-0.011587781058842802,0.08140474878250663,612
+ACS 12-17 girls,cc_aligned_test_in_force,-0.001104520307138469,0.08381236694758716,612
+ACS 12-17 girls,teacher_eval_test_based_in_force,-0.033145764980439585,0.05638377463907281,612
+ACS 12-17 girls,exit_exam_in_force,-0.042837172511664176,0.07086200043944443,612
+ACS 12-17 girls,pressure_index,-0.027753675179049583,0.02634552034510853,612
+ACS 12-17 girls,joint:rttt_winner,-0.06863280724795374,0.07628377262458094,612
+ACS 12-17 girls,joint:waiver_in_force,0.007934660657531966,0.0773241920226449,612
+ACS 12-17 girls,joint:cc_aligned_test_in_force,-0.020530401194514103,0.08313792710692737,612
+ACS 12-17 girls,joint:teacher_eval_test_based_in_force,-0.012856411522548745,0.06556443999789766,612
+ACS 12-17 girls,joint:exit_exam_in_force,-0.05225467896945898,0.07871190433087237,612
+ACS 12-17 boys,rttt_winner,-0.004243881658078552,0.10319150428702939,612
+ACS 12-17 boys,waiver_in_force,0.12985423707755042,0.0691690539878246,612
+ACS 12-17 boys,cc_aligned_test_in_force,0.01337721201609532,0.11858057156827408,612
+ACS 12-17 boys,teacher_eval_test_based_in_force,-0.1301802674576432,0.09176352544482283,612
+ACS 12-17 boys,exit_exam_in_force,-0.028516407746134002,0.11902706375003445,612
+ACS 12-17 boys,pressure_index,-0.012184546814337463,0.03677887859434921,612
+ACS 12-17 boys,joint:rttt_winner,-0.00449387695899834,0.11157253792460893,612
+ACS 12-17 boys,joint:waiver_in_force,0.17469941470234204,0.07872598939595138,612
+ACS 12-17 boys,joint:cc_aligned_test_in_force,0.003894730889284958,0.1419357682634532,612
+ACS 12-17 boys,joint:teacher_eval_test_based_in_force,-0.16334162049583817,0.11093197655119881,612
+ACS 12-17 boys,joint:exit_exam_in_force,0.006186734073289194,0.14319927850739597,612
+YRBS sad/hopeless girls,rttt_winner,1.2055984062939287,0.41451239535234735,201
+YRBS sad/hopeless girls,waiver_in_force,-0.9939068990724427,0.5779742493447827,201
+YRBS sad/hopeless girls,cc_aligned_test_in_force,-0.79980373711413,0.7911815335676933,201
+YRBS sad/hopeless girls,teacher_eval_test_based_in_force,-0.37853092318608966,0.5983761167974808,201
+YRBS sad/hopeless girls,exit_exam_in_force,-0.471491602881198,0.8175378174950105,201
+YRBS sad/hopeless girls,pressure_index,-0.10617684392220554,0.25413476638228943,201
+YRBS sad/hopeless girls,joint:rttt_winner,1.7860215781029802,0.5339982729369588,201
+YRBS sad/hopeless girls,joint:waiver_in_force,-1.6344742945577773,0.7658655298926417,201
+YRBS sad/hopeless girls,joint:cc_aligned_test_in_force,-0.612198339255781,0.7794493903077495,201
+YRBS sad/hopeless girls,joint:teacher_eval_test_based_in_force,-0.7475634681870499,0.5389596015466542,201
+YRBS sad/hopeless girls,joint:exit_exam_in_force,-0.2821213188888678,0.7248167687354579,201
+YRBS sad/hopeless boys,rttt_winner,0.681141609802421,0.34118890059251783,201
+YRBS sad/hopeless boys,waiver_in_force,-0.1629509722427039,0.4848243165495645,201
+YRBS sad/hopeless boys,cc_aligned_test_in_force,-0.8001236809233884,0.7737028739012729,201
+YRBS sad/hopeless boys,teacher_eval_test_based_in_force,-0.2781235057987956,0.3595839131434074,201
+YRBS sad/hopeless boys,exit_exam_in_force,-0.09496776049108985,0.8607916510338207,201
+YRBS sad/hopeless boys,pressure_index,-0.03677313202119368,0.20211827949398453,201
+YRBS sad/hopeless boys,joint:rttt_winner,0.9112281702046737,0.3209157070220406,201
+YRBS sad/hopeless boys,joint:waiver_in_force,-0.4956774607177803,0.5470272754348555,201
+YRBS sad/hopeless boys,joint:cc_aligned_test_in_force,-0.7314106236338039,0.7578101789838938,201
+YRBS sad/hopeless boys,joint:teacher_eval_test_based_in_force,-0.490467138171691,0.34230812863425275,201
+YRBS sad/hopeless boys,joint:exit_exam_in_force,0.012882372987815704,0.8019372599835284,201
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",rttt_winner,0.1641828203491857,0.13632812403678693,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",waiver_in_force,-0.17975986798732016,0.252104407649106,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",cc_aligned_test_in_force,-0.35304897074698527,0.30221447799864404,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",teacher_eval_test_based_in_force,-0.028998947805792562,0.17433907502094317,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",exit_exam_in_force,0.3444851310748277,0.2716742662148231,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",pressure_index,0.018440879149656603,0.0916245057402975,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",joint:rttt_winner,0.23189700090959714,0.1351579605418757,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",joint:waiver_in_force,-0.2046468713503782,0.26150652086720005,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",joint:cc_aligned_test_in_force,-0.30808307666096374,0.31811115871569295,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",joint:teacher_eval_test_based_in_force,-0.02838021625437434,0.18785421639082814,612
+"NSDUH youth MDE (2-yr periods, policy averaged over both years)",joint:exit_exam_in_force,0.3584918477329786,0.278652028056092,612
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),rttt_winner,0.2149320394497822,0.13482851286471073,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),waiver_in_force,-0.03113838469461461,0.27033089069773275,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),cc_aligned_test_in_force,-0.40114324673174,0.3282454415508376,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),teacher_eval_test_based_in_force,0.0926338035742281,0.18367451558119402,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),exit_exam_in_force,0.2144356209134112,0.2771981206729168,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),pressure_index,0.053000757625842713,0.08986045971163044,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),joint:rttt_winner,0.21893943136805236,0.13266459316675805,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),joint:waiver_in_force,-0.06343865561396358,0.2793795041737184,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),joint:cc_aligned_test_in_force,-0.3777454103934405,0.3455448549053824,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),joint:teacher_eval_test_based_in_force,0.058739533158408505,0.18743416907908858,306
+NSDUH youth MDE (non-overlapping periods 2008-09 ... 2018-19),joint:exit_exam_in_force,0.22669480315383927,0.2839704284544171,306
+ACS market girls,LTE x pressure_index,-0.34277229675616466,0.25435091151575306,1666
+ACS market girls,LTE x cc_aligned_test_in_force,,,1666
+ACS market girls,LTE x waiver_in_force,0.11662756851353788,1.0202436295868482,1666
+ACS market girls,LTE x rttt_winner,-0.9371901638306922,0.4941950566942488,1666
+ACS market boys,LTE x pressure_index,0.3568188324089967,0.3428664741765764,1719
+ACS market boys,LTE x cc_aligned_test_in_force,,,1719
+ACS market boys,LTE x waiver_in_force,-0.041839772198024844,1.6326134565710289,1719
+ACS market boys,LTE x rttt_winner,0.6084862180746744,0.7453270844168751,1719
