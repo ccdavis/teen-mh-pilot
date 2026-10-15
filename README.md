@@ -36,6 +36,15 @@ Steps 4 and 5 can be run from the committed `results/tables/` and `data/compiled
 
 Microdata are not redistributed here. The IPUMS data used (ACS via IPUMS USA, CPS, ATUS, IPUMS International, IPUMS DHS, IPUMS MICS) are available to registered users through the extract systems at [usa.ipums.org](https://usa.ipums.org), [cps.ipums.org](https://cps.ipums.org), [timeuse.ipums.org](https://timeuse.ipums.org), [international.ipums.org](https://international.ipums.org), [idhs.ipums.org](https://www.idhs.ipums.org), and [mics.ipums.org](https://mics.ipums.org). The other sources are public downloads from SAMHSA, CDC, NTIA/Census, WHO, OECD, ITU, the World Bank, NCES, state education and health departments, and the policy trackers named in `DATA_SOURCES.md`.
 
+## License
+
+- **Code** (`scripts/`, `pyproject.toml`): [MIT License](LICENSE).
+- **Report, compiled tables, results and notes** (`docs/`, `data/compiled/`, `results/`, `notes/`, `DATA_SOURCES.md`): [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0.txt) (CC BY 4.0). You may share and adapt them with attribution.
+- The compiled tables are derived from the public sources listed in `DATA_SOURCES.md`, whose own terms continue to apply; IPUMS-derived results are aggregates and are shared in line with the IPUMS terms, which require citation of each data collection and prohibit redistribution of the microdata (none is included here).
+- Bundled third-party files in `docs/assets/` (Plotly.js, IBM Plex and Source Serif 4 fonts) keep their own licenses, reproduced in `docs/assets/LICENSES.txt`.
+
 ## Citation
 
-If you use the compiled tables or results, cite the underlying providers as listed in `DATA_SOURCES.md` (IPUMS requires citation of each data collection) and this repository.
+Please cite this repository (a `CITATION.cff` file is included, so GitHub's "Cite this repository" button gives a formatted reference) together with the underlying providers listed in `DATA_SOURCES.md`:
+
+> Davis, Colin (2026). *Teen Distress Pilot: public-data tests of the smartphone and school-pressure explanations for the post-2010 rise in adolescent distress.* https://github.com/ccdavis/teen-mh-pilot (report: https://ccdavis.github.io/teen-mh-pilot/).

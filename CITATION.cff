@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, its compiled tables or its results, please cite it as below and cite the data providers listed in DATA_SOURCES.md."
+type: dataset
+title: "Teen Distress Pilot: public-data tests of the smartphone and school-pressure explanations for the post-2010 rise in adolescent distress"
+authors:
+  - family-names: Davis
+    given-names: Colin
+date-released: 2026-10-15
+version: "2026-10-15"
+url: "https://ccdavis.github.io/teen-mh-pilot/"
+repository-code: "https://github.com/ccdavis/teen-mh-pilot"
+license: MIT
+keywords:
+  - adolescent mental health
+  - smartphones
+  - social media
+  - school pressure
+  - IPUMS
