@@ -2,7 +2,7 @@
 
 What large-scale public microdata can say about the two leading explanations for the rise in adolescent anxiety and depression after 2010: Jonathan Haidt's smartphone-and-social-media thesis (*The Anxious Generation*) and Peter Gray's school-pressure thesis. The project tests four hypotheses (phones, school pressure, their interaction, and measurement artifacts) against IPUMS microdata and public survey series, and sets the results beside the evidence the two camps cite.
 
-**Read the report:** open `docs/index.html` (self-contained; works offline or hosted as-is), or the print editions `docs/Teen_Distress_Pilot.pdf` and `docs/Teen_Distress_Pilot.docx`.
+**Read the report:** https://ccdavis.github.io/teen-mh-pilot/ (GitHub Pages, served from `docs/`), or open `docs/index.html` locally (self-contained; works offline), or the print editions `docs/Teen_Distress_Pilot.pdf` and `docs/Teen_Distress_Pilot.docx`.
 
 ## What is in this repository
 
