@@ -1,0 +1,32 @@
+-- duckdb template: substitute {sample} (at2003 ... at2024). Inputs: IPUMS ATUS extract converted to parquet, one file per record type.
+PRAGMA threads=4;
+COPY (SELECT a.ACTIVITY, a.DURATION, a.WHERE, a.START, a.ACTLINE, a.CASEIDA, a.PSERIALA,
+  p.YEARP,
+  p.CASEIDP,
+  p.PSERIAL,
+  p.RESP,
+  p.AGE,
+  p.SEX,
+  p.RACE,
+  p.HISPAN,
+  p.EDUC,
+  p.SCHLCOLL,
+  p.FULLPART,
+  p.EMPSTAT,
+  p.DAY,
+  p.HOLIDAY,
+  p.MONTH,
+  p.DIFFREM,
+  p.STATEFIP_H,
+  p.METRO_H,
+  p.METFIPS_H,
+  p.HH_CHILD_H,
+  p.FAMINCOME_H,
+  p.POVERTY185_H,
+  p.KIDBEDTIME_H,
+  p.GENHEALTH,
+  NULL::BIGINT AS WBWT,
+  p.WT06 AS WT, NULL::BIGINT AS WT20
+FROM read_parquet('data/ipums/atus/{sample}_A.parquet') a
+JOIN read_parquet('data/ipums/atus/{sample}_P.parquet') p ON p.CASEIDP = a.CASEIDA AND p.RESP = 1
+) TO 'data/extracts/atus/atus_{sample}.parquet' (FORMAT PARQUET, COMPRESSION ZSTD);

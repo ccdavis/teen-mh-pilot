@@ -1,0 +1,1 @@
+World Bank WDI via api.worldbank.org/v2, fetched 2026-09-16: IT.NET.USER.ZS (internet users % of pop), IT.CEL.SETS.P2 (mobile cellular subscriptions per 100), NY.GDP.PCAP.PP.KD, SP.POP.TOTL, 2000-2024, all economies. Mobile-broadband subscriptions per 100 (ITU) not in WDI; get from ITU DataHub (datahub.itu.int) if needed.

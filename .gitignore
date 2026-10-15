@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/external/
+data/extracts/
+data/raw/
+data/ipums/
+build/
+*.bak
+*.bak[0-9]
+.DS_Store

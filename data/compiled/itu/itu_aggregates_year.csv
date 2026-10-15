@@ -1,0 +1,1212 @@
+iso3,country,year,indicator,value,source
+WLD,World,2007,mbb_subs_per100,4.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2007,mbb_subs_per100,0.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2008,mbb_subs_per100,6.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2008,mbb_subs_per100,0.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2009,mbb_subs_per100,9.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2009,mbb_subs_per100,0.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2010,mbb_subs_per100,1.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2010,mbb_subs_per100,25.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2010,mbb_subs_per100,7.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2010,mbb_subs_per100,7.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2010,mbb_subs_per100,28.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2010,mbb_subs_per100,25.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2010,mbb_subs_per100,11.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2010,mbb_subs_per100,0.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2011,mbb_subs_per100,2.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2011,mbb_subs_per100,36.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2011,mbb_subs_per100,13.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2011,mbb_subs_per100,10.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2011,mbb_subs_per100,37.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2011,mbb_subs_per100,36.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2011,mbb_subs_per100,16.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2011,mbb_subs_per100,1.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2012,mbb_subs_per100,5.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2012,mbb_subs_per100,46.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2012,mbb_subs_per100,17.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2012,mbb_subs_per100,14.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2012,mbb_subs_per100,46.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2012,mbb_subs_per100,41.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2012,mbb_subs_per100,21.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2012,mbb_subs_per100,2.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2013,mbb_subs_per100,10.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2013,mbb_subs_per100,55.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2013,mbb_subs_per100,25.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2013,mbb_subs_per100,18.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2013,mbb_subs_per100,53.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2013,mbb_subs_per100,48.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2013,mbb_subs_per100,27.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2013,mbb_subs_per100,4.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2014,mbb_subs_per100,13.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2014,mbb_subs_per100,67.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2014,mbb_subs_per100,34.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2014,mbb_subs_per100,29.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2014,mbb_subs_per100,64.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2014,mbb_subs_per100,53.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2014,mbb_subs_per100,36.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2014,mbb_subs_per100,10.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2015,mbb_subs_per100,18.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2015,mbb_subs_per100,78.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2015,mbb_subs_per100,41.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2015,mbb_subs_per100,37.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2015,mbb_subs_per100,69.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2015,mbb_subs_per100,60.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2015,mbb_subs_per100,44.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2015,mbb_subs_per100,19.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2015,mbb_subs_per100,31.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2015,mbb_subs_per100,14.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2015,mbb_subs_per100,93.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2015,mbb_subs_per100,11.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2015,mbb_subs_per100,17.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2015,mbb_subs_per100,54.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2016,mbb_subs_per100,21.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2016,mbb_subs_per100,85.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2016,mbb_subs_per100,44.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2016,mbb_subs_per100,46.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2016,mbb_subs_per100,79.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2016,mbb_subs_per100,65.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2016,mbb_subs_per100,51.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2016,mbb_subs_per100,24.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2016,mbb_subs_per100,38.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2016,mbb_subs_per100,19.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2016,mbb_subs_per100,100.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2016,mbb_subs_per100,12.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2016,mbb_subs_per100,24.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2016,mbb_subs_per100,63.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2017,mbb_subs_per100,25.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2017,mbb_subs_per100,89.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2017,mbb_subs_per100,52.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2017,mbb_subs_per100,61.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2017,mbb_subs_per100,86.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2017,mbb_subs_per100,72.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2017,mbb_subs_per100,62.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2017,mbb_subs_per100,31.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2017,mbb_subs_per100,44.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2017,mbb_subs_per100,25.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2017,mbb_subs_per100,111.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2017,mbb_subs_per100,16.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2017,mbb_subs_per100,32.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2017,mbb_subs_per100,78.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2018,mbb_subs_per100,28.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2018,mbb_subs_per100,91.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2018,mbb_subs_per100,57.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2018,mbb_subs_per100,69.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2018,mbb_subs_per100,92.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2018,mbb_subs_per100,77.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2018,mbb_subs_per100,68.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2018,mbb_subs_per100,30.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2018,mbb_subs_per100,45.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2018,mbb_subs_per100,27.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2018,mbb_subs_per100,118.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2018,mbb_subs_per100,14.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2018,mbb_subs_per100,41.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2018,mbb_subs_per100,84.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2019,mbb_subs_per100,33.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2019,mbb_subs_per100,97.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2019,mbb_subs_per100,60.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2019,mbb_subs_per100,75.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2019,mbb_subs_per100,98.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2019,mbb_subs_per100,88.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2019,mbb_subs_per100,74.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2019,mbb_subs_per100,37.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2019,mbb_subs_per100,51.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2019,mbb_subs_per100,33.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2019,mbb_subs_per100,124.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2019,mbb_subs_per100,19.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2019,mbb_subs_per100,48.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2019,mbb_subs_per100,88.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2020,mbb_subs_per100,38.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2020,mbb_subs_per100,101.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2020,mbb_subs_per100,63.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2020,mbb_subs_per100,77.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2020,mbb_subs_per100,101.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2020,mbb_subs_per100,92.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2020,mbb_subs_per100,76.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2020,mbb_subs_per100,42.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2020,mbb_subs_per100,54.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2020,mbb_subs_per100,37.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2020,mbb_subs_per100,123.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2020,mbb_subs_per100,23.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2020,mbb_subs_per100,53.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2020,mbb_subs_per100,90.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2021,mbb_subs_per100,39.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2021,mbb_subs_per100,108.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2021,mbb_subs_per100,67.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2021,mbb_subs_per100,81.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2021,mbb_subs_per100,106.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2021,mbb_subs_per100,98.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2021,mbb_subs_per100,81.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2021,mbb_subs_per100,46.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2021,mbb_subs_per100,55.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2021,mbb_subs_per100,39.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2021,mbb_subs_per100,130.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2021,mbb_subs_per100,26.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2021,mbb_subs_per100,55.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2021,mbb_subs_per100,97.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2022,mbb_subs_per100,45.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2022,mbb_subs_per100,112.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2022,mbb_subs_per100,70.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2022,mbb_subs_per100,88.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2022,mbb_subs_per100,107.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2022,mbb_subs_per100,100.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2022,mbb_subs_per100,86.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2022,mbb_subs_per100,53.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2022,mbb_subs_per100,60.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2022,mbb_subs_per100,43.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2022,mbb_subs_per100,140.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2022,mbb_subs_per100,32.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2022,mbb_subs_per100,58.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2022,mbb_subs_per100,103.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2023,mbb_subs_per100,46.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2023,mbb_subs_per100,118.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2023,mbb_subs_per100,77.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2023,mbb_subs_per100,96.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2023,mbb_subs_per100,111.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2023,mbb_subs_per100,108.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2023,mbb_subs_per100,92.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2023,mbb_subs_per100,55.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2023,mbb_subs_per100,65.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2023,mbb_subs_per100,47.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2023,mbb_subs_per100,147.5,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2023,mbb_subs_per100,35.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2023,mbb_subs_per100,62.2,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2023,mbb_subs_per100,114.3,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2024,mbb_subs_per100,50.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AMS,The Americas,2024,mbb_subs_per100,124.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ARB,Arab States,2024,mbb_subs_per100,82.4,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+ASP,Asia & Pacific,2024,mbb_subs_per100,99.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+EUR,Europe countries,2024,mbb_subs_per100,114.0,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+CIS,CIS countries,2024,mbb_subs_per100,115.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+WLD,World,2024,mbb_subs_per100,95.8,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LLDC,Land Locked Developing Countries (LLDC),2024,mbb_subs_per100,60.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+SIDS,Small Island Developing States (SIDS),2024,mbb_subs_per100,66.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LDC,Least Developed Countries (LDC),2024,mbb_subs_per100,49.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+HI,High income,2024,mbb_subs_per100,153.6,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LI,Low income,2024,mbb_subs_per100,40.7,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+LMI,Lower middle income,2024,mbb_subs_per100,64.1,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+UMI,Upper middle income,2024,mbb_subs_per100,116.9,ITU DataHub v3 (WTID) SeriesID 12066 i911mw
+AFR,Africa,2010,pop_covered_3g_pct,22.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2010,pop_covered_3g_pct,84.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2010,pop_covered_3g_pct,59.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2010,pop_covered_3g_pct,12.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2010,pop_covered_3g_pct,70.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2010,pop_covered_3g_pct,71.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2010,pop_covered_3g_pct,41.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2011,pop_covered_3g_pct,22.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2011,pop_covered_3g_pct,83.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2011,pop_covered_3g_pct,69.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2011,pop_covered_3g_pct,12.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2011,pop_covered_3g_pct,76.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2011,pop_covered_3g_pct,75.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2011,pop_covered_3g_pct,43.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2012,pop_covered_3g_pct,34.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2012,pop_covered_3g_pct,88.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2012,pop_covered_3g_pct,66.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2012,pop_covered_3g_pct,38.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2012,pop_covered_3g_pct,86.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2012,pop_covered_3g_pct,55.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2012,pop_covered_3g_pct,56.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2013,pop_covered_3g_pct,40.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2013,pop_covered_3g_pct,89.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2013,pop_covered_3g_pct,63.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2013,pop_covered_3g_pct,47.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2013,pop_covered_3g_pct,88.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2013,pop_covered_3g_pct,59.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2013,pop_covered_3g_pct,61.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2014,pop_covered_3g_pct,42.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2014,pop_covered_3g_pct,89.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2014,pop_covered_3g_pct,68.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2014,pop_covered_3g_pct,56.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2014,pop_covered_3g_pct,91.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2014,pop_covered_3g_pct,62.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2014,pop_covered_3g_pct,63.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2015,pop_covered_3g_pct,49.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2015,pop_covered_3g_pct,91.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2015,pop_covered_3g_pct,74.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2015,pop_covered_3g_pct,79.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2015,pop_covered_3g_pct,94.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2015,pop_covered_3g_pct,70.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2015,pop_covered_3g_pct,78.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2015,pop_covered_3g_pct,49.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2015,pop_covered_3g_pct,61.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2015,pop_covered_3g_pct,53.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2015,pop_covered_3g_pct,96.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2015,pop_covered_3g_pct,41.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2015,pop_covered_3g_pct,67.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2015,pop_covered_3g_pct,86.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2016,pop_covered_3g_pct,57.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2016,pop_covered_3g_pct,92.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2016,pop_covered_3g_pct,83.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2016,pop_covered_3g_pct,86.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2016,pop_covered_3g_pct,98.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2016,pop_covered_3g_pct,74.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2016,pop_covered_3g_pct,84.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2016,pop_covered_3g_pct,58.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2016,pop_covered_3g_pct,64.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2016,pop_covered_3g_pct,61.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2016,pop_covered_3g_pct,96.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2016,pop_covered_3g_pct,48.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2016,pop_covered_3g_pct,77.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2016,pop_covered_3g_pct,92.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2017,pop_covered_3g_pct,62.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2017,pop_covered_3g_pct,94.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2017,pop_covered_3g_pct,87.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2017,pop_covered_3g_pct,90.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2017,pop_covered_3g_pct,98.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2017,pop_covered_3g_pct,80.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2017,pop_covered_3g_pct,87.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2017,pop_covered_3g_pct,64.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2017,pop_covered_3g_pct,72.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2017,pop_covered_3g_pct,67.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2017,pop_covered_3g_pct,96.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2017,pop_covered_3g_pct,56.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2017,pop_covered_3g_pct,82.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2017,pop_covered_3g_pct,95.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2018,pop_covered_3g_pct,70.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2018,pop_covered_3g_pct,94.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2018,pop_covered_3g_pct,89.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2018,pop_covered_3g_pct,93.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2018,pop_covered_3g_pct,98.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2018,pop_covered_3g_pct,81.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2018,pop_covered_3g_pct,90.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2018,pop_covered_3g_pct,68.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2018,pop_covered_3g_pct,79.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2018,pop_covered_3g_pct,71.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2018,pop_covered_3g_pct,97.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2018,pop_covered_3g_pct,60.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2018,pop_covered_3g_pct,88.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2018,pop_covered_3g_pct,96.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2019,pop_covered_3g_pct,73.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2019,pop_covered_3g_pct,94.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2019,pop_covered_3g_pct,91.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2019,pop_covered_3g_pct,96.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2019,pop_covered_3g_pct,98.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2019,pop_covered_3g_pct,87.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2019,pop_covered_3g_pct,92.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2019,pop_covered_3g_pct,71.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2019,pop_covered_3g_pct,80.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2019,pop_covered_3g_pct,74.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2019,pop_covered_3g_pct,98.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2019,pop_covered_3g_pct,68.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2019,pop_covered_3g_pct,91.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2019,pop_covered_3g_pct,97.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2020,pop_covered_3g_pct,75.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2020,pop_covered_3g_pct,94.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2020,pop_covered_3g_pct,90.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2020,pop_covered_3g_pct,95.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2020,pop_covered_3g_pct,98.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2020,pop_covered_3g_pct,89.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2020,pop_covered_3g_pct,93.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2020,pop_covered_3g_pct,74.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2020,pop_covered_3g_pct,80.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2020,pop_covered_3g_pct,74.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2020,pop_covered_3g_pct,98.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2020,pop_covered_3g_pct,64.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2020,pop_covered_3g_pct,92.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2020,pop_covered_3g_pct,97.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2021,pop_covered_3g_pct,78.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2021,pop_covered_3g_pct,94.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2021,pop_covered_3g_pct,91.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2021,pop_covered_3g_pct,96.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2021,pop_covered_3g_pct,99.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2021,pop_covered_3g_pct,95.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2021,pop_covered_3g_pct,93.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2021,pop_covered_3g_pct,76.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2021,pop_covered_3g_pct,81.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2021,pop_covered_3g_pct,76.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2021,pop_covered_3g_pct,99.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2021,pop_covered_3g_pct,67.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2021,pop_covered_3g_pct,93.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2021,pop_covered_3g_pct,97.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2022,pop_covered_3g_pct,81.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2022,pop_covered_3g_pct,95.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2022,pop_covered_3g_pct,93.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2022,pop_covered_3g_pct,96.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2022,pop_covered_3g_pct,99.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2022,pop_covered_3g_pct,96.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2022,pop_covered_3g_pct,94.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2022,pop_covered_3g_pct,80.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2022,pop_covered_3g_pct,82.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2022,pop_covered_3g_pct,79.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2022,pop_covered_3g_pct,99.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2022,pop_covered_3g_pct,74.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2022,pop_covered_3g_pct,94.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2022,pop_covered_3g_pct,97.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2023,pop_covered_3g_pct,84.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2023,pop_covered_3g_pct,95.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2023,pop_covered_3g_pct,95.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2023,pop_covered_3g_pct,97.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2023,pop_covered_3g_pct,99.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2023,pop_covered_3g_pct,96.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2023,pop_covered_3g_pct,95.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2023,pop_covered_3g_pct,84.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2023,pop_covered_3g_pct,83.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2023,pop_covered_3g_pct,82.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2023,pop_covered_3g_pct,99.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2023,pop_covered_3g_pct,77.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2023,pop_covered_3g_pct,95.1,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2023,pop_covered_3g_pct,98.3,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2024,pop_covered_3g_pct,86.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AMS,The Americas,2024,pop_covered_3g_pct,96.0,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ARB,Arab States,2024,pop_covered_3g_pct,95.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+ASP,Asia & Pacific,2024,pop_covered_3g_pct,97.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+EUR,Europe countries,2024,pop_covered_3g_pct,99.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+CIS,CIS countries,2024,pop_covered_3g_pct,96.7,ITU DataHub v3 (WTID) SeriesID 430 i271G
+WLD,World,2024,pop_covered_3g_pct,95.9,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LLDC,Land Locked Developing Countries (LLDC),2024,pop_covered_3g_pct,87.4,ITU DataHub v3 (WTID) SeriesID 430 i271G
+SIDS,Small Island Developing States (SIDS),2024,pop_covered_3g_pct,84.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LDC,Least Developed Countries (LDC),2024,pop_covered_3g_pct,85.8,ITU DataHub v3 (WTID) SeriesID 430 i271G
+HI,High income,2024,pop_covered_3g_pct,99.2,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LI,Low income,2024,pop_covered_3g_pct,81.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+LMI,Lower middle income,2024,pop_covered_3g_pct,95.5,ITU DataHub v3 (WTID) SeriesID 430 i271G
+UMI,Upper middle income,2024,pop_covered_3g_pct,98.6,ITU DataHub v3 (WTID) SeriesID 430 i271G
+AFR,Africa,2015,pop_covered_4g_pct,11.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2015,pop_covered_4g_pct,73.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2015,pop_covered_4g_pct,18.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2015,pop_covered_4g_pct,41.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2015,pop_covered_4g_pct,73.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2015,pop_covered_4g_pct,42.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2015,pop_covered_4g_pct,43.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2015,pop_covered_4g_pct,12.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2015,pop_covered_4g_pct,35.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2015,pop_covered_4g_pct,15.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2015,pop_covered_4g_pct,89.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2015,pop_covered_4g_pct,4.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2015,pop_covered_4g_pct,12.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2015,pop_covered_4g_pct,60.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2016,pop_covered_4g_pct,15.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2016,pop_covered_4g_pct,77.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2016,pop_covered_4g_pct,26.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2016,pop_covered_4g_pct,72.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2016,pop_covered_4g_pct,86.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2016,pop_covered_4g_pct,52.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2016,pop_covered_4g_pct,63.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2016,pop_covered_4g_pct,18.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2016,pop_covered_4g_pct,40.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2016,pop_covered_4g_pct,19.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2016,pop_covered_4g_pct,92.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2016,pop_covered_4g_pct,8.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2016,pop_covered_4g_pct,50.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2016,pop_covered_4g_pct,75.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2017,pop_covered_4g_pct,17.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2017,pop_covered_4g_pct,82.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2017,pop_covered_4g_pct,49.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2017,pop_covered_4g_pct,86.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2017,pop_covered_4g_pct,89.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2017,pop_covered_4g_pct,60.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2017,pop_covered_4g_pct,74.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2017,pop_covered_4g_pct,24.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2017,pop_covered_4g_pct,51.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2017,pop_covered_4g_pct,23.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2017,pop_covered_4g_pct,93.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2017,pop_covered_4g_pct,10.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2017,pop_covered_4g_pct,67.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2017,pop_covered_4g_pct,85.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2018,pop_covered_4g_pct,24.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2018,pop_covered_4g_pct,87.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2018,pop_covered_4g_pct,59.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2018,pop_covered_4g_pct,91.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2018,pop_covered_4g_pct,91.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2018,pop_covered_4g_pct,66.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2018,pop_covered_4g_pct,79.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2018,pop_covered_4g_pct,27.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2018,pop_covered_4g_pct,54.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2018,pop_covered_4g_pct,30.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2018,pop_covered_4g_pct,95.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2018,pop_covered_4g_pct,14.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2018,pop_covered_4g_pct,75.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2018,pop_covered_4g_pct,90.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2019,pop_covered_4g_pct,33.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2019,pop_covered_4g_pct,90.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2019,pop_covered_4g_pct,61.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2019,pop_covered_4g_pct,93.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2019,pop_covered_4g_pct,97.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2019,pop_covered_4g_pct,80.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2019,pop_covered_4g_pct,82.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2019,pop_covered_4g_pct,36.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2019,pop_covered_4g_pct,60.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2019,pop_covered_4g_pct,36.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2019,pop_covered_4g_pct,97.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2019,pop_covered_4g_pct,20.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2019,pop_covered_4g_pct,80.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2019,pop_covered_4g_pct,93.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2020,pop_covered_4g_pct,42.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2020,pop_covered_4g_pct,91.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2020,pop_covered_4g_pct,73.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2020,pop_covered_4g_pct,94.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2020,pop_covered_4g_pct,97.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2020,pop_covered_4g_pct,84.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2020,pop_covered_4g_pct,85.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2020,pop_covered_4g_pct,39.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2020,pop_covered_4g_pct,64.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2020,pop_covered_4g_pct,45.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2020,pop_covered_4g_pct,98.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2020,pop_covered_4g_pct,27.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2020,pop_covered_4g_pct,83.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2020,pop_covered_4g_pct,95.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2021,pop_covered_4g_pct,50.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2021,pop_covered_4g_pct,92.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2021,pop_covered_4g_pct,74.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2021,pop_covered_4g_pct,94.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2021,pop_covered_4g_pct,98.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2021,pop_covered_4g_pct,86.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2021,pop_covered_4g_pct,87.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2021,pop_covered_4g_pct,43.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2021,pop_covered_4g_pct,66.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2021,pop_covered_4g_pct,47.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2021,pop_covered_4g_pct,97.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2021,pop_covered_4g_pct,29.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2021,pop_covered_4g_pct,87.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2021,pop_covered_4g_pct,96.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2022,pop_covered_4g_pct,62.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2022,pop_covered_4g_pct,93.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2022,pop_covered_4g_pct,81.5,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2022,pop_covered_4g_pct,95.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2022,pop_covered_4g_pct,99.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2022,pop_covered_4g_pct,90.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2022,pop_covered_4g_pct,89.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2022,pop_covered_4g_pct,51.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2022,pop_covered_4g_pct,68.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2022,pop_covered_4g_pct,57.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2022,pop_covered_4g_pct,98.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2022,pop_covered_4g_pct,39.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2022,pop_covered_4g_pct,90.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2022,pop_covered_4g_pct,96.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2023,pop_covered_4g_pct,68.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2023,pop_covered_4g_pct,94.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2023,pop_covered_4g_pct,86.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2023,pop_covered_4g_pct,96.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2023,pop_covered_4g_pct,99.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2023,pop_covered_4g_pct,92.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2023,pop_covered_4g_pct,91.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2023,pop_covered_4g_pct,57.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2023,pop_covered_4g_pct,70.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2023,pop_covered_4g_pct,64.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2023,pop_covered_4g_pct,98.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2023,pop_covered_4g_pct,47.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2023,pop_covered_4g_pct,93.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2023,pop_covered_4g_pct,97.8,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2024,pop_covered_4g_pct,71.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AMS,The Americas,2024,pop_covered_4g_pct,94.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ARB,Arab States,2024,pop_covered_4g_pct,87.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+ASP,Asia & Pacific,2024,pop_covered_4g_pct,96.7,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+EUR,Europe countries,2024,pop_covered_4g_pct,99.4,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+CIS,CIS countries,2024,pop_covered_4g_pct,93.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+WLD,World,2024,pop_covered_4g_pct,92.2,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LLDC,Land Locked Developing Countries (LLDC),2024,pop_covered_4g_pct,62.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+SIDS,Small Island Developing States (SIDS),2024,pop_covered_4g_pct,71.9,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LDC,Least Developed Countries (LDC),2024,pop_covered_4g_pct,68.0,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+HI,High income,2024,pop_covered_4g_pct,98.3,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LI,Low income,2024,pop_covered_4g_pct,51.6,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+LMI,Lower middle income,2024,pop_covered_4g_pct,94.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+UMI,Upper middle income,2024,pop_covered_4g_pct,98.1,ITU DataHub v3 (WTID) SeriesID 19306 i271GA
+AFR,Africa,2005,internet_users_pct,2.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2005,internet_users_pct,35.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2005,internet_users_pct,8.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2005,internet_users_pct,9.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2005,internet_users_pct,42.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2005,internet_users_pct,11.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2005,internet_users_pct,15.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2005,internet_users_pct,1.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2005,internet_users_pct,13.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2005,internet_users_pct,0.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2005,internet_users_pct,52.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2005,internet_users_pct,1.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2005,internet_users_pct,3.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2005,internet_users_pct,10.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2006,internet_users_pct,2.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2006,internet_users_pct,38.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2006,internet_users_pct,10.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2006,internet_users_pct,10.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2006,internet_users_pct,46.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2006,internet_users_pct,14.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2006,internet_users_pct,17.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2006,internet_users_pct,2.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2006,internet_users_pct,14.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2006,internet_users_pct,1.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2006,internet_users_pct,55.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2006,internet_users_pct,1.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2006,internet_users_pct,4.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2006,internet_users_pct,12.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2007,internet_users_pct,3.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2007,internet_users_pct,42.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2007,internet_users_pct,14.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2007,internet_users_pct,13.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2007,internet_users_pct,52.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2007,internet_users_pct,18.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2007,internet_users_pct,20.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2007,internet_users_pct,3.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2007,internet_users_pct,16.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2007,internet_users_pct,1.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2007,internet_users_pct,61.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2007,internet_users_pct,2.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2007,internet_users_pct,5.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2007,internet_users_pct,16.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2008,internet_users_pct,3.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2008,internet_users_pct,44.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2008,internet_users_pct,17.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2008,internet_users_pct,16.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2008,internet_users_pct,56.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2008,internet_users_pct,24.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2008,internet_users_pct,22.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2008,internet_users_pct,4.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2008,internet_users_pct,18.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2008,internet_users_pct,2.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2008,internet_users_pct,64.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2008,internet_users_pct,3.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2008,internet_users_pct,6.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2008,internet_users_pct,21.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2009,internet_users_pct,4.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2009,internet_users_pct,46.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2009,internet_users_pct,19.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2009,internet_users_pct,19.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2009,internet_users_pct,59.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2009,internet_users_pct,32.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2009,internet_users_pct,25.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2009,internet_users_pct,5.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2009,internet_users_pct,20.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2009,internet_users_pct,2.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2009,internet_users_pct,66.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2009,internet_users_pct,3.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2009,internet_users_pct,7.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2009,internet_users_pct,25.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2010,internet_users_pct,6.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2010,internet_users_pct,48.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2010,internet_users_pct,22.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2010,internet_users_pct,22.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2010,internet_users_pct,63.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2010,internet_users_pct,39.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2010,internet_users_pct,28.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2010,internet_users_pct,7.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2010,internet_users_pct,22.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2010,internet_users_pct,3.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2010,internet_users_pct,69.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2010,internet_users_pct,4.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2010,internet_users_pct,10.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2010,internet_users_pct,30.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2011,internet_users_pct,7.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2011,internet_users_pct,51.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2011,internet_users_pct,25.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2011,internet_users_pct,25.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2011,internet_users_pct,64.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2011,internet_users_pct,47.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2011,internet_users_pct,30.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2011,internet_users_pct,9.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2011,internet_users_pct,24.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2011,internet_users_pct,4.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2011,internet_users_pct,70.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2011,internet_users_pct,4.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2011,internet_users_pct,12.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2011,internet_users_pct,34.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2012,internet_users_pct,9.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2012,internet_users_pct,55.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2012,internet_users_pct,28.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2012,internet_users_pct,27.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2012,internet_users_pct,67.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2012,internet_users_pct,54.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2012,internet_users_pct,33.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2012,internet_users_pct,11.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2012,internet_users_pct,27.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2012,internet_users_pct,4.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2012,internet_users_pct,73.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2012,internet_users_pct,5.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2012,internet_users_pct,13.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2012,internet_users_pct,38.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2013,internet_users_pct,11.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2013,internet_users_pct,56.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2013,internet_users_pct,31.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2013,internet_users_pct,29.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2013,internet_users_pct,69.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2013,internet_users_pct,57.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2013,internet_users_pct,35.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2013,internet_users_pct,13.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2013,internet_users_pct,30.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2013,internet_users_pct,6.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2013,internet_users_pct,75.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2013,internet_users_pct,6.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2013,internet_users_pct,15.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2013,internet_users_pct,41.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2014,internet_users_pct,13.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2014,internet_users_pct,58.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2014,internet_users_pct,34.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2014,internet_users_pct,31.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2014,internet_users_pct,71.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2014,internet_users_pct,60.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2014,internet_users_pct,37.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2014,internet_users_pct,15.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2014,internet_users_pct,32.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2014,internet_users_pct,8.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2014,internet_users_pct,77.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2014,internet_users_pct,6.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2014,internet_users_pct,17.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2014,internet_users_pct,44.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2015,internet_users_pct,16.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2015,internet_users_pct,62.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2015,internet_users_pct,37.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2015,internet_users_pct,33.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2015,internet_users_pct,72.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2015,internet_users_pct,62.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2015,internet_users_pct,39.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2015,internet_users_pct,18.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2015,internet_users_pct,36.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2015,internet_users_pct,10.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2015,internet_users_pct,78.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2015,internet_users_pct,7.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2015,internet_users_pct,19.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2015,internet_users_pct,47.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2016,internet_users_pct,18.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2016,internet_users_pct,68.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2016,internet_users_pct,40.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2016,internet_users_pct,37.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2016,internet_users_pct,74.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2016,internet_users_pct,65.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2016,internet_users_pct,43.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2016,internet_users_pct,20.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2016,internet_users_pct,41.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2016,internet_users_pct,13.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2016,internet_users_pct,82.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2016,internet_users_pct,10.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2016,internet_users_pct,21.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2016,internet_users_pct,53.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2017,internet_users_pct,20.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2017,internet_users_pct,70.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2017,internet_users_pct,46.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2017,internet_users_pct,40.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2017,internet_users_pct,76.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2017,internet_users_pct,68.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2017,internet_users_pct,46.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2017,internet_users_pct,22.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2017,internet_users_pct,46.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2017,internet_users_pct,16.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2017,internet_users_pct,84.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2017,internet_users_pct,11.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2017,internet_users_pct,24.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2017,internet_users_pct,57.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2018,internet_users_pct,22.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2018,internet_users_pct,73.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2018,internet_users_pct,48.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2018,internet_users_pct,44.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2018,internet_users_pct,79.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2018,internet_users_pct,73.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2018,internet_users_pct,49.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2018,internet_users_pct,25.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2018,internet_users_pct,50.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2018,internet_users_pct,19.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2018,internet_users_pct,86.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2018,internet_users_pct,13.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2018,internet_users_pct,27.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2018,internet_users_pct,62.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2019,internet_users_pct,24.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2019,internet_users_pct,75.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2019,internet_users_pct,53.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2019,internet_users_pct,50.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2019,internet_users_pct,81.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2019,internet_users_pct,76.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2019,internet_users_pct,53.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2019,internet_users_pct,27.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2019,internet_users_pct,54.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2019,internet_users_pct,21.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2019,internet_users_pct,87.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2019,internet_users_pct,16.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2019,internet_users_pct,33.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2019,internet_users_pct,67.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2020,internet_users_pct,26.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2020,internet_users_pct,80.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2020,internet_users_pct,60.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2020,internet_users_pct,58.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2020,internet_users_pct,84.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2020,internet_users_pct,79.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2020,internet_users_pct,60.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2020,internet_users_pct,29.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2020,internet_users_pct,57.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2020,internet_users_pct,24.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2020,internet_users_pct,88.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2020,internet_users_pct,17.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2020,internet_users_pct,42.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2020,internet_users_pct,74.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2021,internet_users_pct,29.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2021,internet_users_pct,81.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2021,internet_users_pct,64.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2021,internet_users_pct,63.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2021,internet_users_pct,87.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2021,internet_users_pct,83.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2021,internet_users_pct,63.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2021,internet_users_pct,31.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2021,internet_users_pct,59.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2021,internet_users_pct,26.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2021,internet_users_pct,90.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2021,internet_users_pct,19.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2021,internet_users_pct,47.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2021,internet_users_pct,79.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2022,internet_users_pct,31.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2022,internet_users_pct,82.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2022,internet_users_pct,66.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2022,internet_users_pct,68.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2022,internet_users_pct,88.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2022,internet_users_pct,86.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2022,internet_users_pct,67.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2022,internet_users_pct,33.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2022,internet_users_pct,60.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2022,internet_users_pct,28.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2022,internet_users_pct,91.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2022,internet_users_pct,21.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2022,internet_users_pct,52.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2022,internet_users_pct,82.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2023,internet_users_pct,32.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2023,internet_users_pct,84.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2023,internet_users_pct,68.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2023,internet_users_pct,71.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2023,internet_users_pct,89.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2023,internet_users_pct,89.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2023,internet_users_pct,69.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2023,internet_users_pct,34.7,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2023,internet_users_pct,61.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2023,internet_users_pct,29.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2023,internet_users_pct,91.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2023,internet_users_pct,22.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2023,internet_users_pct,55.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2023,internet_users_pct,85.3,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2024,internet_users_pct,33.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AMS,The Americas,2024,internet_users_pct,86.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ARB,Arab States,2024,internet_users_pct,68.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+ASP,Asia & Pacific,2024,internet_users_pct,74.1,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+EUR,Europe countries,2024,internet_users_pct,90.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+CIS,CIS countries,2024,internet_users_pct,90.8,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+WLD,World,2024,internet_users_pct,71.2,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LLDC,Land Locked Developing Countries (LLDC),2024,internet_users_pct,35.6,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+SIDS,Small Island Developing States (SIDS),2024,internet_users_pct,62.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LDC,Least Developed Countries (LDC),2024,internet_users_pct,31.4,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+HI,High income,2024,internet_users_pct,93.0,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LI,Low income,2024,internet_users_pct,22.5,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+LMI,Lower middle income,2024,internet_users_pct,58.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+UMI,Upper middle income,2024,internet_users_pct,86.9,ITU DataHub v3 (WTID) SeriesID 11624 i99H
+AFR,Africa,2022,internet_users_pct_age15_24,43.6,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AMS,The Americas,2022,internet_users_pct_age15_24,93.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ARB,Arab States,2022,internet_users_pct_age15_24,77.6,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ASP,Asia & Pacific,2022,internet_users_pct_age15_24,79.2,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+EUR,Europe countries,2022,internet_users_pct_age15_24,97.9,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+CIS,CIS countries,2022,internet_users_pct_age15_24,94.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+WLD,World,2022,internet_users_pct_age15_24,75.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LLDC,Land Locked Developing Countries (LLDC),2022,internet_users_pct_age15_24,42.0,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+SIDS,Small Island Developing States (SIDS),2022,internet_users_pct_age15_24,73.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LDC,Least Developed Countries (LDC),2022,internet_users_pct_age15_24,42.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+HI,High income,2022,internet_users_pct_age15_24,98.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LI,Low income,2022,internet_users_pct_age15_24,34.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LMI,Lower middle income,2022,internet_users_pct_age15_24,66.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+UMI,Upper middle income,2022,internet_users_pct_age15_24,95.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AFR,Africa,2023,internet_users_pct_age15_24,45.2,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AMS,The Americas,2023,internet_users_pct_age15_24,94.9,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ARB,Arab States,2023,internet_users_pct_age15_24,79.2,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ASP,Asia & Pacific,2023,internet_users_pct_age15_24,82.6,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+EUR,Europe countries,2023,internet_users_pct_age15_24,98.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+CIS,CIS countries,2023,internet_users_pct_age15_24,94.9,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+WLD,World,2023,internet_users_pct_age15_24,78.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LLDC,Land Locked Developing Countries (LLDC),2023,internet_users_pct_age15_24,43.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+SIDS,Small Island Developing States (SIDS),2023,internet_users_pct_age15_24,74.4,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LDC,Least Developed Countries (LDC),2023,internet_users_pct_age15_24,44.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+HI,High income,2023,internet_users_pct_age15_24,98.9,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LI,Low income,2023,internet_users_pct_age15_24,35.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LMI,Lower middle income,2023,internet_users_pct_age15_24,71.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+UMI,Upper middle income,2023,internet_users_pct_age15_24,96.5,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AFR,Africa,2024,internet_users_pct_age15_24,46.8,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AMS,The Americas,2024,internet_users_pct_age15_24,95.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ARB,Arab States,2024,internet_users_pct_age15_24,79.9,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+ASP,Asia & Pacific,2024,internet_users_pct_age15_24,85.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+EUR,Europe countries,2024,internet_users_pct_age15_24,98.3,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+CIS,CIS countries,2024,internet_users_pct_age15_24,95.5,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+WLD,World,2024,internet_users_pct_age15_24,80.0,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LLDC,Land Locked Developing Countries (LLDC),2024,internet_users_pct_age15_24,44.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+SIDS,Small Island Developing States (SIDS),2024,internet_users_pct_age15_24,75.1,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LDC,Least Developed Countries (LDC),2024,internet_users_pct_age15_24,46.6,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+HI,High income,2024,internet_users_pct_age15_24,99.0,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LI,Low income,2024,internet_users_pct_age15_24,36.7,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+LMI,Lower middle income,2024,internet_users_pct_age15_24,75.0,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+UMI,Upper middle income,2024,internet_users_pct_age15_24,97.0,ITU DataHub v3 (WTID) SeriesID 9224 HHU4212-%_POP-15TO24-
+AFR,Africa,2019,internet_users_pct_female,20.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2019,internet_users_pct_female,75.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2019,internet_users_pct_female,50.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2019,internet_users_pct_female,48.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2019,internet_users_pct_female,79.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2019,internet_users_pct_female,75.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2019,internet_users_pct_female,51.8,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2019,internet_users_pct_female,24.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2019,internet_users_pct_female,54.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2019,internet_users_pct_female,17.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2019,internet_users_pct_female,86.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2019,internet_users_pct_female,12.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2019,internet_users_pct_female,28.9,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2019,internet_users_pct_female,67.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2020,internet_users_pct_female,22.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2020,internet_users_pct_female,81.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2020,internet_users_pct_female,56.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2020,internet_users_pct_female,55.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2020,internet_users_pct_female,83.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2020,internet_users_pct_female,79.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2020,internet_users_pct_female,57.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2020,internet_users_pct_female,26.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2020,internet_users_pct_female,57.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2020,internet_users_pct_female,19.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2020,internet_users_pct_female,88.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2020,internet_users_pct_female,13.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2020,internet_users_pct_female,36.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2020,internet_users_pct_female,74.9,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2021,internet_users_pct_female,24.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2021,internet_users_pct_female,81.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2021,internet_users_pct_female,59.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2021,internet_users_pct_female,60.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2021,internet_users_pct_female,85.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2021,internet_users_pct_female,82.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2021,internet_users_pct_female,61.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2021,internet_users_pct_female,28.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2021,internet_users_pct_female,59.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2021,internet_users_pct_female,21.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2021,internet_users_pct_female,89.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2021,internet_users_pct_female,15.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2021,internet_users_pct_female,42.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2021,internet_users_pct_female,78.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2022,internet_users_pct_female,27.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2022,internet_users_pct_female,83.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2022,internet_users_pct_female,61.8,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2022,internet_users_pct_female,64.8,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2022,internet_users_pct_female,87.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2022,internet_users_pct_female,85.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2022,internet_users_pct_female,64.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2022,internet_users_pct_female,30.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2022,internet_users_pct_female,60.6,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2022,internet_users_pct_female,23.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2022,internet_users_pct_female,90.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2022,internet_users_pct_female,16.8,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2022,internet_users_pct_female,46.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2022,internet_users_pct_female,81.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2023,internet_users_pct_female,28.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2023,internet_users_pct_female,85.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2023,internet_users_pct_female,63.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2023,internet_users_pct_female,67.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2023,internet_users_pct_female,88.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2023,internet_users_pct_female,88.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2023,internet_users_pct_female,66.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2023,internet_users_pct_female,31.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2023,internet_users_pct_female,61.8,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2023,internet_users_pct_female,25.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2023,internet_users_pct_female,91.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2023,internet_users_pct_female,17.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2023,internet_users_pct_female,49.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2023,internet_users_pct_female,84.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2024,internet_users_pct_female,29.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AMS,The Americas,2024,internet_users_pct_female,86.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ARB,Arab States,2024,internet_users_pct_female,63.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+ASP,Asia & Pacific,2024,internet_users_pct_female,70.5,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+EUR,Europe countries,2024,internet_users_pct_female,90.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+CIS,CIS countries,2024,internet_users_pct_female,89.9,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+WLD,World,2024,internet_users_pct_female,68.2,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LLDC,Land Locked Developing Countries (LLDC),2024,internet_users_pct_female,32.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+SIDS,Small Island Developing States (SIDS),2024,internet_users_pct_female,62.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LDC,Least Developed Countries (LDC),2024,internet_users_pct_female,26.3,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+HI,High income,2024,internet_users_pct_female,92.4,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LI,Low income,2024,internet_users_pct_female,17.7,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+LMI,Lower middle income,2024,internet_users_pct_female,53.1,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+UMI,Upper middle income,2024,internet_users_pct_female,86.0,ITU DataHub v3 (WTID) SeriesID 9230 HHU4212-%_POP-FEMALE-
+AFR,Africa,2019,internet_users_pct_male,29.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2019,internet_users_pct_male,76.4,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2019,internet_users_pct_male,58.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2019,internet_users_pct_male,52.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2019,internet_users_pct_male,84.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2019,internet_users_pct_male,77.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2019,internet_users_pct_male,56.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2019,internet_users_pct_male,30.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2019,internet_users_pct_male,53.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2019,internet_users_pct_male,25.1,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2019,internet_users_pct_male,88.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2019,internet_users_pct_male,20.3,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2019,internet_users_pct_male,38.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2019,internet_users_pct_male,67.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2020,internet_users_pct_male,30.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2020,internet_users_pct_male,78.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2020,internet_users_pct_male,64.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2020,internet_users_pct_male,62.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2020,internet_users_pct_male,86.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2020,internet_users_pct_male,79.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2020,internet_users_pct_male,62.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2020,internet_users_pct_male,31.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2020,internet_users_pct_male,57.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2020,internet_users_pct_male,28.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2020,internet_users_pct_male,88.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2020,internet_users_pct_male,20.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2020,internet_users_pct_male,48.4,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2020,internet_users_pct_male,74.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2021,internet_users_pct_male,33.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2021,internet_users_pct_male,81.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2021,internet_users_pct_male,68.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2021,internet_users_pct_male,66.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2021,internet_users_pct_male,88.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2021,internet_users_pct_male,84.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2021,internet_users_pct_male,66.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2021,internet_users_pct_male,34.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2021,internet_users_pct_male,59.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2021,internet_users_pct_male,30.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2021,internet_users_pct_male,90.4,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2021,internet_users_pct_male,23.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2021,internet_users_pct_male,52.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2021,internet_users_pct_male,80.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2022,internet_users_pct_male,35.3,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2022,internet_users_pct_male,82.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2022,internet_users_pct_male,71.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2022,internet_users_pct_male,71.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2022,internet_users_pct_male,89.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2022,internet_users_pct_male,88.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2022,internet_users_pct_male,69.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2022,internet_users_pct_male,36.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2022,internet_users_pct_male,59.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2022,internet_users_pct_male,33.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2022,internet_users_pct_male,91.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2022,internet_users_pct_male,25.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2022,internet_users_pct_male,57.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2022,internet_users_pct_male,83.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2023,internet_users_pct_male,36.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2023,internet_users_pct_male,84.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2023,internet_users_pct_male,73.1,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2023,internet_users_pct_male,74.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2023,internet_users_pct_male,90.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2023,internet_users_pct_male,90.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2023,internet_users_pct_male,72.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2023,internet_users_pct_male,37.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2023,internet_users_pct_male,61.1,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2023,internet_users_pct_male,34.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2023,internet_users_pct_male,92.4,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2023,internet_users_pct_male,26.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2023,internet_users_pct_male,61.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2023,internet_users_pct_male,86.1,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2024,internet_users_pct_male,37.9,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AMS,The Americas,2024,internet_users_pct_male,86.7,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ARB,Arab States,2024,internet_users_pct_male,73.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+ASP,Asia & Pacific,2024,internet_users_pct_male,77.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+EUR,Europe countries,2024,internet_users_pct_male,91.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+CIS,CIS countries,2024,internet_users_pct_male,91.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+WLD,World,2024,internet_users_pct_male,74.2,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LLDC,Land Locked Developing Countries (LLDC),2024,internet_users_pct_male,39.0,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+SIDS,Small Island Developing States (SIDS),2024,internet_users_pct_male,62.3,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LDC,Least Developed Countries (LDC),2024,internet_users_pct_male,36.5,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+HI,High income,2024,internet_users_pct_male,93.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LI,Low income,2024,internet_users_pct_male,27.4,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+LMI,Lower middle income,2024,internet_users_pct_male,64.6,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+UMI,Upper middle income,2024,internet_users_pct_male,87.8,ITU DataHub v3 (WTID) SeriesID 9276 HHU4212-%_POP-MALE-
+AFR,Africa,2005,mobile_subs_per100,12.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2005,mobile_subs_per100,52.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2005,mobile_subs_per100,26.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2005,mobile_subs_per100,22.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2005,mobile_subs_per100,89.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2005,mobile_subs_per100,59.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2005,mobile_subs_per100,33.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2005,mobile_subs_per100,5.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2006,mobile_subs_per100,17.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2006,mobile_subs_per100,62.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2006,mobile_subs_per100,38.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2006,mobile_subs_per100,28.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2006,mobile_subs_per100,101.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2006,mobile_subs_per100,77.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2006,mobile_subs_per100,41.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2006,mobile_subs_per100,9.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2007,mobile_subs_per100,23.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2007,mobile_subs_per100,72.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2007,mobile_subs_per100,52.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2007,mobile_subs_per100,37.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2007,mobile_subs_per100,112.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2007,mobile_subs_per100,91.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2007,mobile_subs_per100,50.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2007,mobile_subs_per100,15.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2008,mobile_subs_per100,32.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2008,mobile_subs_per100,80.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2008,mobile_subs_per100,63.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2008,mobile_subs_per100,46.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2008,mobile_subs_per100,117.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2008,mobile_subs_per100,110.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2008,mobile_subs_per100,59.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2008,mobile_subs_per100,21.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2009,mobile_subs_per100,38.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2009,mobile_subs_per100,87.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2009,mobile_subs_per100,76.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2009,mobile_subs_per100,56.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2009,mobile_subs_per100,116.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2009,mobile_subs_per100,128.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2009,mobile_subs_per100,68.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2009,mobile_subs_per100,26.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2010,mobile_subs_per100,44.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2010,mobile_subs_per100,94.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2010,mobile_subs_per100,87.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2010,mobile_subs_per100,67.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2010,mobile_subs_per100,114.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2010,mobile_subs_per100,137.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2010,mobile_subs_per100,76.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2010,mobile_subs_per100,33.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2011,mobile_subs_per100,51.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2011,mobile_subs_per100,100.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2011,mobile_subs_per100,96.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2011,mobile_subs_per100,76.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2011,mobile_subs_per100,117.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2011,mobile_subs_per100,128.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2011,mobile_subs_per100,84.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2011,mobile_subs_per100,42.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2012,mobile_subs_per100,58.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2012,mobile_subs_per100,104.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2012,mobile_subs_per100,102.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2012,mobile_subs_per100,81.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2012,mobile_subs_per100,120.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2012,mobile_subs_per100,130.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2012,mobile_subs_per100,88.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2012,mobile_subs_per100,48.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2013,mobile_subs_per100,64.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2013,mobile_subs_per100,108.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2013,mobile_subs_per100,106.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2013,mobile_subs_per100,85.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2013,mobile_subs_per100,121.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2013,mobile_subs_per100,135.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2013,mobile_subs_per100,93.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2013,mobile_subs_per100,55.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2014,mobile_subs_per100,69.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2014,mobile_subs_per100,112.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2014,mobile_subs_per100,106.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2014,mobile_subs_per100,90.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2014,mobile_subs_per100,121.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2014,mobile_subs_per100,136.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2014,mobile_subs_per100,96.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2014,mobile_subs_per100,63.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2015,mobile_subs_per100,75.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2015,mobile_subs_per100,107.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2015,mobile_subs_per100,103.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2015,mobile_subs_per100,91.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2015,mobile_subs_per100,119.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2015,mobile_subs_per100,137.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2015,mobile_subs_per100,96.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2015,mobile_subs_per100,69.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2015,mobile_subs_per100,79.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2015,mobile_subs_per100,66.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2015,mobile_subs_per100,122.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2015,mobile_subs_per100,52.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2015,mobile_subs_per100,81.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2015,mobile_subs_per100,105.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2016,mobile_subs_per100,73.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2016,mobile_subs_per100,107.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2016,mobile_subs_per100,100.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2016,mobile_subs_per100,97.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2016,mobile_subs_per100,119.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2016,mobile_subs_per100,138.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2016,mobile_subs_per100,99.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2016,mobile_subs_per100,72.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2016,mobile_subs_per100,80.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2016,mobile_subs_per100,66.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2016,mobile_subs_per100,123.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2016,mobile_subs_per100,50.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2016,mobile_subs_per100,86.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2016,mobile_subs_per100,109.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2017,mobile_subs_per100,72.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2017,mobile_subs_per100,104.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2017,mobile_subs_per100,98.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2017,mobile_subs_per100,102.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2017,mobile_subs_per100,119.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2017,mobile_subs_per100,138.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2017,mobile_subs_per100,101.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2017,mobile_subs_per100,72.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2017,mobile_subs_per100,80.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2017,mobile_subs_per100,67.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2017,mobile_subs_per100,123.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2017,mobile_subs_per100,50.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2017,mobile_subs_per100,88.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2017,mobile_subs_per100,114.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2018,mobile_subs_per100,75.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2018,mobile_subs_per100,104.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2018,mobile_subs_per100,96.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2018,mobile_subs_per100,105.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2018,mobile_subs_per100,118.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2018,mobile_subs_per100,136.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2018,mobile_subs_per100,103.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2018,mobile_subs_per100,71.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2018,mobile_subs_per100,81.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2018,mobile_subs_per100,70.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2018,mobile_subs_per100,124.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2018,mobile_subs_per100,50.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2018,mobile_subs_per100,91.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2018,mobile_subs_per100,115.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2019,mobile_subs_per100,79.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2019,mobile_subs_per100,103.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2019,mobile_subs_per100,96.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2019,mobile_subs_per100,109.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2019,mobile_subs_per100,119.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2019,mobile_subs_per100,144.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2019,mobile_subs_per100,105.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2019,mobile_subs_per100,74.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2019,mobile_subs_per100,83.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2019,mobile_subs_per100,73.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2019,mobile_subs_per100,126.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2019,mobile_subs_per100,52.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2019,mobile_subs_per100,92.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2019,mobile_subs_per100,120.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2020,mobile_subs_per100,81.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2020,mobile_subs_per100,102.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2020,mobile_subs_per100,95.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2020,mobile_subs_per100,108.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2020,mobile_subs_per100,117.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2020,mobile_subs_per100,139.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2020,mobile_subs_per100,104.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2020,mobile_subs_per100,74.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2020,mobile_subs_per100,84.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2020,mobile_subs_per100,75.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2020,mobile_subs_per100,125.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2020,mobile_subs_per100,54.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2020,mobile_subs_per100,92.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2020,mobile_subs_per100,119.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2021,mobile_subs_per100,83.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2021,mobile_subs_per100,107.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2021,mobile_subs_per100,96.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2021,mobile_subs_per100,109.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2021,mobile_subs_per100,120.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2021,mobile_subs_per100,143.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2021,mobile_subs_per100,106.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2021,mobile_subs_per100,79.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2021,mobile_subs_per100,87.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2021,mobile_subs_per100,77.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2021,mobile_subs_per100,128.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2021,mobile_subs_per100,58.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2021,mobile_subs_per100,92.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2021,mobile_subs_per100,122.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2022,mobile_subs_per100,88.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2022,mobile_subs_per100,108.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2022,mobile_subs_per100,99.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2022,mobile_subs_per100,109.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2022,mobile_subs_per100,121.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2022,mobile_subs_per100,143.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2022,mobile_subs_per100,108.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2022,mobile_subs_per100,81.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2022,mobile_subs_per100,90.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2022,mobile_subs_per100,78.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2022,mobile_subs_per100,131.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2022,mobile_subs_per100,61.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2022,mobile_subs_per100,93.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2022,mobile_subs_per100,124.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2023,mobile_subs_per100,91.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2023,mobile_subs_per100,111.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2023,mobile_subs_per100,101.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2023,mobile_subs_per100,110.7,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2023,mobile_subs_per100,123.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2023,mobile_subs_per100,151.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2023,mobile_subs_per100,109.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2023,mobile_subs_per100,82.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2023,mobile_subs_per100,93.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2023,mobile_subs_per100,82.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2023,mobile_subs_per100,135.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2023,mobile_subs_per100,64.2,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2023,mobile_subs_per100,92.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2023,mobile_subs_per100,127.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+AFR,Africa,2024,mobile_subs_per100,90.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+AMS,The Americas,2024,mobile_subs_per100,113.3,ITU DataHub v3 (WTID) SeriesID 392 i911
+ARB,Arab States,2024,mobile_subs_per100,103.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+ASP,Asia & Pacific,2024,mobile_subs_per100,111.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+EUR,Europe countries,2024,mobile_subs_per100,124.8,ITU DataHub v3 (WTID) SeriesID 392 i911
+CIS,CIS countries,2024,mobile_subs_per100,155.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+WLD,World,2024,mobile_subs_per100,110.4,ITU DataHub v3 (WTID) SeriesID 392 i911
+LLDC,Land Locked Developing Countries (LLDC),2024,mobile_subs_per100,84.1,ITU DataHub v3 (WTID) SeriesID 392 i911
+SIDS,Small Island Developing States (SIDS),2024,mobile_subs_per100,99.0,ITU DataHub v3 (WTID) SeriesID 392 i911
+LDC,Least Developed Countries (LDC),2024,mobile_subs_per100,83.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+HI,High income,2024,mobile_subs_per100,138.5,ITU DataHub v3 (WTID) SeriesID 392 i911
+LI,Low income,2024,mobile_subs_per100,66.6,ITU DataHub v3 (WTID) SeriesID 392 i911
+LMI,Lower middle income,2024,mobile_subs_per100,90.9,ITU DataHub v3 (WTID) SeriesID 392 i911
+UMI,Upper middle income,2024,mobile_subs_per100,129.9,ITU DataHub v3 (WTID) SeriesID 392 i911

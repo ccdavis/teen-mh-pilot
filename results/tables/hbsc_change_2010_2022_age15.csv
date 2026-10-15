@@ -1,0 +1,71 @@
+country,sex,d_pressure,d_complaints
+Armenia,boy,-5.0,5.0
+Armenia,girl,9.0,9.0
+Austria,boy,5.0,15.0
+Austria,girl,19.0,29.0
+Belgium (Flemish),boy,8.0,12.0
+Belgium (Flemish),girl,26.0,28.0
+Belgium (French),boy,28.0,14.0
+Belgium (French),girl,35.0,23.0
+Canada,boy,9.0,10.0
+Canada,girl,21.0,25.0
+Croatia,boy,1.0,0.0
+Croatia,girl,15.0,20.0
+Czechia,boy,8.0,-1.0
+Czechia,girl,19.0,13.0
+Denmark,boy,-8.0,7.0
+Denmark,girl,1.0,28.0
+England,boy,9.0,22.0
+England,girl,15.0,33.0
+Estonia,boy,12.0,19.0
+Estonia,girl,25.0,31.0
+Finland,boy,-10.0,4.0
+Finland,girl,4.0,24.0
+France,boy,14.0,9.0
+France,girl,30.0,24.0
+Germany,boy,8.0,17.0
+Germany,girl,28.0,37.0
+Greece,boy,4.0,13.0
+Greece,girl,7.0,23.0
+Greenland,boy,-4.0,3.0
+Greenland,girl,-10.0,21.0
+Hungary,boy,6.0,14.0
+Hungary,girl,23.0,30.0
+Iceland,boy,12.0,4.0
+Iceland,girl,21.0,24.0
+Ireland,boy,4.0,13.0
+Ireland,girl,6.0,28.0
+Italy,boy,16.0,10.0
+Italy,girl,27.0,18.0
+Latvia,boy,15.0,13.0
+Latvia,girl,34.0,28.0
+Lithuania,boy,9.0,9.0
+Lithuania,girl,12.0,23.0
+Luxembourg,boy,4.0,10.0
+Luxembourg,girl,22.0,20.0
+Netherlands,boy,24.0,12.0
+Netherlands,girl,31.0,27.0
+North Macedonia,boy,9.0,12.0
+North Macedonia,girl,20.0,20.0
+Norway,boy,-6.0,12.0
+Norway,girl,7.0,13.0
+Poland,boy,18.0,15.0
+Poland,girl,37.0,25.0
+Portugal,boy,2.0,15.0
+Portugal,girl,11.0,31.0
+Romania,boy,7.0,12.0
+Romania,girl,5.0,10.0
+Scotland,boy,12.0,14.0
+Scotland,girl,18.0,31.0
+Slovakia,boy,4.0,9.0
+Slovakia,girl,24.0,26.0
+Slovenia,boy,5.0,11.0
+Slovenia,girl,22.0,34.0
+Spain,boy,0.0,1.0
+Spain,girl,13.0,12.0
+Sweden,boy,20.0,22.0
+Sweden,girl,25.0,30.0
+Switzerland,boy,2.0,12.0
+Switzerland,girl,25.0,27.0
+Wales,boy,3.0,19.0
+Wales,girl,16.0,29.0

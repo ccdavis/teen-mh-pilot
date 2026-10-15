@@ -1,0 +1,124 @@
+-rw-rw-r-- 1 ccd ccd 11427476 Sep 16 23:37 ke2009a_slim.parquet
+-rw-rw-r-- 1 ccd ccd 16795296 Sep 16 23:36 ke2019a_slim.parquet
+-rw-rw-r-- 1 ccd ccd 34114644 Sep 16 23:37 mx2010a_slim.parquet
+-rw-rw-r-- 1 ccd ccd 46552110 Sep 16 23:37 mx2020a_slim.parquet
+variable,labelid,outputcode,label
+CELL,1,0,"NIU (not in universe)"
+CELL,2,1,Yes
+CELL,3,2,No
+CELL,4,9,Unknown
+COMPUTER,1,0,"NIU (not in universe)"
+COMPUTER,2,1,No
+COMPUTER,3,2,Yes
+COMPUTER,4,9,Unknown/missing
+DISABLED,1,0,"NIU (not in universe)"
+DISABLED,2,1,"Yes, disabled"
+DISABLED,3,2,"No, not disabled"
+DISABLED,4,9,Unknown
+DISMNTL,1,0,"NIU (not in universe)"
+DISMNTL,2,1,Yes
+DISMNTL,3,2,No
+DISMNTL,4,9,Unknown
+DISPSYC,1,0,"NIU (not in universe)"
+DISPSYC,2,1,Yes
+DISPSYC,3,2,No
+DISPSYC,4,9,Unknown
+INTERNET,1,0,"NIU (not in universe)"
+INTERNET,2,1,No
+INTERNET,3,2,Yes
+INTERNET,4,9,Unknown
+KE2009A_0061,1,1,Yes
+KE2009A_0061,2,2,No
+KE2009A_0061,3,9,"NIU (not in universe)"
+KE2009A_0440,1,1,Yes
+KE2009A_0440,2,2,No
+KE2009A_0440,3,8,Unknown
+KE2009A_0440,4,9,"NIU (not in universe)"
+KE2009A_0443,1,1,Daily
+KE2009A_0443,2,2,Weekly
+KE2009A_0443,3,3,Monthly
+KE2009A_0443,4,4,Yearly
+KE2009A_0443,5,5,Never
+KE2009A_0443,6,8,Unknown
+KE2009A_0443,7,9,"NIU (not in universe)"
+KE2009A_0444,1,1,"Own house"
+KE2009A_0444,2,2,"Friends house"
+KE2009A_0444,3,3,Office/workplace
+KE2009A_0444,4,4,"Cyber cafe"
+KE2009A_0444,5,5,"Community centre"
+KE2009A_0444,6,6,"Educational centre"
+KE2009A_0444,7,7,Other
+KE2009A_0444,8,8,"Mobile phones"
+KE2009A_0444,9,98,Unknown
+KE2009A_0444,10,99,"NIU (not in universe)"
+KE2019A_0121,1,1,Yes
+KE2019A_0121,2,2,No
+KE2019A_0121,3,9,"NIU (not in universe)"
+KE2019A_0122,1,1,Yes
+KE2019A_0122,2,2,No
+KE2019A_0122,3,9,"NIU (not in universe)"
+KE2019A_0450,1,1,"No, no difficulty"
+KE2019A_0450,2,2,"Yes, some difficulty"
+KE2019A_0450,3,3,"Yes, a lot of difficulty"
+KE2019A_0450,4,4,"Cannot do at all"
+KE2019A_0450,5,8,Unknown
+KE2019A_0450,6,9,"NIU (not in universe)"
+KE2019A_0469,1,1,Yes
+KE2019A_0469,2,2,No
+KE2019A_0469,3,8,Unknown
+KE2019A_0469,4,9,"NIU (not in universe)"
+KE2019A_0470,1,1,Yes
+KE2019A_0470,2,2,No
+KE2019A_0470,3,8,Unknown
+KE2019A_0470,4,9,"NIU (not in universe)"
+KE2019A_0471,1,1,Yes
+KE2019A_0471,2,2,No
+KE2019A_0471,3,8,Unknown
+KE2019A_0471,4,9,"NIU (not in universe)"
+KE2019A_0472,1,1,Yes
+KE2019A_0472,2,2,No
+KE2019A_0472,3,8,Unknown
+KE2019A_0472,4,9,"NIU (not in universe)"
+MX2010A_0056,1,1,Yes
+MX2010A_0056,2,2,No
+MX2010A_0056,3,8,Unknown
+MX2010A_0056,4,9,"NIU (not in universe)"
+MX2010A_0058,1,1,Yes
+MX2010A_0058,2,2,No
+MX2010A_0058,3,8,Unknown
+MX2010A_0058,4,9,"NIU (not in universe)"
+MX2010A_0059,1,1,Yes
+MX2010A_0059,2,2,No
+MX2010A_0059,3,8,Unknown
+MX2010A_0059,4,9,"NIU (not in universe)"
+MX2010A_0422,1,1,Yes
+MX2010A_0422,2,2,No
+MX2020A_0069,1,1,Yes
+MX2020A_0069,2,2,No
+MX2020A_0069,3,8,Unknown
+MX2020A_0069,4,9,"NIU (not in universe)"
+MX2020A_0071,1,1,Yes
+MX2020A_0071,2,2,No
+MX2020A_0071,3,8,Unknown
+MX2020A_0071,4,9,"NIU (not in universe)"
+MX2020A_0072,1,1,Yes
+MX2020A_0072,2,2,No
+MX2020A_0072,3,8,Unknown
+MX2020A_0072,4,9,"NIU (not in universe)"
+MX2020A_0421,1,1,"No difficulty at all"
+MX2020A_0421,2,2,"Little difficulty"
+MX2020A_0421,3,3,"A lot of difficulty"
+MX2020A_0421,4,4,"Not able to do it"
+MX2020A_0421,5,9,Unknown
+MX2020A_0424,1,1,Yes
+MX2020A_0424,2,2,No
+MX2020A_0424,3,9,Unknown
+SCHOOL,1,0,"NIU (not in universe)"
+SCHOOL,2,1,Yes
+SCHOOL,3,2,"No, not specified"
+SCHOOL,4,3,"No, attended in the past"
+SCHOOL,5,4,"No, never attended"
+SCHOOL,6,9,Unknown/missing
+URBAN,1,1,Rural
+URBAN,2,2,Urban
+URBAN,3,9,Unknown

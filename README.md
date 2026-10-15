@@ -1,0 +1,41 @@
+# Teen Distress Pilot
+
+What large-scale public microdata can say about the two leading explanations for the rise in adolescent anxiety and depression after 2010: Jonathan Haidt's smartphone-and-social-media thesis (*The Anxious Generation*) and Peter Gray's school-pressure thesis. The project tests four hypotheses (phones, school pressure, their interaction, and measurement artifacts) against IPUMS microdata and public survey series, and sets the results beside the evidence the two camps cite.
+
+**Read the report:** open `docs/index.html` (self-contained; works offline or hosted as-is), or the print editions `docs/Teen_Distress_Pilot.pdf` and `docs/Teen_Distress_Pilot.docx`.
+
+## What is in this repository
+
+| Path | Contents |
+|---|---|
+| `docs/` | The report as a static site (interactive charts), plus PDF and Word editions and a PNG of every chart |
+| `results/tables/` | Every computed table the report draws on (CSV) |
+| `data/compiled/` | Public-source tables constructed for this project: LTE launch dates by metro, state school phone-ban timing, state accountability-policy timing, HBSC published trend series, ITU connectivity series, NTIA adoption aggregates, state youth-survey county panel, GSHS catalog, World Bank indicators |
+| `data/` (ignored) | Raw downloads and microdata extracts are not committed; `data/README.md` says how to obtain each |
+| `scripts/extract/` | Turning IPUMS extracts into the slim files the analysis uses (ACS, CPS, ATUS, MICS, IPUMS International, DHS), with the sample and variable lists |
+| `scripts/download/` | Acquiring and compiling the public sources (NSDUH, YRBS, NHANES, NTIA/CPS supplement, GSHS, HBSC, PISA, ITU, WDI, state youth surveys, school policy, phone bans, LTE launches) |
+| `scripts/analysis/` | The numbered analyses, in the order they were run |
+| `scripts/report/` | Report builder, language pass, print editions, site builder, hand-written sections |
+| `notes/` | Methods notes on each source: wording, coding, weights, gaps |
+
+`DATA_SOURCES.md` lists every dataset with its provider, access route, the variables used, and the script that consumes it.
+
+## Reproducing
+
+Python is managed with [uv](https://docs.astral.sh/uv/); `uv sync` installs the environment from `pyproject.toml`. Run everything from the repository root.
+
+1. Obtain the IPUMS extracts and public files described in `DATA_SOURCES.md` and `data/README.md`.
+2. `scripts/extract/`: build the slim microdata files (see its README for the exact variable lists).
+3. `scripts/download/`: fetch and compile the public sources (the compiled outputs are already committed in `data/compiled/`).
+4. `scripts/analysis/`: run the numbered scripts in order; they write to `results/tables/`.
+5. `scripts/report/90_build_report.py`, then `scripts/report/92_print_editions.sh`, then `scripts/report/94_build_site.py` to rebuild `docs/`.
+
+Steps 4 and 5 can be run from the committed `results/tables/` and `data/compiled/` alone; steps 1 to 3 are needed only to regenerate those from the sources.
+
+## Data access
+
+Microdata are not redistributed here. The IPUMS data used (ACS via IPUMS USA, CPS, ATUS, IPUMS International, IPUMS DHS, IPUMS MICS) are available to registered users through the extract systems at [usa.ipums.org](https://usa.ipums.org), [cps.ipums.org](https://cps.ipums.org), [timeuse.ipums.org](https://timeuse.ipums.org), [international.ipums.org](https://international.ipums.org), [idhs.ipums.org](https://www.idhs.ipums.org), and [mics.ipums.org](https://mics.ipums.org). The other sources are public downloads from SAMHSA, CDC, NTIA/Census, WHO, OECD, ITU, the World Bank, NCES, state education and health departments, and the policy trackers named in `DATA_SOURCES.md`.
+
+## Citation
+
+If you use the compiled tables or results, cite the underlying providers as listed in `DATA_SOURCES.md` (IPUMS requires citation of each data collection) and this repository.

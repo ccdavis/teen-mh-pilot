@@ -1,0 +1,1113 @@
+variable,labelid,label,genlab,outputcode,missing
+CIBRDBND,1,"N/A (GQ)","",0,0
+CIBRDBND,2,Yes,"",1,0
+CIBRDBND,3,No,"",2,0
+CIDATAPLN,1,"N/A (GQ)","",0,0
+CIDATAPLN,2,Yes,"",1,0
+CIDATAPLN,3,No,"",2,0
+CIDATAPLN,4,"Suppressed for data years 2023 and 2024 for select PUMAs","",8,0
+CIHAND,1,"N/A (GQ)","",0,0
+CIHAND,2,Yes,"",1,0
+CIHAND,3,No,"",2,0
+CIHISPEED,1,"N/A (GQ)","",0,0
+CIHISPEED,2,"Yes (Cable modem, fiber optic or DSL service)","",10,0
+CIHISPEED,3,"Cable modem only","",11,0
+CIHISPEED,4,"Fiber optic only","",12,0
+CIHISPEED,5,"DSL service only","",13,0
+CIHISPEED,6,"Cable modem + Fiber optic","",14,0
+CIHISPEED,7,"Cable modem + DSL service","",15,0
+CIHISPEED,8,"Fiber optic + DSL service","",16,0
+CIHISPEED,9,"Cable modem, Fiber optic and DSL service","",17,0
+CIHISPEED,10,No,"",20,0
+CIHISPEED,11,"Suppressed for data years 2023 and 2024 for select PUMAs","",88,0
+CILAPTOP,1,"N/A (GQ)","",0,0
+CILAPTOP,2,Yes,"",1,0
+CILAPTOP,3,No,"",2,0
+CINETHH,1,"N/A (GQ)","",0,0
+CINETHH,2,"Yes, with a subscription to an Internet Service","",1,0
+CINETHH,3,"Yes, without a subscription to an Internet Service","",2,0
+CINETHH,4,"No Internet access at this house, apartment, or mobile home","",3,0
+CINETHH,5,"Suppressed for data year 2024 for select PUMAs","",8,0
+CISMRTPHN,1,"N/A (GQ)","",0,0
+CISMRTPHN,2,Yes,"",1,0
+CISMRTPHN,3,No,"",2,0
+CITIZEN,1,N/A,"",0,1
+CITIZEN,2,"Born abroad of American parents","",1,0
+CITIZEN,3,"Naturalized citizen","",2,0
+CITIZEN,4,"Not a citizen","",3,0
+CITIZEN,5,"Not a citizen, but has received first papers","",4,0
+CITIZEN,6,"Foreign born, citizenship status not reported","",5,0
+CITIZEN,7,Unknown,"",7,0
+CITIZEN,8,Illegible,"",8,0
+CITIZEN,9,Missing/blank,"",9,0
+DIFFCARE,1,N/A,"",0,1
+DIFFCARE,2,No,"",1,0
+DIFFCARE,3,Yes,"",2,0
+DIFFREM,1,N/A,"",0,0
+DIFFREM,2,"No cognitive difficulty","",1,0
+DIFFREM,3,"Has cognitive difficulty","",2,0
+DIFFSENS,1,N/A,"",0,0
+DIFFSENS,2,"No vision or hearing difficulty","",1,0
+DIFFSENS,3,"Has vision or hearing difficulty","",2,0
+EDUC,1,"N/A or no schooling","N/A or no schooling",0,1
+EDUC,2,N/A,"",1,1
+EDUC,3,"No schooling completed","",2,1
+EDUC,4,"Nursery school to grade 4","Nursery school to grade 4",10,0
+EDUC,5,"Nursery school, preschool","",11,0
+EDUC,6,Kindergarten,"",12,0
+EDUC,7,"Grade 1, 2, 3, or 4","",13,0
+EDUC,8,"Grade 1","",14,0
+EDUC,9,"Grade 2","",15,0
+EDUC,10,"Grade 3","",16,0
+EDUC,11,"Grade 4","",17,0
+EDUC,12,"Grade 5, 6, 7, or 8","Grade 5, 6, 7, or 8",20,0
+EDUC,13,"Grade 5 or 6","",21,0
+EDUC,14,"Grade 5","",22,0
+EDUC,15,"Grade 6","",23,0
+EDUC,16,"Grade 7 or 8","",24,0
+EDUC,17,"Grade 7","",25,0
+EDUC,18,"Grade 8","",26,0
+EDUC,19,"Grade 9","Grade 9",30,0
+EDUC,20,"Grade 10","Grade 10",40,0
+EDUC,21,"Grade 11","Grade 11",50,0
+EDUC,22,"Grade 12","Grade 12",60,0
+EDUC,23,"12th grade, no diploma","",61,0
+EDUC,24,"High school graduate or GED","",62,0
+EDUC,25,"Regular high school diploma","",63,0
+EDUC,26,"GED or alternative credential","",64,0
+EDUC,27,"Some college, but less than 1 year","",65,0
+EDUC,28,"1 year of college","1 year of college",70,0
+EDUC,29,"1 or more years of college credit, no degree","",71,0
+EDUC,30,"2 years of college","2 years of college",80,0
+EDUC,31,"Associate's degree, type not specified","",81,0
+EDUC,32,"Associate's degree, occupational program","",82,0
+EDUC,33,"Associate's degree, academic program","",83,0
+EDUC,34,"3 years of college","3 years of college",90,0
+EDUC,35,"4 years of college","4 years of college",100,0
+EDUC,36,"Bachelor's degree","",101,0
+EDUC,37,"5+ years of college","5+ years of college",110,0
+EDUC,38,"6 years of college (6+ in 1960-1970)","",111,0
+EDUC,39,"7 years of college","",112,0
+EDUC,40,"8+ years of college","",113,0
+EDUC,41,"Master's degree","",114,0
+EDUC,42,"Professional degree beyond a bachelor's degree","",115,0
+EDUC,43,"Doctoral degree","",116,0
+EDUC,44,"1960s cases to be allocated","",988,0
+EDUC,45,Missing,Missing,999,0
+GRADEATT,1,N/A,N/A,0,0
+GRADEATT,2,"Nursery school/preschool","Nursery school/preschool",10,0
+GRADEATT,3,Kindergarten,Kindergarten,20,0
+GRADEATT,4,"Grade 1 to grade 4","Grade 1 to grade 4",30,0
+GRADEATT,5,"Grade 1","",31,0
+GRADEATT,6,"Grade 2","",32,0
+GRADEATT,7,"Grade 3","",33,0
+GRADEATT,8,"Grade 4","",34,0
+GRADEATT,9,"Grade 5 to grade 8","Grade 5 to grade 8",40,0
+GRADEATT,10,"Grade 5","",41,0
+GRADEATT,11,"Grade 6","",42,0
+GRADEATT,12,"Grade 7","",43,0
+GRADEATT,13,"Grade 8","",44,0
+GRADEATT,14,"Grade 9 to grade 12","Grade 9 to grade 12",50,0
+GRADEATT,15,"Grade 9","",51,0
+GRADEATT,16,"Grade 10","",52,0
+GRADEATT,17,"Grade 11","",53,0
+GRADEATT,18,"Grade 12","",54,0
+GRADEATT,19,"College undergraduate","College undergraduate",60,0
+GRADEATT,20,"First year of college","",61,0
+GRADEATT,21,"Second year of college","",62,0
+GRADEATT,22,"Third year of college","",63,0
+GRADEATT,23,"Fourth year of college","",64,0
+GRADEATT,24,"Graduate or professional school","Graduate or professional school",70,0
+GRADEATT,25,"Fifth year of college","",71,0
+GRADEATT,26,"Sixth year of college","",72,0
+GRADEATT,27,"Seventh year of college","",73,0
+GRADEATT,28,"Eighth year of college","",74,0
+HCOVANY,1,"No health insurance coverage","",1,0
+HCOVANY,2,"With health insurance coverage","",2,0
+HISPAN,1,"Not Hispanic","Not Hispanic",0,0
+HISPAN,2,Mexican,Mexican,100,0
+HISPAN,3,"Mexican American","",102,0
+HISPAN,4,Mexicano/Mexicana,"",103,0
+HISPAN,5,Chicano/Chicana,"",104,0
+HISPAN,6,"La Raza","",105,0
+HISPAN,7,"Mexican American Indian","",106,0
+HISPAN,8,Mexico,"",107,0
+HISPAN,9,"Puerto Rican","Puerto Rican",200,0
+HISPAN,10,Cuban,Cuban,300,0
+HISPAN,11,Other:,"","",0
+HISPAN,12,"Central American","","",0
+HISPAN,13,"Central American Indian",Other,401,0
+HISPAN,14,"Canal Zone","",402,0
+HISPAN,15,"Costa Rican","",411,0
+HISPAN,16,Guatemalan,"",412,0
+HISPAN,17,Honduran,"",413,0
+HISPAN,18,Nicaraguan,"",414,0
+HISPAN,19,Panamanian,"",415,0
+HISPAN,20,Salvadoran,"",416,0
+HISPAN,21,"Central American, n.e.c.","",417,0
+HISPAN,22,"South American","","",0
+HISPAN,23,Argentinean,"",420,0
+HISPAN,24,Bolivian,"",421,0
+HISPAN,25,Chilean,"",422,0
+HISPAN,26,Colombian,"",423,0
+HISPAN,27,Ecuadorian,"",424,0
+HISPAN,28,Paraguayan,"",425,0
+HISPAN,29,Peruvian,"",426,0
+HISPAN,30,Uruguayan,"",427,0
+HISPAN,31,Venezuelan,"",428,0
+HISPAN,32,"South American Indian","",429,0
+HISPAN,33,Criollo,"",430,0
+HISPAN,34,"South American, n.e.c.","",431,0
+HISPAN,35,Spaniard,"","",0
+HISPAN,36,Spaniard,"",450,0
+HISPAN,37,Andalusian,"",451,0
+HISPAN,38,Asturian,"",452,0
+HISPAN,39,Castillian,"",453,0
+HISPAN,40,Catalonian,"",454,0
+HISPAN,41,"Balearic Islander","",455,0
+HISPAN,42,Gallego,"",456,0
+HISPAN,43,Valencian,"",457,0
+HISPAN,44,Canarian,"",458,0
+HISPAN,45,"Spanish Basque","",459,0
+HISPAN,46,Dominican,"",460,0
+HISPAN,47,"Latin American","",465,0
+HISPAN,48,Hispanic,"",470,0
+HISPAN,49,Spanish,"",480,0
+HISPAN,50,Californio,"",490,0
+HISPAN,51,Tejano,"",491,0
+HISPAN,52,"Nuevo Mexicano","",492,0
+HISPAN,53,"Spanish American","",493,0
+HISPAN,54,"Spanish American Indian","",494,0
+HISPAN,55,"Meso American Indian","",495,0
+HISPAN,56,Mestizo,"",496,0
+HISPAN,57,"Other, not specified","",498,0
+HISPAN,58,"Other, not elsewhere classified","",499,0
+HISPAN,59,"Not Reported","Not Reported",900,0
+MET2013,1,"Not in identifiable area","",0,0
+MET2013,2,"Akron, OH","",10420,0
+MET2013,3,"Albany, OR","",10540,0
+MET2013,4,"Albany-Schenectady-Troy, NY","",10580,0
+MET2013,5,"Albuquerque, NM","",10740,0
+MET2013,6,"Alexandria, LA","",10780,0
+MET2013,7,"Allentown-Bethlehem-Easton, PA-NJ","",10900,0
+MET2013,8,"Altoona, PA","",11020,0
+MET2013,9,"Amarillo, TX","",11100,0
+MET2013,10,"Anchorage, AK","",11260,0
+MET2013,11,"Ann Arbor, MI","",11460,0
+MET2013,12,"Anniston-Oxford-Jacksonville, AL","",11500,0
+MET2013,13,"Asheville, NC","",11700,0
+MET2013,14,"Athens-Clarke County, GA","",12020,0
+MET2013,15,"Atlanta-Sandy Springs-Roswell, GA","",12060,0
+MET2013,16,"Atlantic City-Hammonton, NJ","",12100,0
+MET2013,17,"Auburn-Opelika, AL","",12220,0
+MET2013,18,"Augusta-Richmond County, GA-SC","",12260,0
+MET2013,19,"Austin-Round Rock, TX","",12420,0
+MET2013,20,"Bakersfield, CA","",12540,0
+MET2013,21,"Baltimore-Columbia-Towson, MD","",12580,0
+MET2013,22,"Bangor, ME","",12620,0
+MET2013,23,"Barnstable Town, MA","",12700,0
+MET2013,24,"Baton Rouge, LA","",12940,0
+MET2013,25,"Battle Creek, MI","",12980,0
+MET2013,26,"Beaumont-Port Arthur, TX","",13140,0
+MET2013,27,"Beckley, WV","",13220,0
+MET2013,28,"Bellingham, WA","",13380,0
+MET2013,29,"Bend-Redmond, OR","",13460,0
+MET2013,30,"Billings, MT","",13740,0
+MET2013,31,"Binghamton, NY","",13780,0
+MET2013,32,"Birmingham-Hoover, AL","",13820,0
+MET2013,33,"Bismarck, ND","",13900,0
+MET2013,34,"Blacksburg-Christiansburg-Radford, VA","",13980,0
+MET2013,35,"Bloomington, IL","",14010,0
+MET2013,36,"Bloomington, IN","",14020,0
+MET2013,37,"Boise City, ID","",14260,0
+MET2013,38,"Boston-Cambridge-Newton, MA-NH","",14460,0
+MET2013,39,"Bremerton-Silverdale, WA","",14740,0
+MET2013,40,"Bridgeport-Stamford-Norwalk, CT","",14860,0
+MET2013,41,"Brownsville-Harlingen, TX","",15180,0
+MET2013,42,"Buffalo-Cheektowaga-Niagara Falls, NY","",15380,0
+MET2013,43,"Burlington, NC","",15500,0
+MET2013,44,"Burlington-South Burlington, VT","",15540,0
+MET2013,45,"California-Lexington Park, MD","",15680,0
+MET2013,46,"Canton-Massillon, OH","",15940,0
+MET2013,47,"Cape Coral-Fort Myers, FL","",15980,0
+MET2013,48,"Champaign-Urbana, IL","",16580,0
+MET2013,49,"Charleston, WV","",16620,0
+MET2013,50,"Charleston-North Charleston, SC","",16700,0
+MET2013,51,"Charlotte-Concord-Gastonia, NC-SC","",16740,0
+MET2013,52,"Charlottesville, VA","",16820,0
+MET2013,53,"Chattanooga, TN-GA","",16860,0
+MET2013,54,"Cheyenne, WY","",16940,0
+MET2013,55,"Chicago-Naperville-Elgin, IL-IN-WI","",16980,0
+MET2013,56,"Chico, CA","",17020,0
+MET2013,57,"Cincinnati, OH-KY-IN","",17140,0
+MET2013,58,"Clarksville, TN-KY","",17300,0
+MET2013,59,"Cleveland, TN","",17420,0
+MET2013,60,"Cleveland-Elyria, OH","",17460,0
+MET2013,61,"Coeur d'Alene, ID","",17660,0
+MET2013,62,"College Station-Bryan, TX","",17780,0
+MET2013,63,"Colorado Springs, CO","",17820,0
+MET2013,64,"Columbia, MO","",17860,0
+MET2013,65,"Columbia, SC","",17900,0
+MET2013,66,"Columbus, OH","",18140,0
+MET2013,67,"Corpus Christi, TX","",18580,0
+MET2013,68,"Corvallis, OR","",18700,0
+MET2013,69,"Crestview-Fort Walton Beach-Destin, FL","",18880,0
+MET2013,70,"Dallas-Fort Worth-Arlington, TX","",19100,0
+MET2013,71,"Daphne-Fairhope-Foley, AL","",19300,0
+MET2013,72,"Davenport-Moline-Rock Island, IA-IL","",19340,0
+MET2013,73,"Dayton, OH","",19380,0
+MET2013,74,"Decatur, AL","",19460,0
+MET2013,75,"Decatur, IL","",19500,0
+MET2013,76,"Deltona-Daytona Beach-Ormond Beach, FL","",19660,0
+MET2013,77,"Denver-Aurora-Lakewood, CO","",19740,0
+MET2013,78,"Des Moines-West Des Moines, IA","",19780,0
+MET2013,79,"Detroit-Warren-Dearborn, MI","",19820,0
+MET2013,80,"Dothan, AL","",20020,0
+MET2013,81,"Dover, DE","",20100,0
+MET2013,82,"Durham-Chapel Hill, NC","",20500,0
+MET2013,83,"East Stroudsburg, PA","",20700,0
+MET2013,84,"Eau Claire, WI","",20740,0
+MET2013,85,"El Centro, CA","",20940,0
+MET2013,86,"Elizabethtown-Fort Knox, KY","",21060,0
+MET2013,87,"Elkhart-Goshen, IN","",21140,0
+MET2013,88,"El Paso, TX","",21340,0
+MET2013,89,"Erie, PA","",21500,0
+MET2013,90,"Eugene, OR","",21660,0
+MET2013,91,"Evansville, IN-KY","",21780,0
+MET2013,92,"Farmington, NM","",22140,0
+MET2013,93,"Fayetteville, NC","",22180,0
+MET2013,94,"Fayetteville-Springdale-Rogers, AR-MO","",22220,0
+MET2013,95,"Flagstaff, AZ","",22380,0
+MET2013,96,"Flint, MI","",22420,0
+MET2013,97,"Florence, SC","",22500,0
+MET2013,98,"Florence-Muscle Shoals, AL","",22520,0
+MET2013,99,"Fort Collins, CO","",22660,0
+MET2013,100,"Fort Wayne, IN","",23060,0
+MET2013,101,"Fresno, CA","",23420,0
+MET2013,102,"Gadsden, AL","",23460,0
+MET2013,103,"Gainesville, FL","",23540,0
+MET2013,104,"Gainesville, GA","",23580,0
+MET2013,105,"Glens Falls, NY","",24020,0
+MET2013,106,"Goldsboro, NC","",24140,0
+MET2013,107,"Grand Junction, CO","",24300,0
+MET2013,108,"Grand Rapids-Wyoming, MI","",24340,0
+MET2013,109,"Greeley, CO","",24540,0
+MET2013,110,"Greensboro-High Point, NC","",24660,0
+MET2013,111,"Greenville, NC","",24780,0
+MET2013,112,"Greenville-Anderson-Mauldin, SC","",24860,0
+MET2013,113,"Gulfport-Biloxi-Pascagoula, MS","",25060,0
+MET2013,114,"Hammond, LA","",25220,0
+MET2013,115,"Hanford-Corcoran, CA","",25260,0
+MET2013,116,"Harrisburg-Carlisle, PA","",25420,0
+MET2013,117,"Harrisonburg, VA","",25500,0
+MET2013,118,"Hartford-West Hartford-East Hartford, CT","",25540,0
+MET2013,119,"Hattiesburg, MS","",25620,0
+MET2013,120,"Hickory-Lenoir-Morganton, NC","",25860,0
+MET2013,121,"Hilton Head Island-Bluffton-Beaufort, SC","",25940,0
+MET2013,122,"Homosassa Springs, FL","",26140,0
+MET2013,123,"Houma-Thibodaux, LA","",26380,0
+MET2013,124,"Houston-The Woodlands-Sugar Land, TX","",26420,0
+MET2013,125,"Huntsville, AL","",26620,0
+MET2013,126,"Indianapolis-Carmel-Anderson, IN","",26900,0
+MET2013,127,"Iowa City, IA","",26980,0
+MET2013,128,"Ithaca, NY","",27060,0
+MET2013,129,"Jackson, MI","",27100,0
+MET2013,130,"Jackson, MS","",27140,0
+MET2013,131,"Jackson, TN","",27180,0
+MET2013,132,"Jacksonville, FL","",27260,0
+MET2013,133,"Jacksonville, NC","",27340,0
+MET2013,134,"Janesville-Beloit, WI","",27500,0
+MET2013,135,"Jefferson City, MO","",27620,0
+MET2013,136,"Johnson City, TN","",27740,0
+MET2013,137,"Johnstown, PA","",27780,0
+MET2013,138,"Jonesboro, AR","",27860,0
+MET2013,139,"Joplin, MO","",27900,0
+MET2013,140,"Kalamazoo-Portage, MI","",28020,0
+MET2013,141,"Kankakee, IL","",28100,0
+MET2013,142,"Kansas City, MO-KS","",28140,0
+MET2013,143,"Kennewick-Richland, WA","",28420,0
+MET2013,144,"Killeen-Temple, TX","",28660,0
+MET2013,145,"Kingsport-Bristol-Bristol, TN-VA","",28700,0
+MET2013,146,"Knoxville, TN","",28940,0
+MET2013,147,"La Crosse-Onalaska, WI-MN","",29100,0
+MET2013,148,"Lafayette, LA","",29180,0
+MET2013,149,"Lafayette-West Lafayette, IN","",29200,0
+MET2013,150,"Lake Charles, LA","",29340,0
+MET2013,151,"Lake Havasu City-Kingman, AZ","",29420,0
+MET2013,152,"Lakeland-Winter Haven, FL","",29460,0
+MET2013,153,"Lancaster, PA","",29540,0
+MET2013,154,"Lansing-East Lansing, MI","",29620,0
+MET2013,155,"Laredo, TX","",29700,0
+MET2013,156,"Las Cruces, NM","",29740,0
+MET2013,157,"Las Vegas-Henderson-Paradise, NV","",29820,0
+MET2013,158,"Lawrence, KS","",29940,0
+MET2013,159,"Lawton, OK","",30020,0
+MET2013,160,"Lebanon, PA","",30140,0
+MET2013,161,"Lewiston-Auburn, ME","",30340,0
+MET2013,162,"Lima, OH","",30620,0
+MET2013,163,"Lincoln, NE","",30700,0
+MET2013,164,"Little Rock-North Little Rock-Conway, AR","",30780,0
+MET2013,165,"Los Angeles-Long Beach-Anaheim, CA","",31080,0
+MET2013,166,"Louisville/Jefferson County, KY-IN","",31140,0
+MET2013,167,"Lubbock, TX","",31180,0
+MET2013,168,"Lynchburg, VA","",31340,0
+MET2013,169,"Madera, CA","",31460,0
+MET2013,170,"Manchester-Nashua, NH","",31700,0
+MET2013,171,"Mankato-North Mankato, MN","",31860,0
+MET2013,172,"Mansfield, OH","",31900,0
+MET2013,173,"Mayagüez, PR","",32420,0
+MET2013,174,"McAllen-Edinburg-Mission, TX","",32580,0
+MET2013,175,"Medford, OR","",32780,0
+MET2013,176,"Memphis, TN-MS-AR","",32820,0
+MET2013,177,"Merced, CA","",32900,0
+MET2013,178,"Miami-Fort Lauderdale-West Palm Beach, FL","",33100,0
+MET2013,179,"Michigan City-La Porte, IN","",33140,0
+MET2013,180,"Midland, TX","",33260,0
+MET2013,181,"Milwaukee-Waukesha-West Allis, WI","",33340,0
+MET2013,182,"Minneapolis-St. Paul-Bloomington, MN-WI","",33460,0
+MET2013,183,"Mobile, AL","",33660,0
+MET2013,184,"Modesto, CA","",33700,0
+MET2013,185,"Monroe, LA","",33740,0
+MET2013,186,"Monroe, MI","",33780,0
+MET2013,187,"Montgomery, AL","",33860,0
+MET2013,188,"Morgantown, WV","",34060,0
+MET2013,189,"Mount Vernon-Anacortes, WA","",34580,0
+MET2013,190,"Muncie, IN","",34620,0
+MET2013,191,"Muskegon, MI","",34740,0
+MET2013,192,"Myrtle Beach-Conway-North Myrtle Beach, SC-NC","",34820,0
+MET2013,193,"Napa, CA","",34900,0
+MET2013,194,"Naples-Immokalee-Marco Island, FL","",34940,0
+MET2013,195,"Nashville-Davidson--Murfreesboro--Franklin, TN","",34980,0
+MET2013,196,"New Haven-Milford, CT","",35300,0
+MET2013,197,"New Orleans-Metairie, LA","",35380,0
+MET2013,198,"New York-Newark-Jersey City, NY-NJ-PA","",35620,0
+MET2013,199,"Niles-Benton Harbor, MI","",35660,0
+MET2013,200,"North Port-Sarasota-Bradenton, FL","",35840,0
+MET2013,201,"Norwich-New London, CT","",35980,0
+MET2013,202,"Ocala, FL","",36100,0
+MET2013,203,"Ocean City, NJ","",36140,0
+MET2013,204,"Odessa, TX","",36220,0
+MET2013,205,"Ogden-Clearfield, UT","",36260,0
+MET2013,206,"Oklahoma City, OK","",36420,0
+MET2013,207,"Olympia-Tumwater, WA","",36500,0
+MET2013,208,"Omaha-Council Bluffs, NE-IA","",36540,0
+MET2013,209,"Orlando-Kissimmee-Sanford, FL","",36740,0
+MET2013,210,"Oshkosh-Neenah, WI","",36780,0
+MET2013,211,"Owensboro, KY","",36980,0
+MET2013,212,"Oxnard-Thousand Oaks-Ventura, CA","",37100,0
+MET2013,213,"Palm Bay-Melbourne-Titusville, FL","",37340,0
+MET2013,214,"Panama City, FL","",37460,0
+MET2013,215,"Parkersburg-Vienna, WV","",37620,0
+MET2013,216,"Pensacola-Ferry Pass-Brent, FL","",37860,0
+MET2013,217,"Peoria, IL","",37900,0
+MET2013,218,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD","",37980,0
+MET2013,219,"Phoenix-Mesa-Scottsdale, AZ","",38060,0
+MET2013,220,"Pittsburgh, PA","",38300,0
+MET2013,221,"Pittsfield, MA","",38340,0
+MET2013,222,"Ponce, PR","",38660,0
+MET2013,223,"Portland-South Portland, ME","",38860,0
+MET2013,224,"Portland-Vancouver-Hillsboro, OR-WA","",38900,0
+MET2013,225,"Port St. Lucie, FL","",38940,0
+MET2013,226,"Prescott, AZ","",39140,0
+MET2013,227,"Providence-Warwick, RI-MA","",39300,0
+MET2013,228,"Provo-Orem, UT","",39340,0
+MET2013,229,"Pueblo, CO","",39380,0
+MET2013,230,"Punta Gorda, FL","",39460,0
+MET2013,231,"Racine, WI","",39540,0
+MET2013,232,"Raleigh, NC","",39580,0
+MET2013,233,"Reading, PA","",39740,0
+MET2013,234,"Redding, CA","",39820,0
+MET2013,235,"Reno, NV","",39900,0
+MET2013,236,"Richmond, VA","",40060,0
+MET2013,237,"Riverside-San Bernardino-Ontario, CA","",40140,0
+MET2013,238,"Roanoke, VA","",40220,0
+MET2013,239,"Rochester, NY","",40380,0
+MET2013,240,"Rockford, IL","",40420,0
+MET2013,241,"Rocky Mount, NC","",40580,0
+MET2013,242,"Sacramento--Roseville--Arden-Arcade, CA","",40900,0
+MET2013,243,"Saginaw, MI","",40980,0
+MET2013,244,"St. Cloud, MN","",41060,0
+MET2013,245,"St. George, UT","",41100,0
+MET2013,246,"St. Joseph, MO-KS","",41140,0
+MET2013,247,"St. Louis, MO-IL","",41180,0
+MET2013,248,"Salem, OR","",41420,0
+MET2013,249,"Salinas, CA","",41500,0
+MET2013,250,"Salisbury, MD-DE","",41540,0
+MET2013,251,"Salt Lake City, UT","",41620,0
+MET2013,252,"San Angelo, TX","",41660,0
+MET2013,253,"San Antonio-New Braunfels, TX","",41700,0
+MET2013,254,"San Diego-Carlsbad, CA","",41740,0
+MET2013,255,"San Francisco-Oakland-Hayward, CA","",41860,0
+MET2013,256,"San Germán, PR","",41900,0
+MET2013,257,"San Jose-Sunnyvale-Santa Clara, CA","",41940,0
+MET2013,258,"San Juan-Carolina-Caguas, PR","",41980,0
+MET2013,259,"San Luis Obispo-Paso Robles-Arroyo Grande, CA","",42020,0
+MET2013,260,"Santa Cruz-Watsonville, CA","",42100,0
+MET2013,261,"Santa Fe, NM","",42140,0
+MET2013,262,"Santa Maria-Santa Barbara, CA","",42200,0
+MET2013,263,"Santa Rosa, CA","",42220,0
+MET2013,264,"Scranton--Wilkes-Barre--Hazleton, PA","",42540,0
+MET2013,265,"Seattle-Tacoma-Bellevue, WA","",42660,0
+MET2013,266,"Sebastian-Vero Beach, FL","",42680,0
+MET2013,267,"Sheboygan, WI","",43100,0
+MET2013,268,"Shreveport-Bossier City, LA","",43340,0
+MET2013,269,"Spartanburg, SC","",43900,0
+MET2013,270,"Spokane-Spokane Valley, WA","",44060,0
+MET2013,271,"Springfield, IL","",44100,0
+MET2013,272,"Springfield, MA","",44140,0
+MET2013,273,"Springfield, MO","",44180,0
+MET2013,274,"Springfield, OH","",44220,0
+MET2013,275,"State College, PA","",44300,0
+MET2013,276,"Stockton-Lodi, CA","",44700,0
+MET2013,277,"Sumter, SC","",44940,0
+MET2013,278,"Syracuse, NY","",45060,0
+MET2013,279,"Tallahassee, FL","",45220,0
+MET2013,280,"Tampa-St. Petersburg-Clearwater, FL","",45300,0
+MET2013,281,"Terre Haute, IN","",45460,0
+MET2013,282,"The Villages, FL","",45540,0
+MET2013,283,"Toledo, OH","",45780,0
+MET2013,284,"Topeka, KS","",45820,0
+MET2013,285,"Trenton, NJ","",45940,0
+MET2013,286,"Tucson, AZ","",46060,0
+MET2013,287,"Tulsa, OK","",46140,0
+MET2013,288,"Tuscaloosa, AL","",46220,0
+MET2013,289,"Tyler, TX","",46340,0
+MET2013,290,"Urban Honolulu, HI","",46520,0
+MET2013,291,"Utica-Rome, NY","",46540,0
+MET2013,292,"Valdosta, GA","",46660,0
+MET2013,293,"Vallejo-Fairfield, CA","",46700,0
+MET2013,294,"Vineland-Bridgeton, NJ","",47220,0
+MET2013,295,"Virginia Beach-Norfolk-Newport News, VA-NC","",47260,0
+MET2013,296,"Visalia-Porterville, CA","",47300,0
+MET2013,297,"Waco, TX","",47380,0
+MET2013,298,"Warner Robins, GA","",47580,0
+MET2013,299,"Washington-Arlington-Alexandria, DC-VA-MD-WV","",47900,0
+MET2013,300,"Wausau, WI","",48140,0
+MET2013,301,"Wenatchee, WA","",48300,0
+MET2013,302,"Wichita, KS","",48620,0
+MET2013,303,"Wichita Falls, TX","",48660,0
+MET2013,304,"Williamsport, PA","",48700,0
+MET2013,305,"Wilmington, NC","",48900,0
+MET2013,306,"Winston-Salem, NC","",49180,0
+MET2013,307,"Worcester, MA-CT","",49340,0
+MET2013,308,"Yakima, WA","",49420,0
+MET2013,309,"York-Hanover, PA","",49620,0
+MET2013,310,"Youngstown-Warren-Boardman, OH-PA","",49660,0
+MET2013,311,"Yuba City, CA","",49700,0
+MET2013,312,"Yuma, AZ","",49740,0
+MET2013ERR,1,"Not applicable (no metro area identified)","",0,0
+MET2013ERR,2,"Omission + commission error:","","",0
+MET2013ERR,3,"Less than 0.1%","",1,0
+MET2013ERR,4,"0.1 to 0.9%","",2,0
+MET2013ERR,5,"1.0 to 1.9%","",3,0
+MET2013ERR,6,"2.0 to 4.9%","",4,0
+MET2013ERR,7,"5.0 to 9.9%","",5,0
+MET2013ERR,8,"10.0 to 14.9%","",6,0
+METRO,1,"Not in metropolitan area","",1,0
+METRO,2,"Metropolitan status indeterminable (mixed)","",2,0
+METRO,3,"In metropolitan area:","","",0
+METRO,4,"Not in central/principal city","",3,0
+METRO,5,"Central/principal city status indeterminable (mixed)","",4,0
+METRO,6,"In central/principal city","",5,0
+MIGRATE1,1,N/A,N/A,0,1
+MIGRATE1,2,"Same house","Same house",10,0
+MIGRATE1,3,"Different house:","","",0
+MIGRATE1,4,"Moved within state","Moved within state",20,0
+MIGRATE1,5,"Moved within county","",21,0
+MIGRATE1,6,"Moved between counties","",22,0
+MIGRATE1,7,"Moved within MIGPUMA","",23,0
+MIGRATE1,8,"Moved between MIGPUMAs","",24,0
+MIGRATE1,9,"Unknown within state","",25,0
+MIGRATE1,10,"Moved between states","Moved between states",30,0
+MIGRATE1,11,"Moved between contiguous states","",31,0
+MIGRATE1,12,"Moved between non-contiguous states","",32,0
+MIGRATE1,13,"Abroad one year ago","Abroad one year ago",40,0
+MIGRATE1,14,Unknown,Unknown,90,1
+MULTGEN,1,N/A,N/A,0,0
+MULTGEN,2,"1 generation","1 generation",10,0
+MULTGEN,3,"1-2 generations (Census 2008 definition)","2 generations",20,0
+MULTGEN,4,"2 adjacent generations, adult-children","",21,0
+MULTGEN,5,"2 adjacent generations, adult-adult","",22,0
+MULTGEN,6,"2 nonadjacent generations","",23,0
+MULTGEN,7,"2 adjacent generations, in-law(s) without linking spouse","",24,0
+MULTGEN,8,"3+ generations (Census 2008 definition)","3+ generations",31,0
+MULTGEN,9,"3+ generations (Additional IPUMS definition)","",32,0
+OWNERSHP,1,N/A,N/A,0,1
+OWNERSHP,2,"1960s missing to be allocated","",8,0
+OWNERSHP,3,"Owned or being bought","Owned or being bought (loan)",10,0
+OWNERSHP,4,"Check mark on manuscript","",11,0
+OWNERSHP,5,"Owned free and clear","",12,0
+OWNERSHP,6,"Owned with mortgage or loan","",13,0
+OWNERSHP,7,Rented,Rented,20,0
+OWNERSHP,8,"No cash rent","",21,0
+OWNERSHP,9,"With cash rent","",22,0
+OWNERSHP,10,"Illegible or uninterpretable","",98,0
+OWNERSHP,11,Missing,"",99,0
+RACE,1,"ONE MAJOR RACE GROUP","","",0
+RACE,2,White,White,100,0
+RACE,3,"Albanian alone","",101,0
+RACE,4,"Armenian alone","",102,0
+RACE,5,"Austrian alone","",103,0
+RACE,6,"Basque alone","",104,0
+RACE,7,"Belarusian alone","",105,0
+RACE,8,"Belgian alone","",106,0
+RACE,9,"Bosnian and Herzegovinian alone","",107,0
+RACE,10,"British alone","",108,0
+RACE,11,"British Islander alone","",109,0
+RACE,12,"Spanish write_in","",110,0
+RACE,13,"Bulgarian alone","",111,0
+RACE,14,"Celtic alone","",112,0
+RACE,15,"Croatian alone","",113,0
+RACE,16,"Czech alone","",114,0
+RACE,17,"Danish alone","",115,0
+RACE,18,"Dutch alone","",116,0
+RACE,19,"English alone","",117,0
+RACE,20,"Estonian alone","",118,0
+RACE,21,"Finnish alone","",119,0
+RACE,22,"Blank (white)","",120,0
+RACE,23,"French alone","",121,0
+RACE,24,"Georgian alone","",122,0
+RACE,25,"German alone","",123,0
+RACE,26,"Greek alone","",124,0
+RACE,27,"Hungarian alone","",125,0
+RACE,28,"Icelandic alone","",126,0
+RACE,29,"Irish alone","",127,0
+RACE,30,"Italian alone","",128,0
+RACE,31,"Latvian alone","",129,0
+RACE,32,Portuguese,"",130,0
+RACE,33,"Lithuanian alone","",131,0
+RACE,34,"Luxembourger alone","",132,0
+RACE,35,"Macedonian alone","",133,0
+RACE,36,"Maltese alone","",134,0
+RACE,37,"Moldovan alone","",135,0
+RACE,38,"Montenegrin alone","",136,0
+RACE,39,"Norwegian alone","",137,0
+RACE,40,"Polish alone","",138,0
+RACE,41,"Romanian alone","",139,0
+RACE,42,"Mexican (1930)","",140,0
+RACE,43,"Russian alone","",141,0
+RACE,44,"Scandinavian alone","",142,0
+RACE,45,"Scots-Irish alone","",143,0
+RACE,46,"Scottish alone","",144,0
+RACE,47,"Serbian alone","",145,0
+RACE,48,"Slavic alone","",146,0
+RACE,49,"Slovak alone","",147,0
+RACE,50,"Slovenian alone","",148,0
+RACE,51,"Swedish alone","",149,0
+RACE,52,"Puerto Rican","",150,0
+RACE,53,"Swiss alone","",151,0
+RACE,54,"Turkish alone","",152,0
+RACE,55,"Ukrainian alone","",153,0
+RACE,56,"Welsh alone","",154,0
+RACE,57,"Algerian alone","",155,0
+RACE,58,"Arab alone","",156,0
+RACE,59,"Assyrian alone","",157,0
+RACE,60,"Chaldean alone","",158,0
+RACE,61,"Egyptian alone","",159,0
+RACE,62,"Iranian alone","",160,0
+RACE,63,"Iraqi alone","",161,0
+RACE,64,"Israeli alone","",162,0
+RACE,65,"Jordanian alone","",163,0
+RACE,66,"Kurdish alone","",164,0
+RACE,67,"Lebanese alone","",165,0
+RACE,68,"Moroccan alone","",166,0
+RACE,69,"Palestinian alone","",167,0
+RACE,70,"Saudi alone","",168,0
+RACE,71,"Syrian alone","",169,0
+RACE,72,"Tunisian alone","",170,0
+RACE,73,"Yemeni alone","",171,0
+RACE,74,"Australian alone","",172,0
+RACE,75,"Cajun alone","",173,0
+RACE,76,"Canadian alone","",174,0
+RACE,77,"French Canadian alone","",175,0
+RACE,78,"Pennsylvania German alone","",176,0
+RACE,79,"Other White alone","",177,0
+RACE,80,"Black/African American","Black/African American",200,0
+RACE,81,"African American alone","",201,0
+RACE,82,"Burundian alone","",202,0
+RACE,83,"Cameroonian alone","",203,0
+RACE,84,"Congolese alone","",204,0
+RACE,85,"Eritrean alone","",205,0
+RACE,86,"Ethiopian alone","",206,0
+RACE,87,"Gambian alone","",207,0
+RACE,88,"Ghanaian alone","",208,0
+RACE,89,"Guinean alone","",209,0
+RACE,90,Mulatto,"",210,0
+RACE,91,"Ivoirian alone","",211,0
+RACE,92,"Kenyan alone","",212,0
+RACE,93,"Liberian alone","",213,0
+RACE,94,"Nigerian (Nigeria) alone","",214,0
+RACE,95,"Rwandan alone","",215,0
+RACE,96,"Senegalese alone","",216,0
+RACE,97,"Sierra Leonean alone","",217,0
+RACE,98,"Somali alone","",218,0
+RACE,99,"South African alone","",219,0
+RACE,100,"South Sudanese alone","",220,0
+RACE,101,"Sudanese alone","",221,0
+RACE,102,"Tanzanian alone","",222,0
+RACE,103,"Togolese alone","",223,0
+RACE,104,"Ugandan alone","",224,0
+RACE,105,"Zimbabwean alone","",225,0
+RACE,106,"Bahamian alone","",226,0
+RACE,107,"Barbadian alone","",227,0
+RACE,108,"Grenadian alone","",228,0
+RACE,109,"Haitian alone","",229,0
+RACE,110,"Jamaican alone","",230,0
+RACE,111,"St. Lucian alone","",231,0
+RACE,112,"Trinidadian and Tobagonian alone","",232,0
+RACE,113,"West Indian alone","",233,0
+RACE,114,"Other Black or African American alone","",234,0
+RACE,115,"American Indian/Alaska Native (AIAN)","American Indian or Alaska Native",300,0
+RACE,116,"American Indian:","","",0
+RACE,117,Apache,"",302,0
+RACE,118,Blackfoot,"",303,0
+RACE,119,Cherokee,"",304,0
+RACE,120,Cheyenne,"",305,0
+RACE,121,Chickasaw,"",306,0
+RACE,122,Chippewa,"",307,0
+RACE,123,Choctaw,"",308,0
+RACE,124,Comanche,"",309,0
+RACE,125,Creek,"",310,0
+RACE,126,Crow,"",311,0
+RACE,127,Iroquois,"",312,0
+RACE,128,Kiowa,"",313,0
+RACE,129,Lumbee,"",314,0
+RACE,130,Navajo,"",315,0
+RACE,131,Osage,"",316,0
+RACE,132,Paiute,"",317,0
+RACE,133,Pima,"",318,0
+RACE,134,Potawatomi,"",319,0
+RACE,135,Pueblo,"",320,0
+RACE,136,Seminole,"",321,0
+RACE,137,Shoshone,"",322,0
+RACE,138,Sioux,"",323,0
+RACE,139,"Tlingit (Tlingit_Haida, 2000, ACS)","",324,0
+RACE,140,"Tohono O'Odham","",325,0
+RACE,141,"All other tribes (1990)","",326,0
+RACE,142,Hopi,"",328,0
+RACE,143,"Central American Indian","",329,0
+RACE,144,"Spanish American Indian","",330,0
+RACE,145,Aztec,"",340,0
+RACE,146,Inca,"",341,0
+RACE,147,Maya,"",342,0
+RACE,148,Mixtec,"",343,0
+RACE,149,Taino,"",344,0
+RACE,150,"Tarasco (Purepecha)","",345,0
+RACE,151,Delaware,"",350,0
+RACE,152,"Latin American Indian","",351,0
+RACE,153,"Puget Sound Salish","",352,0
+RACE,154,Yakama,"",353,0
+RACE,155,Yaqui,"",354,0
+RACE,156,Colville,"",355,0
+RACE,157,Houma,"",356,0
+RACE,158,Menominee,"",357,0
+RACE,159,Yuman,"",358,0
+RACE,160,"South American Indian","",359,0
+RACE,161,"Mexican American Indian","",360,0
+RACE,162,"Other Specified AI tribe (2000,ACS)","",361,0
+RACE,163,"Two or more AI tribes (2000,ACS)","",362,0
+RACE,164,"American Indian alone, not specified","",363,0
+RACE,165,"All other Latin American Indian alone","",364,0
+RACE,166,"Alaskan Native:","","",0
+RACE,167,"Alaskan Athabaskan","",370,0
+RACE,168,Aleut,"",371,0
+RACE,169,Eskimo,"",372,0
+RACE,170,"Alaskan mixed","",373,0
+RACE,171,Inupiat,"",374,0
+RACE,172,"Yup'ik","",375,0
+RACE,173,"Other AN tribe(s) (2000,ACS)","",379,0
+RACE,174,"Alaska Native alone, not specified","",380,0
+RACE,175,"Alaska Native tribes and villages alone","",381,0
+RACE,176,"Both AI and AN (2000,ACS)","",398,0
+RACE,177,"AIAN, tribe not specified","",399,0
+RACE,178,"Asian or Pacific Islander:","","",0
+RACE,179,Chinese,Chinese,400,0
+RACE,180,Taiwanese,"",410,0
+RACE,181,"Chinese and Taiwanese","",420,0
+RACE,182,Japanese,Japanese,500,0
+RACE,183,Filipino,"Other Asian or Pacific Islander",600,0
+RACE,184,"Asian Indian (Hindu in 1920-1940)","",610,0
+RACE,185,Korean,"",620,0
+RACE,186,"Native Hawaiian","",630,0
+RACE,187,"Asiatic Hawaiian (1920)","",631,0
+RACE,188,"Caucasian Hawaiian (1920)","",632,0
+RACE,189,"Hawaiian mixed","",634,0
+RACE,190,Vietnamese,"",640,0
+RACE,191,Bhutanese,"",641,0
+RACE,192,Mongolian,"",642,0
+RACE,193,Nepalese,"",643,0
+RACE,194,"Other Asian or Pacific Islander (1980)","",650,0
+RACE,195,"Asian only (CPS)","",651,0
+RACE,196,"Pacific Islander only (CPS)","",652,0
+RACE,197,"Asian or Pacific Islander, n.s. (1990 Internal Census files)","",653,0
+RACE,198,Afghan,"",655,0
+RACE,199,Mien,"",656,0
+RACE,200,Sikh,"",657,0
+RACE,201,Kazakh,"",658,0
+RACE,202,Uzbek,"",659,0
+RACE,203,Cambodian,"",660,0
+RACE,204,Hmong,"",661,0
+RACE,205,Laotian,"",662,0
+RACE,206,Thai,"",663,0
+RACE,207,Bangladeshi,"",664,0
+RACE,208,Burmese,"",665,0
+RACE,209,Indonesian,"",666,0
+RACE,210,Malaysian,"",667,0
+RACE,211,Okinawan,"",668,0
+RACE,212,Pakistani,"",669,0
+RACE,213,"Sri Lankan","",670,0
+RACE,214,"All other Asian, n.e.c.","",671,0
+RACE,215,"Asian, not specified","",672,0
+RACE,216,"Two or more Asian races","","",0
+RACE,217,"Chinese and Japanese","",673,0
+RACE,218,"Chinese and Filipino","",674,0
+RACE,219,"Chinese and Vietnamese","",675,0
+RACE,220,"Chinese and Asian write_in; Chinese and Other Asian","",676,0
+RACE,221,"Japanese and Filipino","",677,0
+RACE,222,"Asian Indian and Asian write_in","",678,0
+RACE,223,"Other Asian race combinations","",679,0
+RACE,224,"Polynesian region (also includes Hawaii):","","",0
+RACE,225,Samoan,"",680,0
+RACE,226,Tahitian,"",681,0
+RACE,227,Tongan,"",682,0
+RACE,228,"Other Polynesian (1990)","",683,0
+RACE,229,"One or more other Polynesian races (2000,ACS)","",684,0
+RACE,230,"Micronesian region:","","",0
+RACE,231,Chamorro,"",685,0
+RACE,232,"Northern Mariana Islander","",686,0
+RACE,233,Palauan,"",687,0
+RACE,234,"Other Micronesian (1990)","",688,0
+RACE,235,"One or more other Micronesian races (2000,ACS)","",689,0
+RACE,236,Chuukese,"",690,0
+RACE,237,Guamanian,"",691,0
+RACE,238,Marshallese,"",692,0
+RACE,239,"Melanesian region:","","",0
+RACE,240,Fijian,"",695,0
+RACE,241,"Other Melanesian (1990)","",696,0
+RACE,242,"One or more Melanesian races (2000,ACS)","",697,0
+RACE,243,"Pacific Islanders from two or more PI regions:","","",0
+RACE,244,"Two or more PI races from multiple regions","",698,0
+RACE,245,"Pacific Islander (PI), n.s.","",699,0
+RACE,246,"Some other race","","",0
+RACE,247,"Other race, n.e.c.","Other race, nec",700,0
+RACE,248,Brazilian,"",710,0
+RACE,249,"Cabo Verdean","",720,0
+RACE,250,Guyanese,"",730,0
+RACE,251,"Two major race groups:","","",0
+RACE,252,"White and Black","Two major races",801,0
+RACE,253,"White and AIAN","",802,0
+RACE,254,"White and Asian","",810,0
+RACE,255,"White and Chinese","",811,0
+RACE,256,"White and Japanese","",812,0
+RACE,257,"White and Filipino","",813,0
+RACE,258,"White and Asian Indian","",814,0
+RACE,259,"White and Korean","",815,0
+RACE,260,"White and Vietnamese","",816,0
+RACE,261,"White and Asian write_in","",817,0
+RACE,262,"White and other Asian race(s)","",818,0
+RACE,263,"White and two or more Asian groups","",819,0
+RACE,264,"White and PI:","",820,0
+RACE,265,"White and Native Hawaiian","",821,0
+RACE,266,"White and Samoan","",822,0
+RACE,267,"White and Chamorro","",823,0
+RACE,268,"White and PI write_in","",824,0
+RACE,269,"White and other PI race(s)","",825,0
+RACE,270,"White and 'other race'  write_in","",826,0
+RACE,271,"White and one or more major race groups, n.e.c.","",827,0
+RACE,272,"Black and AIAN","",830,0
+RACE,273,"Black and Asian","",831,0
+RACE,274,"Black and Chinese","",832,0
+RACE,275,"Black and Japanese","",833,0
+RACE,276,"Black and Filipino","",834,0
+RACE,277,"Black and Asian Indian","",835,0
+RACE,278,"Black and Korean","",836,0
+RACE,279,"Black and Asian write_in","",837,0
+RACE,280,"Black and other Asian race(s)","",838,0
+RACE,281,"Black and Pacific Islander","",840,0
+RACE,282,"Black and Pacific Islander write_in","",841,0
+RACE,283,"Black and other PI race(s)","",842,0
+RACE,284,"Black and 'other race' write_in","",845,0
+RACE,285,"AIAN and Asian","",850,0
+RACE,286,"AIAN and Filipino","",851,0
+RACE,287,"AIAN and Asian Indian","",852,0
+RACE,288,"AIAN and Asian write_in (2000 1%)","",853,0
+RACE,289,"AIAN and other Asian race(s)","",854,0
+RACE,290,"AIAN and Pacific Islander","",855,0
+RACE,291,"AIAN and 'other race'  write_in","",856,0
+RACE,292,"Asian and Pacific Islander","",860,0
+RACE,293,"Chinese and Native Hawaiian","",861,0
+RACE,294,"Chinese, Filipino, and Native Hawaiian (2000 1%)","",862,0
+RACE,295,"Japanese and Native Hawaiian (2000 1%)","",863,0
+RACE,296,"Filipino and Native Hawaiian","",864,0
+RACE,297,"Filipino and PI write_in","",865,0
+RACE,298,"Asian Indian and PI write_in (2000 1%)","",866,0
+RACE,299,"Asian write_in and PI write_in","",867,0
+RACE,300,"Other Asian race(s) and PI race(s)","",868,0
+RACE,301,"Japanese and Korean (ACS)","",869,0
+RACE,302,"Asian and 'other race' write_in","",880,0
+RACE,303,"Chinese and 'other race' write_in","",881,0
+RACE,304,"Japanese and 'other race'","",882,0
+RACE,305,"Filipino and 'other race' write_in","",883,0
+RACE,306,"Asian Indian and 'other race' write_in","",884,0
+RACE,307,"Asian write_in and 'other race' write_in","",885,0
+RACE,308,"Other Asian race(s) and 'other race' write_in","",886,0
+RACE,309,"Chinese and Korean","",887,0
+RACE,310,"PI and 'other race' write_in","",890,0
+RACE,311,"PI write_in and 'other race' write_in","",891,0
+RACE,312,"Other PI race(s) and 'other race' write_in","",892,0
+RACE,313,"Native Hawaiian or PI other race(s)","",893,0
+RACE,314,"Asian/Pacific Islander and 'other race' write_in","",899,0
+RACE,315,"Three major race groups:","","",0
+RACE,316,"White, Black, and AIAN","Three or more major races",901,0
+RACE,317,"White and Black and Asian","",902,0
+RACE,318,"White and Black and Pacific Islander","",903,0
+RACE,319,"White and Black and 'other race' write_in","",904,0
+RACE,320,"White and American Indian/Alaska Native and Asian","",905,0
+RACE,321,"White and American Indian/Alaska Native and Pacific Islander","",906,0
+RACE,322,"White and American Indian/Alaska Native and 'other race' write_in","",907,0
+RACE,323,"White and Asian and Pacific Islander:","",910,0
+RACE,324,"White and Chinese and Native Hawaiian","",911,0
+RACE,325,"White and Chinese and Filipino and Native Hawaiian (2000 1%, 2012 ACS)","",912,0
+RACE,326,"White and Japanese and Native Hawaiian (2000 1%)","",913,0
+RACE,327,"White and Filipino and Native Hawaiian","",914,0
+RACE,328,"Other White and Asian race(s) and Pacific Islander race(s)","",915,0
+RACE,329,"White, AIAN and Filipino","",916,0
+RACE,330,"White, Black, and Filipino","",917,0
+RACE,331,"White and Asian and 'other race' write_in:","",920,0
+RACE,332,"White and Filipino and 'other race' write_in (2000 1%)","",921,0
+RACE,333,"White and Asian write_in and 'other race' write_in (2000 1%)","",922,0
+RACE,334,"Other White and Asian race(s) and 'other race' write_in (2000 1%)","",923,0
+RACE,335,"White and Pacific Islander and 'other race' write_in","",925,0
+RACE,336,"White and Japanese and Native Hawaiian and Pacific Islander","",926,0
+RACE,337,"White and Asian and Native Hawaiian and Pacific Islander","",927,0
+RACE,338,"Black and American Indian/Alaska Native and Asian","",930,0
+RACE,339,"Black and American Indian/Alaska Native and Pacific Islander","",931,0
+RACE,340,"Black and American Indian/Alaska Native and 'other race' write_in","",932,0
+RACE,341,"Black and Asian and Pacific Islander","",933,0
+RACE,342,"Black and Asian and 'other race' write_in","",934,0
+RACE,343,"Black and Pacific Islander and 'other race' write_in","",935,0
+RACE,344,"Black and Native Hawaiian and Other Pacific Islander","",936,0
+RACE,345,"American Indian/Alaska Native and Asian and Pacific Islander","",940,0
+RACE,346,"American Indian/Alaska Native and Asian and 'other race' write_in","",941,0
+RACE,347,"American Indian/Alaska Native and Pacific Islander and 'other race' write_in","",942,0
+RACE,348,"Asian and Pacific Islander and 'other race' write_in","",943,0
+RACE,349,"Asian (Chinese, Japanese, Korean, Vietnamese); and Native Hawaiian or PI; and Other","",944,0
+RACE,350,"Two or three major race groups, unspecified (CPS)","",949,0
+RACE,351,"Four major race groups:","","",0
+RACE,352,"White and Black and American Indian/Alaska Native and Asian","",950,0
+RACE,353,"White and Black and American Indian/Alaska Native and Pacific Islander","",951,0
+RACE,354,"White and Black and American Indian/Alaska Native and 'other race' write_in","",952,0
+RACE,355,"White and Black and Asian and Pacific Islander","",953,0
+RACE,356,"White and Black and Asian and 'other race' write_in","",954,0
+RACE,357,"White and Black and Pacific Islander and 'other race' write_in","",955,0
+RACE,358,"White and American Indian/Alaska Native and Asian and Pacific Islander","",960,0
+RACE,359,"White and American Indian/Alaska Native and Asian and 'other race' write_in","",961,0
+RACE,360,"White and American Indian/Alaska Native and Pacific Islander and 'other race' write_in","",962,0
+RACE,361,"White and Asian and Pacific Islander and 'other race' write_in","",963,0
+RACE,362,"White, Chinese, Japanese, Native Hawaiian","",964,0
+RACE,363,"Black and American Indian/Alaska Native and Asian and Pacific Islander","",970,0
+RACE,364,"Black and American Indian/Alaska Native and Asian and 'other race' write_in","",971,0
+RACE,365,"Black and American Indian/Alaska Native and Pacific Islander and 'other race' write_in","",972,0
+RACE,366,"Black and Asian and Pacific Islander and 'other race' write_in","",973,0
+RACE,367,"American Indian/Alaska Native and Asian and Pacific Islander and 'other race' write_in","",974,0
+RACE,368,"American Indian and Alaska Native race; Asian groups and/or Native Hawaiian and Other Pacific Islander groups and/or Some other race","",975,0
+RACE,369,"Two specified Asian  (Chinese and other Asian, Chinese and Japanese, Japanese and other Asian, Korean and other Asian); Native Hawaiian/PI; and Other Race","",976,0
+RACE,370,"Five major race groups:","","",0
+RACE,371,"White and Black and American Indian/Alaska Native and Asian and Pacific Islander","",980,0
+RACE,372,"White and Black and American Indian/Alaska Native and Asian and 'other race' write_in","",981,0
+RACE,373,"White and Black and American Indian/Alaska Native and Pacific Islander and 'other race' write_in","",982,0
+RACE,374,"White and Black and Asian and Pacific Islander and 'other race' write_in","",983,0
+RACE,375,"White and American Indian/Alaska Native and Asian and Pacific Islander and 'other race' write_in","",984,0
+RACE,376,"Black and American Indian/Alaska Native and Asian and Pacific Islander and 'other race' write_in","",985,0
+RACE,377,"Black or African American race; American Indian and Alaska Native race; Asian groups and/or Native Hawaiian and Other Pacific Islander groups and/or Some other race","",986,0
+RACE,378,"Four or five major race groups, unspecified (CPS)","",989,0
+RACE,379,"Six major race groups:","","",0
+RACE,380,"White and Black and American Indian/Alaska Native and Asian and Pacific Islander and 'other race' write_in","",990,0
+RACE,381,"White race; Some other race; Black or African American race and/or American Indian and Alaska Native race and/or Asian groups and/or Native Hawaiian and Other Pacific Islander groups","",991,0
+RACE,382,"Two or more major race groups, n.e.c. (CPS)","",996,0
+RACE,383,Unknown,"",997,0
+RACE,384,Illegible,"",998,0
+RACE,385,Missing,"",999,0
+RELATE,1,RELATIVES,RELATIVES,"",0
+RELATE,2,Head/householder,Head/Householder,101,0
+RELATE,3,Spouse,Spouse,201,0
+RELATE,4,"2nd/3rd wife (polygamous)","",202,0
+RELATE,5,Child,Child,301,0
+RELATE,6,"Adopted child","",302,0
+RELATE,7,Stepchild,"",303,0
+RELATE,8,"Adopted, n.s.","",304,0
+RELATE,9,Child-in-law,Child-in-law,401,0
+RELATE,10,"Step child-in-law","",402,0
+RELATE,11,Parent,Parent,501,0
+RELATE,12,"Step Parent","",502,0
+RELATE,13,Parent-in-law,Parent-in-Law,601,0
+RELATE,14,"Step Parent-in-law","",602,0
+RELATE,15,Sibling,Sibling,701,0
+RELATE,16,"Step/half/adopted sibling","",702,0
+RELATE,17,Sibling-in-law,Sibling-in-Law,801,0
+RELATE,18,"Step/half sibling-in-law","",802,0
+RELATE,19,Grandchild,Grandchild,901,0
+RELATE,20,"Adopted grandchild","",902,0
+RELATE,21,"Step grandchild","",903,0
+RELATE,22,Grandchild-in-law,"",904,0
+RELATE,23,"Other relatives:","Other relatives",1000,0
+RELATE,24,"Other relatives, n.s.","",1001,0
+RELATE,25,Grandparent,"",1011,0
+RELATE,26,"Step grandparent","",1012,0
+RELATE,27,Grandparent-in-law,"",1013,0
+RELATE,28,"Aunt or uncle","",1021,0
+RELATE,29,Aunt-/uncle-in-law,"",1022,0
+RELATE,30,"Nephew, niece","",1031,0
+RELATE,31,Nephew/niece-in-law,"",1032,0
+RELATE,32,"Step/adopted nephew/niece","",1033,0
+RELATE,33,"Grand niece/nephew","",1034,0
+RELATE,34,Cousin,"",1041,0
+RELATE,35,Cousin-in-law,"",1042,0
+RELATE,36,"Great grandchild","",1051,0
+RELATE,37,"Other relatives, n.e.c.","",1061,0
+RELATE,38,NON-RELATIVES,NON-RELATIVES,"",0
+RELATE,39,"Partner, friend, visitor","Partner, friend, visitor",1100,0
+RELATE,40,Partner/friend,"",1110,0
+RELATE,41,Friend,"",1111,0
+RELATE,42,Partner,"",1112,0
+RELATE,43,"Partner/roommate (1980 residual category for other non-relatives)","",1113,0
+RELATE,44,"Unmarried partner","",1114,0
+RELATE,45,Housemate/roommate,"",1115,0
+RELATE,46,"Relative of partner","",1120,0
+RELATE,47,"Concubine/mistress and children","",1130,0
+RELATE,48,Visitor,"",1131,0
+RELATE,49,"Companion and companion's family","",1132,0
+RELATE,50,"Allocated partner/friend/visitor","",1139,0
+RELATE,51,"Pre-1940 system:","","",0
+RELATE,52,"Other non-relatives","Other non-relatives",1200,0
+RELATE,53,Roomers/boarders/lodgers,"",1201,0
+RELATE,54,Boarders,"",1202,0
+RELATE,55,Lodgers,"",1203,0
+RELATE,56,Roomer,"",1204,0
+RELATE,57,Tenant,"",1205,0
+RELATE,58,"Foster child","",1206,0
+RELATE,59,Employees:,"",1210,0
+RELATE,60,Servant,"",1211,0
+RELATE,61,Housekeeper,"",1212,0
+RELATE,62,Maid,"",1213,0
+RELATE,63,Cook,"",1214,0
+RELATE,64,Nurse,"",1215,0
+RELATE,65,"Other probable domestic employee","",1216,0
+RELATE,66,"Other employees","",1217,0
+RELATE,67,"Relative of employee","",1219,0
+RELATE,68,Military,"",1221,0
+RELATE,69,Students,"",1222,0
+RELATE,70,"Members of religious orders","",1223,0
+RELATE,71,"Other non-relatives","",1230,0
+RELATE,72,"Allocated other non-relative","",1239,0
+RELATE,73,"1940-2000 System:","","",0
+RELATE,74,"Household members:","","",0
+RELATE,75,"Roomer/boarders/lodgers and foster children","",1240,0
+RELATE,76,Roomer/boarders/lodgers,"",1241,0
+RELATE,77,"Foster children","",1242,0
+RELATE,78,Employees,"",1250,0
+RELATE,79,"Domestic employees","",1251,0
+RELATE,80,"Non-domestic employees","",1252,0
+RELATE,81,"Relative of employee","",1253,0
+RELATE,82,"Other non-relatives (1990 includes employees)","",1260,0
+RELATE,83,"Group quarters members:","","",0
+RELATE,84,"Non-inmate 1990 (includes military, students, employees, boarders)","",1270,0
+RELATE,85,"Head of group quarters","",1281,0
+RELATE,86,"Employee of group quarters","",1282,0
+RELATE,87,"Relative of head, staff, or employee group quarters","",1283,0
+RELATE,88,"Other non-inmate 1940-1950 (includes boarders, students, military)","",1284,0
+RELATE,89,Military,"",1291,0
+RELATE,90,"College dormitories","",1292,0
+RELATE,91,"Residents of rooming houses","",1293,0
+RELATE,92,"Other non-inmate 1980 (includes employees and non-inmates in institutions)","",1294,0
+RELATE,93,"Other non-inmates 1960-1970 (includes employees)","",1295,0
+RELATE,94,"Non-inmates in institutions","",1296,0
+RELATE,95,"Institutional inmates","Institutional inmates",1301,0
+RELATE,96,"1960s cases to be allocated","",8888,0
+RELATE,97,Unclassifiable,"",9996,0
+RELATE,98,Unknown,"",9997,0
+RELATE,99,Illegible,"",9998,0
+RELATE,100,Missing,"",9999,0
+SCHLTYPE,1,N/A,"",0,1
+SCHLTYPE,2,"Not enrolled","",1,0
+SCHLTYPE,3,"Public school","",2,0
+SCHLTYPE,4,"Private school (1960,1990-2000, ACS, PRCS)","",3,0
+SCHLTYPE,5,"Church-related (1980)","",4,0
+SCHLTYPE,6,"Parochial (1970)","",5,0
+SCHLTYPE,7,"Other private, 1980","",6,0
+SCHLTYPE,8,"Other private, 1970","",7,0
+SCHOOL,1,N/A,"",0,0
+SCHOOL,2,"No, not in school","",1,0
+SCHOOL,3,"Yes, in school","",2,0
+SCHOOL,4,Unknown,"",8,0
+SCHOOL,5,Missing,"",9,0
+SEX,1,Male,"",1,0
+SEX,2,Female,"",2,0
+SEX,3,Illegible,"",8,0
+SEX,4,Missing/blank,"",9,0
+STATEFIP,1,Alabama,"",1,0
+STATEFIP,2,Alaska,"",2,0
+STATEFIP,3,Arizona,"",4,0
+STATEFIP,4,Arkansas,"",5,0
+STATEFIP,5,California,"",6,0
+STATEFIP,6,Colorado,"",8,0
+STATEFIP,7,Connecticut,"",9,0
+STATEFIP,8,Delaware,"",10,0
+STATEFIP,9,"District of Columbia","",11,0
+STATEFIP,10,Florida,"",12,0
+STATEFIP,11,Georgia,"",13,0
+STATEFIP,12,Hawaii,"",15,0
+STATEFIP,13,Idaho,"",16,0
+STATEFIP,14,Illinois,"",17,0
+STATEFIP,15,Indiana,"",18,0
+STATEFIP,16,Iowa,"",19,0
+STATEFIP,17,Kansas,"",20,0
+STATEFIP,18,Kentucky,"",21,0
+STATEFIP,19,Louisiana,"",22,0
+STATEFIP,20,Maine,"",23,0
+STATEFIP,21,Maryland,"",24,0
+STATEFIP,22,Massachusetts,"",25,0
+STATEFIP,23,Michigan,"",26,0
+STATEFIP,24,Minnesota,"",27,0
+STATEFIP,25,Mississippi,"",28,0
+STATEFIP,26,Missouri,"",29,0
+STATEFIP,27,Montana,"",30,0
+STATEFIP,28,Nebraska,"",31,0
+STATEFIP,29,Nevada,"",32,0
+STATEFIP,30,"New Hampshire","",33,0
+STATEFIP,31,"New Jersey","",34,0
+STATEFIP,32,"New Mexico","",35,0
+STATEFIP,33,"New York","",36,0
+STATEFIP,34,"North Carolina","",37,0
+STATEFIP,35,"North Dakota","",38,0
+STATEFIP,36,Ohio,"",39,0
+STATEFIP,37,Oklahoma,"",40,0
+STATEFIP,38,Oregon,"",41,0
+STATEFIP,39,Pennsylvania,"",42,0
+STATEFIP,40,"Rhode Island","",44,0
+STATEFIP,41,"South Carolina","",45,0
+STATEFIP,42,"South Dakota","",46,0
+STATEFIP,43,Tennessee,"",47,0
+STATEFIP,44,Texas,"",48,0
+STATEFIP,45,Utah,"",49,0
+STATEFIP,46,Vermont,"",50,0
+STATEFIP,47,Virginia,"",51,0
+STATEFIP,48,Washington,"",53,0
+STATEFIP,49,"West Virginia","",54,0
+STATEFIP,50,Wisconsin,"",55,0
+STATEFIP,51,Wyoming,"",56,0
+STATEFIP,52,"State groups (1980 Urban/rural sample):","","",0
+STATEFIP,53,"Maine-New Hampshire-Vermont","",61,0
+STATEFIP,54,"Massachusetts-Rhode Island","",62,0
+STATEFIP,55,"Minnesota-Iowa-Missouri-Kansas-Nebraska-S. Dakota-N. Dakota","",63,0
+STATEFIP,56,Maryland-Delaware,"",64,0
+STATEFIP,57,Montana-Idaho-Wyoming,"",65,0
+STATEFIP,58,Utah-Nevada,"",66,0
+STATEFIP,59,"Arizona-New Mexico","",67,0
+STATEFIP,60,Alaska-Hawaii,"",68,0
+STATEFIP,61,"Puerto Rico","",72,0
+STATEFIP,62,"Virgin Islands (in 1990 internal census data)","",78,0
+STATEFIP,63,"Dakota Territory","",93,0
+STATEFIP,64,"Indian Territory","",94,0
+STATEFIP,65,"Overseas Military Installations","",97,0
+STATEFIP,66,"State not identified","",99,0

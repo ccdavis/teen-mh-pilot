@@ -1,0 +1,12 @@
+series_id,series_code,indicator,itu_label,unit,rows_raw,blank_values_dropped,dups_resolved,n_iso3,year_min,year_max
+12066,i911mw,mbb_subs_per100,Active mobile-broadband subscriptions per 100 inhabitants,per 100 people,3537,0,3,219,2002,2025
+430,i271G,pop_covered_3g_pct,Percentage of the population covered by at least a 3G mobile network,% of individuals,3265,6,3,227,2007,2025
+19306,i271GA,pop_covered_4g_pct,Percentage of the population covered by at least an LTE/WiMAX mobile network.,% of individuals,2612,7,1,222,2012,2025
+11624,i99H,internet_users_pct,Internet users (%),% of individuals,6940,2,0,233,1960,2025
+9224,HHU4212-%_POP-15TO24-,internet_users_pct_age15_24,HH07 - Individuals who used the internet (from any location) - %_POP - 15TO24,% of individuals,1198,0,0,114,2002,2025
+9225,HHU4212-%_POP-15TO24-FEMALE,internet_users_pct_age15_24_female,HH07 - Individuals who used the internet (from any location) - %_POP - 15TO24 - FEMALE,% of individuals,1119,0,0,110,2002,2025
+9226,HHU4212-%_POP-15TO24-MALE,internet_users_pct_age15_24_male,HH07 - Individuals who used the internet (from any location) - %_POP - 15TO24 - MALE,% of individuals,1118,0,0,110,2002,2025
+9230,HHU4212-%_POP-FEMALE-,internet_users_pct_female,HH07 - Individuals who used the internet (from any location) - %_POP - FEMALE,% of individuals,1515,0,0,139,2000,2025
+9276,HHU4212-%_POP-MALE-,internet_users_pct_male,HH07 - Individuals who used the internet (from any location) - %_POP - MALE,% of individuals,1516,0,0,139,2000,2025
+392,i911,mobile_subs_per100,Mobile-cellular subscriptions per 100 inhabitants,per 100 people,11619,0,1,234,1960,2025
+12047,xHH6_IDI,hh_internet_access_pct,Estimated proportion of households with Internet access at home,% of households,4196,1,0,223,1995,2025
