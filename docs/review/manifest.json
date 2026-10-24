@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "input": "build/report.html",
-  "input_sha256": "de8916c9c2e3cd11325410feb522fa57e169e5401b6f225a748455e05fe029f3",
+  "input_sha256": "8b375ed68492b8a8d734a012602625c524946ac8288b8f6ec0582999fd05cfdd",
   "source_sha256": {
-    "scripts/report/90_build_report.py": "6b19a541007a79c5b16b3d5c18cf7f08f10e3bb057b955b44e471d610089c5c6",
-    "scripts/report/sections/reconcile.html": "9fcfc7a4174a3bfbc1e5448a73216cb65c2548d3e5d9cf5d89a8cd97165b89b9"
+    "scripts/report/90_build_report.py": "dc32ecfe3d7aaa25f70e971db18184bf0e679441ef543fc17a5e6203d3fb0b5f",
+    "scripts/report/sections/reconcile.html": "751a0776cafc58d64f4ce0d9bdce2697d727f4c7defca08b3517b0266def5144"
   },
   "paper": "../Teen_Distress_Pilot.md",
-  "paper_sha256": "96107db7300f89a40425d011cffc938b7eaa72a8445fc13dc742fab702516af1",
+  "paper_sha256": "7094f06e74d0cf83d55e81379903bebe1cdddbfa9783bddde4d14b4b6ae29e4b",
   "target_words": 1200,
   "chunks": [
     {
@@ -1121,7 +1121,7 @@
         "How this sits with Haidt's and Twenge's evidence"
       ],
       "file": "chunks/reconcile.md",
-      "words": 125,
+      "words": 165,
       "paper_lines": [
         648,
         650
@@ -1136,8 +1136,8 @@
           "line": 1
         }
       ],
-      "paper_content_sha256": "a05c3f2340c53ac73453aeacd6834eac2079b4e6da2375205041a0f99f48019d",
-      "sha256": "0591563105bec7d4f3b760399aa6aeb3cf29b09b47f0abd2237480df4c82328f"
+      "paper_content_sha256": "e9c05282eae630fafd37aa4ca1fdcbb2393a7dcc59b522a97e3c86bb75f1118c",
+      "sha256": "62a5230d44b7244619e086881a0a945ac9d6c667fa5f4e811c6556e98db36575"
     },
     {
       "id": "what-that-evidence-base-contains",
@@ -1149,10 +1149,10 @@
         "What that evidence base contains"
       ],
       "file": "chunks/what-that-evidence-base-contains.md",
-      "words": 263,
+      "words": 400,
       "paper_lines": [
         654,
-        662
+        663
       ],
       "sources": [
         {
@@ -1160,8 +1160,8 @@
           "line": 2
         }
       ],
-      "paper_content_sha256": "90792baecff10f53e5fdd430a17bbd8073a654917391eecdbe64507874eb1a5b",
-      "sha256": "89b040646896bfaea4bef773635b8fa8c6cb169ee1490acbd3904e89d7855abf"
+      "paper_content_sha256": "20efcc16bb5a41ef7b36c73e646c4ef8f8b990abede1c4a2aedf78724acb7d12",
+      "sha256": "6351d6c4461ce17c695fbb2d25878c06811ccb966bffb62fc4881d4604e2e659"
     },
     {
       "id": "where-the-pilot-agrees",
@@ -1173,19 +1173,19 @@
         "Where the pilot agrees"
       ],
       "file": "chunks/where-the-pilot-agrees.md",
-      "words": 175,
+      "words": 253,
       "paper_lines": [
-        666,
-        671
+        667,
+        672
       ],
       "sources": [
         {
           "path": "scripts/report/sections/reconcile.html",
-          "line": 10
+          "line": 11
         }
       ],
-      "paper_content_sha256": "66a1dca1b804bebbac470488b6f2a1d26adb9aabdab1c67ca4255568717d609d",
-      "sha256": "0c33632b061cc9ea73f616df6afe6e96a15b0a84c9e1cc9dfb1ec5d545e987a7"
+      "paper_content_sha256": "60913c10a82a1a48b7901ad297593cf092a8c050e3637743e1d2725cfdd13c94",
+      "sha256": "a2638a26c148728e556f208513ce6c6bc05135c593754390d01db0ceef023212"
     },
     {
       "id": "where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference",
@@ -1197,19 +1197,19 @@
         "Where the pilot finds no effect, and how to interpret the difference"
       ],
       "file": "chunks/where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference.md",
-      "words": 548,
+      "words": 627,
       "paper_lines": [
-        675,
-        681
+        676,
+        682
       ],
       "sources": [
         {
           "path": "scripts/report/sections/reconcile.html",
-          "line": 17
+          "line": 18
         }
       ],
-      "paper_content_sha256": "ee6c5d8925ea517beaebecf327e27936eb313af7ee90f936671f8b5ab2492d6d",
-      "sha256": "aadf9b171f9eb3a99d66ad2607a5255c653e84f34c6c642f19d613341f06ba39"
+      "paper_content_sha256": "f9ae0dc8fb81ca3c4efd6637ca637f23a6d3e9f8d22cf2fdeb6d567150e070b5",
+      "sha256": "ddc360c551550c30df11a343cff18c2c814a7a1e07d1e4ba204c6dc40db37d8c"
     },
     {
       "id": "two-empirical-patterns-the-existing-debate-has-largely-overlooked",
@@ -1221,23 +1221,23 @@
         "Two empirical patterns the existing debate has largely overlooked"
       ],
       "file": "chunks/two-empirical-patterns-the-existing-debate-has-largely-overlooked.md",
-      "words": 238,
+      "words": 315,
       "paper_lines": [
-        685,
-        690
+        686,
+        691
       ],
       "sources": [
         {
           "path": "scripts/report/sections/reconcile.html",
-          "line": 23
+          "line": 24
         },
         {
           "path": "scripts/report/sections/reconcile.html",
-          "line": 28
+          "line": 29
         }
       ],
-      "paper_content_sha256": "2aa30e340d353e988909ac6a6098869204583613a50ae73019cb14a7597e566c",
-      "sha256": "846d41d776257f2c0b4ce8d457beb466efff276f8e4557e48cc389830ce9ad4f"
+      "paper_content_sha256": "3b6ba3d39bbedfd7c6e193f28c7e4ff9514a3faf0aade74946de6fb519d07177",
+      "sha256": "28c0509415e9a8156a1c62aec6673524f396c4db9dfd8013e999f783f804f9fa"
     },
     {
       "id": "next",
@@ -1248,10 +1248,10 @@
         "Conclusions and next steps"
       ],
       "file": "chunks/next.md",
-      "words": 872,
+      "words": 1037,
       "paper_lines": [
-        694,
-        714
+        695,
+        715
       ],
       "sources": [
         {
@@ -1275,8 +1275,8 @@
           "line": 703
         }
       ],
-      "paper_content_sha256": "b974c19e494f3371be1f945f10f05eb8196720ce82559473a52e1996072e3340",
-      "sha256": "0a93fbec64576ccfb73e26c0a963d037cea5093b26597d23cf60bd4fc5558ec6"
+      "paper_content_sha256": "d73acb102fdc00b2fec6f0200067433d6cdc8343da5e73f37aa1b6bb8eec0ea9",
+      "sha256": "34672ab0c657682065309b7f9fa3583f611a98f05f750233aa4750ae24137c36"
     }
   ]
 }

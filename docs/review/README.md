@@ -79,9 +79,9 @@ complete Markdown file; its paper content covers every parsed block exactly once
 | 25 | [School phone bans](chunks/bans.md) | 1114 | 532–582 |
 | 26 | [What the causal literature already shows](chunks/what-the-causal-literature-already-shows.md) | 1176 | 586–614 |
 | 27 | [County social-media use and sadness](chunks/county-social-media-use-and-sadness.md) | 762 | 618–644 |
-| 28 | [How this sits with Haidt's and Twenge's evidence](chunks/reconcile.md) | 125 | 648–650 |
-| 29 | [What that evidence base contains](chunks/what-that-evidence-base-contains.md) | 263 | 654–662 |
-| 30 | [Where the pilot agrees](chunks/where-the-pilot-agrees.md) | 175 | 666–671 |
-| 31 | [Where the pilot finds no effect, and how to interpret the difference](chunks/where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference.md) | 548 | 675–681 |
-| 32 | [Two empirical patterns the existing debate has largely overlooked](chunks/two-empirical-patterns-the-existing-debate-has-largely-overlooked.md) | 238 | 685–690 |
-| 33 | [Conclusions and next steps](chunks/next.md) | 872 | 694–714 |
+| 28 | [How this sits with Haidt's and Twenge's evidence](chunks/reconcile.md) | 165 | 648–650 |
+| 29 | [What that evidence base contains](chunks/what-that-evidence-base-contains.md) | 400 | 654–663 |
+| 30 | [Where the pilot agrees](chunks/where-the-pilot-agrees.md) | 253 | 667–672 |
+| 31 | [Where the pilot finds no effect, and how to interpret the difference](chunks/where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference.md) | 627 | 676–682 |
+| 32 | [Two empirical patterns the existing debate has largely overlooked](chunks/two-empirical-patterns-the-existing-debate-has-largely-overlooked.md) | 315 | 686–691 |
+| 33 | [Conclusions and next steps](chunks/next.md) | 1037 | 695–715 |
