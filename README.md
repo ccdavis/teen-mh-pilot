@@ -4,11 +4,13 @@ What large-scale public microdata can say about the two leading explanations for
 
 **Read the report:** https://ccdavis.github.io/teen-mh-pilot/ (GitHub Pages, served from `docs/`), or open `docs/index.html` locally (self-contained; works offline), or the print editions `docs/Teen_Distress_Pilot.pdf` and `docs/Teen_Distress_Pilot.docx`.
 
+**Review the paper:** [complete Markdown](docs/Teen_Distress_Pilot.md), or start at the [indexed review chunks](docs/review/README.md) for copy editing with an LLM. Each chunk links to the editable sources and its place in the complete paper.
+
 ## What is in this repository
 
 | Path | Contents |
 |---|---|
-| `docs/` | The report as a static site (interactive charts), plus PDF and Word editions and a PNG of every chart |
+| `docs/` | The report as a static site (interactive charts), PDF, Word and Markdown editions, indexed review chunks in `review/`, and a PNG of every chart |
 | `results/tables/` | Every computed table the report draws on (CSV) |
 | `data/compiled/` | Public-source tables constructed for this project: LTE launch dates by metro, state school phone-ban timing, state accountability-policy timing, HBSC published trend series, ITU connectivity series, NTIA adoption aggregates, state youth-survey county panel, GSHS catalog, World Bank indicators |
 | `data/` (ignored) | Raw downloads and microdata extracts are not committed; `data/README.md` says how to obtain each |
@@ -28,9 +30,15 @@ Python is managed with [uv](https://docs.astral.sh/uv/); `uv sync` installs the 
 2. `scripts/extract/`: build the slim microdata files (see its README for the exact variable lists).
 3. `scripts/download/`: fetch and compile the public sources (the compiled outputs are already committed in `data/compiled/`).
 4. `scripts/analysis/`: run the numbered scripts in order (10a before 10; 18 before the report builder); they write to `results/tables/`.
-5. `scripts/report/90_build_report.py`, then `scripts/report/92_print_editions.sh`, then `scripts/report/94_build_site.py` to rebuild `docs/`.
+5. `bash scripts/report/rebuild.sh` to rebuild all editions in `docs/` (HTML, PDF, Word, complete Markdown and indexed review chunks).
 
-Steps 4 and 5 can be run from the committed `results/tables/` and `data/compiled/` alone; steps 1 to 3 are needed only to regenerate those from the sources.
+Step 5 can be run from the committed `results/tables/` and `data/compiled/` alone; steps 1 to 4 are needed only to regenerate those results from the sources.
+
+## Copy editing and regenerating the paper
+
+Read [the review index](docs/review/README.md), select chunks in document order, and record edits by chunk ID and exact quotation. Apply accepted edits to `scripts/report/90_build_report.py` or the hand-written files in `scripts/report/sections/`, using the source links in each chunk. These Python/HTML templates are the authoritative text; the Markdown edition and chunks are generated and overwritten on rebuild. Computed tables still come from the analysis outputs.
+
+Run `bash scripts/report/rebuild.sh` after edits to regenerate every edition together. During editing, `bash scripts/report/rebuild.sh --review-only` rebuilds the HTML and Markdown without rendering PDF, Word or chart images; finish with the full rebuild before sharing. Neither command reruns the microdata analyses. The [JSON manifest](docs/review/manifest.json) provides chunk order, context, word counts, source locations, full-paper line ranges and fingerprints for automated review tools.
 
 ## Data access
 

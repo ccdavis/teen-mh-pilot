@@ -1,0 +1,1282 @@
+{
+  "schema_version": 1,
+  "input": "build/report.html",
+  "input_sha256": "de8916c9c2e3cd11325410feb522fa57e169e5401b6f225a748455e05fe029f3",
+  "source_sha256": {
+    "scripts/report/90_build_report.py": "6b19a541007a79c5b16b3d5c18cf7f08f10e3bb057b955b44e471d610089c5c6",
+    "scripts/report/sections/reconcile.html": "9fcfc7a4174a3bfbc1e5448a73216cb65c2548d3e5d9cf5d89a8cd97165b89b9"
+  },
+  "paper": "../Teen_Distress_Pilot.md",
+  "paper_sha256": "96107db7300f89a40425d011cffc938b7eaa72a8445fc13dc742fab702516af1",
+  "target_words": 1200,
+  "chunks": [
+    {
+      "id": "publication-note",
+      "order": 1,
+      "title": "Publication note",
+      "context": [],
+      "file": "chunks/publication-note.md",
+      "words": 10,
+      "paper_lines": [
+        7,
+        7
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 572
+        }
+      ],
+      "paper_content_sha256": "892cd345a65612a6e64382d5b71dfcd3be684873c69e2d60dd32f8ab45fe914a",
+      "sha256": "838955d2e3718e2fe6b42a6e75a0b79614d31bf2ffc909d54bc55e12a2c20077"
+    },
+    {
+      "id": "teen-distress-pilot",
+      "order": 2,
+      "title": "Teen Distress Pilot",
+      "context": [
+        "Teen Distress Pilot"
+      ],
+      "file": "chunks/teen-distress-pilot.md",
+      "words": 83,
+      "paper_lines": [
+        11,
+        13
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 546
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 574
+        }
+      ],
+      "paper_content_sha256": "2a4157a418f74fb7943c00854db5bb41e2cad08772201258c411d2f801dd2570",
+      "sha256": "3114a2b8f3b4cb7997c74aa3fd5e094652078a26e58c3967084c690b743997e1"
+    },
+    {
+      "id": "hyp",
+      "order": 3,
+      "title": "The four hypotheses",
+      "context": [
+        "Teen Distress Pilot",
+        "The four hypotheses"
+      ],
+      "file": "chunks/hyp.md",
+      "words": 274,
+      "paper_lines": [
+        17,
+        26
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 577
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 578
+        }
+      ],
+      "paper_content_sha256": "19e574dc8826dbe5a345b2d03340f7ef40dc4a46a0588a4a38c91a0a425efc54",
+      "sha256": "5c8a77f5bb4e3060cdc3a5a519d8b14b5f8ddcfabec1cb80e44832c0b6378319"
+    },
+    {
+      "id": "verdict",
+      "order": 4,
+      "title": "Summary: what the public microdata support today",
+      "context": [
+        "Teen Distress Pilot",
+        "Summary: what the public microdata support today"
+      ],
+      "file": "chunks/verdict.md",
+      "words": 807,
+      "paper_lines": [
+        30,
+        53
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 586
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 587
+        }
+      ],
+      "paper_content_sha256": "7021a3c0f400299d0942695849f949cf7a72296db9784024cbcaed521d0d16a0",
+      "sha256": "89e76da70597b2ed7aecd7e2ac0de7605ac403cf13c8438b04ea5c34f9a82cd3"
+    },
+    {
+      "id": "part1",
+      "order": 5,
+      "title": "Part 1 · The rise, and whether public data can measure it",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 1 · The rise, and whether public data can measure it"
+      ],
+      "file": "chunks/part1.md",
+      "words": 75,
+      "paper_lines": [
+        57,
+        59
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 610
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 611
+        }
+      ],
+      "paper_content_sha256": "d16f3d07e0be6ebbc1d8ca1e3615b6626b4da9ce377cb826da7e36d278b16e52",
+      "sha256": "ad660ab96f7a9cf176a323eebdb9ee2db1437a1841beaf7778869462bc86b7bd"
+    },
+    {
+      "id": "acs",
+      "order": 6,
+      "title": "The ACS cognitive-difficulty item, 2008–2024",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 1 · The rise, and whether public data can measure it",
+        "The ACS cognitive-difficulty item, 2008–2024"
+      ],
+      "file": "chunks/acs.md",
+      "words": 267,
+      "paper_lines": [
+        63,
+        84
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 612
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 613
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 615
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 617
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 619
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 620
+        }
+      ],
+      "paper_content_sha256": "d93545e3031c68b2fbbf9474252d61856fe9361008bead1052a9b4373d54bcab",
+      "sha256": "7bf7217450f870241bf5a307ded0878f01c283aefd41e2b844c8f979616c6e58"
+    },
+    {
+      "id": "gates",
+      "order": 7,
+      "title": "Does the ACS item measure adolescent distress?",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 1 · The rise, and whether public data can measure it",
+        "Does the ACS item measure adolescent distress?"
+      ],
+      "file": "chunks/gates.md",
+      "words": 537,
+      "paper_lines": [
+        88,
+        123
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 108
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 109
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 111
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 112
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 115
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 116
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 118
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 119
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 120
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 623
+        }
+      ],
+      "paper_content_sha256": "41ed954dcccad36b8f21150eb0936a50a893b8fcbfe89101b2015b9f3f1bfcbe",
+      "sha256": "47f17ae08efc7d002d4198d51c5cac9dcd540b0390f824ed6326f82978f4f39b"
+    },
+    {
+      "id": "geo",
+      "order": 8,
+      "title": "Geographic variation: is there anything to explain?",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 1 · The rise, and whether public data can measure it",
+        "Geographic variation: is there anything to explain?"
+      ],
+      "file": "chunks/geo.md",
+      "words": 470,
+      "paper_lines": [
+        127,
+        182
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 79
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 627
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 628
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 630
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 631
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 632
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 634
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 635
+        }
+      ],
+      "paper_content_sha256": "5860782695412f464c3d3b5ad1187bb26d49bea8c65af418db81cc35cf95f96f",
+      "sha256": "892a3d6d27e981e06b5874c2836809040dec53cdd50f77a0139f154139d88f6b"
+    },
+    {
+      "id": "state-youth-surveys-at-county-level",
+      "order": 9,
+      "title": "State youth surveys at county level",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 1 · The rise, and whether public data can measure it",
+        "State youth surveys at county level"
+      ],
+      "file": "chunks/state-youth-surveys-at-county-level.md",
+      "words": 273,
+      "paper_lines": [
+        186,
+        194
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 403
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 404
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 406
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 407
+        }
+      ],
+      "paper_content_sha256": "24a349bee4fada97ec90a0f632b7c26a8900fc0b1ee3730c7f107cb76315791e",
+      "sha256": "f2ef958d068e48aa7a115e654dea80c99aa299e3e9e4f7160013ae5264f51722"
+    },
+    {
+      "id": "part2",
+      "order": 10,
+      "title": "Part 2 · Phones and social media (H1)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)"
+      ],
+      "file": "chunks/part2.md",
+      "words": 76,
+      "paper_lines": [
+        198,
+        200
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 641
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 642
+        }
+      ],
+      "paper_content_sha256": "1665d2221c77c534af5792f8a57ef4ce5178f2bdc6440441060132f3b0d299ae",
+      "sha256": "2ab460613fc0e4cd45130df03f76710620c99eb6462e8a0a76e90a778c4e04ae"
+    },
+    {
+      "id": "lte",
+      "order": 11,
+      "title": "4G rollout across U.S. metros",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "4G rollout across U.S. metros"
+      ],
+      "file": "chunks/lte.md",
+      "words": 639,
+      "paper_lines": [
+        204,
+        233
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 213
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 214
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 216
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 217
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 220
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 227
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 228
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 643
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 644
+        }
+      ],
+      "paper_content_sha256": "9f3e11e5e2645628fc2d6dc1f47f0dc7814778924e583429dac6dcce8402a427",
+      "sha256": "629b97bd926e3c04486e18d0c7ad92849b3639df2d734deb6133224e9c4c0f64"
+    },
+    {
+      "id": "rollout-and-adoption-at-county-level-state-youth-surveys",
+      "order": 12,
+      "title": "Rollout and adoption at county level, state youth surveys",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Rollout and adoption at county level, state youth surveys"
+      ],
+      "file": "chunks/rollout-and-adoption-at-county-level-state-youth-surveys.md",
+      "words": 425,
+      "paper_lines": [
+        237,
+        262
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 408
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 409
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 413
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 415
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 416
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 419
+        }
+      ],
+      "paper_content_sha256": "e73758aa9de1fda3f9d81dc7ddf49ed5116a43b1bdce9d97da79070bffced14f",
+      "sha256": "c98d0835b08a37b399f002b8b262eb00f74a8157255179b2fd86fc8e16daba25"
+    },
+    {
+      "id": "adoption-rather-than-rollout-smartphone-use-against-the-state-youth-survey",
+      "order": 13,
+      "title": "Adoption rather than rollout: smartphone use against the state youth survey",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Adoption rather than rollout: smartphone use against the state youth survey"
+      ],
+      "file": "chunks/adoption-rather-than-rollout-smartphone-use-against-the-state-youth-survey.md",
+      "words": 204,
+      "paper_lines": [
+        266,
+        277
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 341
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 342
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 349
+        }
+      ],
+      "paper_content_sha256": "8457b91ac839470809462b6c824eb3451eef8b293fa521a9eaddadbd1e753c3d",
+      "sha256": "8f915a81754a9433e8064ace9e805560b786618567e092af31c35589d8d3d2e2"
+    },
+    {
+      "id": "smartphone-adoption-in-the-united-states-20092023",
+      "order": 14,
+      "title": "Smartphone adoption in the United States, 2009–2023",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Smartphone adoption in the United States, 2009–2023"
+      ],
+      "file": "chunks/smartphone-adoption-in-the-united-states-20092023.md",
+      "words": 226,
+      "paper_lines": [
+        281,
+        293
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 143
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 145
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 146
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 148
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 650
+        }
+      ],
+      "paper_content_sha256": "1807f500ea3f67db3ae814b91de319d1a6c17a27cbc35c229eb8424fe35b7e87",
+      "sha256": "c5523ce87e1e4fd47c6940d5649ec27171f854f76318bf0ebbe674b8130cf8e6"
+    },
+    {
+      "id": "phone-first-countries-mics-child-functioning-module-68-surveys-20172024",
+      "order": 15,
+      "title": "Phone-first countries: MICS Child Functioning Module (68 surveys, 2017–2024)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Phone-first countries: MICS Child Functioning Module (68 surveys, 2017–2024)"
+      ],
+      "file": "chunks/phone-first-countries-mics-child-functioning-module-68-surveys-20172024.md",
+      "words": 1039,
+      "paper_lines": [
+        297,
+        342
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 316
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 317
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 319
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 320
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 322
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 323
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 324
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 326
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 327
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 328
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 329
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 652
+        }
+      ],
+      "paper_content_sha256": "3931817b34077836c1a4a6fb28ca09a0b8793f1acc3f84bde33319dda1e3053f",
+      "sha256": "58be43c1fc29a88d503493ac796d7c4392e8ef4a3653113afcb2d4897ae001e2"
+    },
+    {
+      "id": "phone-first-countries-gshs-school-surveys-149-country-rounds-20032023",
+      "order": 16,
+      "title": "Phone-first countries: GSHS school surveys (149 country-rounds, 2003–2023)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Phone-first countries: GSHS school surveys (149 country-rounds, 2003–2023)"
+      ],
+      "file": "chunks/phone-first-countries-gshs-school-surveys-149-country-rounds-20032023.md",
+      "words": 987,
+      "paper_lines": [
+        346,
+        396
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 248
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 250
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 252
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 253
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 366
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 367
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 369
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 370
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 379
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 380
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 382
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 383
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 654
+        }
+      ],
+      "paper_content_sha256": "4eddd055edf304084ae18b23fe95f926d7dda7af4c4fa960bbe5e6340a70f133",
+      "sha256": "06cf5a9d53ff1eb82030ce339a9e5d60fb6daae32f849b867566c9a70c84954c"
+    },
+    {
+      "id": "phone-first-countries-census-microdata-ipums-international",
+      "order": 17,
+      "title": "Phone-first countries: census microdata (IPUMS International)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 2 · Phones and social media (H1)",
+        "Phone-first countries: census microdata (IPUMS International)"
+      ],
+      "file": "chunks/phone-first-countries-census-microdata-ipums-international.md",
+      "words": 176,
+      "paper_lines": [
+        400,
+        402
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 656
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 657
+        }
+      ],
+      "paper_content_sha256": "ee73c878a0363d13a5c92ec5971df7898468c052d4605327288c8fac6764bc05",
+      "sha256": "3132b7a12bf5805adce322efee252e2474f8928e1ec8c26d952c03ec0b1e92d3"
+    },
+    {
+      "id": "part3",
+      "order": 18,
+      "title": "Part 3 · School pressure (H2)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 3 · School pressure (H2)"
+      ],
+      "file": "chunks/part3.md",
+      "words": 59,
+      "paper_lines": [
+        406,
+        408
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 660
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 661
+        }
+      ],
+      "paper_content_sha256": "41a70895d5ee95f9f70719228afa105c20d53f201e91ed8241e65104a9ecfcdf",
+      "sha256": "9a69865843ca070f1ef5dc8918275e2223bc627bda7bcba5db44a2af599a580d"
+    },
+    {
+      "id": "atus",
+      "order": 19,
+      "title": "Did school demands rise? Time use of 15–17-year-olds (ATUS, 2003–2024)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 3 · School pressure (H2)",
+        "Did school demands rise? Time use of 15–17-year-olds (ATUS, 2003–2024)"
+      ],
+      "file": "chunks/atus.md",
+      "words": 137,
+      "paper_lines": [
+        412,
+        418
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 662
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 663
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 665
+        }
+      ],
+      "paper_content_sha256": "05bb4abb66888aafdcd4ccd1550a1efa69f00f2ca06f583097ab3f96572c7d34",
+      "sha256": "f25f3300ba83382e4a8ec9bb032d4d311be04f1cafa48549b0ae755ce393fe9a"
+    },
+    {
+      "id": "schoolwork-pressure-across-countries-hbsc",
+      "order": 20,
+      "title": "Schoolwork pressure across countries (HBSC)",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 3 · School pressure (H2)",
+        "Schoolwork pressure across countries (HBSC)"
+      ],
+      "file": "chunks/schoolwork-pressure-across-countries-hbsc.md",
+      "words": 498,
+      "paper_lines": [
+        422,
+        447
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 172
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 174
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 175
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 176
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 178
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 187
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 668
+        }
+      ],
+      "paper_content_sha256": "3f145b531fff08285650949d56421c65390ba375a018c57c2243cb9e78c5fd9a",
+      "sha256": "f06215be822a254a3e8d7de4830932ef91c3f779fcdd1d520420d665b51927c5"
+    },
+    {
+      "id": "policy",
+      "order": 21,
+      "title": "U.S. school accountability policy",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 3 · School pressure (H2)",
+        "U.S. school accountability policy"
+      ],
+      "file": "chunks/policy.md",
+      "words": 657,
+      "paper_lines": [
+        451,
+        482
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 274
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 276
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 277
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 279
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 280
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 350
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 352
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 353
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 670
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 671
+        }
+      ],
+      "paper_content_sha256": "2cf179a3675f298929e451f160a996181dd6835230e6b9055a8fa601276aa7d4",
+      "sha256": "0f5b5b82b0ff709ede078a2261973d7d8524973a1c1c0169139ff97fec8cc8ff"
+    },
+    {
+      "id": "part4",
+      "order": 22,
+      "title": "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school"
+      ],
+      "file": "chunks/part4.md",
+      "words": 109,
+      "paper_lines": [
+        486,
+        488
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 451
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 677
+        }
+      ],
+      "paper_content_sha256": "c5f2a8d3f076f9c83e67ba3f2e8cea1ba40efbf89505c493b069696a57fadf28",
+      "sha256": "fe7d24c7777222e936ff418f2157ac2808a5aa04267784d1dae83df6e30659c8"
+    },
+    {
+      "id": "what-the-phone-ban-evidence-says-about-this",
+      "order": 23,
+      "title": "What the phone-ban evidence says about this",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+        "What the phone-ban evidence says about this"
+      ],
+      "file": "chunks/what-the-phone-ban-evidence-says-about-this.md",
+      "words": 360,
+      "paper_lines": [
+        492,
+        509
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 452
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 453
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 455
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 456
+        }
+      ],
+      "paper_content_sha256": "fed2ee0f9dd1fa7174555f55535601f3c8c794f00910ea9de3fe88f038e4f4e3",
+      "sha256": "dfdebb530691016da3f2970db177c5221b21fa9d6c6910bccec8177e1ce14767"
+    },
+    {
+      "id": "did-4g-timing-matter-more-in-high-pressure-states",
+      "order": 24,
+      "title": "Did 4G timing matter more in high-pressure states?",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+        "Did 4G timing matter more in high-pressure states?"
+      ],
+      "file": "chunks/did-4g-timing-matter-more-in-high-pressure-states.md",
+      "words": 160,
+      "paper_lines": [
+        513,
+        528
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 283
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 284
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 679
+        }
+      ],
+      "paper_content_sha256": "58bd895e765b86020a684fa3f0c4adb616365cf7920394eff74529fc5e3f4540",
+      "sha256": "20568770002b923863a1e8285a4abf2ce94c1422347270f6dfec2a27f52eaf32"
+    },
+    {
+      "id": "bans",
+      "order": 25,
+      "title": "School phone bans",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+        "School phone bans"
+      ],
+      "file": "chunks/bans.md",
+      "words": 1114,
+      "paper_lines": [
+        532,
+        582
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 490
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 492
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 493
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 499
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 500
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 505
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 516
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 518
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 520
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 522
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 524
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 525
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 526
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 606
+        }
+      ],
+      "paper_content_sha256": "53a5718b8d9e19e8a1ad233627454b8fd16e559bf69627c7754bbdce4a68d7c2",
+      "sha256": "d1543753cfae94da672e1ba1c54a5d86b7f95008bfc4dcdd6a8b4b3450dea56b"
+    },
+    {
+      "id": "what-the-causal-literature-already-shows",
+      "order": 26,
+      "title": "What the causal literature already shows",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+        "School phone bans",
+        "What the causal literature already shows"
+      ],
+      "file": "chunks/what-the-causal-literature-already-shows.md",
+      "words": 1176,
+      "paper_lines": [
+        586,
+        614
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 528
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 529
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 531
+        }
+      ],
+      "paper_content_sha256": "c49e26e63f0d6d396bf0064ff68661bce643f6afb3dfb5a3bb802ee2b635fc19",
+      "sha256": "f18ca81dd793ea64e869f1a1834481a26f06f644624ffae600e54c8b75516a28"
+    },
+    {
+      "id": "county-social-media-use-and-sadness",
+      "order": 27,
+      "title": "County social-media use and sadness",
+      "context": [
+        "Teen Distress Pilot",
+        "Part 4 · The interaction (H3): phones in the same hours as high-pressure school",
+        "School phone bans",
+        "County social-media use and sadness"
+      ],
+      "file": "chunks/county-social-media-use-and-sadness.md",
+      "words": 762,
+      "paper_lines": [
+        618,
+        644
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 438
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 440
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 442
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 443
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 532
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 533
+        }
+      ],
+      "paper_content_sha256": "d2be41d86d8104ee941972b837b9117d311903bd1bb55fb21b3035684cacc118",
+      "sha256": "2b39c3b545d75d4f57e9d8a7a4a35314a40623ddc50dba9ae91cf841acac17ab"
+    },
+    {
+      "id": "reconcile",
+      "order": 28,
+      "title": "How this sits with Haidt's and Twenge's evidence",
+      "context": [
+        "Teen Distress Pilot",
+        "How this sits with Haidt's and Twenge's evidence"
+      ],
+      "file": "chunks/reconcile.md",
+      "words": 125,
+      "paper_lines": [
+        648,
+        650
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 684
+        },
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 1
+        }
+      ],
+      "paper_content_sha256": "a05c3f2340c53ac73453aeacd6834eac2079b4e6da2375205041a0f99f48019d",
+      "sha256": "0591563105bec7d4f3b760399aa6aeb3cf29b09b47f0abd2237480df4c82328f"
+    },
+    {
+      "id": "what-that-evidence-base-contains",
+      "order": 29,
+      "title": "What that evidence base contains",
+      "context": [
+        "Teen Distress Pilot",
+        "How this sits with Haidt's and Twenge's evidence",
+        "What that evidence base contains"
+      ],
+      "file": "chunks/what-that-evidence-base-contains.md",
+      "words": 263,
+      "paper_lines": [
+        654,
+        662
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 2
+        }
+      ],
+      "paper_content_sha256": "90792baecff10f53e5fdd430a17bbd8073a654917391eecdbe64507874eb1a5b",
+      "sha256": "89b040646896bfaea4bef773635b8fa8c6cb169ee1490acbd3904e89d7855abf"
+    },
+    {
+      "id": "where-the-pilot-agrees",
+      "order": 30,
+      "title": "Where the pilot agrees",
+      "context": [
+        "Teen Distress Pilot",
+        "How this sits with Haidt's and Twenge's evidence",
+        "Where the pilot agrees"
+      ],
+      "file": "chunks/where-the-pilot-agrees.md",
+      "words": 175,
+      "paper_lines": [
+        666,
+        671
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 10
+        }
+      ],
+      "paper_content_sha256": "66a1dca1b804bebbac470488b6f2a1d26adb9aabdab1c67ca4255568717d609d",
+      "sha256": "0c33632b061cc9ea73f616df6afe6e96a15b0a84c9e1cc9dfb1ec5d545e987a7"
+    },
+    {
+      "id": "where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference",
+      "order": 31,
+      "title": "Where the pilot finds no effect, and how to interpret the difference",
+      "context": [
+        "Teen Distress Pilot",
+        "How this sits with Haidt's and Twenge's evidence",
+        "Where the pilot finds no effect, and how to interpret the difference"
+      ],
+      "file": "chunks/where-the-pilot-finds-no-effect-and-how-to-interpret-the-difference.md",
+      "words": 548,
+      "paper_lines": [
+        675,
+        681
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 17
+        }
+      ],
+      "paper_content_sha256": "ee6c5d8925ea517beaebecf327e27936eb313af7ee90f936671f8b5ab2492d6d",
+      "sha256": "aadf9b171f9eb3a99d66ad2607a5255c653e84f34c6c642f19d613341f06ba39"
+    },
+    {
+      "id": "two-empirical-patterns-the-existing-debate-has-largely-overlooked",
+      "order": 32,
+      "title": "Two empirical patterns the existing debate has largely overlooked",
+      "context": [
+        "Teen Distress Pilot",
+        "How this sits with Haidt's and Twenge's evidence",
+        "Two empirical patterns the existing debate has largely overlooked"
+      ],
+      "file": "chunks/two-empirical-patterns-the-existing-debate-has-largely-overlooked.md",
+      "words": 238,
+      "paper_lines": [
+        685,
+        690
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 23
+        },
+        {
+          "path": "scripts/report/sections/reconcile.html",
+          "line": 28
+        }
+      ],
+      "paper_content_sha256": "2aa30e340d353e988909ac6a6098869204583613a50ae73019cb14a7597e566c",
+      "sha256": "846d41d776257f2c0b4ce8d457beb466efff276f8e4557e48cc389830ce9ad4f"
+    },
+    {
+      "id": "next",
+      "order": 33,
+      "title": "Conclusions and next steps",
+      "context": [
+        "Teen Distress Pilot",
+        "Conclusions and next steps"
+      ],
+      "file": "chunks/next.md",
+      "words": 872,
+      "paper_lines": [
+        694,
+        714
+      ],
+      "sources": [
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 687
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 688
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 695
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 696
+        },
+        {
+          "path": "scripts/report/90_build_report.py",
+          "line": 703
+        }
+      ],
+      "paper_content_sha256": "b974c19e494f3371be1f945f10f05eb8196720ce82559473a52e1996072e3340",
+      "sha256": "0a93fbec64576ccfb73e26c0a963d037cea5093b26597d23cf60bd4fc5558ec6"
+    }
+  ]
+}

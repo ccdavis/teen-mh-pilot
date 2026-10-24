@@ -12,6 +12,7 @@ body = body.replace('<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.
 assert "googleapis" not in body and "cdnjs" not in body
 # download links for the print editions, placed before the reproducibility note
 body = body.replace('<p class="caption">Reproducibility:', '<p class="caption">Print editions: <a href="Teen_Distress_Pilot.pdf">PDF</a> · <a href="Teen_Distress_Pilot.docx">Word</a>. Static images of every chart are in <code>figures/</code>.</p>\n<p class="caption">Reproducibility:', 1)
+body = body.replace('<p class="caption">Reproducibility:', '<p class="caption">Text edition: <a href="Teen_Distress_Pilot.md">Markdown</a> · <a href="review/README.md">Copy-edit review index and chunks</a>.</p>\n<p class="caption">Reproducibility:', 1)
 page = f"""<!doctype html>
 <html lang="en">
 <head>
