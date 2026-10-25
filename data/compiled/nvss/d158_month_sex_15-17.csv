@@ -1,0 +1,169 @@
+year,month,sex,deaths,population,crude_rate
+2018,"Jan., 2018",Female,35,Not Applicable,Not Applicable
+2018,"Jan., 2018",Male,97,Not Applicable,Not Applicable
+2018,"Feb., 2018",Female,33,Not Applicable,Not Applicable
+2018,"Feb., 2018",Male,96,Not Applicable,Not Applicable
+2018,"Mar., 2018",Female,27,Not Applicable,Not Applicable
+2018,"Mar., 2018",Male,74,Not Applicable,Not Applicable
+2018,"Apr., 2018",Female,31,Not Applicable,Not Applicable
+2018,"Apr., 2018",Male,76,Not Applicable,Not Applicable
+2018,"May, 2018",Female,22,Not Applicable,Not Applicable
+2018,"May, 2018",Male,88,Not Applicable,Not Applicable
+2018,"Jun., 2018",Female,20,Not Applicable,Not Applicable
+2018,"Jun., 2018",Male,69,Not Applicable,Not Applicable
+2018,"Jul., 2018",Female,18,Not Applicable,Not Applicable
+2018,"Jul., 2018",Male,67,Not Applicable,Not Applicable
+2018,"Aug., 2018",Female,28,Not Applicable,Not Applicable
+2018,"Aug., 2018",Male,64,Not Applicable,Not Applicable
+2018,"Sep., 2018",Female,27,Not Applicable,Not Applicable
+2018,"Sep., 2018",Male,77,Not Applicable,Not Applicable
+2018,"Oct., 2018",Female,23,Not Applicable,Not Applicable
+2018,"Oct., 2018",Male,67,Not Applicable,Not Applicable
+2018,"Nov., 2018",Female,26,Not Applicable,Not Applicable
+2018,"Nov., 2018",Male,81,Not Applicable,Not Applicable
+2018,"Dec., 2018",Female,24,Not Applicable,Not Applicable
+2018,"Dec., 2018",Male,59,Not Applicable,Not Applicable
+2019,"Jan., 2019",Female,18,Not Applicable,Not Applicable
+2019,"Jan., 2019",Male,83,Not Applicable,Not Applicable
+2019,"Feb., 2019",Female,25,Not Applicable,Not Applicable
+2019,"Feb., 2019",Male,59,Not Applicable,Not Applicable
+2019,"Mar., 2019",Female,33,Not Applicable,Not Applicable
+2019,"Mar., 2019",Male,75,Not Applicable,Not Applicable
+2019,"Apr., 2019",Female,35,Not Applicable,Not Applicable
+2019,"Apr., 2019",Male,76,Not Applicable,Not Applicable
+2019,"May, 2019",Female,27,Not Applicable,Not Applicable
+2019,"May, 2019",Male,63,Not Applicable,Not Applicable
+2019,"Jun., 2019",Female,26,Not Applicable,Not Applicable
+2019,"Jun., 2019",Male,65,Not Applicable,Not Applicable
+2019,"Jul., 2019",Female,16,Not Applicable,Not Applicable
+2019,"Jul., 2019",Male,47,Not Applicable,Not Applicable
+2019,"Aug., 2019",Female,19,Not Applicable,Not Applicable
+2019,"Aug., 2019",Male,57,Not Applicable,Not Applicable
+2019,"Sep., 2019",Female,29,Not Applicable,Not Applicable
+2019,"Sep., 2019",Male,70,Not Applicable,Not Applicable
+2019,"Oct., 2019",Female,23,Not Applicable,Not Applicable
+2019,"Oct., 2019",Male,86,Not Applicable,Not Applicable
+2019,"Nov., 2019",Female,26,Not Applicable,Not Applicable
+2019,"Nov., 2019",Male,70,Not Applicable,Not Applicable
+2019,"Dec., 2019",Female,19,Not Applicable,Not Applicable
+2019,"Dec., 2019",Male,53,Not Applicable,Not Applicable
+2020,"Jan., 2020",Female,22,Not Applicable,Not Applicable
+2020,"Jan., 2020",Male,77,Not Applicable,Not Applicable
+2020,"Feb., 2020",Female,31,Not Applicable,Not Applicable
+2020,"Feb., 2020",Male,71,Not Applicable,Not Applicable
+2020,"Mar., 2020",Female,24,Not Applicable,Not Applicable
+2020,"Mar., 2020",Male,57,Not Applicable,Not Applicable
+2020,"Apr., 2020",Female,27,Not Applicable,Not Applicable
+2020,"Apr., 2020",Male,54,Not Applicable,Not Applicable
+2020,"May, 2020",Female,20,Not Applicable,Not Applicable
+2020,"May, 2020",Male,52,Not Applicable,Not Applicable
+2020,"Jun., 2020",Female,19,Not Applicable,Not Applicable
+2020,"Jun., 2020",Male,52,Not Applicable,Not Applicable
+2020,"Jul., 2020",Female,17,Not Applicable,Not Applicable
+2020,"Jul., 2020",Male,53,Not Applicable,Not Applicable
+2020,"Aug., 2020",Female,24,Not Applicable,Not Applicable
+2020,"Aug., 2020",Male,72,Not Applicable,Not Applicable
+2020,"Sep., 2020",Female,21,Not Applicable,Not Applicable
+2020,"Sep., 2020",Male,83,Not Applicable,Not Applicable
+2020,"Oct., 2020",Female,37,Not Applicable,Not Applicable
+2020,"Oct., 2020",Male,81,Not Applicable,Not Applicable
+2020,"Nov., 2020",Female,26,Not Applicable,Not Applicable
+2020,"Nov., 2020",Male,70,Not Applicable,Not Applicable
+2020,"Dec., 2020",Female,25,Not Applicable,Not Applicable
+2020,"Dec., 2020",Male,63,Not Applicable,Not Applicable
+2021,"Jan., 2021",Female,23,Not Applicable,Not Applicable
+2021,"Jan., 2021",Male,79,Not Applicable,Not Applicable
+2021,"Feb., 2021",Female,24,Not Applicable,Not Applicable
+2021,"Feb., 2021",Male,79,Not Applicable,Not Applicable
+2021,"Mar., 2021",Female,39,Not Applicable,Not Applicable
+2021,"Mar., 2021",Male,72,Not Applicable,Not Applicable
+2021,"Apr., 2021",Female,26,Not Applicable,Not Applicable
+2021,"Apr., 2021",Male,72,Not Applicable,Not Applicable
+2021,"May, 2021",Female,30,Not Applicable,Not Applicable
+2021,"May, 2021",Male,62,Not Applicable,Not Applicable
+2021,"Jun., 2021",Female,18,Not Applicable,Not Applicable
+2021,"Jun., 2021",Male,55,Not Applicable,Not Applicable
+2021,"Jul., 2021",Female,20,Not Applicable,Not Applicable
+2021,"Jul., 2021",Male,60,Not Applicable,Not Applicable
+2021,"Aug., 2021",Female,22,Not Applicable,Not Applicable
+2021,"Aug., 2021",Male,66,Not Applicable,Not Applicable
+2021,"Sep., 2021",Female,23,Not Applicable,Not Applicable
+2021,"Sep., 2021",Male,85,Not Applicable,Not Applicable
+2021,"Oct., 2021",Female,44,Not Applicable,Not Applicable
+2021,"Oct., 2021",Male,78,Not Applicable,Not Applicable
+2021,"Nov., 2021",Female,29,Not Applicable,Not Applicable
+2021,"Nov., 2021",Male,71,Not Applicable,Not Applicable
+2021,"Dec., 2021",Female,22,Not Applicable,Not Applicable
+2021,"Dec., 2021",Male,61,Not Applicable,Not Applicable
+2022,"Jan., 2022",Female,23,Not Applicable,Not Applicable
+2022,"Jan., 2022",Male,64,Not Applicable,Not Applicable
+2022,"Feb., 2022",Female,24,Not Applicable,Not Applicable
+2022,"Feb., 2022",Male,64,Not Applicable,Not Applicable
+2022,"Mar., 2022",Female,26,Not Applicable,Not Applicable
+2022,"Mar., 2022",Male,68,Not Applicable,Not Applicable
+2022,"Apr., 2022",Female,26,Not Applicable,Not Applicable
+2022,"Apr., 2022",Male,64,Not Applicable,Not Applicable
+2022,"May, 2022",Female,34,Not Applicable,Not Applicable
+2022,"May, 2022",Male,77,Not Applicable,Not Applicable
+2022,"Jun., 2022",Female,16,Not Applicable,Not Applicable
+2022,"Jun., 2022",Male,51,Not Applicable,Not Applicable
+2022,"Jul., 2022",Female,20,Not Applicable,Not Applicable
+2022,"Jul., 2022",Male,42,Not Applicable,Not Applicable
+2022,"Aug., 2022",Female,19,Not Applicable,Not Applicable
+2022,"Aug., 2022",Male,71,Not Applicable,Not Applicable
+2022,"Sep., 2022",Female,22,Not Applicable,Not Applicable
+2022,"Sep., 2022",Male,80,Not Applicable,Not Applicable
+2022,"Oct., 2022",Female,32,Not Applicable,Not Applicable
+2022,"Oct., 2022",Male,75,Not Applicable,Not Applicable
+2022,"Nov., 2022",Female,22,Not Applicable,Not Applicable
+2022,"Nov., 2022",Male,79,Not Applicable,Not Applicable
+2022,"Dec., 2022",Female,30,Not Applicable,Not Applicable
+2022,"Dec., 2022",Male,51,Not Applicable,Not Applicable
+2023,"Jan., 2023",Female,33,Not Applicable,Not Applicable
+2023,"Jan., 2023",Male,80,Not Applicable,Not Applicable
+2023,"Feb., 2023",Female,27,Not Applicable,Not Applicable
+2023,"Feb., 2023",Male,59,Not Applicable,Not Applicable
+2023,"Mar., 2023",Female,33,Not Applicable,Not Applicable
+2023,"Mar., 2023",Male,71,Not Applicable,Not Applicable
+2023,"Apr., 2023",Female,22,Not Applicable,Not Applicable
+2023,"Apr., 2023",Male,69,Not Applicable,Not Applicable
+2023,"May, 2023",Female,30,Not Applicable,Not Applicable
+2023,"May, 2023",Male,74,Not Applicable,Not Applicable
+2023,"Jun., 2023",Female,16,Not Applicable,Not Applicable
+2023,"Jun., 2023",Male,63,Not Applicable,Not Applicable
+2023,"Jul., 2023",Female,16,Not Applicable,Not Applicable
+2023,"Jul., 2023",Male,66,Not Applicable,Not Applicable
+2023,"Aug., 2023",Female,26,Not Applicable,Not Applicable
+2023,"Aug., 2023",Male,76,Not Applicable,Not Applicable
+2023,"Sep., 2023",Female,21,Not Applicable,Not Applicable
+2023,"Sep., 2023",Male,62,Not Applicable,Not Applicable
+2023,"Oct., 2023",Female,29,Not Applicable,Not Applicable
+2023,"Oct., 2023",Male,74,Not Applicable,Not Applicable
+2023,"Nov., 2023",Female,25,Not Applicable,Not Applicable
+2023,"Nov., 2023",Male,62,Not Applicable,Not Applicable
+2023,"Dec., 2023",Female,25,Not Applicable,Not Applicable
+2023,"Dec., 2023",Male,58,Not Applicable,Not Applicable
+2024 ,"Jan., 2024 ",Female,25,Not Applicable,Not Applicable
+2024 ,"Jan., 2024 ",Male,67,Not Applicable,Not Applicable
+2024 ,"Feb., 2024 ",Female,28,Not Applicable,Not Applicable
+2024 ,"Feb., 2024 ",Male,62,Not Applicable,Not Applicable
+2024 ,"Mar., 2024 ",Female,30,Not Applicable,Not Applicable
+2024 ,"Mar., 2024 ",Male,62,Not Applicable,Not Applicable
+2024 ,"Apr., 2024 ",Female,23,Not Applicable,Not Applicable
+2024 ,"Apr., 2024 ",Male,66,Not Applicable,Not Applicable
+2024 ,"May, 2024 ",Female,31,Not Applicable,Not Applicable
+2024 ,"May, 2024 ",Male,50,Not Applicable,Not Applicable
+2024 ,"Jun., 2024 ",Female,17,Not Applicable,Not Applicable
+2024 ,"Jun., 2024 ",Male,46,Not Applicable,Not Applicable
+2024 ,"Jul., 2024 ",Female,27,Not Applicable,Not Applicable
+2024 ,"Jul., 2024 ",Male,54,Not Applicable,Not Applicable
+2024 ,"Aug., 2024 ",Female,40,Not Applicable,Not Applicable
+2024 ,"Aug., 2024 ",Male,77,Not Applicable,Not Applicable
+2024 ,"Sep., 2024 ",Female,36,Not Applicable,Not Applicable
+2024 ,"Sep., 2024 ",Male,61,Not Applicable,Not Applicable
+2024 ,"Oct., 2024 ",Female,22,Not Applicable,Not Applicable
+2024 ,"Oct., 2024 ",Male,65,Not Applicable,Not Applicable
+2024 ,"Nov., 2024 ",Female,24,Not Applicable,Not Applicable
+2024 ,"Nov., 2024 ",Male,49,Not Applicable,Not Applicable
+2024 ,"Dec., 2024 ",Female,29,Not Applicable,Not Applicable
+2024 ,"Dec., 2024 ",Male,48,Not Applicable,Not Applicable

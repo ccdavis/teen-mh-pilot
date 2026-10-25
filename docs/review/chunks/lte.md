@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 2 · Phones and social media (H1) → 4G rollout across U.S. metros
 
-Editable source entry points: [scripts/report/90_build_report.py:213](../../../scripts/report/90_build_report.py#L213)
+Editable source entry points: [scripts/report/90_build_report.py:203](../../../scripts/report/90_build_report.py#L203)
 
 ---
 

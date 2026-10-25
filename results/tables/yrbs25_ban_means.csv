@@ -1,0 +1,181 @@
+item,sex,group,year,mean_pct,states,state_list
+sad,all,control,2015,27.955568284774298,8,DE HI IL MA MI MO MS SD
+sad,all,control,2017,30.606480792718706,8,DE HI IL MA MI MO UT WI
+sad,all,control,2019,34.37644653483125,9,HI IL MA MI MO MS SD UT WI
+sad,all,control,2021,37.81066155956286,9,DE HI IL MI MO MS SD UT WI
+sad,all,control,2023,37.11346919265571,10,DE HI IL MA MI MO MS SD UT WI
+sad,all,control,2025,32.12202759450754,10,DE HI IL MA MI MO MS SD UT WI
+sad,all,control_enacted_pre_fieldwork,2015,29.63801217193524,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,all,control_enacted_pre_fieldwork,2017,31.121538613764585,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,all,control_enacted_pre_fieldwork,2019,36.86744441742475,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,all,control_enacted_pre_fieldwork,2021,39.85021851617344,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,all,control_enacted_pre_fieldwork,2023,38.73220122567358,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,all,control_enacted_pre_fieldwork,2025,32.51962656784707,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,all,treated,2015,29.623667117667246,2,IN SC
+sad,all,treated,2017,32.29949010235583,2,LA SC
+sad,all,treated,2019,37.915811416977476,2,LA SC
+sad,all,treated,2021,45.15342113813423,3,IN LA SC
+sad,all,treated,2023,43.06868661141222,2,IN LA
+sad,all,treated,2025,31.90890267675149,3,IN LA SC
+sad,girls,control,2015,35.670460067178425,8,DE HI IL MA MI MO MS SD
+sad,girls,control,2017,39.7728661522209,8,DE HI IL MA MI MO UT WI
+sad,girls,control,2019,43.47916967890549,9,HI IL MA MI MO MS SD UT WI
+sad,girls,control,2021,49.87070789772871,9,DE HI IL MI MO MS SD UT WI
+sad,girls,control,2023,48.59539623910406,10,DE HI IL MA MI MO MS SD UT WI
+sad,girls,control,2025,43.114370958721295,10,DE HI IL MA MI MO MS SD UT WI
+sad,girls,control_enacted_pre_fieldwork,2015,39.30387009665195,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,control_enacted_pre_fieldwork,2017,41.044676183998945,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,control_enacted_pre_fieldwork,2019,46.64755290333762,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,control_enacted_pre_fieldwork,2021,52.53003715826785,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,control_enacted_pre_fieldwork,2023,50.553756489759536,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,control_enacted_pre_fieldwork,2025,42.10061212910167,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,girls,treated,2015,39.35267262305601,2,IN SC
+sad,girls,treated,2017,41.82523918186625,2,LA SC
+sad,girls,treated,2019,46.756119643229496,2,LA SC
+sad,girls,treated,2021,57.08898313840208,3,IN LA SC
+sad,girls,treated,2023,52.84243106023637,2,IN LA
+sad,girls,treated,2025,42.172206128046675,3,IN LA SC
+sad,boys,control,2015,20.28338411241685,8,DE HI IL MA MI MO MS SD
+sad,boys,control,2017,21.640666358744994,8,DE HI IL MA MI MO UT WI
+sad,boys,control,2019,25.604835107468034,9,HI IL MA MI MO MS SD UT WI
+sad,boys,control,2021,26.185344828906878,9,DE HI IL MI MO MS SD UT WI
+sad,boys,control,2023,26.0229926946557,10,DE HI IL MA MI MO MS SD UT WI
+sad,boys,control,2025,21.292238636055053,10,DE HI IL MA MI MO MS SD UT WI
+sad,boys,control_enacted_pre_fieldwork,2015,20.35065424977029,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,control_enacted_pre_fieldwork,2017,21.63725971244588,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,control_enacted_pre_fieldwork,2019,27.51240473361586,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,control_enacted_pre_fieldwork,2021,27.76981751684123,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,control_enacted_pre_fieldwork,2023,27.299644244332104,11,KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,control_enacted_pre_fieldwork,2025,23.347840048348097,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+sad,boys,treated,2015,20.114935856215357,2,IN SC
+sad,boys,treated,2017,22.52077559772055,2,LA SC
+sad,boys,treated,2019,28.992885096815677,2,LA SC
+sad,boys,treated,2021,33.562918795067766,3,IN LA SC
+sad,boys,treated,2023,33.473181109394304,2,IN LA
+sad,boys,treated,2025,21.533769662699516,3,IN LA SC
+consider,all,control,2015,15.85270896948061,8,DE HI IL MA MI MO MS SD
+consider,all,control,2017,17.638818792870595,8,DE HI IL MA MI MO UT WI
+consider,all,control,2019,18.6778797761186,9,HI IL MA MI MO MS SD UT WI
+consider,all,control,2021,19.58361436239265,9,DE HI IL MI MO MS SD UT WI
+consider,all,control,2023,19.328726755216543,10,DE HI IL MA MI MO MS SD UT WI
+consider,all,control,2025,14.74428549401647,10,DE HI IL MA MI MO MS SD UT WI
+consider,all,control_enacted_pre_fieldwork,2015,16.567725230259462,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,all,control_enacted_pre_fieldwork,2017,17.333786152063166,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,all,control_enacted_pre_fieldwork,2019,19.87830886059373,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,all,control_enacted_pre_fieldwork,2021,21.308103303701042,11,AZ KY MT ND NH NM NV NY OK VA WV
+consider,all,control_enacted_pre_fieldwork,2023,20.115365427579974,10,KY MT ND NH NM NV NY OK VA WV
+consider,all,control_enacted_pre_fieldwork,2025,14.896773801907178,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,all,treated,2015,18.500666658103192,2,IN SC
+consider,all,treated,2017,18.180925421421584,2,LA SC
+consider,all,treated,2019,18.600335061004756,2,LA SC
+consider,all,treated,2021,27.351452445272972,2,IN LA
+consider,all,treated,2023,21.6014617011161,2,IN LA
+consider,all,treated,2025,13.903705814169703,3,IN LA SC
+consider,girls,control,2015,19.79814531158597,8,DE HI IL MA MI MO MS SD
+consider,girls,control,2017,22.630438923461995,8,DE HI IL MA MI MO UT WI
+consider,girls,control,2019,22.544722962607313,9,HI IL MA MI MO MS SD UT WI
+consider,girls,control,2021,26.210485694933297,9,DE HI IL MI MO MS SD UT WI
+consider,girls,control,2023,25.389819668100987,10,DE HI IL MA MI MO MS SD UT WI
+consider,girls,control,2025,19.868247698489068,10,DE HI IL MA MI MO MS SD UT WI
+consider,girls,control_enacted_pre_fieldwork,2015,21.66673081866567,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,girls,control_enacted_pre_fieldwork,2017,22.762636778512174,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,girls,control_enacted_pre_fieldwork,2019,24.790291720224488,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,girls,control_enacted_pre_fieldwork,2021,28.479727662494486,11,AZ KY MT ND NH NM NV NY OK VA WV
+consider,girls,control_enacted_pre_fieldwork,2023,26.19678032426781,10,KY MT ND NH NM NV NY OK VA WV
+consider,girls,control_enacted_pre_fieldwork,2025,18.309785307526006,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,girls,treated,2015,23.634178379705023,2,IN SC
+consider,girls,treated,2017,22.7178190792689,2,LA SC
+consider,girls,treated,2019,22.70813067060257,2,LA SC
+consider,girls,treated,2021,37.27741343284603,2,IN LA
+consider,girls,treated,2023,27.706684525130306,2,IN LA
+consider,girls,treated,2025,17.694958086964437,3,IN LA SC
+consider,boys,control,2015,11.918761947791324,8,DE HI IL MA MI MO MS SD
+consider,boys,control,2017,12.77612233333451,8,DE HI IL MA MI MO UT WI
+consider,boys,control,2019,14.950808352191634,9,HI IL MA MI MO MS SD UT WI
+consider,boys,control,2021,13.21893741036649,9,DE HI IL MI MO MS SD UT WI
+consider,boys,control,2023,13.46055837388326,10,DE HI IL MA MI MO MS SD UT WI
+consider,boys,control,2025,9.672236403963964,10,DE HI IL MA MI MO MS SD UT WI
+consider,boys,control_enacted_pre_fieldwork,2015,11.65839131612428,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,boys,control_enacted_pre_fieldwork,2017,12.141683755905616,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,boys,control_enacted_pre_fieldwork,2019,15.16639260040967,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,boys,control_enacted_pre_fieldwork,2021,14.471565996083939,11,AZ KY MT ND NH NM NV NY OK VA WV
+consider,boys,control_enacted_pre_fieldwork,2023,14.224943475838831,10,KY MT ND NH NM NV NY OK VA WV
+consider,boys,control_enacted_pre_fieldwork,2025,11.622579895642893,12,AZ CA KY MT ND NH NM NV NY OK VA WV
+consider,boys,treated,2015,13.483588568888877,2,IN SC
+consider,boys,treated,2017,13.605318144066423,2,LA SC
+consider,boys,treated,2019,14.468667637660367,2,LA SC
+consider,boys,treated,2021,17.676817520683233,2,IN LA
+consider,boys,treated,2023,15.636215307408195,2,IN LA
+consider,boys,treated,2025,10.124094136248791,3,IN LA SC
+attempt,all,control,2015,9.237245436826326,8,DE HI IL MA MI MO MS SD
+attempt,all,control,2017,8.290928673287139,8,DE HI IL MA MI MO UT WI
+attempt,all,control,2019,9.224641836036756,9,HI IL MA MI MO MS SD UT WI
+attempt,all,control,2021,9.61131879510531,9,DE HI IL MI MO MS SD UT WI
+attempt,all,control,2023,9.252098184256615,9,DE HI IL MA MI MS SD UT WI
+attempt,all,control,2025,7.237508820564462,9,DE HI IL MA MI MS SD UT WI
+attempt,all,control_enacted_pre_fieldwork,2015,8.543099449431582,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,all,control_enacted_pre_fieldwork,2017,8.93163529729691,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,all,control_enacted_pre_fieldwork,2019,9.2066119008977,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,all,control_enacted_pre_fieldwork,2021,9.404129212913627,12,AZ KY MT ND NH NM NV NY OK VA VT WV
+attempt,all,control_enacted_pre_fieldwork,2023,9.04998000870616,10,KY MT ND NH NM NV NY OK VA VT
+attempt,all,control_enacted_pre_fieldwork,2025,7.969042889000955,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,all,treated,2015,10.409480762154512,2,IN SC
+attempt,all,treated,2017,13.607824090150936,2,LA SC
+attempt,all,treated,2019,12.545823783843243,2,LA SC
+attempt,all,treated,2021,14.606407524336937,2,IN LA
+attempt,all,treated,2023,15.074341982294875,2,IN LA
+attempt,all,treated,2025,7.8377361926765,2,LA SC
+attempt,girls,control,2015,10.461113626901732,8,DE HI IL MA MI MO MS SD
+attempt,girls,control,2017,9.750321301847745,8,DE HI IL MA MI MO UT WI
+attempt,girls,control,2019,10.623723242715455,9,HI IL MA MI MO MS SD UT WI
+attempt,girls,control,2021,12.489687530407101,9,DE HI IL MI MO MS SD UT WI
+attempt,girls,control,2023,11.56112424071165,9,DE HI IL MA MI MS SD UT WI
+attempt,girls,control,2025,9.697493324369294,9,DE HI IL MA MI MS SD UT WI
+attempt,girls,control_enacted_pre_fieldwork,2015,10.819196775210562,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,girls,control_enacted_pre_fieldwork,2017,10.637082677100885,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,girls,control_enacted_pre_fieldwork,2019,11.088281388081084,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,girls,control_enacted_pre_fieldwork,2021,12.08564487961406,12,AZ KY MT ND NH NM NV NY OK VA VT WV
+attempt,girls,control_enacted_pre_fieldwork,2023,11.068916144144499,10,KY MT ND NH NM NV NY OK VA VT
+attempt,girls,control_enacted_pre_fieldwork,2025,9.660505976134296,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,girls,treated,2015,11.723415918694247,2,IN SC
+attempt,girls,treated,2017,15.045632680991982,2,LA SC
+attempt,girls,treated,2019,13.073160608508998,2,LA SC
+attempt,girls,treated,2021,18.412077297074973,2,IN LA
+attempt,girls,treated,2023,15.662510348447025,2,IN LA
+attempt,girls,treated,2025,9.34571690011771,2,LA SC
+attempt,boys,control,2015,7.955128395422442,8,DE HI IL MA MI MO MS SD
+attempt,boys,control,2017,6.819038421716148,8,DE HI IL MA MI MO UT WI
+attempt,boys,control,2019,7.809176668646844,9,HI IL MA MI MO MS SD UT WI
+attempt,boys,control,2021,6.773492095485904,9,DE HI IL MI MO MS SD UT WI
+attempt,boys,control,2023,6.91090092108668,9,DE HI IL MA MI MS SD UT WI
+attempt,boys,control,2025,4.6428593269139125,9,DE HI IL MA MI MS SD UT WI
+attempt,boys,control_enacted_pre_fieldwork,2015,6.284621402744262,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,boys,control_enacted_pre_fieldwork,2017,7.243821554883171,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,boys,control_enacted_pre_fieldwork,2019,7.3500491989212495,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,boys,control_enacted_pre_fieldwork,2021,6.786538363370788,12,AZ KY MT ND NH NM NV NY OK VA VT WV
+attempt,boys,control_enacted_pre_fieldwork,2023,7.030171267629223,10,KY MT ND NH NM NV NY OK VA VT
+attempt,boys,control_enacted_pre_fieldwork,2025,6.2995240523487785,13,AZ CA KY MT ND NH NM NV NY OK VA VT WV
+attempt,boys,treated,2015,9.040164005298891,2,IN SC
+attempt,boys,treated,2017,12.082338409358455,2,LA SC
+attempt,boys,treated,2019,11.988671926285448,2,LA SC
+attempt,boys,treated,2021,10.807575563787164,2,IN LA
+attempt,boys,treated,2023,14.555564955880989,2,IN LA
+attempt,boys,treated,2025,6.135943842860989,2,LA SC
+socmed,all,control,2023,74.44255744677054,9,HI IL MA MI MO MS SD UT WI
+socmed,all,control,2025,74.79451727936231,9,HI IL MA MI MO MS SD UT WI
+socmed,all,control_enacted_pre_fieldwork,2023,77.86121605641466,6,KY MT NM NY OK VT
+socmed,all,control_enacted_pre_fieldwork,2025,78.07823058723898,10,AZ CA MT ND NH NM NY OK VA VT
+socmed,all,treated,2023,69.98371132987654,2,IN LA
+socmed,all,treated,2025,75.48345844208393,3,IN LA SC
+socmed,girls,control,2023,80.85743566289717,9,HI IL MA MI MO MS SD UT WI
+socmed,girls,control,2025,79.21783515761203,9,HI IL MA MI MO MS SD UT WI
+socmed,girls,control_enacted_pre_fieldwork,2023,82.56423773803088,6,KY MT NM NY OK VT
+socmed,girls,control_enacted_pre_fieldwork,2025,81.96524629699783,10,AZ CA MT ND NH NM NY OK VA VT
+socmed,girls,treated,2023,76.19931632640028,2,IN LA
+socmed,girls,treated,2025,79.01911269428366,3,IN LA SC
+socmed,boys,control,2023,68.10189057232446,9,HI IL MA MI MO MS SD UT WI
+socmed,boys,control,2025,70.33720107656504,9,HI IL MA MI MO MS SD UT WI
+socmed,boys,control_enacted_pre_fieldwork,2023,73.11923451985393,6,KY MT NM NY OK VT
+socmed,boys,control_enacted_pre_fieldwork,2025,74.22847635503366,10,AZ CA MT ND NH NM NY OK VA VT
+socmed,boys,treated,2023,63.79319896224242,2,IN LA
+socmed,boys,treated,2025,71.85980907853191,3,IN LA SC

@@ -1,0 +1,2 @@
+checked,microdata_dir,files_found,blocked,needed
+2026-10-24,data/external/mtf/icpsr,0,"ICPSR (icpsr.umich.edu) returns HTTP 403 Cloudflare bot challenge to curl, headless Chromium and remote fetchers from this host; downloads require an ICPSR login with terms acceptance; no credentials available","ICPSR series 35 public-use files, 12th grade 1991-2024 and 8th/10th 1991-2024 (study numbers in the script header), Stata format recommended, one directory per study"

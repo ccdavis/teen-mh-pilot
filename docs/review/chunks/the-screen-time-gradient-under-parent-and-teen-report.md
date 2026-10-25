@@ -1,0 +1,30 @@
+<!-- Generated review chunk: the-screen-time-gradient-under-parent-and-teen-report -->
+
+[Index](../README.md) · [Full paper](../../Teen_Distress_Pilot.md#review-the-screen-time-gradient-under-parent-and-teen-report)
+
+Context: Teen Distress Pilot → Part 2 · Phones and social media (H1) → Who reports the symptoms: U.S. caregivers and adolescents (NSCH 2016–2025, NHIS 2021–2024) → United States: parents and teenagers describing the same population (NHIS 2021–2024 and NHIS-Teen) → The screen-time gradient under parent and teen report
+
+Editable source entry points: [scripts/report/90_build_report.py:1](../../../scripts/report/90_build_report.py#L1)
+
+---
+
+Linear probability models, weighted, SEs clustered on pseudo-stratum × PSU. Parent rows pool NHIS 2022 and 2024 (the years with the screen-time item); adjusted models add single-year age, sex, race/ethnicity, income-to-poverty category, parental education, region, urbanicity and year. Teen rows are NCHS's published estimates (Data Brief 513 for the percentages; Zablotsky et al. 2025 for the Poisson prevalence ratios, with the adjusted ratio and its 95% CI in parentheses).
+
+Bullying provides a benchmark for how well a parent-reported exposure tracks a parent-reported symptom when the exposure is salient to the parent. Among 12–17-year-olds in 2021–2022, those whose parents report that they were bullied in the past year are +21.1 (1.7) pp more often described as anxious daily or weekly (14.6% → 37.2%, ratio 2.54) and +12.3 (1.2) pp more often as sad or depressed (ratio 3.43); in the teenagers' own reports the corresponding differences are 15.3 pp (ratio 2.06) and 16.4 pp (ratio 2.36) (Data Brief 514). The parent items also behave as expected against treatment: 63.2% of 12–17-year-olds described as anxious daily received mental-health therapy or medication in the past year, against 48.5% of those anxious weekly and 7.9% of those never anxious.
+
+##### Level and trend, 2021–2024
+
+| NHIS year | Boys anxious d/w | Girls anxious d/w | Boys depressed d/w | Girls depressed d/w |
+|-----------|------------------|-------------------|--------------------|---------------------|
+| 2021      | 13.1%            | 20.9%             | 4.8%               | 9.6%                |
+| 2022      | 17.5%            | 28.4%             | 5.6%               | 12.7%               |
+| 2023      | 15.8%            | 23.0%             | 5.9%               | 9.3%                |
+| 2024      | 15.4%            | 21.7%             | 5.1%               | 7.5%                |
+
+Parent-reported daily/weekly anxiety and sadness among 12–17-year-olds by NHIS year (weighted; d/w = daily or weekly). Full table with SEs and single-year ages in `results/tables/nhis_prevalence.csv` and `nhis_prevalence_age.csv`.
+
+Parent-reported anxiety among 12–17-year-olds moved from 16.9% in 2021 to 22.8% in 2022 and back to 18.5% in 2024, with the swing concentrated among girls (20.9% → 28.4% → 21.7%); parent-reported sadness followed the same path (7.1% → 9.1% → 6.3%). The post-2022 decline matches the downturn in self-reported sadness in the state youth surveys and the 2023 YRBS described above. On the MICS scale the U.S. parent reports sit in the upper middle of the international range: 25.5% of U.S. girls aged 15–17 are described as anxious daily or weekly and 11.8% as sad or depressed, against medians of 15.5% and 9.9% across the 68 MICS samples in the prevalence table.
+
+Published work with the linked NHIS-Teen file, all from NCHS, points the same way as the population comparison. Parents report more health-care use than their teenagers do, with weighted Cohen's kappa between 0.08 and 0.42 across items ([Ng et al. 2025, NHSR 219](https://dx.doi.org/10.15620/cdc/174622)); parents report fewer adverse experiences than their teenagers, for instance 6.5% against 15.5% for witnessing neighborhood violence, with kappas of 0.27–0.53 ([Ng et al. 2025](https://doi.org/10.1016/j.chiabu.2025.107339)); teenagers who rarely receive social and emotional support report anxiety symptoms at 33.1% against 12.9% ([Zablotsky et al. 2024, NHSR 206](https://dx.doi.org/10.15620/cdc/156514)); and the screen-time gradient above is from [Data Brief 513](https://www.cdc.gov/nchs/products/databriefs/db513.htm) and [Zablotsky et al. 2025](https://doi.org/10.5888/pcd22.240537). The broader literature puts parent–youth agreement on internalizing symptoms at a mean correlation of 0.25 across 341 studies ([De Los Reyes et al. 2015](https://doi.org/10.1037/a0038498)). No NCHS publication has yet reported parent–teen agreement on the anxiety and depression items themselves; that is the first table an RDC proposal should produce.
+
+**Assessment.** The NHIS pair does not resolve the caregiver–adolescent divergence, but it narrows it. Both informants show a screen-time gradient in their own reports, so the MICS null is not explained simply by parents being unable to see a link between heavy use and distress; the parent-reported gradient for anxiety is, however, much shallower than the teenagers' (1.29 against 2.21), and parents compress exactly the contrasts that dominate the self-report literature on H1: the girl–boy gap (1.6× against 2.7×) and the age gradient, while reporting less than half the depression the teenagers report. A caregiver-reported outcome therefore has limited power to detect a girl-specific, adolescence-specific association even when one exists, which is consistent with the MICS own-use estimates being near zero for girls while GSHS self-reports show a steep gradient. Because parent exposure and parent outcome come from one respondent here, as teen exposure and teen outcome do in GSHS, neither gradient separates a real association from shared-informant reporting; the cross-informant test on linked individuals requires the NHIS-Teen restricted file (RDC). The 2022 peak and subsequent decline in parent-reported anxiety and sadness independently corroborate the post-2021 downturn seen in self-report surveys (H0: not a self-report artifact).

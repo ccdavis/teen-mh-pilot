@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 2 · Phones and social media (H1) → Smartphone adoption in the United States, 2009–2023
 
-Editable source entry points: [scripts/report/90_build_report.py:143](../../../scripts/report/90_build_report.py#L143)
+Editable source entry points: [scripts/report/90_build_report.py:133](../../../scripts/report/90_build_report.py#L133)
 
 ---
 

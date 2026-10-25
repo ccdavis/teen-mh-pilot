@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 4 · The interaction (H3): phones in the same hours as high-pressure school → Did 4G timing matter more in high-pressure states?
 
-Editable source entry points: [scripts/report/90_build_report.py:283](../../../scripts/report/90_build_report.py#L283)
+Editable source entry points: [scripts/report/90_build_report.py:273](../../../scripts/report/90_build_report.py#L273)
 
 ---
 

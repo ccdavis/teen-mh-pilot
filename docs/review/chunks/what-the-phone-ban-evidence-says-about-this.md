@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 4 · The interaction (H3): phones in the same hours as high-pressure school → What the phone-ban evidence says about this
 
-Editable source entry points: [scripts/report/90_build_report.py:452](../../../scripts/report/90_build_report.py#L452)
+Editable source entry points: [scripts/report/90_build_report.py:440](../../../scripts/report/90_build_report.py#L440)
 
 ---
 

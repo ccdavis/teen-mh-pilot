@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 2 · Phones and social media (H1) → Phone-first countries: GSHS school surveys (149 country-rounds, 2003–2023)
 
-Editable source entry points: [scripts/report/90_build_report.py:248](../../../scripts/report/90_build_report.py#L248)
+Editable source entry points: [scripts/report/90_build_report.py:238](../../../scripts/report/90_build_report.py#L238)
 
 ---
 

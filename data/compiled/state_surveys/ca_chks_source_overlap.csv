@@ -1,0 +1,504 @@
+geography_name,year,grade_or_age,sex,item,value_pct_kidsdata,value_pct_report
+Alameda County,2017,7,all,sad_hopeless,21.2,21.0
+Alameda County,2017,9,all,sad_hopeless,25.3,25.0
+Alameda County,2017,11,all,sad_hopeless,31.9,32.0
+Alameda County,2017,9,all,considered_suicide,13.6,14.0
+Alameda County,2017,11,all,considered_suicide,15.0,15.0
+Alameda County,2019,7,all,sad_hopeless,25.6,26.0
+Alameda County,2019,9,all,sad_hopeless,29.9,30.0
+Alameda County,2019,11,all,sad_hopeless,35.2,35.0
+Alameda County,2019,9,all,considered_suicide,15.7,16.0
+Alameda County,2019,11,all,considered_suicide,16.3,16.0
+Amador County,2017,7,all,sad_hopeless,32.5,33.0
+Amador County,2017,9,all,sad_hopeless,27.0,27.0
+Amador County,2017,11,all,sad_hopeless,37.4,37.0
+Amador County,2017,9,all,considered_suicide,15.9,16.0
+Amador County,2017,11,all,considered_suicide,17.4,17.0
+Amador County,2019,7,all,sad_hopeless,32.4,32.0
+Amador County,2019,9,all,sad_hopeless,39.0,39.0
+Amador County,2019,11,all,sad_hopeless,34.8,35.0
+Amador County,2019,9,all,considered_suicide,19.9,20.0
+Amador County,2019,11,all,considered_suicide,18.9,19.0
+Butte County,2017,7,all,sad_hopeless,20.6,21.0
+Butte County,2017,9,all,sad_hopeless,28.2,28.0
+Butte County,2017,11,all,sad_hopeless,32.3,32.0
+Butte County,2017,9,all,considered_suicide,17.2,17.0
+Butte County,2017,11,all,considered_suicide,19.9,20.0
+Butte County,2019,7,all,sad_hopeless,30.0,30.0
+Butte County,2019,9,all,sad_hopeless,29.1,29.0
+Butte County,2019,11,all,sad_hopeless,21.8,22.0
+Butte County,2019,9,all,considered_suicide,20.3,20.0
+Butte County,2019,11,all,considered_suicide,9.9,10.0
+Calaveras County,2017,7,all,sad_hopeless,23.8,24.0
+Calaveras County,2017,9,all,sad_hopeless,30.1,30.0
+Calaveras County,2017,11,all,sad_hopeless,36.5,37.0
+Calaveras County,2017,9,all,considered_suicide,19.4,19.0
+Calaveras County,2017,11,all,considered_suicide,18.0,18.0
+Calaveras County,2019,7,all,sad_hopeless,28.3,28.0
+Calaveras County,2019,9,all,sad_hopeless,35.1,35.0
+Calaveras County,2019,11,all,sad_hopeless,34.0,34.0
+Calaveras County,2019,9,all,considered_suicide,21.6,22.0
+Calaveras County,2019,11,all,considered_suicide,21.3,21.0
+Colusa County,2017,7,all,sad_hopeless,17.2,17.0
+Colusa County,2017,9,all,sad_hopeless,24.4,24.0
+Colusa County,2017,11,all,sad_hopeless,32.4,32.0
+Colusa County,2017,9,all,considered_suicide,14.0,14.0
+Colusa County,2017,11,all,considered_suicide,13.1,13.0
+Colusa County,2019,7,all,sad_hopeless,23.7,24.0
+Colusa County,2019,9,all,sad_hopeless,28.8,29.0
+Colusa County,2019,11,all,sad_hopeless,19.2,19.0
+Colusa County,2019,9,all,considered_suicide,17.4,17.0
+Colusa County,2019,11,all,considered_suicide,10.9,11.0
+Contra Costa County,2017,7,all,sad_hopeless,20.8,21.0
+Contra Costa County,2017,9,all,sad_hopeless,27.0,27.0
+Contra Costa County,2017,11,all,sad_hopeless,29.7,30.0
+Contra Costa County,2017,9,all,considered_suicide,14.4,14.0
+Contra Costa County,2017,11,all,considered_suicide,14.2,14.0
+Contra Costa County,2019,7,all,sad_hopeless,22.9,23.0
+Contra Costa County,2019,9,all,sad_hopeless,28.4,28.0
+Contra Costa County,2019,11,all,sad_hopeless,35.5,35.0
+Contra Costa County,2019,9,all,considered_suicide,15.0,15.0
+Contra Costa County,2019,11,all,considered_suicide,17.3,17.0
+Del Norte County,2017,7,all,sad_hopeless,37.9,38.0
+Del Norte County,2017,9,all,sad_hopeless,33.0,33.0
+Del Norte County,2017,11,all,sad_hopeless,35.2,35.0
+Del Norte County,2017,9,all,considered_suicide,14.8,15.0
+Del Norte County,2017,11,all,considered_suicide,24.1,24.0
+Del Norte County,2019,7,all,sad_hopeless,41.3,41.0
+Del Norte County,2019,9,all,sad_hopeless,39.7,40.0
+Del Norte County,2019,11,all,sad_hopeless,45.9,46.0
+Del Norte County,2019,9,all,considered_suicide,17.6,18.0
+Del Norte County,2019,11,all,considered_suicide,20.9,21.0
+El Dorado County,2017,7,all,sad_hopeless,19.6,20.0
+El Dorado County,2017,9,all,sad_hopeless,31.8,32.0
+El Dorado County,2017,11,all,sad_hopeless,36.3,36.0
+El Dorado County,2017,9,all,considered_suicide,17.5,17.0
+El Dorado County,2017,11,all,considered_suicide,20.8,21.0
+El Dorado County,2019,7,all,sad_hopeless,24.8,25.0
+El Dorado County,2019,9,all,sad_hopeless,32.7,33.0
+El Dorado County,2019,11,all,sad_hopeless,39.5,39.0
+El Dorado County,2019,9,all,considered_suicide,18.9,19.0
+El Dorado County,2019,11,all,considered_suicide,19.9,20.0
+Glenn County,2017,7,all,sad_hopeless,27.1,27.0
+Glenn County,2017,9,all,sad_hopeless,29.8,30.0
+Glenn County,2017,11,all,sad_hopeless,30.2,30.0
+Glenn County,2017,9,all,considered_suicide,17.3,17.0
+Glenn County,2017,11,all,considered_suicide,17.9,18.0
+Glenn County,2019,7,all,sad_hopeless,29.7,30.0
+Glenn County,2019,9,all,sad_hopeless,28.7,29.0
+Glenn County,2019,11,all,sad_hopeless,31.3,31.0
+Glenn County,2019,9,all,considered_suicide,16.4,16.0
+Glenn County,2019,11,all,considered_suicide,16.1,16.0
+Humboldt County,2017,7,all,sad_hopeless,24.6,25.0
+Humboldt County,2017,9,all,sad_hopeless,29.7,30.0
+Humboldt County,2017,11,all,sad_hopeless,36.0,36.0
+Humboldt County,2017,9,all,considered_suicide,16.4,16.0
+Humboldt County,2017,11,all,considered_suicide,17.5,18.0
+Humboldt County,2019,7,all,sad_hopeless,30.4,30.0
+Humboldt County,2019,9,all,sad_hopeless,34.2,34.0
+Humboldt County,2019,11,all,sad_hopeless,38.6,39.0
+Humboldt County,2019,9,all,considered_suicide,18.1,18.0
+Humboldt County,2019,11,all,considered_suicide,19.7,20.0
+Imperial County,2017,7,all,sad_hopeless,28.8,29.0
+Imperial County,2017,9,all,sad_hopeless,31.4,31.0
+Imperial County,2017,11,all,sad_hopeless,35.3,35.0
+Imperial County,2017,9,all,considered_suicide,14.4,14.0
+Imperial County,2017,11,all,considered_suicide,14.4,14.0
+Imperial County,2019,7,all,sad_hopeless,30.8,31.0
+Imperial County,2019,9,all,sad_hopeless,36.5,37.0
+Imperial County,2019,11,all,sad_hopeless,37.1,37.0
+Imperial County,2019,9,all,considered_suicide,16.4,16.0
+Imperial County,2019,11,all,considered_suicide,14.5,15.0
+Inyo County,2017,7,all,sad_hopeless,32.0,32.0
+Inyo County,2017,9,all,sad_hopeless,26.1,26.0
+Inyo County,2017,9,all,considered_suicide,18.8,19.0
+Inyo County,2019,7,all,sad_hopeless,27.0,27.0
+Inyo County,2019,9,all,sad_hopeless,36.5,37.0
+Inyo County,2019,11,all,sad_hopeless,35.5,36.0
+Inyo County,2019,9,all,considered_suicide,21.4,21.0
+Inyo County,2019,11,all,considered_suicide,21.9,22.0
+Kern County,2017,7,all,sad_hopeless,26.1,26.0
+Kern County,2017,9,all,sad_hopeless,29.8,30.0
+Kern County,2017,11,all,sad_hopeless,32.8,33.0
+Kern County,2017,9,all,considered_suicide,15.3,15.0
+Kern County,2017,11,all,considered_suicide,16.3,16.0
+Kern County,2019,7,all,sad_hopeless,29.1,29.0
+Kern County,2019,9,all,sad_hopeless,33.5,34.0
+Kern County,2019,11,all,sad_hopeless,37.9,38.0
+Kern County,2019,9,all,considered_suicide,16.7,17.0
+Kern County,2019,11,all,considered_suicide,18.2,18.0
+Kings County,2017,7,all,sad_hopeless,28.5,28.0
+Kings County,2017,9,all,sad_hopeless,31.5,31.0
+Kings County,2017,11,all,sad_hopeless,30.1,30.0
+Kings County,2017,9,all,considered_suicide,18.1,18.0
+Kings County,2017,11,all,considered_suicide,18.4,18.0
+Kings County,2019,9,all,sad_hopeless,25.8,26.0
+Kings County,2019,11,all,sad_hopeless,38.2,38.0
+Kings County,2019,9,all,considered_suicide,10.3,10.0
+Kings County,2019,11,all,considered_suicide,17.5,18.0
+Lake County,2017,7,all,sad_hopeless,28.0,28.0
+Lake County,2017,9,all,sad_hopeless,36.5,36.0
+Lake County,2017,11,all,sad_hopeless,32.1,32.0
+Lake County,2017,9,all,considered_suicide,21.2,21.0
+Lake County,2017,11,all,considered_suicide,14.1,14.0
+Lake County,2019,7,all,sad_hopeless,35.7,36.0
+Lake County,2019,9,all,sad_hopeless,36.8,37.0
+Lake County,2019,11,all,sad_hopeless,45.5,46.0
+Lake County,2019,9,all,considered_suicide,20.3,20.0
+Lake County,2019,11,all,considered_suicide,22.6,23.0
+Lassen County,2017,7,all,sad_hopeless,30.9,31.0
+Lassen County,2017,9,all,sad_hopeless,29.8,30.0
+Lassen County,2017,11,all,sad_hopeless,40.1,40.0
+Lassen County,2017,9,all,considered_suicide,20.5,20.0
+Lassen County,2017,11,all,considered_suicide,25.5,25.0
+Lassen County,2019,7,all,sad_hopeless,39.0,39.0
+Lassen County,2019,9,all,sad_hopeless,31.8,32.0
+Lassen County,2019,11,all,sad_hopeless,43.8,44.0
+Lassen County,2019,9,all,considered_suicide,25.0,25.0
+Lassen County,2019,11,all,considered_suicide,28.4,28.0
+Los Angeles County,2017,7,all,sad_hopeless,24.1,24.0
+Los Angeles County,2017,9,all,sad_hopeless,28.6,29.0
+Los Angeles County,2017,11,all,sad_hopeless,31.4,31.0
+Los Angeles County,2017,9,all,considered_suicide,14.0,14.0
+Los Angeles County,2017,11,all,considered_suicide,14.5,15.0
+Los Angeles County,2019,7,all,sad_hopeless,27.6,28.0
+Los Angeles County,2019,9,all,sad_hopeless,32.1,32.0
+Los Angeles County,2019,11,all,sad_hopeless,34.4,34.0
+Los Angeles County,2019,9,all,considered_suicide,15.8,16.0
+Los Angeles County,2019,11,all,considered_suicide,14.9,15.0
+Marin County,2017,7,all,sad_hopeless,17.0,17.0
+Marin County,2017,9,all,sad_hopeless,25.0,25.0
+Marin County,2017,11,all,sad_hopeless,27.7,28.0
+Marin County,2017,9,all,considered_suicide,14.0,14.0
+Marin County,2017,11,all,considered_suicide,10.7,11.0
+Marin County,2019,7,all,sad_hopeless,20.9,21.0
+Marin County,2019,9,all,sad_hopeless,28.8,29.0
+Marin County,2019,11,all,sad_hopeless,35.5,36.0
+Marin County,2019,9,all,considered_suicide,14.3,14.0
+Marin County,2019,11,all,considered_suicide,13.8,14.0
+Mariposa County,2017,7,all,sad_hopeless,27.2,27.0
+Mariposa County,2017,9,all,sad_hopeless,30.7,31.0
+Mariposa County,2017,11,all,sad_hopeless,36.6,37.0
+Mariposa County,2017,9,all,considered_suicide,20.6,21.0
+Mariposa County,2017,11,all,considered_suicide,17.9,18.0
+Mariposa County,2019,7,all,sad_hopeless,23.7,24.0
+Mariposa County,2019,9,all,sad_hopeless,28.3,28.0
+Mariposa County,2019,11,all,sad_hopeless,42.4,42.0
+Mariposa County,2019,9,all,considered_suicide,21.6,22.0
+Mariposa County,2019,11,all,considered_suicide,27.0,27.0
+Mendocino County,2017,7,all,sad_hopeless,27.9,28.0
+Mendocino County,2017,9,all,sad_hopeless,36.4,36.0
+Mendocino County,2017,11,all,sad_hopeless,35.5,35.0
+Mendocino County,2017,9,all,considered_suicide,18.0,18.0
+Mendocino County,2017,11,all,considered_suicide,14.7,15.0
+Mendocino County,2019,7,all,sad_hopeless,29.3,29.0
+Mendocino County,2019,9,all,sad_hopeless,32.7,33.0
+Mendocino County,2019,11,all,sad_hopeless,38.2,38.0
+Mendocino County,2019,9,all,considered_suicide,20.9,21.0
+Mendocino County,2019,11,all,considered_suicide,14.9,15.0
+Merced County,2017,9,all,sad_hopeless,28.0,28.0
+Merced County,2017,11,all,sad_hopeless,32.7,33.0
+Merced County,2017,9,all,considered_suicide,13.7,14.0
+Merced County,2017,11,all,considered_suicide,14.5,15.0
+Merced County,2019,7,all,sad_hopeless,27.4,27.0
+Merced County,2019,9,all,sad_hopeless,32.5,32.0
+Merced County,2019,11,all,sad_hopeless,38.6,39.0
+Merced County,2019,9,all,considered_suicide,15.6,16.0
+Merced County,2019,11,all,considered_suicide,17.1,17.0
+Modoc County,2017,7,all,sad_hopeless,17.9,18.0
+Modoc County,2017,9,all,sad_hopeless,30.5,30.0
+Modoc County,2017,11,all,sad_hopeless,35.1,35.0
+Modoc County,2017,9,all,considered_suicide,24.1,24.0
+Modoc County,2017,11,all,considered_suicide,23.2,23.0
+Modoc County,2019,7,all,sad_hopeless,17.8,18.0
+Modoc County,2019,9,all,sad_hopeless,29.5,29.0
+Modoc County,2019,11,all,sad_hopeless,34.2,34.0
+Modoc County,2019,9,all,considered_suicide,28.7,29.0
+Modoc County,2019,11,all,considered_suicide,20.4,20.0
+Mono County,2017,7,all,sad_hopeless,23.0,23.0
+Mono County,2017,9,all,sad_hopeless,30.6,31.0
+Mono County,2017,11,all,sad_hopeless,37.4,37.0
+Mono County,2017,9,all,considered_suicide,8.4,8.0
+Mono County,2017,11,all,considered_suicide,15.3,15.0
+Mono County,2019,7,all,sad_hopeless,26.8,27.0
+Mono County,2019,9,all,sad_hopeless,32.9,33.0
+Mono County,2019,11,all,sad_hopeless,39.2,39.0
+Mono County,2019,9,all,considered_suicide,18.2,18.0
+Mono County,2019,11,all,considered_suicide,16.5,16.0
+Monterey County,2017,7,all,sad_hopeless,25.4,25.0
+Monterey County,2017,9,all,sad_hopeless,27.9,28.0
+Monterey County,2017,11,all,sad_hopeless,31.1,31.0
+Monterey County,2017,9,all,considered_suicide,13.0,13.0
+Monterey County,2017,11,all,considered_suicide,12.0,12.0
+Monterey County,2019,7,all,sad_hopeless,26.5,26.0
+Monterey County,2019,9,all,sad_hopeless,28.6,29.0
+Monterey County,2019,11,all,sad_hopeless,26.8,27.0
+Monterey County,2019,9,all,considered_suicide,12.1,12.0
+Monterey County,2019,11,all,considered_suicide,16.3,16.0
+Napa County,2017,7,all,sad_hopeless,22.8,23.0
+Napa County,2017,9,all,sad_hopeless,26.8,27.0
+Napa County,2017,11,all,sad_hopeless,34.0,34.0
+Napa County,2017,9,all,considered_suicide,14.7,15.0
+Napa County,2017,11,all,considered_suicide,14.4,14.0
+Napa County,2019,7,all,sad_hopeless,26.0,26.0
+Napa County,2019,9,all,sad_hopeless,30.7,31.0
+Napa County,2019,11,all,sad_hopeless,39.1,39.0
+Napa County,2019,9,all,considered_suicide,14.8,15.0
+Napa County,2019,11,all,considered_suicide,17.0,17.0
+Nevada County,2017,7,all,sad_hopeless,26.7,27.0
+Nevada County,2017,9,all,sad_hopeless,30.7,31.0
+Nevada County,2017,11,all,sad_hopeless,33.4,33.0
+Nevada County,2017,9,all,considered_suicide,21.1,21.0
+Nevada County,2017,11,all,considered_suicide,20.7,21.0
+Nevada County,2019,7,all,sad_hopeless,30.1,30.0
+Nevada County,2019,9,all,sad_hopeless,38.3,38.0
+Nevada County,2019,11,all,sad_hopeless,40.3,40.0
+Nevada County,2019,9,all,considered_suicide,23.4,23.0
+Nevada County,2019,11,all,considered_suicide,26.1,26.0
+Orange County,2017,7,all,sad_hopeless,22.8,23.0
+Orange County,2017,9,all,sad_hopeless,27.0,27.0
+Orange County,2017,11,all,sad_hopeless,31.6,32.0
+Orange County,2017,9,all,considered_suicide,14.7,15.0
+Orange County,2017,11,all,considered_suicide,15.1,15.0
+Orange County,2019,7,all,sad_hopeless,24.6,25.0
+Orange County,2019,9,all,sad_hopeless,30.2,30.0
+Orange County,2019,11,all,sad_hopeless,34.6,35.0
+Orange County,2019,9,all,considered_suicide,14.7,15.0
+Orange County,2019,11,all,considered_suicide,15.4,15.0
+Placer County,2017,7,all,sad_hopeless,18.6,19.0
+Placer County,2017,9,all,sad_hopeless,23.4,23.0
+Placer County,2017,11,all,sad_hopeless,30.2,30.0
+Placer County,2017,9,all,considered_suicide,12.0,12.0
+Placer County,2017,11,all,considered_suicide,15.0,15.0
+Placer County,2019,7,all,sad_hopeless,23.5,24.0
+Placer County,2019,9,all,sad_hopeless,27.4,27.0
+Placer County,2019,11,all,sad_hopeless,32.9,33.0
+Placer County,2019,9,all,considered_suicide,14.5,14.0
+Placer County,2019,11,all,considered_suicide,15.0,15.0
+Plumas County,2017,7,all,sad_hopeless,34.0,34.0
+Plumas County,2017,9,all,sad_hopeless,45.8,46.0
+Plumas County,2017,11,all,sad_hopeless,39.6,40.0
+Plumas County,2017,9,all,considered_suicide,39.1,39.0
+Plumas County,2017,11,all,considered_suicide,27.0,27.0
+Plumas County,2019,7,all,sad_hopeless,25.1,25.0
+Plumas County,2019,9,all,sad_hopeless,31.7,32.0
+Plumas County,2019,11,all,sad_hopeless,31.3,31.0
+Plumas County,2019,9,all,considered_suicide,17.6,18.0
+Plumas County,2019,11,all,considered_suicide,18.0,18.0
+Riverside County,2017,7,all,sad_hopeless,25.3,25.0
+Riverside County,2017,9,all,sad_hopeless,29.6,30.0
+Riverside County,2017,11,all,sad_hopeless,33.5,34.0
+Riverside County,2017,9,all,considered_suicide,17.4,17.0
+Riverside County,2017,11,all,considered_suicide,17.5,17.0
+Riverside County,2019,7,all,sad_hopeless,27.7,28.0
+Riverside County,2019,9,all,sad_hopeless,33.9,34.0
+Riverside County,2019,11,all,sad_hopeless,37.7,38.0
+Riverside County,2019,9,all,considered_suicide,17.2,17.0
+Riverside County,2019,11,all,considered_suicide,17.5,18.0
+Sacramento County,2017,7,all,sad_hopeless,24.5,25.0
+Sacramento County,2017,9,all,sad_hopeless,30.0,30.0
+Sacramento County,2017,11,all,sad_hopeless,32.9,33.0
+Sacramento County,2017,9,all,considered_suicide,18.6,19.0
+Sacramento County,2017,11,all,considered_suicide,18.8,19.0
+Sacramento County,2019,7,all,sad_hopeless,28.4,28.0
+Sacramento County,2019,9,all,sad_hopeless,32.8,33.0
+Sacramento County,2019,11,all,sad_hopeless,37.4,37.0
+Sacramento County,2019,9,all,considered_suicide,18.4,18.0
+Sacramento County,2019,11,all,considered_suicide,19.6,20.0
+San Benito County,2017,9,all,sad_hopeless,30.5,31.0
+San Benito County,2017,11,all,sad_hopeless,33.6,34.0
+San Benito County,2017,9,all,considered_suicide,19.7,20.0
+San Benito County,2017,11,all,considered_suicide,16.9,17.0
+San Benito County,2019,7,all,sad_hopeless,29.2,29.0
+San Benito County,2019,9,all,sad_hopeless,31.4,31.0
+San Benito County,2019,11,all,sad_hopeless,38.9,39.0
+San Benito County,2019,9,all,considered_suicide,14.8,15.0
+San Benito County,2019,11,all,considered_suicide,17.6,18.0
+San Diego County,2017,7,all,sad_hopeless,23.1,23.0
+San Diego County,2017,9,all,sad_hopeless,26.4,26.0
+San Diego County,2017,11,all,sad_hopeless,30.3,30.0
+San Diego County,2017,9,all,considered_suicide,13.8,14.0
+San Diego County,2017,11,all,considered_suicide,14.5,14.0
+San Diego County,2019,7,all,sad_hopeless,28.6,29.0
+San Diego County,2019,9,all,sad_hopeless,31.5,32.0
+San Diego County,2019,11,all,sad_hopeless,34.3,34.0
+San Diego County,2019,9,all,considered_suicide,15.0,15.0
+San Diego County,2019,11,all,considered_suicide,15.0,15.0
+San Francisco County,2017,7,all,sad_hopeless,19.3,19.0
+San Francisco County,2017,9,all,sad_hopeless,24.0,24.0
+San Francisco County,2017,11,all,sad_hopeless,26.2,26.0
+San Francisco County,2017,9,all,considered_suicide,11.0,11.0
+San Francisco County,2017,11,all,considered_suicide,12.7,13.0
+San Francisco County,2019,7,all,sad_hopeless,22.8,23.0
+San Francisco County,2019,9,all,sad_hopeless,31.5,31.0
+San Francisco County,2019,11,all,sad_hopeless,30.4,30.0
+San Francisco County,2019,9,all,considered_suicide,11.3,11.0
+San Francisco County,2019,11,all,considered_suicide,15.0,15.0
+San Joaquin County,2017,7,all,sad_hopeless,24.9,25.0
+San Joaquin County,2017,9,all,sad_hopeless,30.1,30.0
+San Joaquin County,2017,11,all,sad_hopeless,33.1,33.0
+San Joaquin County,2017,9,all,considered_suicide,16.1,16.0
+San Joaquin County,2017,11,all,considered_suicide,17.0,17.0
+San Joaquin County,2019,7,all,sad_hopeless,29.5,30.0
+San Joaquin County,2019,9,all,sad_hopeless,31.6,32.0
+San Joaquin County,2019,11,all,sad_hopeless,35.6,36.0
+San Joaquin County,2019,9,all,considered_suicide,15.5,16.0
+San Joaquin County,2019,11,all,considered_suicide,13.9,14.0
+San Luis Obispo County,2017,7,all,sad_hopeless,20.6,21.0
+San Luis Obispo County,2017,9,all,sad_hopeless,29.9,30.0
+San Luis Obispo County,2017,11,all,sad_hopeless,33.5,34.0
+San Luis Obispo County,2017,9,all,considered_suicide,17.3,17.0
+San Luis Obispo County,2017,11,all,considered_suicide,17.2,17.0
+San Luis Obispo County,2019,7,all,sad_hopeless,22.9,23.0
+San Luis Obispo County,2019,9,all,sad_hopeless,29.2,29.0
+San Luis Obispo County,2019,11,all,sad_hopeless,39.7,40.0
+San Luis Obispo County,2019,9,all,considered_suicide,15.4,15.0
+San Luis Obispo County,2019,11,all,considered_suicide,18.7,19.0
+San Mateo County,2017,7,all,sad_hopeless,19.7,20.0
+San Mateo County,2017,9,all,sad_hopeless,27.3,27.0
+San Mateo County,2017,9,all,considered_suicide,13.4,13.0
+San Mateo County,2019,7,all,sad_hopeless,23.3,23.0
+San Mateo County,2019,9,all,sad_hopeless,30.2,30.0
+San Mateo County,2019,11,all,sad_hopeless,35.1,35.0
+San Mateo County,2019,9,all,considered_suicide,16.3,16.0
+San Mateo County,2019,11,all,considered_suicide,17.6,18.0
+Santa Barbara County,2017,7,all,sad_hopeless,19.1,19.0
+Santa Barbara County,2017,9,all,sad_hopeless,25.4,25.0
+Santa Barbara County,2017,11,all,sad_hopeless,28.0,28.0
+Santa Barbara County,2017,9,all,considered_suicide,13.3,13.0
+Santa Barbara County,2017,11,all,considered_suicide,12.3,12.0
+Santa Barbara County,2019,7,all,sad_hopeless,24.9,25.0
+Santa Barbara County,2019,9,all,sad_hopeless,28.9,29.0
+Santa Barbara County,2019,11,all,sad_hopeless,35.0,35.0
+Santa Barbara County,2019,9,all,considered_suicide,14.2,14.0
+Santa Barbara County,2019,11,all,considered_suicide,15.5,15.0
+Santa Cruz County,2017,7,all,sad_hopeless,23.7,24.0
+Santa Cruz County,2017,9,all,sad_hopeless,26.1,26.0
+Santa Cruz County,2017,11,all,sad_hopeless,30.5,30.0
+Santa Cruz County,2017,9,all,considered_suicide,10.9,11.0
+Santa Cruz County,2017,11,all,considered_suicide,10.7,11.0
+Santa Cruz County,2019,7,all,sad_hopeless,25.1,25.0
+Santa Cruz County,2019,9,all,sad_hopeless,28.4,28.0
+Santa Cruz County,2019,11,all,sad_hopeless,37.4,37.0
+Santa Cruz County,2019,9,all,considered_suicide,11.6,12.0
+Santa Cruz County,2019,11,all,considered_suicide,12.1,12.0
+Shasta County,2019,9,all,sad_hopeless,37.9,38.0
+Shasta County,2019,11,all,sad_hopeless,38.3,38.0
+Shasta County,2019,9,all,considered_suicide,20.0,20.0
+Shasta County,2019,11,all,considered_suicide,20.5,20.0
+Sierra County,2017,7,all,sad_hopeless,21.1,21.0
+Sierra County,2017,9,all,sad_hopeless,20.4,20.0
+Sierra County,2017,11,all,sad_hopeless,53.7,54.0
+Sierra County,2017,9,all,considered_suicide,6.6,7.0
+Sierra County,2017,11,all,considered_suicide,34.0,34.0
+Siskiyou County,2017,7,all,sad_hopeless,28.6,29.0
+Siskiyou County,2017,9,all,sad_hopeless,24.8,25.0
+Siskiyou County,2017,11,all,sad_hopeless,32.9,33.0
+Siskiyou County,2017,9,all,considered_suicide,16.7,17.0
+Siskiyou County,2017,11,all,considered_suicide,22.0,22.0
+Siskiyou County,2019,7,all,sad_hopeless,31.4,31.0
+Siskiyou County,2019,9,all,sad_hopeless,35.1,35.0
+Siskiyou County,2019,11,all,sad_hopeless,29.9,30.0
+Siskiyou County,2019,9,all,considered_suicide,24.9,25.0
+Siskiyou County,2019,11,all,considered_suicide,21.2,21.0
+Solano County,2017,7,all,sad_hopeless,29.5,29.0
+Solano County,2017,9,all,sad_hopeless,30.9,31.0
+Solano County,2017,11,all,sad_hopeless,36.7,37.0
+Solano County,2017,9,all,considered_suicide,18.4,18.0
+Solano County,2017,11,all,considered_suicide,19.0,19.0
+Solano County,2019,7,all,sad_hopeless,30.4,30.0
+Solano County,2019,9,all,sad_hopeless,33.9,34.0
+Solano County,2019,11,all,sad_hopeless,39.8,40.0
+Solano County,2019,9,all,considered_suicide,17.7,18.0
+Solano County,2019,11,all,considered_suicide,19.5,20.0
+Sonoma County,2017,7,all,sad_hopeless,22.2,22.0
+Sonoma County,2017,9,all,sad_hopeless,29.9,30.0
+Sonoma County,2017,11,all,sad_hopeless,36.7,37.0
+Sonoma County,2017,9,all,considered_suicide,14.7,15.0
+Sonoma County,2017,11,all,considered_suicide,17.9,18.0
+Sonoma County,2019,7,all,sad_hopeless,24.7,25.0
+Sonoma County,2019,9,all,sad_hopeless,32.4,32.0
+Sonoma County,2019,11,all,sad_hopeless,38.1,38.0
+Sonoma County,2019,9,all,considered_suicide,18.5,18.0
+Sonoma County,2019,11,all,considered_suicide,17.5,18.0
+Stanislaus County,2017,7,all,sad_hopeless,26.1,26.0
+Stanislaus County,2017,9,all,sad_hopeless,32.2,32.0
+Stanislaus County,2017,11,all,sad_hopeless,35.6,36.0
+Stanislaus County,2017,9,all,considered_suicide,18.1,18.0
+Stanislaus County,2017,11,all,considered_suicide,17.4,17.0
+Stanislaus County,2019,7,all,sad_hopeless,29.1,29.0
+Stanislaus County,2019,9,all,sad_hopeless,34.1,34.0
+Stanislaus County,2019,11,all,sad_hopeless,33.4,33.0
+Stanislaus County,2019,9,all,considered_suicide,15.4,15.0
+Stanislaus County,2019,11,all,considered_suicide,13.6,14.0
+Sutter County,2017,7,all,sad_hopeless,26.0,26.0
+Sutter County,2017,9,all,sad_hopeless,27.9,28.0
+Sutter County,2017,11,all,sad_hopeless,31.6,32.0
+Sutter County,2017,9,all,considered_suicide,13.0,13.0
+Sutter County,2017,11,all,considered_suicide,20.0,20.0
+Sutter County,2019,7,all,sad_hopeless,33.3,33.0
+Tehama County,2017,7,all,sad_hopeless,17.8,18.0
+Tehama County,2017,9,all,sad_hopeless,28.0,28.0
+Tehama County,2017,11,all,sad_hopeless,34.1,34.0
+Tehama County,2017,9,all,considered_suicide,15.5,15.0
+Tehama County,2017,11,all,considered_suicide,21.0,21.0
+Tehama County,2019,7,all,sad_hopeless,27.4,27.0
+Tehama County,2019,9,all,sad_hopeless,26.3,26.0
+Tehama County,2019,11,all,sad_hopeless,35.7,36.0
+Tehama County,2019,9,all,considered_suicide,15.6,16.0
+Tehama County,2019,11,all,considered_suicide,15.3,15.0
+Trinity County,2017,7,all,sad_hopeless,31.3,31.0
+Trinity County,2017,9,all,sad_hopeless,34.9,35.0
+Trinity County,2017,11,all,sad_hopeless,41.5,41.0
+Trinity County,2017,9,all,considered_suicide,26.2,26.0
+Trinity County,2017,11,all,considered_suicide,22.9,23.0
+Trinity County,2019,7,all,sad_hopeless,30.8,31.0
+Trinity County,2019,9,all,sad_hopeless,49.2,49.0
+Trinity County,2019,11,all,sad_hopeless,41.4,41.0
+Trinity County,2019,9,all,considered_suicide,23.4,23.0
+Trinity County,2019,11,all,considered_suicide,17.5,18.0
+Tulare County,2017,7,all,sad_hopeless,25.6,26.0
+Tulare County,2017,9,all,sad_hopeless,29.0,29.0
+Tulare County,2017,11,all,sad_hopeless,28.7,29.0
+Tulare County,2017,9,all,considered_suicide,15.1,15.0
+Tulare County,2017,11,all,considered_suicide,13.7,14.0
+Tuolumne County,2017,7,all,sad_hopeless,26.4,26.0
+Tuolumne County,2017,9,all,sad_hopeless,32.6,33.0
+Tuolumne County,2017,11,all,sad_hopeless,30.5,30.0
+Tuolumne County,2017,9,all,considered_suicide,19.1,19.0
+Tuolumne County,2017,11,all,considered_suicide,17.2,17.0
+Tuolumne County,2019,7,all,sad_hopeless,33.0,33.0
+Tuolumne County,2019,9,all,sad_hopeless,43.9,44.0
+Tuolumne County,2019,11,all,sad_hopeless,41.9,42.0
+Tuolumne County,2019,9,all,considered_suicide,26.0,26.0
+Tuolumne County,2019,11,all,considered_suicide,20.5,21.0
+Ventura County,2017,7,all,sad_hopeless,25.2,25.0
+Ventura County,2017,9,all,sad_hopeless,28.1,28.0
+Ventura County,2017,11,all,sad_hopeless,31.7,32.0
+Ventura County,2017,9,all,considered_suicide,14.6,15.0
+Ventura County,2017,11,all,considered_suicide,15.7,16.0
+Ventura County,2019,7,all,sad_hopeless,29.2,29.0
+Ventura County,2019,9,all,sad_hopeless,30.1,30.0
+Ventura County,2019,11,all,sad_hopeless,36.0,36.0
+Ventura County,2019,9,all,considered_suicide,16.3,16.0
+Ventura County,2019,11,all,considered_suicide,16.6,17.0
+Yolo County,2017,7,all,sad_hopeless,19.3,19.0
+Yolo County,2017,9,all,sad_hopeless,22.1,22.0
+Yolo County,2017,11,all,sad_hopeless,30.8,31.0
+Yolo County,2017,9,all,considered_suicide,12.9,13.0
+Yolo County,2017,11,all,considered_suicide,14.6,15.0
+Yolo County,2019,7,all,sad_hopeless,25.6,26.0
+Yolo County,2019,9,all,sad_hopeless,32.4,32.0
+Yolo County,2019,11,all,sad_hopeless,36.3,36.0
+Yolo County,2019,9,all,considered_suicide,14.0,14.0
+Yolo County,2019,11,all,considered_suicide,14.8,15.0
+Yuba County,2017,7,all,sad_hopeless,27.5,28.0
+Yuba County,2017,9,all,sad_hopeless,31.2,31.0
+Yuba County,2017,11,all,sad_hopeless,36.4,36.0
+Yuba County,2017,9,all,considered_suicide,17.2,17.0
+Yuba County,2017,11,all,considered_suicide,17.1,17.0
+Yuba County,2019,7,all,sad_hopeless,34.4,34.0
+Yuba County,2019,9,all,sad_hopeless,38.9,39.0
+Yuba County,2019,11,all,sad_hopeless,38.5,38.0
+Yuba County,2019,9,all,considered_suicide,18.7,19.0
+Yuba County,2019,11,all,considered_suicide,18.4,18.0

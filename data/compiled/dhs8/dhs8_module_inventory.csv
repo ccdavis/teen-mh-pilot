@@ -1,0 +1,32 @@
+survey,country,fieldwork_year,release_date,module,instruments,women_universe,men_asked,internet_items,smartphone_item,ipums_dhs_status,raw_recode_files,report_chapter,phq_gad_pages,final_report
+NP2022DHS,Nepal,2022,2023-06-23,PHQ-9 + GAD-7,"GAD-7, PHQ-9, diagnosis, care seeking","women 15-49 in the men's-survey household subsample (n = 7,442)","yes, men 15-49 in the same households (n = 4,913)",yes,yes,"np2022ir: DEPRESSIONSCORE, GADSCORE, ANXIETYDIAG, INTERNETMO, CELLPHONESMART; no men's file","NPIR82FL / NPMR82FL (RECMTH, MRECMTH)","Ch. 19 Mental Health, Tables 19.2-19.7",28,https://www.dhsprogram.com/pubs/pdf/FR379/FR379.pdf
+MZ2022DHS,Mozambique,2022-23,2024-05-07,PHQ-9 + GAD-7,"GAD-7, PHQ-9, diagnosis, care seeking","all women 15-49 (n = 13,183)","yes, men 15-49 (n = 5,380)",yes (in the report; not yet in IPUMS DHS),yes,"mz2022ir: DEPRESSIONSCORE, GADSCORE, CELLPHONESMART; INTERNETMO/INTERNETEVYR not integrated; no men's file",MZIR81FL / MZMR81FL,"Ch. 19 Saúde Mental, Quadros 19.4-19.8",18,https://www.dhsprogram.com/pubs/pdf/FR389/FR389.pdf
+BD2022DHS,Bangladesh,2022,2024-09-09,PHQ-9 + GAD-7,"GAD-7, PHQ-9, diagnosis, care seeking","ever-married women 15-49 in the long-questionnaire households (n = 20,029)",no (no men's survey),yes,yes,"bd2022ir: DEPRESSIONSCORE, GADSCORE, ANXIETYDIAG, INTERNETMO, CELLPHONESMART",BDIR81FL,"Ch. 15 Mental Health, Tables 15.2-15.6",15,https://www.dhsprogram.com/pubs/pdf/FR386/FR386.pdf
+ZM2024DHS,Zambia,2024,2025-11-18,PHQ-9 + GAD-7,"GAD-7, PHQ-9, diagnosis, care seeking","all women 15-49 (n = 13,951)","yes, men 15-49 (n = 12,585)",yes,yes,not in IPUMS DHS (sample not yet released there),"ZMIR81FL / ZMMR81FL (RECMTH, MRECMTH)","Ch. 18 Mental Health, Tables 18.2-18.6",20,https://www.dhsprogram.com/pubs/pdf/FR397/FR397.pdf
+LS2023DHS,Lesotho,2023-24,2024-12-11,PHQ-9 only,"PHQ-9, diagnosis, care seeking (GAD-7 items marked NA in the recode)","women 15-49 in a household subsample (n = 3,297)","yes, men 15-49 (n = 3,215)",yes,yes,ls2023ir integrated without the mental-health variables,"LSIR81FL / LSMR81FL (RECMTH, MRECMTH)","Ch. 18 Mental Health, Tables 18.2-18.3",18,https://www.dhsprogram.com/pubs/pdf/FR391/FR391.pdf
+KE2022DHS,Kenya,2022,2023-07-03,diagnosis only,ever told by a provider: depression or anxiety; treatment,women 15-49 in the men's-survey households,"yes, men 15-49",no frequency item in IPUMS (v171a/b fielded),yes,"ke2022ir: DEPRESSIONDIAG, ANXIETYDIAG, CELLPHONESMART",KEIR8CFL / KEMR8CFL,"Ch. 14 Chronic Conditions, Table 14.6",0,https://www.dhsprogram.com/pubs/pdf/FR380/FR380.pdf
+MD2021DHS,Madagascar,2021,2022-08-30,diagnosis only,ever told: depression; treatment,women 15-49,"yes, men 15-59",ever-use only (women); frequency (men),no,"mg2021ir: DEPRESSIONDIAG, DEPRESSIONTR, INTERNETEVYR; mg2021mr: DEPRESSIONDIAGMN, INTERNETMOMN",MDIR81FL / MDMR81FL,"Ch. 14, Tableau 14.6",0,https://www.dhsprogram.com/pubs/pdf/FR376/FR376.pdf
+ML2023DHS,Mali,2023-24,2025-10-02,diagnosis only,ever told: depression or anxiety; treatment,women 15-49,"yes, men 15-49",yes,yes,not in IPUMS DHS,MLIR8AFL / MLMR8AFL,"Ch. 14, Tableau 14.9",0,https://www.dhsprogram.com/pubs/pdf/FR394/FR394.pdf
+CD2023DHS,Congo Democratic Republic,2023-24,2025-08-18,diagnosis only,ever told: depression or anxiety; treatment,women 15-49,"yes, men 15-49",yes,yes,not in IPUMS DHS,CDIR81FL / CDMR81FL,"Ch. 17, Tableau 17.12",0,https://www.dhsprogram.com/pubs/pdf/FR393/FR393.pdf
+JO2023DHS,Jordan,2023,2024-08-21,none,-,-,-,yes,yes,jo2023ir (no mental-health variables),JOIR82FL (no RECMTH file in the recode),no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR388/FR388.pdf
+KH2021DHS,Cambodia,2021-22,2023-04-04,none,-,-,-,yes,yes,kh2021ir (no mental-health variables),KHIR82FL,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR377/FR377.pdf
+AO2023DHS,Angola,2023-24,2025-11-11,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR396/FR396.pdf
+BF2021DHS,Burkina Faso,2021,2023-09-07,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR378/FR378.pdf
+CI2021DHS,Cote d'Ivoire,2021,2023-09-14,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR385/FR385.pdf
+ET2024DHS,Ethiopia,2024-25,2026-07-08,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR399/FR399.pdf
+GA2019DHS,Gabon,2019-21,2023-07-12,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR371/FR371.pdf
+GH2022DHS,Ghana,2022,2024-01-18,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR387/FR387.pdf
+GM2019DHS,Gambia,2019-20,2021-05-18,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR369/FR369.pdf
+IA2020DHS,India,2019-21,2022-03-03,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR375/FR375.pdf
+LB2019DHS,Liberia,2019-20,2021-04-07,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR362/FR362.pdf
+MR2020DHS,Mauritania,2019-21,2022-04-20,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR373/FR373.pdf
+MW2024DHS,Malawi,2024,2026-02-03,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR398/FR398.pdf
+NG2024DHS,Nigeria,2024,2025-10-20,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR395/FR395.pdf
+PH2022DHS,Philippines,2022,2023-06-05,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR381/FR381.pdf
+RW2019DHS,Rwanda,2019-20,2021-10-04,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR370/FR370.pdf
+RW2025DHS,Rwanda,2025,2026-08-05,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR401/FR401.pdf
+SL2019DHS,Sierra Leone,2019,2020-12-11,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR365/FR365.pdf
+SN2019DHS,Senegal,2019,2020-11-10,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR368/FR368.pdf
+SN2023DHS,Senegal,2023,2024-07-11,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR390/FR390.pdf
+TJ2023DHS,Tajikistan,2023,2025-08-20,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR392/FR392.pdf
+TZ2022DHS,Tanzania,2022,2023-10-30,none,-,-,-,,,,,no mental-health chapter,0,https://www.dhsprogram.com/pubs/pdf/FR382/FR382.pdf

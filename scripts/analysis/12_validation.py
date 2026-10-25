@@ -25,11 +25,17 @@ for k,(y0,lab) in cyc.items():
         s = x if sx is None else x[x.RIAGENDR==sx]; w = s.WTMEC2YR; p = np.average(s.dep, weights=w); neff = w.sum()**2/(w**2).sum()
         rows.append(dict(source="NHANES PHQ-9 ≥10, 18-24", year=s.yr.iloc[0], sex=lab2, value=100*p, se=100*np.sqrt(p*(1-p)/neff), n=len(s)))
 # --- YRBS national, fixed width
-cs = [(0,5),(113,121),(124,134),(134,142),(142,150),(158,161),(161,164),(164,167),(280,281),(281,282),(282,283),(283,284)]
-names = ["sitecode","year","weight","stratum","psu","age","sex","grade","q26","q27","q28","q29"]
-def read_yrbs(path):
-    y = pd.read_fwf(path, colspecs=cs, names=names, dtype={"sitecode":str,"age":str,"sex":str,"grade":str,"q26":str,"q27":str,"q28":str,"q29":str}, na_values=[" ",""]); return y
-yn = read_yrbs(EXT/"yrbs/sadc_2023/sadc_2023_national.dat")
+# The national combined (SADC) file: the 2025 release (1991-2025, 900-character records; sad/hopeless q26 at column 266 and considered
+# suicide q27 at 267) is used when present, otherwise the 2023 release (776-character records; q26 at 281, q27 at 282). Positions from the
+# SADC SAS input programs; see data/external/yrbs/README.md.
+names = ["sitecode","year","weight","age","sex","grade","q26","q27"]
+REL = {"sadc_2025": [(0,5),(113,121),(124,134),(158,161),(161,164),(164,167),(265,266),(266,267)],
+       "sadc_2023": [(0,5),(113,121),(124,134),(158,161),(161,164),(164,167),(280,281),(281,282)]}
+def read_yrbs(release):
+    path = EXT/f"yrbs/{release}/{release}_national.dat"
+    y = pd.read_fwf(path, colspecs=REL[release], names=names, dtype={"sitecode":str,"age":str,"sex":str,"grade":str,"q26":str,"q27":str}, na_values=[" ",""]); return y
+rel = "sadc_2025" if (EXT/"yrbs/sadc_2025/sadc_2025_national.dat").exists() else "sadc_2023"; print("YRBS national release:", rel)
+yn = read_yrbs(rel)
 yn["sad"] = yn.q26.map({"1":1.0,"2":0.0}); yn["consider"] = yn.q27.map({"1":1.0,"2":0.0})
 def wprop(s, col):
     s = s[s[col].notna() & s.weight.notna()]

@@ -1,0 +1,7 @@
+sample,survey,ages,n_unweighted,report_n_weighted,phq10_report,phq10_microdata,anxiety_def,anxiety_report,gad6_microdata,gad10_microdata
+np2022ir,Nepal 2022,15-19,1379,1322.0,4.5,4.5,GAD-7 >= 6,18.3,18.3,5.6
+np2022ir,Nepal 2022,20-24,1298,1289.0,5.5,5.5,GAD-7 >= 6,22.8,22.8,6.8
+mz2022ir,Mozambique 2022-23,15-19,3109,3050.0,8.6,8.6,GAD-7 >= 6,21.6,21.6,8.4
+mz2022ir,Mozambique 2022-23,20-24,2625,2693.0,11.2,11.2,GAD-7 >= 6,30.1,30.1,11.5
+bd2022ir,Bangladesh 2022,15-19,1635,1729.0,3.7,3.7,GAD-7 >= 6,12.9,12.9,2.3
+bd2022ir,Bangladesh 2022,20-24,3233,3289.0,3.2,3.2,GAD-7 >= 6,12.9,12.9,2.7

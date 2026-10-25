@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 4 · The interaction (H3): phones in the same hours as high-pressure school → School phone bans
 
-Editable source entry points: [scripts/report/90_build_report.py:490](../../../scripts/report/90_build_report.py#L490)
+Editable source entry points: [scripts/report/90_build_report.py:478](../../../scripts/report/90_build_report.py#L478)
 
 ---
 
@@ -56,6 +56,6 @@ Principal-reported share of public schools prohibiting non-academic cell-phone u
 
 Compiled from Ballotpedia, Education Week, KFF, and enacted state statutes; classification differences across trackers are documented in the data file. Florida's HB 379 (instructional time, 2023–24) was the earliest statewide mandate.
 
-Nearly all statewide phone bans took effect in fall 2024, fall 2025, or fall 2026. Because the latest mental-health survey waves currently in hand are from spring 2023 (YRBS, Pennsylvania, Maine), spring 2024 (Illinois), and fall 2025 (Washington, which has state guidance rather than a mandate), post-ban statewide mental-health outcomes are not yet observed in our panel. The upcoming 2025 YRBS state files will permit an initial difference-in-differences test comparing early-ban states—Florida (2023–24) and Indiana, Louisiana, and South Carolina (2024–25)—against states without a mandate across the 2021, 2023, and 2025 waves, by sex. As subsequent waves of the state county surveys are released, the county panel will test Minnesota's 2024–25 district-policy mandate, Maine's and California's 2026–27 mandates, and Illinois's 2027–28 bell-to-bell ban using the same county-by-grade panel structure developed for LTE above. Obtaining NCES restricted-use SSOCS files (which include state and county identifiers) would also enable a school-level panel design across the 2010–2024 relaxation and re-tightening cycle.
+Nearly all statewide phone bans took effect in fall 2024, fall 2025, or fall 2026. The latest mental-health survey waves in hand are from spring 2025 (the YRBS, 26 states), fall 2025 (Pennsylvania and Washington, neither with a mandate), 2023–25 (California), spring 2024 (Illinois), and spring 2023 (Maine), so the first post-ban year is observed in the YRBS for Indiana, Louisiana, and South Carolina (mandates in force in 2024–25); Florida, the earliest mandate state, did not take part in the 2025 YRBS, and Minnesota's 2025 county tables are not yet obtainable. The next subsection reports the pre-specified difference-in-differences on those three states and the newest county waves. As subsequent waves of the state county surveys are released, the county panel will test Minnesota's 2024–25 district-policy mandate, Maine's and California's 2026–27 mandates, and Illinois's 2027–28 bell-to-bell ban using the same county-by-grade panel structure developed for LTE above. Obtaining NCES restricted-use SSOCS files (which include state and county identifiers) would also enable a school-level panel design across the 2010–2024 relaxation and re-tightening cycle.
 
-#### What the causal literature already shows
+#### Post-2021 waves and the first post-ban observations

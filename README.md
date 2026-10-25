@@ -1,6 +1,6 @@
 # Teen Distress Pilot
 
-What large-scale public microdata can say about the two leading explanations for the rise in adolescent anxiety and depression after 2010: Jonathan Haidt's smartphone-and-social-media thesis (*The Anxious Generation*) and Peter Gray's school-pressure thesis. The project tests four hypotheses (phones, school pressure, their interaction, and measurement artifacts) against IPUMS microdata and public survey series, and sets the results beside the evidence the two camps cite.
+What large-scale public microdata can say about the two leading explanations for the rise in adolescent anxiety and depression after 2010: Jonathan Haidt's smartphone-and-social-media thesis (*The Anxious Generation*) and Peter Gray's school-pressure thesis. The project tests four hypotheses (phones, school pressure, their interaction, and measurement artifacts) against IPUMS microdata and public survey series, and sets the results beside the evidence the two camps cite. The October 2026 revision (Phase 2, planned in `notes/phase2_plan.md`) adds NHIS and NSCH parent reports, the pooled DHS-8 self-report modules, monthly NVSS suicide seasonality, four PISA waves, Monitoring the Future's published series, new county survey waves with the first post-ban observations, and county broadband and early-smartphone coverage instruments, plus the ATUS 2025 and Bangladesh MICS 2025 releases.
 
 **Read the report:** https://ccdavis.github.io/teen-mh-pilot/ (GitHub Pages, served from `docs/`), or open `docs/index.html` locally (self-contained; works offline), or the print editions `docs/Teen_Distress_Pilot.pdf` and `docs/Teen_Distress_Pilot.docx`.
 
@@ -12,12 +12,12 @@ What large-scale public microdata can say about the two leading explanations for
 |---|---|
 | `docs/` | The report as a static site (interactive charts), PDF, Word and Markdown editions, indexed review chunks in `review/`, and a PNG of every chart |
 | `results/tables/` | Every computed table the report draws on (CSV) |
-| `data/compiled/` | Public-source tables constructed for this project: LTE launch dates by metro, state school phone-ban timing, state accountability-policy timing, HBSC published trend series, ITU connectivity series, NTIA adoption aggregates, state youth-survey county panel, GSHS catalog, World Bank indicators |
+| `data/compiled/` | Public-source tables constructed for this project: LTE launch dates by metro, state school phone-ban timing, state accountability-policy timing, HBSC published trend series, ITU connectivity series, NTIA adoption aggregates, state youth-survey county panel, GSHS catalog, World Bank indicators; Phase 2 adds the CDC WONDER monthly suicide tables, DHS-8 module inventory and published prevalence, Monitoring the Future published item series, NHIS-Teen published aggregates, and the county broadband panel |
 | `data/` (ignored) | Raw downloads and microdata extracts are not committed; `data/README.md` says how to obtain each |
 | `scripts/extract/` | Turning IPUMS extracts into the slim files the analysis uses (ACS, CPS, ATUS, MICS, IPUMS International, DHS), with the sample and variable lists |
-| `scripts/download/` | Acquiring and compiling the public sources (NSDUH, YRBS, NHANES, NTIA/CPS supplement, GSHS, HBSC, PISA, ITU, WDI, state youth surveys, school policy, phone bans, LTE launches) |
+| `scripts/download/` | Acquiring and compiling the public sources (NSDUH, YRBS, NHANES, NTIA/CPS supplement, GSHS, HBSC, PISA 2012–2022, ITU, WDI, state youth surveys, school policy, phone bans, LTE launches, NHIS, NSCH, DHS-8 reports, NVSS via CDC WONDER, Monitoring the Future volumes, broadband maps) |
 | `scripts/analysis/` | The numbered analyses, in the order they were run |
-| `scripts/report/` | Report builder, print editions, site builder, hand-written sections |
+| `scripts/report/` | Report builder, print editions, site builder, hand-written sections, and the per-source Phase 2 section modules in `parts/` |
 | `notes/` | Methods notes on each source: wording, coding, weights, gaps |
 
 `DATA_SOURCES.md` lists every dataset with its provider, access route, the variables used, and the script that consumes it.

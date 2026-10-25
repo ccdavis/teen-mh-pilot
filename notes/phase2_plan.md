@@ -1,5 +1,21 @@
 # Phase 2 Plan: Public-Use Data Extensions and Literature Context
 
+> **Status, 2026-10-24.** Phase 2 was carried out on 2026-10-24; the results are in the report (`docs/`), the methods notes in `notes/<source>.md`,
+> and the scripts in `scripts/download/<source>/` and `scripts/analysis/27`–`34`. Outcome by item:
+>
+> | Item | Status |
+> |---|---|
+> | 1.A.1 NHIS Sample Child + NHIS-Teen | Sample Child 2021–2024 public files used; **NHIS-Teen microdata are Research Data Center only** (no public-use file exists), so the comparison is population-level against NCHS's published teen estimates (`notes/nhis.md`) |
+> | 1.A.2 NSCH | Done, 2016–2025 (the 2025 file was posted 2026-10-05); screen gradient, trends, state adoption, first phone-ban DiD (`notes/nsch.md`) |
+> | 1.A.3 DHS-8 | Done for Nepal, Mozambique and Bangladesh via IPUMS DHS; **Jordan 2023 and Cambodia 2021–22 never fielded the module**; Lesotho's PHQ-9, Zambia 2024 and the men's files need a DHS Program request (`notes/dhs8.md`) |
+> | 1.B.1 NVSS / CDC WONDER | Done, 1999–2024, national monthly by age and sex via the WONDER API; county counts are suppressed under 10 (`notes/nvss.md`) |
+> | 1.B.2 Monitoring the Future | Published 12th-grade data volumes 1996–2012 compiled; **microdata blocked** (ICPSR login and Cloudflare); `31_mtf.py` runs the student-level models once the ICPSR files are placed (`notes/mtf.md`) |
+> | 1.B.3 PISA 2012–2022 | Done, four waves, 2.2 million students, including the 2015 ANXTEST interaction (`notes/pisa_panel.md`) |
+> | 1.C.1 county waves | PAYS 2025 and CHKS 2019–21, 2021–23, 2023–25 added; **Minnesota 2022/2025 blocked** by a bot-manager CAPTCHA (request specification in `notes/state_surveys.md`) |
+> | 1.C.2 YRBS 2025 | Released 2026-09-21 and used; DiD on Indiana, Louisiana and South Carolina (Florida left the YRBS) in `33_yrbs_ban_did.py` (`notes/yrbs_2025.md`) |
+> | 1.C.3 broadband instruments | Done: NTIA National Broadband Map 2010–14, FCC Form 477 2014–21, AT&T December 2010 footprint; county youth suicide limited by suppression (`notes/broadband.md`) |
+> | Also added | ATUS 2025 and Bangladesh MICS 2025 from the IPUMS internal copies |
+
 This document records the plan for the next phase of empirical work and literature integration following the Phase 1 public-data pilot (`docs/Teen_Distress_Pilot.md`). It covers:
 1. **Public-use microdata and administrative series** available now (without restricted-data applications) that directly test the open questions identified by the pilot.
 2. **Near-term updates** to the county and state panels already built in Phase 1.
@@ -80,7 +96,7 @@ The Phase 1 report notes that H2 predicts distress concentrated during the schoo
 - **Churchill, Brandyn F., and Kathryn R. Johnson (2026).** *"Broadband Internet Access and Adolescent Mental Health in the U.S."* NBER Working Paper No. 34614 (`https://www.nber.org/papers/w34614`).
   - Pairs state-level FCC broadband expansion (2009–2019) with National and State YRBS data; finds a 1-SD increase in broadband access raises adolescent suicidal ideation by 9.3%–16.5%, concentrated among girls (alongside cyberbullying and body dissatisfaction) and reduced sleep among boys.
 - **Myers, Caitlin K., and Ezekiel Hooper (2026).** *"Is the iPhone Birth Control? Causal Evidence from AT&T's 2007–2011 Carrier Monopoly."* NBER Working Paper No. 35310 (`https://www.nber.org/papers/w35310`).
-  - Exploits AT&T's exclusive U.S. iPhone carrier agreement (June 2007 – February 2011) interacted with pre-existing county AT&T network coverage; finds early iPhone diffusion reduced teen birth rates (ages 15–19) by 4.5%–8.0% and crowded out in-person socializing, dating, and drinking. Explains why U.S. geographic separation in smartphone adoption began during the 2007–2011 AT&T 3G window rather than the 2011–2013 4G LTE upgrade window.
+  - Exploits AT&T's exclusive U.S. iPhone carrier agreement (June 2007 – February 2011) interacted with pre-existing county AT&T network coverage; finds early iPhone diffusion reduced births at ages 15–19 by 2.0%–9.0% (October 2026 revision; 4.5%–8.0% in the June 2026 version), with time-use trends consistent with less in-person interaction. The paper's treatment is the public NTIA December 2010 State Broadband Initiative release of AT&T's mobile footprint, which Phase 2 reconstructs at county level. Explains why U.S. geographic separation in smartphone adoption began during the 2007–2011 AT&T 3G window rather than the 2011–2013 4G LTE upgrade window.
 - **European Broadband Instrumental-Variable Studies Reviewed in McClean, Rausch, and Haidt (2025):**
   - **Italy:** Donati, Dante, Ruben Durante, Francesco Sobbrio, and Dijana Zejcirovic (2025). *"Lost in the Net? Broadband Internet and Youth Mental Health."* *Journal of Health Economics* 103: 102989 (`https://doi.org/10.2139/ssrn.3949645`).
   - **Spain:** Arenas-Arroyo, Esther, Daniel Fernández-Kranz, and Natalia Nollenberger (2025). *"High Speed Internet and the Widening Gender Gap in Adolescent Mental Health: Evidence from Spanish Hospital Records."* *Journal of Health Economics* (`https://doi.org/10.1016/j.jhealeco.2025.103014`). Fiber-to-the-home (FTTH) rollout (2007–2019) increased adolescent hospital mental-health and self-harm diagnoses, heavily concentrated among girls.
@@ -89,6 +105,6 @@ The Phase 1 report notes that H2 predicts distress concentrated during the schoo
 
 ### B. School Calendars, Pandemic School Closures, and Declining Independent Activity (H2 & H3)
 - **Hansen, Benjamin, Joseph J. Sabia, and Jessamyn Schaller (2024).** *"In-Person Schooling and Youth Suicide: Evidence from School Calendars and Pandemic School Closures."* *Journal of Human Resources* 59(S): S135–S172 (`https://doi.org/10.3368/jhr.1222-12710R2`; NBER WP 30795). Building on **Hansen, Benjamin, and Matthew Lang (2011)**, *"Back to School Blues: Seasonality of Youth Suicide and the Academic Calendar,"* *Economics of Education Review* 30(5): 850–861 (`https://doi.org/10.1016/j.econedurev.2011.04.012`).
-  - Demonstrates that youth suicides (ages 12–18, unlike 19–25) drop sharply every summer and winter break, fell by ~18–25% in spring 2020 when schools closed for COVID-19 (despite surging screen use), and rose again across counties as in-person schooling resumed.
+  - Demonstrates that youth suicides (ages 12–18, unlike 19–25) drop sharply every summer and winter break, fell by ~25% (25–38% relative to January 2020) in spring 2020 when schools closed for COVID-19 (despite surging screen use), and rose again across counties as in-person schooling resumed.
 - **Gray, Peter, David F. Lancy, and David F. Bjorklund (2023).** *"Decline in Independent Activity as a Cause of Decline in Children's Mental Well-Being: Summary of the Evidence."* *The Journal of Pediatrics* 260: 113352 (`https://doi.org/10.1016/j.jpeds.2023.02.004`).
   - Synthesizes the multi-decade decline in children's unsupervised play, independent mobility, and autonomy alongside rising academic structure—a mechanism on which Gray and Part II of Haidt's *The Anxious Generation* (*"The Decline of the Play-Based Childhood"*) largely converge.

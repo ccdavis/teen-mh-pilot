@@ -1,0 +1,667 @@
+period,outcome,outcome_label,sex,agegrp,term,term_label,spec,mean,coef,se,n
+2018-2025,anx_cur,Current anxiety,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,14.679843411029978,1.3075694618022888,0.9439244987872357,133933
+2018-2025,anx_cur,Current anxiety,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,14.679843411029978,2.6677012540236498,0.5339740167302506,133933
+2018-2025,anx_cur,Current anxiety,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,14.679843411029978,4.957055569394931,0.569158659148624,133933
+2018-2025,anx_cur,Current anxiety,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,14.679843411029978,10.928622494350392,0.5547234598621867,133933
+2018-2025,anx_cur,Current anxiety,all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,14.679843411029978,3.014971530781853,0.13731023273908302,133933
+2018-2025,anx_cur,Current anxiety,all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,14.679843411029978,10.775875006349729,0.5519846208188517,133933
+2018-2025,dep_cur,Current depression,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.849312460342496,2.6365374220582005,0.9003085012009422,134460
+2018-2025,dep_cur,Current depression,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,7.849312460342496,2.138289099873978,0.3614281447375147,134460
+2018-2025,dep_cur,Current depression,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,7.849312460342496,3.2376095279396564,0.3562559682985517,134460
+2018-2025,dep_cur,Current depression,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.849312460342496,7.913044483562987,0.3621638658395045,134460
+2018-2025,dep_cur,Current depression,all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,7.849312460342496,2.0458719239391834,0.11511780910730865,134460
+2018-2025,dep_cur,Current depression,all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.849312460342496,8.334991236411504,0.36655245187547825,134460
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,13.012564810031362,-0.11437681460668976,1.033631302840124,134006
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,13.012564810031362,0.31218288738016325,0.667490989341773,134006
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,13.012564810031362,2.0650617711693458,0.7039287533647525,134006
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,13.012564810031362,5.0204662546676255,0.655100678867785,134006
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,13.012564810031362,1.5709118498298482,0.13375805263496893,134006
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,13.012564810031362,5.28492393506523,0.6513846844366723,134006
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.894156634334461,1.277285188357567,0.6839422793005951,133785
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,7.894156634334461,1.598946243250018,0.3551162821281731,133785
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,7.894156634334461,3.010659175709328,0.4015023949170935,133785
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.894156634334461,7.135762879224894,0.394495597114715,133785
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,7.894156634334461,1.9641963072893067,0.10820289471829486,133785
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.894156634334461,7.132072182128449,0.3910659333988551,133785
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.178585017934912,2.0488083034866214,0.7238475381784529,134387
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.178585017934912,1.3503186019626714,0.24157065840333344,134387
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.178585017934912,1.8255940988598147,0.25409678738998903,134387
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.178585017934912,4.76184926327327,0.24909447168647433,134387
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,4.178585017934912,1.1926935640292775,0.08768977889330191,134387
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.178585017934912,5.057502112928683,0.2533067555771188,134387
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,6.860364069866498,1.3912835392851821,0.8659237178494592,134806
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,6.860364069866498,0.24085959624417536,0.47322507508238615,134806
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,6.860364069866498,0.9916916360692196,0.48504560928706103,134806
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,6.860364069866498,4.455886553963878,0.4739474264686116,134806
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,6.860364069866498,1.3086874025653052,0.10841376399368297,134806
+2018-2025,beh_cur,Current behavior/conduct problems,all,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,6.860364069866498,4.537900940679965,0.47938473089833655,134806
+2018-2025,anx_cur,Current anxiety,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.405557617748943,-0.20535189100441967,0.5469825672034025,102730
+2018-2025,anx_cur,Current anxiety,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,8.405557617748943,0.3137708444094489,0.3884749818508484,102730
+2018-2025,anx_cur,Current anxiety,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,8.405557617748943,1.8466557382592501,0.46418438953479,102730
+2018-2025,anx_cur,Current anxiety,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.405557617748943,5.094127999770224,0.5397080108307517,102730
+2018-2025,anx_cur,Current anxiety,all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,8.405557617748943,1.3844086853441304,0.1310380537786019,102730
+2018-2025,anx_cur,Current anxiety,all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.405557617748943,5.325483889135575,0.5558391637609394,102730
+2018-2025,dep_cur,Current depression,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.8659572831559557,0.181519048013521,0.286281117331861,103070
+2018-2025,dep_cur,Current depression,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.8659572831559557,0.08734352213289882,0.1814702884246149,103070
+2018-2025,dep_cur,Current depression,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.8659572831559557,0.42434519311113184,0.22585866567335153,103070
+2018-2025,dep_cur,Current depression,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.8659572831559557,2.348548499437888,0.34042826724360303,103070
+2018-2025,dep_cur,Current depression,all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.8659572831559557,0.5778963888224178,0.08466681229543412,103070
+2018-2025,dep_cur,Current depression,all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.8659572831559557,2.7975979884220927,0.3423545808630857,103070
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.834762814585272,-0.6321267493975611,0.7296177598181971,102636
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,10.834762814585272,-0.40361591804624786,0.5088119487643162,102636
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,10.834762814585272,0.9031972690854526,0.6063610372663589,102636
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.834762814585272,3.5524291349487522,0.6504804534807765,102636
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,10.834762814585272,1.0281592311950236,0.15658060273513538,102636
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.834762814585272,5.156956127376529,0.6558012846824705,102636
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,3.954981249634084,-0.1882110734266124,0.34611819822879286,102669
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,3.954981249634084,0.2131706760677672,0.24465227063331216,102669
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,3.954981249634084,0.7134759006100221,0.2950656202641759,102669
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,3.954981249634084,3.2157466070043097,0.3858922871155548,102669
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,3.954981249634084,0.844371771320108,0.09489096825992589,102669
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,3.954981249634084,3.5408370716361057,0.3984193741388306,102669
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,0.7790515785951324,0.2435883522141533,0.18680524147205754,103057
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,0.7790515785951324,0.042413093685421184,0.08123129255664308,103057
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,0.7790515785951324,0.26861805312587134,0.12912438575181542,103057
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,0.7790515785951324,1.1711591879761831,0.18155465341547966,103057
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,0.7790515785951324,0.27570752352171507,0.04833442455867374,103057
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,0.7790515785951324,1.4133368731793587,0.1963138063365198,103057
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.09346291856191,0.8474746475413256,0.6599269597061709,103108
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,9.09346291856191,0.26898762804687476,0.4399170304145236,103108
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,9.09346291856191,1.9940747201669227,0.5229474529382635,103108
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.09346291856191,6.647283280577317,0.6281755508638268,103108
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,9.09346291856191,1.6581639816773819,0.15580323927789924,103108
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.09346291856191,7.843809850464435,0.6563334861824566,103108
+2018-2025,anx_cur,Current anxiety,all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,11.60875582793176,0.29761175796871314,0.4806761655190712,236663
+2018-2025,anx_cur,Current anxiety,all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,11.60875582793176,1.0573553599675403,0.3168096365650248,236663
+2018-2025,anx_cur,Current anxiety,all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,11.60875582793176,2.987571768749173,0.3603191553768688,236663
+2018-2025,anx_cur,Current anxiety,all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,11.60875582793176,8.13073683074351,0.37878329870799277,236663
+2018-2025,anx_cur,Current anxiety,all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,11.60875582793176,2.275963399608432,0.09579648224065428,236663
+2018-2025,anx_cur,Current anxiety,all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,11.60875582793176,9.686518626648331,0.37671548544724415,236663
+2018-2025,dep_cur,Current depression,all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.920241206582688,1.0358499056587813,0.345260543682477,237530
+2018-2025,dep_cur,Current depression,all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.920241206582688,0.6731674694234004,0.18434483921757594,237530
+2018-2025,dep_cur,Current depression,all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.920241206582688,1.3944976640733382,0.20700226272120478,237530
+2018-2025,dep_cur,Current depression,all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.920241206582688,5.204632590037235,0.25183069717390977,237530
+2018-2025,dep_cur,Current depression,all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,4.920241206582688,1.366209158087105,0.07379190231733643,237530
+2018-2025,dep_cur,Current depression,all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.920241206582688,7.320314988373764,0.24802997596798418,237530
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,11.947202452217166,-0.514599135889265,0.6020180251074677,236642
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,11.947202452217166,-0.13322903560404717,0.40562791600450004,236642
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,11.947202452217166,1.4306746629721616,0.4529986778817883,236642
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,11.947202452217166,4.336835537985577,0.4415094986190213,236642
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,11.947202452217166,1.3427484109321384,0.10211862805192752,236642
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,11.947202452217166,5.5016754331861035,0.4304231695399483,236642
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.9657727591128,0.30212282570729987,0.3185945244289932,236454
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.9657727591128,0.628557956860666,0.20426080988853984,236454
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.9657727591128,1.5960933821534589,0.24275847136666392,236454
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.9657727591128,5.239438765057514,0.2709331683995688,236454
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.9657727591128,1.4513165237295764,0.07245450236965399,236454
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.9657727591128,6.351280039039425,0.2714975827351741,236454
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.514287135638651,0.8551354354836361,0.26104727996511723,237444
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,2.514287135638651,0.4059914300214604,0.10900801944546258,237444
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,2.514287135638651,0.7354649424383122,0.13701068065857555,237444
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.514287135638651,3.005247902586165,0.16188531944427453,237444
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,2.514287135638651,0.7623617961851988,0.05265237480884884,237444
+2018-2025,dep_modsev,"Current depression, moderate/severe",all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.514287135638651,4.251261150800041,0.167430414767085,237444
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.952431795622,1.0386772294822848,0.5294676185928212,237914
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,7.952431795622,0.3360898321205495,0.32987206382394063,237914
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,7.952431795622,1.582861814143025,0.357703823436121,237914
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.952431795622,5.445705763622039,0.37816992965868573,237914
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,7.952431795622,1.47763140508687,0.0939968881333291,237914
+2018-2025,beh_cur,Current behavior/conduct problems,all,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.952431795622,4.835970438856929,0.3685962661784901,237914
+2018-2025,anx_cur,Current anxiety,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,17.907225509689447,0.9765021984267946,1.2950329291181306,64453
+2018-2025,anx_cur,Current anxiety,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,17.907225509689447,4.10394498993913,0.7256549707970503,64453
+2018-2025,anx_cur,Current anxiety,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,17.907225509689447,6.7023753335611245,0.7475553393415258,64453
+2018-2025,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,17.907225509689447,14.534863328751372,0.7902357126601213,64453
+2018-2025,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,17.907225509689447,3.955454315575672,0.21250021440591724,64453
+2018-2025,anx_cur,Current anxiety,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,17.907225509689447,15.259700207062622,0.8030585716846653,64453
+2018-2025,dep_cur,Current depression,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.016993067483423,2.917785199478917,1.2628159448289418,64751
+2018-2025,dep_cur,Current depression,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.016993067483423,2.5732776415082923,0.5960295927680846,64751
+2018-2025,dep_cur,Current depression,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.016993067483423,3.7930972440914106,0.5526839604677737,64751
+2018-2025,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.016993067483423,10.24348386790462,0.6096453752085501,64751
+2018-2025,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.016993067483423,2.68435889906146,0.18428058387357618,64751
+2018-2025,dep_cur,Current depression,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.016993067483423,11.262775261909324,0.6091822441613451,64751
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.178286555268414,-1.362700687354748,1.1285563363411133,64577
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.178286555268414,-0.9221844536418004,0.8828169655479756,64577
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.178286555268414,0.026416713521018004,0.8831322052493906,64577
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.178286555268414,3.074045068571585,0.8763598580520261,64577
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,9.178286555268414,1.1993849500315044,0.1561751520073729,64577
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.178286555268414,2.975683723701258,0.8708266552997044,64577
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.814736739070739,0.5811472333840498,0.8539904925668442,64364
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.814736739070739,2.3586825355595455,0.5202832518490906,64364
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.814736739070739,3.9250102397715554,0.5375574333172262,64364
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.814736739070739,9.486215670749802,0.6118158127181422,64364
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,9.814736739070739,2.630822977642159,0.17040655190086712,64364
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.814736739070739,10.120405533919099,0.6171458849010535,64364
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.426819645345217,1.8580925455243649,0.7866914336450662,64701
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.426819645345217,1.8896673289533135,0.39165358678160067,64701
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.426819645345217,2.205553002705835,0.3659975232037354,64701
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.426819645345217,6.488211105647254,0.41289375553808044,64701
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.426819645345217,1.6617942758299002,0.13200114282238126,64701
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.426819645345217,7.145830735131392,0.41205610086015704,64701
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.556621723904954,-0.23925812055802664,0.6798817584369307,64968
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.556621723904954,0.17876004730168893,0.46561526389517144,64968
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.556621723904954,0.7772836572596802,0.46731004848688834,64968
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.556621723904954,3.742993074591727,0.5010649240657941,64968
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,4.556621723904954,1.1776340469128848,0.11997984781902318,64968
+2018-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.556621723904954,3.7171239830268754,0.514056175475124,64968
+2018-2025,anx_cur,Current anxiety,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.01100132860255,-0.677102717083685,0.7611136689584269,49395
+2018-2025,anx_cur,Current anxiety,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,8.01100132860255,0.509269805327244,0.5514183975581726,49395
+2018-2025,anx_cur,Current anxiety,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,8.01100132860255,2.0952849389260004,0.6633863536615847,49395
+2018-2025,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.01100132860255,5.491297238587846,0.7952461581294987,49395
+2018-2025,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,8.01100132860255,1.5205309334096118,0.1915352586349056,49395
+2018-2025,anx_cur,Current anxiety,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.01100132860255,5.657872791534886,0.8228552747314161,49395
+2018-2025,dep_cur,Current depression,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.7579783907443427,0.28014764888784643,0.39477809437637956,49539
+2018-2025,dep_cur,Current depression,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.7579783907443427,0.43244052854610027,0.2207159635541648,49539
+2018-2025,dep_cur,Current depression,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.7579783907443427,0.7599573752703975,0.2808933417173224,49539
+2018-2025,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.7579783907443427,2.749999205306384,0.4229655226959803,49539
+2018-2025,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.7579783907443427,0.655980958337683,0.10599135863952609,49539
+2018-2025,dep_cur,Current depression,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.7579783907443427,3.197301320137045,0.4454651459726566,49539
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.304650435863823,-0.7110559645468209,1.0200100366231273,49353
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,7.304650435863823,-1.11325264358305,0.7024939036540452,49353
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,7.304650435863823,-0.347594714044324,0.849979098420388,49353
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.304650435863823,1.3197880103386845,0.8442183922704682,49353
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,7.304650435863823,0.4185712120697661,0.2019178030499486,49353
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.304650435863823,2.1119960483706466,0.8082131023069229,49353
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,3.6077317207887054,-0.4928232621690246,0.4846295618549678,49373
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,3.6077317207887054,0.4722205179428527,0.32173742947370837,49373
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,3.6077317207887054,1.1028464414351544,0.3908867746835382,49373
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,3.6077317207887054,3.089773098199616,0.5207177995693505,49373
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,3.6077317207887054,0.8528692555249632,0.1305825807251478,49373
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,3.6077317207887054,3.29980533051233,0.5501583771126197,49373
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,0.7347689166100471,0.2925733948189709,0.3202668359734409,49532
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,0.7347689166100471,0.1879881603501393,0.11760379037666278,49532
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,0.7347689166100471,0.3147158954844144,0.15240818297388786,49532
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,0.7347689166100471,1.4447114197098438,0.27344661523622643,49532
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,0.7347689166100471,0.32244354791889995,0.07393355550402844,49532
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,0.7347689166100471,1.7045689680729437,0.30368077032415536,49532
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.8215533438191995,0.717325336132039,0.8376005611845725,49590
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.8215533438191995,-0.4827705284132554,0.5569860923193294,49590
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.8215533438191995,0.8493782928332999,0.6369520287868401,49590
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.8215533438191995,4.905994652816822,0.8115582170030196,49590
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,5.8215533438191995,1.1629871765909552,0.19759680290868187,49590
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.8215533438191995,5.683077923816854,0.880910724497794,49590
+2018-2025,anx_cur,Current anxiety,girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,13.061969497869166,-0.07062749897823192,0.6646796030748924,113848
+2018-2025,anx_cur,Current anxiety,girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,13.061969497869166,1.69807864307019,0.4500601199413378,113848
+2018-2025,anx_cur,Current anxiety,girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,13.061969497869166,3.800594721641957,0.506060234714667,113848
+2018-2025,anx_cur,Current anxiety,girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,13.061969497869166,10.289556382402822,0.5661380048980483,113848
+2018-2025,anx_cur,Current anxiety,girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,13.061969497869166,2.854133203534506,0.14500337887061965,113848
+2018-2025,anx_cur,Current anxiety,girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,13.061969497869166,13.42953352671847,0.577110351086502,113848
+2018-2025,dep_cur,Current depression,girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.973477476345623,1.2181809555610061,0.48123343211232683,114290
+2018-2025,dep_cur,Current depression,girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.973477476345623,1.0360412799204475,0.27390726988808073,114290
+2018-2025,dep_cur,Current depression,girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.973477476345623,1.733531763478818,0.2938788516639428,114290
+2018-2025,dep_cur,Current depression,girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.973477476345623,6.819965194651246,0.38082742391500257,114290
+2018-2025,dep_cur,Current depression,girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.973477476345623,1.7551077127178956,0.11142025693302422,114290
+2018-2025,dep_cur,Current depression,girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.973477476345623,10.01239843912265,0.39142680963929016,114290
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.261777881019071,-0.9094484892336283,0.8028909557945474,113930
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,8.261777881019071,-0.9824649897644946,0.5537101952854604,113930
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,8.261777881019071,-0.09308534308389775,0.603550170640741,113930
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.261777881019071,2.486379924419629,0.5884899788129261,113930
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,8.261777881019071,0.8695407610504273,0.12471887527539105,113930
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.261777881019071,3.1300578081209,0.5683755074095073,113930
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,6.774885307195771,-0.03703991102657256,0.42402631268490115,113737
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,6.774885307195771,1.0226322952106761,0.28348363314983793,113737
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,6.774885307195771,2.0786720176021607,0.3227811261017178,113737
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,6.774885307195771,6.560538098821368,0.4040698615025318,113737
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,6.774885307195771,1.8109353308969844,0.10879757662446925,113737
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,6.774885307195771,8.685165195946775,0.42546594352073913,113737
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,3.12922065772908,0.872704888466814,0.33066528041194404,114233
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,3.12922065772908,0.6861359424534362,0.1743298835535856,114233
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,3.12922065772908,0.8558823525506911,0.1923573061876011,114233
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,3.12922065772908,4.138971381490858,0.2635232289015925,114233
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,3.12922065772908,1.039367072196141,0.0795035191436805,114233
+2018-2025,dep_modsev,"Current depression, moderate/severe",girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,3.12922065772908,5.986989649455422,0.27844320088000823,114233
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.17543854284908,0.5451344954390177,0.6259714330515185,114558
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.17543854284908,-0.059549097828799205,0.39671039276570097,114558
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.17543854284908,0.9319480234958242,0.41782624269053387,114558
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.17543854284908,4.257612981614314,0.46791139354708255,114558
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.17543854284908,1.1798888684514037,0.11291968073957492,114558
+2018-2025,beh_cur,Current behavior/conduct problems,girls,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.17543854284908,3.749249224321372,0.4748990391314005,114558
+2018-2025,anx_cur,Current anxiety,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,11.598272051372762,1.2108074252412069,1.3332690617652188,69480
+2018-2025,anx_cur,Current anxiety,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,11.598272051372762,0.6932664462630886,0.7809881291585331,69480
+2018-2025,anx_cur,Current anxiety,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,11.598272051372762,2.6138880374452276,0.8267739879098917,69480
+2018-2025,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,11.598272051372762,7.016969941298142,0.769584607236729,69480
+2018-2025,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,11.598272051372762,2.09203600292519,0.1686658258722601,69480
+2018-2025,anx_cur,Current anxiety,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,11.598272051372762,6.779049591093772,0.7747331915082424,69480
+2018-2025,dep_cur,Current depression,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.777147205319198,2.217378924309079,1.2812524367532292,69709
+2018-2025,dep_cur,Current depression,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.777147205319198,1.396959463561325,0.4051652963377122,69709
+2018-2025,dep_cur,Current depression,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.777147205319198,2.4032402272632805,0.4484460545072743,69709
+2018-2025,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.777147205319198,5.514207476383789,0.3906916559754437,69709
+2018-2025,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.777147205319198,1.4286090178570037,0.13147392969031232,69709
+2018-2025,dep_cur,Current depression,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.777147205319198,5.803008053436173,0.4068519729067373,69709
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,16.68354213725623,1.157475086862176,1.7902618872419716,69429
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,16.68354213725623,1.8304810982581776,0.9807917959795942,69429
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,16.68354213725623,4.300759772377374,1.0591145733027825,69429
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,16.68354213725623,7.184168674990449,0.9547780749272925,69429
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,16.68354213725623,1.9519086542337838,0.21424472554505972,69429
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,16.68354213725623,6.853626608031684,0.9563459862064023,69429
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,6.061203379884066,1.698146129434561,1.0709474938999024,69421
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,6.061203379884066,0.38173373723339454,0.4819703077111373,69421
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,6.061203379884066,1.61921895676702,0.5657821293764655,69421
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,6.061203379884066,4.461515475781582,0.49043834278938997,69421
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,6.061203379884066,1.2828276982671498,0.12845122145098228,69421
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,6.061203379884066,4.433819520057364,0.491436790200993,69421
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.9856700796098012,2.048085576838264,1.2484030974314373,69686
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,2.9856700796098012,0.588949596384107,0.2812322123486298,69686
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,2.9856700796098012,1.225779159624117,0.35768384518800983,69686
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.9856700796098012,2.9683708331814547,0.28602817104759803,69686
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,2.9856700796098012,0.7432475776283397,0.10973955375176883,69686
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.9856700796098012,3.173953906564645,0.3031934556983152,69686
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.063419565155975,3.1793910134610024,1.6577018630655134,69838
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.063419565155975,0.42523137602750094,0.8332878474037346,69838
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.063419565155975,1.3394637353997678,0.8557018514711902,69838
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.063419565155975,5.2284641756761525,0.8219417849457621,69838
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,9.063419565155975,1.442028991005676,0.1789231512133553,69838
+2018-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.063419565155975,4.874939940186628,0.8265149189551679,69838
+2018-2025,anx_cur,Current anxiety,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.782684759243766,0.14177981737764117,0.7962616491259482,53335
+2018-2025,anx_cur,Current anxiety,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,8.782684759243766,0.07395174808191313,0.5525860766333874,53335
+2018-2025,anx_cur,Current anxiety,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,8.782684759243766,1.5677630121282184,0.6474770268214802,53335
+2018-2025,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.782684759243766,4.809224671580289,0.7388447529761136,53335
+2018-2025,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,8.782684759243766,1.2955817345199891,0.1791810074060543,53335
+2018-2025,anx_cur,Current anxiety,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.782684759243766,4.922634724044921,0.7560998848701582,53335
+2018-2025,dep_cur,Current depression,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.9692199215983726,-0.032252269432368405,0.4267538352734547,53531
+2018-2025,dep_cur,Current depression,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.9692199215983726,-0.20122350508087322,0.28643082703802303,53531
+2018-2025,dep_cur,Current depression,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.9692199215983726,0.10184255616449789,0.346126463479036,53531
+2018-2025,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.9692199215983726,2.047993480120434,0.5199998547394543,53531
+2018-2025,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.9692199215983726,0.5380750781717335,0.1295764541591168,53531
+2018-2025,dep_cur,Current depression,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.9692199215983726,2.3795459410055684,0.5150345037490952,53531
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,14.21370491981951,-0.2753873179205485,1.0383889269962616,53283
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,14.21370491981951,0.42746095097826636,0.7168035918162435,53283
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,14.21370491981951,2.2236381963074137,0.837752723442154,53283
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,14.21370491981951,5.580984957233242,0.9315781775681647,53283
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,14.21370491981951,1.554867506347865,0.22919672792878729,53283
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,14.21370491981951,6.860053752277024,0.9775932335982875,53283
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.286920183972787,0.03781620112544313,0.5154429173602201,53296
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,4.286920183972787,0.02329591656974833,0.37104869176039407,53296
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,4.286920183972787,0.34537486670191797,0.4428085278775428,53296
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.286920183972787,3.3043919513679945,0.5734988345338584,53296
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,4.286920183972787,0.8462295598390847,0.13863808541367637,53296
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.286920183972787,3.6085616833712892,0.5761596392772543,53296
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,0.8214089917269258,0.17685341765989313,0.21585666401888723,53525
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,0.8214089917269258,-0.05416156492187963,0.1265508949612729,53525
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,0.8214089917269258,0.20431412927404935,0.21053099640882275,53525
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,0.8214089917269258,0.9519420975083968,0.24410872979750856,53525
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,0.8214089917269258,0.23817796483780884,0.062017985227659,53525
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,0.8214089917269258,1.1492269082379727,0.26060137180154136,53525
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,12.226608442286825,0.9902912367475617,1.0290832179794165,53518
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,12.226608442286825,1.0323498665717235,0.6787276603287322,53518
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,12.226608442286825,3.18568978112857,0.8000915119165547,53518
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,12.226608442286825,8.30610049088035,0.9152804955168219,53518
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,12.226608442286825,2.1274613789278267,0.2317367644411732,53518
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,12.226608442286825,8.854036747752517,0.955982668400844,53518
+2018-2025,anx_cur,Current anxiety,boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.220482448545129,0.5543695308332408,0.6922607733629323,122815
+2018-2025,anx_cur,Current anxiety,boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.220482448545129,0.17205258295406894,0.45070100975032074,122815
+2018-2025,anx_cur,Current anxiety,boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.220482448545129,1.900757589801801,0.509158909385318,122815
+2018-2025,anx_cur,Current anxiety,boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.220482448545129,5.8969601674963465,0.507781813690231,122815
+2018-2025,anx_cur,Current anxiety,boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.220482448545129,1.7004927909565615,0.12305374792442275,122815
+2018-2025,anx_cur,Current anxiety,boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.220482448545129,6.398679740159733,0.4956288381088818,122815
+2018-2025,dep_cur,Current depression,boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,3.91321518056827,0.7780794706670776,0.49760059476193885,123240
+2018-2025,dep_cur,Current depression,boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,3.91321518056827,0.22127884549511562,0.24772742276326265,123240
+2018-2025,dep_cur,Current depression,boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,3.91321518056827,0.8892730884752083,0.292244673133628,123240
+2018-2025,dep_cur,Current depression,boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,3.91321518056827,3.635900991393432,0.33467295695617233,123240
+2018-2025,dep_cur,Current depression,boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,3.91321518056827,0.9906970307150493,0.09484279982133999,123240
+2018-2025,dep_cur,Current depression,boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,3.91321518056827,4.980778405123117,0.31878494470841146,123240
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,15.475245038940955,0.022758318900116512,0.9055995214078182,122712
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,15.475245038940955,0.9075710519423621,0.5826127832255529,122712
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,15.475245038940955,3.0836127212028144,0.6581135035304807,122712
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,15.475245038940955,6.258830747659675,0.6400328752325822,122712
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,15.475245038940955,1.7998509250066919,0.15768850291932215,122712
+2018-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,15.475245038940955,6.996831525336238,0.6326610388307867,122712
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.192968707931178,0.6018606339674966,0.48367489789773843,122717
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.192968707931178,0.06480848395910846,0.29732635709229716,122717
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.192968707931178,0.8979478855868627,0.354806896255174,122717
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.192968707931178,3.8274786582086673,0.36337720173459537,122717
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.192968707931178,1.079251049178063,0.09379328781213059,122717
+2018-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.192968707931178,4.270675664993724,0.35245195312373634,122717
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.9263530232579535,0.793366018770952,0.4197419969911475,123211
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,1.9263530232579535,0.05014348946417133,0.13323993018970517,123211
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,1.9263530232579535,0.49037894099647744,0.1959751371912107,123211
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.9263530232579535,1.8885987073480999,0.19345679841529728,123211
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,1.9263530232579535,0.49054408657380333,0.06724435274081841,123211
+2018-2025,dep_modsev,"Current depression, moderate/severe",boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.9263530232579535,2.7356085548485582,0.19914839888891506,123211
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.609812555697646,1.6989994705550147,0.8765247388933818,123356
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.609812555697646,0.8247295455172513,0.5289741925201462,123356
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.609812555697646,2.32238843580004,0.5745209848917415,123356
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.609812555697646,6.628346887650693,0.586016553726042,123356
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.609812555697646,1.7546156586632318,0.14601760093885793,123356
+2018-2025,beh_cur,Current behavior/conduct problems,boys,6-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.609812555697646,5.261673758686459,0.5645104582378415,123356
+2018-2019,anx_cur,Current anxiety,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,14.405622658560274,-1.1605651320037005,1.907426846957879,11622
+2018-2019,anx_cur,Current anxiety,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,14.405622658560274,4.419359676855453,1.3281975628163045,11622
+2018-2019,anx_cur,Current anxiety,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,14.405622658560274,6.876632290494138,1.4217133642119872,11622
+2018-2019,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,14.405622658560274,12.403112314330857,1.6040978516362951,11622
+2018-2019,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,14.405622658560274,3.378476011177544,0.4401638438687146,11622
+2018-2019,anx_cur,Current anxiety,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,14.405622658560274,13.304374783542507,1.6668704167463473,11622
+2018-2019,dep_cur,Current depression,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.46933761368459,3.2124457599171614,2.184880180743076,11661
+2018-2019,dep_cur,Current depression,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,8.46933761368459,3.637447422691238,1.022153614178901,11661
+2018-2019,dep_cur,Current depression,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,8.46933761368459,4.909731015131744,1.0292469184389497,11661
+2018-2019,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.46933761368459,9.54732985661558,1.232388376586323,11661
+2018-2019,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,8.46933761368459,2.258633491050584,0.3795483412678999,11661
+2018-2019,dep_cur,Current depression,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.46933761368459,10.401058922895986,1.1755225950908488,11661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.3107199152681694,-3.785356341787839,1.831822119611418,11582
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,7.3107199152681694,-1.9216565059345208,1.538242696134121,11582
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,7.3107199152681694,0.5199095611091643,1.6786732450316608,11582
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.3107199152681694,1.3626571688978903,1.6116947225158011,11582
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,7.3107199152681694,0.952782411168089,0.3025336187458388,11582
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.3107199152681694,1.2654236954242073,1.6595587948126596,11582
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.615680947508863,-0.5947515666841655,1.0381606599770656,11605
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,7.615680947508863,3.643224919949145,0.9618418315339736,11605
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,7.615680947508863,3.809969377708164,0.9412528044593143,11605
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.615680947508863,8.185201730370755,1.2107187618253352,11605
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,7.615680947508863,2.1056061124365124,0.34252292642898774,11605
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.615680947508863,9.004591957244942,1.3050286601573344,11605
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.5095614874815135,1.3545247903191298,1.407977684117436,11656
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.5095614874815135,2.617483881737593,0.7724230884465223,11656
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.5095614874815135,2.94256521691188,0.7626590680509551,11656
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.5095614874815135,5.383034430884992,0.865982181797518,11656
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,4.5095614874815135,1.2356686383418476,0.2627878066811141,11656
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.5095614874815135,6.038070943356299,0.8342980455970752,11656
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,3.980689831965579,-0.9021310129672715,1.229881177079262,11691
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,3.980689831965579,-0.4174797718870404,1.0087365083708881,11691
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,3.980689831965579,0.6433480903696617,1.0576949724013067,11691
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,3.980689831965579,1.5323318527915295,1.0704657989015882,11691
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,3.980689831965579,0.5967877961236524,0.24201170540130232,11691
+2018-2019,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,3.980689831965579,1.5762532103640257,1.070497835448641,11691
+2018-2019,anx_cur,Current anxiety,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.058606287842396,0.7650231470971416,1.7100192440215765,8694
+2018-2019,anx_cur,Current anxiety,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,7.058606287842396,1.1344119123978786,1.1830443274214877,8694
+2018-2019,anx_cur,Current anxiety,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,7.058606287842396,3.686664170268035,1.6937036498789886,8694
+2018-2019,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.058606287842396,4.123280082403564,1.7930096996940423,8694
+2018-2019,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,7.058606287842396,1.1435866345298253,0.42379001110293724,8694
+2018-2019,anx_cur,Current anxiety,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,7.058606287842396,4.367621238129019,1.8130558536583137,8694
+2018-2019,dep_cur,Current depression,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.909254866317372,1.1976669741971657,1.1519709022898115,8716
+2018-2019,dep_cur,Current depression,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.909254866317372,1.1519000155892687,0.49355370293938355,8716
+2018-2019,dep_cur,Current depression,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.909254866317372,0.7177703689158393,0.6515738694484533,8716
+2018-2019,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.909254866317372,3.3368362308725943,1.2240268782714943,8716
+2018-2019,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.909254866317372,0.6306716701128503,0.3017093441219044,8716
+2018-2019,dep_cur,Current depression,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.909254866317372,3.9885461497374943,1.3324354935604774,8716
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.542349910386624,0.5476824788725271,1.4746857498137957,8661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.542349910386624,1.6746367900493973,1.1490335984632047,8661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.542349910386624,0.5974583028660487,1.2755075112606609,8661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.542349910386624,1.2073162369286288,1.2942946446417312,8661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,5.542349910386624,0.2221417033584946,0.34136731834734396,8661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.542349910386624,2.0962372438033237,1.2810712822692036,8661
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.9924156468149086,1.450103080755915,1.2401400010377508,8689
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,2.9924156468149086,1.2812171642125494,0.5423893100771886,8689
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,2.9924156468149086,1.593236362236509,0.8338342312922227,8689
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.9924156468149086,3.1066677717262983,0.9978757809988178,8689
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,2.9924156468149086,0.6308167247096725,0.28080307177332475,8689
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.9924156468149086,3.4386813660061155,1.0812813188088635,8689
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.0889654993396596,1.208259972856978,1.1333352836295552,8714
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.0889654993396596,0.5319765767571937,0.3283144626567512,8714
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.0889654993396596,0.43269150545393226,0.47768850091695264,8714
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.0889654993396596,2.4397061529148054,0.9361404004062647,8714
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.0889654993396596,0.41752712802659797,0.25224201290490583,8714
+2018-2019,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.0889654993396596,2.755520735119127,1.043317572261312,8714
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.674749600409541,1.3752870609468704,1.8123628657461566,8716
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.674749600409541,0.30760832545599553,1.0648051064877695,8716
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.674749600409541,1.6123649090271723,1.4949916725702457,8716
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.674749600409541,5.0808591391536835,1.7678217490971333,8716
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,5.674749600409541,1.0896618834833476,0.44625910213557635,8716
+2018-2019,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.674749600409541,6.228275149380506,2.1918621833029333,8716
+2018-2019,anx_cur,Current anxiety,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.72732031997926,2.670247082726738,1.9190179238057703,12736
+2018-2019,anx_cur,Current anxiety,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.72732031997926,3.5074395731817134,1.274227671813143,12736
+2018-2019,anx_cur,Current anxiety,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.72732031997926,5.05256189800241,1.2902806909187419,12736
+2018-2019,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.72732031997926,8.033091844945089,1.2631275610702555,12736
+2018-2019,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,9.72732031997926,1.8503583493017923,0.32817648774523367,12736
+2018-2019,anx_cur,Current anxiety,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.72732031997926,7.225567520378645,1.2681589014646617,12736
+2018-2019,dep_cur,Current depression,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.36574330710478,-0.08322252139862558,0.7310848265235579,12741
+2018-2019,dep_cur,Current depression,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.36574330710478,1.8282689943645745,0.888624437373699,12741
+2018-2019,dep_cur,Current depression,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.36574330710478,3.0892583021953786,0.7931823917701335,12741
+2018-2019,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.36574330710478,6.416073278423664,0.7912940077178187,12741
+2018-2019,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.36574330710478,1.7764809557316685,0.2709992564033865,12741
+2018-2019,dep_cur,Current depression,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.36574330710478,6.931465033912095,0.9283611450672506,12741
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,15.067653579916913,-0.7900588725754809,2.252136960195184,12661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,15.067653579916913,2.2811205359289106,1.658561195546255,12661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,15.067653579916913,6.323170496381369,2.0689945206087756,12661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,15.067653579916913,7.637160712726218,1.7149641989537057,12661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,15.067653579916913,2.1577934559928975,0.4223755035621391,12661
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,15.067653579916913,7.159303249444348,1.7671572213848121,12661
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.337065134995068,2.061331192131184,1.073244166371761,12722
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.337065134995068,2.7792459946517076,0.8398368545503905,12722
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.337065134995068,3.7762745908418407,0.8481544890575693,12722
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.337065134995068,6.150424763447093,0.8332726635924145,12722
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.337065134995068,1.3995856761834427,0.2511094326017636,12722
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.337065134995068,5.94435882099635,0.8359039353720034,12722
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.853925275231064,-0.4026285007627604,0.48876894371015644,12737
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,2.853925275231064,1.0172186451095566,0.5622760062990831,12737
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,2.853925275231064,1.725477214389512,0.6265529420969161,12737
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.853925275231064,3.6795962463799223,0.5676998433030803,12737
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,2.853925275231064,1.046648479862799,0.20179915799307363,12737
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.853925275231064,4.269589566322457,0.7500442596734999,12737
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.24975292633653,1.1049577934867505,1.6063544177591702,12732
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,8.24975292633653,1.6843879833688093,1.1875505812023566,12732
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,8.24975292633653,3.4480779579622536,1.2263460118824825,12732
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.24975292633653,6.812013804564743,1.2314865650836762,12732
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,8.24975292633653,1.850169925737888,0.3155532803662104,12732
+2018-2019,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.24975292633653,6.394085157497204,1.2400593722437279,12732
+2018-2019,anx_cur,Current anxiety,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.161706887099243,0.7269214568020901,1.978249612926004,9425
+2018-2019,anx_cur,Current anxiety,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,8.161706887099243,-1.0725757350746767,1.2684103731650007,9425
+2018-2019,anx_cur,Current anxiety,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,8.161706887099243,0.9268635346780845,1.4702451551835307,9425
+2018-2019,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.161706887099243,2.667923012144041,1.6658755179064946,9425
+2018-2019,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,8.161706887099243,0.6677029765850102,0.4134873733270576,9425
+2018-2019,anx_cur,Current anxiety,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.161706887099243,2.5406443305352395,1.6707015451861529,9425
+2018-2019,dep_cur,Current depression,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.410931849566107,-0.01222716949862145,1.1572448174610472,9444
+2018-2019,dep_cur,Current depression,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,2.410931849566107,-0.45414443484353,0.6653862232174789,9444
+2018-2019,dep_cur,Current depression,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,2.410931849566107,0.1347299075616276,0.892218092830266,9444
+2018-2019,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.410931849566107,2.670771047992209,1.6779438422694353,9444
+2018-2019,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,2.410931849566107,0.6533020469310831,0.42473247219092336,9444
+2018-2019,dep_cur,Current depression,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.410931849566107,2.814577129364054,1.6597991197024817,9444
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,12.820012711956114,1.2359771442470067,2.2197011453615514,9365
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,12.820012711956114,0.32868356713794117,1.4571519328569051,9365
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,12.820012711956114,2.297759041880741,1.7688718390694202,9365
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,12.820012711956114,3.875929717510369,2.0125867960321306,9365
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,12.820012711956114,0.9404965067673657,0.5013291936255464,9365
+2018-2019,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,12.820012711956114,5.183456926271621,2.1405118309339306,9365
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.149325127069189,0.12202491232454256,1.1904764920370812,9419
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,4.149325127069189,-0.2929464861400549,0.7245913059497842,9419
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,4.149325127069189,1.1152152678531788,1.0554973689963296,9419
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.149325127069189,3.011675075698449,1.1951236156544423,9419
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,4.149325127069189,0.7978364198760217,0.3027283523471345,9419
+2018-2019,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.149325127069189,2.967257614935889,1.1524496210048183,9419
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.0144841164685303,-0.03488823473211361,0.39940945722910615,9441
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.0144841164685303,-0.00023665328061425405,0.29205853465565457,9441
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.0144841164685303,0.677110880829025,0.6257768748964827,9441
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.0144841164685303,1.395422447584478,0.6601088269525714,9441
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.0144841164685303,0.38857857089478254,0.15624593257702332,9441
+2018-2019,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.0144841164685303,1.5071129449943237,0.7037713628301773,9441
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,11.36013431290758,1.9316734996190708,2.153557967528967,9428
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,11.36013431290758,0.6024995256745538,1.3582849617104702,9428
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,11.36013431290758,4.442560296812877,1.7229759538032556,9428
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,11.36013431290758,8.358979052174544,2.083308138813835,9428
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,11.36013431290758,2.0763492719640455,0.5097626596177934,9428
+2018-2019,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,11.36013431290758,9.252440968541126,2.338288005238824,9428
+2022-2025,anx_cur,Current anxiety,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,19.96876762326389,1.7092619613294506,2.0829231713336416,37107
+2022-2025,anx_cur,Current anxiety,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,19.96876762326389,4.1666999900311925,1.0380753730321723,37107
+2022-2025,anx_cur,Current anxiety,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,19.96876762326389,7.356551461134055,1.047804639924403,37107
+2022-2025,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,19.96876762326389,16.056810947527435,1.0669044180711929,37107
+2022-2025,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,19.96876762326389,4.380168489160113,0.28453082112295786,37107
+2022-2025,anx_cur,Current anxiety,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,19.96876762326389,16.679803529950338,1.0861100491953275,37107
+2022-2025,dep_cur,Current depression,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.629671759426792,4.082818642647828,1.9638739757583434,37304
+2022-2025,dep_cur,Current depression,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.629671759426792,2.886035354652346,0.737705948800657,37304
+2022-2025,dep_cur,Current depression,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.629671759426792,4.211592726059359,0.6830032598159105,37304
+2022-2025,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.629671759426792,10.95715541379724,0.730845800864207,37304
+2022-2025,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.629671759426792,2.786355313156696,0.24651696246475313,37304
+2022-2025,dep_cur,Current depression,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.629671759426792,12.094930885812607,0.7235352897635068,37304
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.573233021114268,-0.6891293019518132,1.5807245504520024,37234
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.573233021114268,0.3667514704609527,1.1967778299152727,37234
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.573233021114268,0.39540422566140104,1.1550264013289657,37234
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.573233021114268,4.369122105194511,1.1619062946538177,37234
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.573233021114268,1.3823433453210379,0.21472751390704978,37234
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.573233021114268,4.226849563779708,1.1373682778229712,37234
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.824895113773126,0.7331572274772891,1.295514910782112,37060
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.824895113773126,1.9243135011992196,0.7227190694352184,37060
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.824895113773126,4.492503055258626,0.777722881903279,37060
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.824895113773126,10.047142038374314,0.8145019145432462,37060
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,10.824895113773126,2.862829541421416,0.2167300287376115,37060
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,10.824895113773126,10.643154308874506,0.8019790939171513,37060
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.69727885359464,2.013691414977792,1.1615460752258795,37277
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.69727885359464,1.83625672717348,0.5543398733001461,37277
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.69727885359464,2.0719784310018285,0.4766535217608836,37277
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.69727885359464,6.831892581124187,0.5106305060255701,37277
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.69727885359464,1.768159386173758,0.17498226025134028,37277
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.69727885359464,7.5445726354941165,0.4995860794581112,37277
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.507520560146805,0.08033364303259383,0.7894109523775503,37474
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.507520560146805,1.0363506172980375,0.5862744615085849,37474
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.507520560146805,1.3391080569350393,0.5403743594502108,37474
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.507520560146805,4.307092672970294,0.5688353217410532,37474
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,4.507520560146805,1.2125667792428925,0.13746505530131664,37474
+2022-2025,beh_cur,Current behavior/conduct problems,girls,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.507520560146805,4.348352335709812,0.5916601737653703,37474
+2022-2025,anx_cur,Current anxiety,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.177660221033063,-1.4130710835405116,0.9594404071997344,27948
+2022-2025,anx_cur,Current anxiety,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,9.177660221033063,0.2568806470644063,0.7689400849162621,27948
+2022-2025,anx_cur,Current anxiety,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,9.177660221033063,1.2570544566771997,0.8270361107154263,27948
+2022-2025,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.177660221033063,7.136483304540618,1.1825957965623228,27948
+2022-2025,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,9.177660221033063,1.9380500803691412,0.28234394757026415,27948
+2022-2025,anx_cur,Current anxiety,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.177660221033063,7.4821555210788375,1.2397358920746342,27948
+2022-2025,dep_cur,Current depression,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.7565826392102297,-0.2245057945727596,0.4018726178629138,28014
+2022-2025,dep_cur,Current depression,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.7565826392102297,0.08279901616464526,0.31494282348304425,28014
+2022-2025,dep_cur,Current depression,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.7565826392102297,0.7620477872775487,0.41794957798507076,28014
+2022-2025,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.7565826392102297,2.3908699094571966,0.49645531396918785,28014
+2022-2025,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.7565826392102297,0.6467342019640616,0.1170928904922323,28014
+2022-2025,dep_cur,Current depression,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.7565826392102297,2.696821750501472,0.5246388830444816,28014
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.4983245819781,-0.7178655250519858,1.687747428717336,27920
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,8.4983245819781,-2.934460356031432,1.1107194280531334,27920
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,8.4983245819781,-1.1765805022535045,1.4156112924876996,27920
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.4983245819781,0.8206033654733605,1.3578296228548892,27920
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,8.4983245819781,0.3217720724588235,0.3237152278460652,27920
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.4983245819781,1.7005604609627907,1.2885555114670508,27920
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.311786851692954,-1.355917552939802,0.6153564333816002,27937
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,4.311786851692954,-0.24321791424001024,0.5048946160824598,27937
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,4.311786851692954,1.0542672757869096,0.6095131712878981,27937
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.311786851692954,3.6366645222616607,0.8543392010708784,27937
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,4.311786851692954,1.1182264288302017,0.2029080027316003,27937
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.311786851692954,3.8440757081140475,0.9092316930737047,27937
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,0.5989183004707791,-0.20401267166918963,0.12199523512232409,28012
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,0.5989183004707791,-0.09002639389304623,0.11693683644521005,28012
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,0.5989183004707791,0.17695575188323642,0.1651088924064899,28012
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,0.5989183004707791,1.0610762624057049,0.27093212946855083,28012
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,0.5989183004707791,0.29251973866140424,0.06493461244910953,28012
+2022-2025,dep_modsev,"Current depression, moderate/severe",girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,0.5989183004707791,1.2701565903558518,0.2938078002125223,28012
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,6.117050473870584,0.19449159362452034,1.201334541409966,28087
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,6.117050473870584,-1.9047330723539582,0.8309091143887374,28087
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,6.117050473870584,0.14750912643693548,0.8968855500482453,28087
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,6.117050473870584,4.452901899049375,1.2148193611877747,28087
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,6.117050473870584,1.1212100335244384,0.2851264631313758,28087
+2022-2025,beh_cur,Current behavior/conduct problems,girls,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,6.117050473870584,5.279729642894776,1.2599855129971425,28087
+2022-2025,anx_cur,Current anxiety,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,12.283100851803018,-0.16763365766904859,1.7919459614887894,39718
+2022-2025,anx_cur,Current anxiety,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,12.283100851803018,-0.2601812710245699,1.157436910756253,39718
+2022-2025,anx_cur,Current anxiety,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,12.283100851803018,1.748618357434752,1.218671884128076,39718
+2022-2025,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,12.283100851803018,6.595729160996241,1.1362387407424024,39718
+2022-2025,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,12.283100851803018,2.1886774823192874,0.2293811245680079,39718
+2022-2025,anx_cur,Current anxiety,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,12.283100851803018,6.62031614117245,1.139790378668269,39718
+2022-2025,dep_cur,Current depression,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.665523726997634,3.3357099095377385,2.1158178609493943,39871
+2022-2025,dep_cur,Current depression,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,5.665523726997634,0.7312131689269878,0.5396409878932954,39871
+2022-2025,dep_cur,Current depression,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,5.665523726997634,1.5577743399243194,0.5751441934272592,39871
+2022-2025,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.665523726997634,4.667715573150589,0.5525191751713558,39871
+2022-2025,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,5.665523726997634,1.1974110479813522,0.17640322092935543,39871
+2022-2025,dep_cur,Current depression,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,5.665523726997634,5.07575584666819,0.5639228979434315,39871
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,17.268549916455687,-0.94437408635801,2.7331450945500544,39702
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,17.268549916455687,1.222318272010039,1.449526203303251,39702
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,17.268549916455687,3.453153403194497,1.4884361185463324,39702
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,17.268549916455687,6.5406671539760515,1.428727900373511,39702
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,17.268549916455687,1.9726115426734863,0.2901450998511681,39702
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,17.268549916455687,6.298681866232669,1.4351976182323554,39702
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,6.2540791321792035,0.905119676243071,1.3989702322680768,39691
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,6.2540791321792035,-0.5965275690515979,0.7024481877433316,39691
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,6.2540791321792035,0.7963692162508055,0.8402145298709033,39691
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,6.2540791321792035,3.496588508027488,0.7205529747067377,39691
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,6.2540791321792035,1.17205220946748,0.1647283254268444,39691
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,6.2540791321792035,3.569051956880558,0.7227781791469575,39691
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,2.9080772122965297,2.70442764431656,2.0906309838296004,39856
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,2.9080772122965297,0.18366702150742426,0.3878072726306914,39856
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,2.9080772122965297,0.7903887990645518,0.4345830050850598,39856
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,2.9080772122965297,2.383910985636541,0.3977107459195632,39856
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,2.9080772122965297,0.5804382208919584,0.15372806489729107,39856
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,2.9080772122965297,2.6463314093148362,0.4020607109226048,39856
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,8.828988558918088,4.553820421905548,2.622544532926263,39985
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,8.828988558918088,0.5025109976782722,1.2021684944803348,39985
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,8.828988558918088,1.12632279993203,1.2314820118386756,39985
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,8.828988558918088,5.259117141956873,1.2219365680730898,39985
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,per_hour,per weekday hour (linear),covariates + state x year FE,8.828988558918088,1.3603197974722618,0.24920956935987412,39985
+2022-2025,beh_cur,Current behavior/conduct problems,boys,12-17,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,8.828988558918088,5.061610013615819,1.2515756345162081,39985
+2022-2025,anx_cur,Current anxiety,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.894856693216378,0.6209319697524739,0.9516741355253913,30214
+2022-2025,anx_cur,Current anxiety,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,9.894856693216378,1.068902830554099,0.7266587442757849,30214
+2022-2025,anx_cur,Current anxiety,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,9.894856693216378,2.7400450479596197,0.9084824146876888,30214
+2022-2025,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.894856693216378,6.059743568839792,1.0231337982896465,30214
+2022-2025,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,9.894856693216378,1.5660464360909017,0.2500559385016304,30214
+2022-2025,anx_cur,Current anxiety,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,9.894856693216378,6.355096075758398,1.0698748206504929,30214
+2022-2025,dep_cur,Current depression,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,1.8847887690718577,0.2572608036160522,0.41216420497807593,30340
+2022-2025,dep_cur,Current depression,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,1.8847887690718577,0.028761350787321376,0.2723949301028437,30340
+2022-2025,dep_cur,Current depression,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,1.8847887690718577,0.39060886858037575,0.3332744010417944,30340
+2022-2025,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,1.8847887690718577,2.278521577229048,0.4787922080983124,30340
+2022-2025,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,1.8847887690718577,0.5678368119242945,0.11857688562209287,30340
+2022-2025,dep_cur,Current depression,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,1.8847887690718577,2.6613436817942766,0.48147853896922777,30340
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,15.634323026284983,-1.5130057043516918,1.297454601851489,30220
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,15.634323026284983,0.7660311236674655,0.9808931511533973,30220
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,15.634323026284983,2.7714488222526557,1.1407823181172363,30220
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,15.634323026284983,6.726784507789615,1.2952782504199922,30220
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,15.634323026284983,1.98946548365881,0.3157784595879892,30220
+2022-2025,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,15.634323026284983,8.030983378141443,1.383380290063703,30220
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.603543431824667,0.27389588989041064,0.6542963078294228,30191
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,4.603543431824667,0.1867995193492071,0.5075839889683695,30191
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,4.603543431824667,0.3291741763867627,0.5717981870013327,30191
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.603543431824667,3.396003396945088,0.8087886074740576,30191
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,4.603543431824667,0.8300452878886864,0.19314802672137127,30191
+2022-2025,anx_modsev,"Current anxiety, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,4.603543431824667,3.7829903304056134,0.8308096717560515,30191
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,0.7878268893050637,0.3589590500644166,0.3482293779109364,30339
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,0.7878268893050637,-0.1516495453685672,0.181510919561779,30339
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,0.7878268893050637,0.0004417686121231825,0.23102900572699342,30339
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,0.7878268893050637,0.639965082805455,0.3116397388609548,30339
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,0.7878268893050637,0.1319253636362819,0.08219494089911986,30339
+2022-2025,dep_modsev,"Current depression, moderate/severe",boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,0.7878268893050637,0.84929345963849,0.3093073326028211,30339
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,12.929527513483889,0.2283480586697518,1.207667148393141,30379
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,12.929527513483889,1.5082217003155955,0.8588631311234559,30379
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,12.929527513483889,3.953871984635704,1.0620396900326048,30379
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,12.929527513483889,8.827152931096073,1.1836405552368114,30379
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,per_hour,per weekday hour (linear),covariates + state x year FE,12.929527513483889,2.3550109422356034,0.3015363014953282,30379
+2022-2025,beh_cur,Current behavior/conduct problems,boys,6-11,scr_4p_raw,"4+ h vs 1 h, year FE only",year FE only,12.929527513483889,9.283640931775137,1.2478703052596993,30379
+2016-2017,anx_cur,Current anxiety,all,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,9.931326168192852,1.0048475907991485,0.1478821689076587,28584
+2016-2017,anx_cur,Current anxiety,all,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,9.931326168192852,3.872353422619353,0.6637358295908568,28584
+2016-2017,dep_cur,Current depression,all,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,5.680701459258107,0.8214036936325776,0.10516386732297228,28659
+2016-2017,dep_cur,Current depression,all,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,5.680701459258107,3.404277163245684,0.4885096493629498,28659
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,11.333487379602069,0.6893381482933614,0.17558305725990153,28518
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,11.333487379602069,3.18004711900839,0.7876525133970608,28518
+2016-2017,anx_cur,Current anxiety,all,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,6.471651972763041,0.1776799082608592,0.15605583807912937,20874
+2016-2017,anx_cur,Current anxiety,all,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,6.471651972763041,0.8316436642435867,0.7164414393570717,20874
+2016-2017,dep_cur,Current depression,all,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,1.5623316086523624,0.10209226307507324,0.0832065447546091,20909
+2016-2017,dep_cur,Current depression,all,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,1.5623316086523624,0.44852081403401084,0.31522566638738975,20909
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,9.294036802683046,0.5196043996359577,0.2245201757347044,20786
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,9.294036802683046,2.060783027154884,0.9343469748836545,20786
+2016-2017,anx_cur,Current anxiety,all,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,8.198694484397521,0.6548652949075177,0.10856685573942396,49458
+2016-2017,anx_cur,Current anxiety,all,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,8.198694484397521,2.4461972295942034,0.49013282971023303,49458
+2016-2017,dep_cur,Current depression,all,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,3.6150617026043,0.5179575183277862,0.06969359923041835,49568
+2016-2017,dep_cur,Current depression,all,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,3.6150617026043,2.032358942814377,0.30193270131711897,49568
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,10.310116377338113,0.6174339425070078,0.1424345241592977,49304
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),all,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,10.310116377338113,2.668617316130292,0.6148289318144589,49304
+2016-2017,anx_cur,Current anxiety,girls,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,11.242450384643002,1.3412976717781662,0.25267338594966954,14034
+2016-2017,anx_cur,Current anxiety,girls,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,11.242450384643002,5.135199732129428,1.0167666738837606,14034
+2016-2017,dep_cur,Current depression,girls,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,6.493103528436422,1.1358159974529225,0.1704891862414007,14080
+2016-2017,dep_cur,Current depression,girls,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,6.493103528436422,4.736210325867642,0.7337935380665681,14080
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,7.3875068123127345,0.8107206504955989,0.2524215957188831,14024
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,7.3875068123127345,2.8453778801153558,0.9762419328305748,14024
+2016-2017,anx_cur,Current anxiety,girls,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,5.200362142272847,0.27079345337429966,0.16882634948341463,10150
+2016-2017,anx_cur,Current anxiety,girls,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,5.200362142272847,1.2799336638830792,0.8295141473548622,10150
+2016-2017,dep_cur,Current depression,girls,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,1.21758059919917,0.08334759067885174,0.09363332093906422,10162
+2016-2017,dep_cur,Current depression,girls,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,1.21758059919917,0.22373132098686146,0.4320600802650537,10162
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,6.080141238525299,0.4270883815877176,0.28727420609492077,10114
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,6.080141238525299,1.9023273775415441,1.200230370177511,10114
+2016-2017,anx_cur,Current anxiety,girls,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,8.215684165271298,0.8594716451984764,0.15903113199874122,24184
+2016-2017,anx_cur,Current anxiety,girls,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,8.215684165271298,3.315295599123654,0.6699279181525903,24184
+2016-2017,dep_cur,Current depression,girls,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,3.846989949536492,0.684637604821213,0.10185625464170085,24242
+2016-2017,dep_cur,Current depression,girls,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,3.846989949536492,2.768561037580966,0.43532776770236253,24242
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,6.731964591794782,0.6292649348801554,0.19802392977728808,24138
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),girls,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,6.731964591794782,2.403175039873379,0.8001523529461728,24138
+2016-2017,anx_cur,Current anxiety,boys,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,8.682516423567408,0.7208297729298675,0.17880569290823997,14550
+2016-2017,anx_cur,Current anxiety,boys,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,8.682516423567408,2.5675627997609185,0.8568126122382349,14550
+2016-2017,dep_cur,Current depression,boys,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,4.9051893956867945,0.5619971288541216,0.13812553240819897,14579
+2016-2017,dep_cur,Current depression,boys,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,4.9051893956867945,2.028557279671469,0.6445029243874564,14579
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,15.09821700345935,0.5576868544187734,0.2406915789376118,14494
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,15.09821700345935,3.3253861647854803,1.1956839230691454,14494
+2016-2017,anx_cur,Current anxiety,boys,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,7.683838766895229,0.10714313885218613,0.25432960259355564,10724
+2016-2017,anx_cur,Current anxiety,boys,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,7.683838766895229,0.5680822884870163,1.1340665764410898,10724
+2016-2017,dep_cur,Current depression,boys,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,1.8914687725059876,0.10754594201266263,0.13529434346259986,10747
+2016-2017,dep_cur,Current depression,boys,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,1.8914687725059876,0.5846681437914437,0.48724515877273755,10747
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,12.351571228314869,0.5830749566942408,0.3300689098618111,10672
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,sum4p,4+ summed hours vs <4,covariates + state x year FE,12.351571228314869,2.10056752990055,1.3198098471565454,10672
+2016-2017,anx_cur,Current anxiety,boys,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,8.18250346055351,0.49031706138825687,0.14828130887201285,25274
+2016-2017,anx_cur,Current anxiety,boys,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,8.18250346055351,1.6756156029870977,0.7052609579281969,25274
+2016-2017,dep_cur,Current depression,boys,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,3.393651216068403,0.3756396134624786,0.0973217893347406,25326
+2016-2017,dep_cur,Current depression,boys,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,3.393651216068403,1.3252665737974927,0.4126096215703842,25326
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,per_hour,"per weekday hour, TV + device items summed",covariates + state x year FE,13.719028275011638,0.586506846779345,0.19770000460315365,25166
+2016-2017,adhd_cur,Current ADD/ADHD (contrast),boys,6-17,sum4p,4+ summed hours vs <4,covariates + state x year FE,13.719028275011638,2.844172346420088,0.8972494566502262,25166

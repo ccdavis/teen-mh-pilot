@@ -1,6 +1,6 @@
 """Generate duckdb SQL that turns IPUMS ATUS extracts into the slim activity files the analysis reads.
 
-Input per sample (at2003 ... at2024): data/ipums/atus/<sample>_A.parquet (activity records) and <sample>_P.parquet (person
+Input per sample (at2003 ... at2025): data/ipums/atus/<sample>_A.parquet (activity records) and <sample>_P.parquet (person
 records). A hierarchical ATUS extract is split into these two files by RECTYPE before conversion. Output per sample:
 data/extracts/atus/atus_<sample>.parquet, one row per activity of each diary respondent with the respondent's characteristics
 attached. Writes build/sql/atus_<sample>.sql and build/sql/run_atus.sh (which creates the output directory).
@@ -44,7 +44,7 @@ def resolve(spec, have, alias, sample):
     return out
 runner = ["#!/bin/bash", "set -u", f"mkdir -p {DEST}"]
 n = 0
-for y in range(2003, 2025):
+for y in range(2003, 2026):
     s = f"at{y}"; fa, fp = ROOT/PQ/f"{s}_A.parquet", ROOT/PQ/f"{s}_P.parquet"
     if not (fa.exists() and fp.exists()): print("missing extract:", fa if not fa.exists() else fp); continue
     ha, hp = columns(fa), columns(fp)

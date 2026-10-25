@@ -27,6 +27,10 @@ df["geography_fips"] = df.apply(county_fips, axis=1)
 df.loc[df.geography_name == "Cook Non Chicago", "note"] += " | Cook County excluding City of Chicago (IYS reports Chicago separately by community area)"
 df.loc[df.geography_name == "Cook Non Chicago", "geography_name"] = "Cook County (non-Chicago)"
 df.loc[df.geography_name.str.contains("Charter Schools Only", case=False), "note"] += " | Philadelphia charter-schools-only profile report (no district-school report)"
+# PAYS 2025 names the same charter-schools-only series "Philadelphia County" (its 2021 and 2023 columns equal the 2023 edition's cell for cell), so one name is used
+df.loc[(df.state == "PA") & df.geography_name.str.contains("Philadelphia", case=False), "geography_name"] = "Philadelphia County"
+df.loc[(df.state == "PA") & (df.geography_name == "Philadelphia County"), "note"] = df.loc[(df.state == "PA") & (df.geography_name == "Philadelphia County"), "note"].str.replace(r" \| Philadelphia charter-schools-only.*$", "", regex=True) + " | Philadelphia: charter-schools-only PAYS series (no district-school report; 2025 edition drops the label)"
+df = df.sort_values("note").drop_duplicates(["state", "geography_type", "geography_name", "year", "grade_or_age", "sex", "item"], keep="last")
 df["year"] = df.year.astype(int)
 df = df.sort_values(["state", "geography_type", "geography_name", "item", "year", "grade_or_age", "sex"]).reset_index(drop=True)
 df.to_csv(f"{E}/state_survey_county_panel.csv", index=False)

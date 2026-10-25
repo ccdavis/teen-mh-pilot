@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 1 · The rise, and whether public data can measure it → Does the ACS item measure adolescent distress?
 
-Editable source entry points: [scripts/report/90_build_report.py:108](../../../scripts/report/90_build_report.py#L108)
+Editable source entry points: [scripts/report/90_build_report.py:98](../../../scripts/report/90_build_report.py#L98)
 
 ---
 
@@ -41,6 +41,6 @@ Across all four sources, the relative increase is larger for girls than for boys
 
 51 jurisdictions (50 states plus DC). Each point plots a state's change in both measures between 2008–10 and 2017–19; the dashed line is the OLS fit (slope 0.37, SE 0.18, r = 0.22).
 
-In cross-section, state levels of the ACS item and NSDUH depression do not correlate, which is unsurprising given that one is a broad disability screener and the other is a diagnostic interview. Over time, however, their within-state changes move together: a state-and-period fixed-effects regression of NSDUH youth depression on the ACS cognitive-difficulty rate yields a slope of 0.14 (SE 0.05, p = 0.01) across 714 state-period observations, and the decade-long changes from 2008–10 to 2017–19 correlate at r = 0.22 (slope 0.37, SE 0.18). Against the YRBS state files (39 states, by sex), the ACS rate co-moves with persistent sadness at a slope of 0.35 (SE 0.18) with state-by-sex and year-by-sex fixed effects, though not with suicidal ideation.
+In cross-section, state levels of the ACS item and NSDUH depression do not correlate, which is unsurprising given that one is a broad disability screener and the other is a diagnostic interview. Over time, however, their within-state changes move together: a state-and-period fixed-effects regression of NSDUH youth depression on the ACS cognitive-difficulty rate yields a slope of 0.14 (SE 0.05, p = 0.01) across 714 state-period observations, and the decade-long changes from 2008–10 to 2017–19 correlate at r = 0.22 (slope 0.37, SE 0.18). Against the YRBS state files (43 states, by sex), the ACS rate co-moves with persistent sadness at a slope of 0.30 (SE 0.19) with state-by-sex and year-by-sex fixed effects, though not with suicidal ideation.
 
 **Assessment.** The ACS cognitive-difficulty item reproduces the female-led rise and co-moves with depression within states, making it usable for fine-grained geographic tests where no mental-health survey exists. Even so, it captures only about a sixth of the proportional rise in adolescent depression, and its girl-specific change is small relative to metro-level sampling error. For that reason, we pair every U.S. ACS test with state and county youth mental-health surveys.

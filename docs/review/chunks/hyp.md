@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → The four hypotheses
 
-Editable source entry points: [scripts/report/90_build_report.py:577](../../../scripts/report/90_build_report.py#L577)
+Editable source entry points: [scripts/report/90_build_report.py:569](../../../scripts/report/90_build_report.py#L569)
 
 ---
 

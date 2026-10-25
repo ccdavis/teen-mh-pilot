@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 3 · School pressure (H2) → Schoolwork pressure across countries (HBSC)
 
-Editable source entry points: [scripts/report/90_build_report.py:172](../../../scripts/report/90_build_report.py#L172)
+Editable source entry points: [scripts/report/90_build_report.py:162](../../../scripts/report/90_build_report.py#L162)
 
 ---
 

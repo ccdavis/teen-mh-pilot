@@ -12,8 +12,8 @@ sel = ", ".join(f'sum(case when {c} then DURATION else 0 end) as "{k}"' for k,c 
 r = con.sql(f"""select YEARP as year, CASEIDA, any_value(w) w, any_value(SEX) sex, any_value(MONTH) as mon, any_value(DAY) as dow, any_value(HOLIDAY) as hol, {sel}
    from a group by 1,2""").df()
 r = r[(~r.mon.isin([6,7,8])) & (~r.dow.isin([1,7])) & (r.hol!=1)]
-r["period"] = pd.cut(r.year, [2002,2005,2008,2011,2014,2017,2019,2022,2024], labels=["2003-05","2006-08","2009-11","2012-14","2015-17","2018-19","2020-22","2023-24"])
-mid = {"2003-05":2004,"2006-08":2007,"2009-11":2010,"2012-14":2013,"2015-17":2016,"2018-19":2018.5,"2020-22":2021,"2023-24":2023.5}
+r["period"] = pd.cut(r.year, [2002,2005,2008,2011,2014,2017,2019,2022,2025], labels=["2003-05","2006-08","2009-11","2012-14","2015-17","2018-19","2020-22","2023-25"])
+mid = {"2003-05":2004,"2006-08":2007,"2009-11":2010,"2012-14":2013,"2015-17":2016,"2018-19":2018.5,"2020-22":2021,"2023-25":2024}
 def wstats(g, k):
     w = g.w/g.w.sum(); m = np.sum(w*g[k]); v = np.sum(w**2*(g[k]-m)**2); return pd.Series({"mean":m,"se":np.sqrt(v),"n":len(g)})
 fig, axes = plt.subplots(2,4, figsize=(13,6.2)); axes = axes.ravel()

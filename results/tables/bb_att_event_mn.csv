@@ -1,0 +1,37 @@
+item,label,year,coef,se,n,counties
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",1998,0.44263678880387936,0.7445302490804182,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2001,-0.4604282463096126,0.6118411431300945,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2004,-0.41610408256982157,0.6392546585581275,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2007,0.0,0.0,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2010,-1.18177083519041,0.6544628823120267,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2013,0.07306793383644017,0.5648794673793656,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2016,-0.7400537160053969,0.6550986715329844,684,87
+attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",2019,-1.4806690183536289,0.6612447774096106,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",1998,1.248490159542463,1.3476472156457053,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2001,-0.6805442362080364,1.342881464521401,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2004,0.9335997346630257,1.3630790592643522,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2007,0.0,0.0,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2010,-1.0296887261878596,1.3683711823611477,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2013,-0.5796847678576446,1.3868751285464633,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2016,-1.5172775226360231,1.3630118385862242,684,87
+considered_suicide,"Considered suicide (grade 9, 1998-2019)",2019,-1.7979332961027177,1.3985027815960713,684,87
+hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",1998,0.793124562104483,0.5839009233329984,1291,87
+hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",2001,-0.40873747290103485,0.5599210771761554,1291,87
+hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",2004,0.3281221060195663,0.5802463503225314,1291,87
+hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",2007,0.0,0.0,1291,87
+hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",2010,-0.7684508434653776,0.5584109363425995,1291,87
+nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",1998,-0.254944891219385,0.5801917676551954,1291,87
+nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",2001,-0.5580117063351127,0.5525279385793868,1291,87
+nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",2004,0.34637391933904227,0.5313787658887963,1291,87
+nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",2007,0.0,0.0,1291,87
+nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",2010,-0.7193218097297656,0.5306089366900815,1291,87
+sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",1998,0.4357062850118011,0.6854417755094818,1291,87
+sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",2001,0.42523379545810547,0.5735533462652896,1291,87
+sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",2004,0.4876420807497425,0.5022511339911376,1291,87
+sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",2007,0.0,0.0,1291,87
+sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",2010,-0.6814336693557858,0.6014690998481997,1291,87
+stress_high,"Under great stress or pressure, last 30 days (1998-2010)",1998,1.1577282116655558,1.0297885010556622,1291,87
+stress_high,"Under great stress or pressure, last 30 days (1998-2010)",2001,-0.5149976716098651,0.9115148494147551,1291,87
+stress_high,"Under great stress or pressure, last 30 days (1998-2010)",2004,0.5739216188618684,0.8361410629569798,1291,87
+stress_high,"Under great stress or pressure, last 30 days (1998-2010)",2007,0.0,0.0,1291,87
+stress_high,"Under great stress or pressure, last 30 days (1998-2010)",2010,-0.5093555935460373,0.8918795651741324,1291,87

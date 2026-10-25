@@ -1,4 +1,4 @@
-"""ATUS time-use mediators for ages 15-17 (and 18-24, 35-54 comparison), 2003-2024.
+"""ATUS time-use mediators for ages 15-17 (and 18-24, 35-54 comparison), 2003-2025.
 Minutes per day in: sleep, homework, class, in-person socializing, computer leisure, games, TV, sports, phone/texting-ish.
 Weights: WT (the extract's copy of WT06, stored as a string) except 2020 -> WT20/1e6. Weighted mean of daily minutes = sum(w*min)/sum(w) over respondents.
 """
@@ -24,7 +24,7 @@ def wmean(g, name):
 d = wmean("year, agegrp", "atus_year_age")
 wmean("year, agegrp, sex", "atus_year_age_sex"); wmean("year, agegrp, season, daytype", "atus_year_age_season_daytype")
 # 3-year pooled, 15-17 school-year weekdays (the Gray test): homework, sleep, socializing
-con.sql("create table r2 as select *, case when year<=2005 then '2003-05' when year<=2008 then '2006-08' when year<=2011 then '2009-11' when year<=2014 then '2012-14' when year<=2017 then '2015-17' when year<=2019 then '2018-19' when year<=2022 then '2020-22' else '2023-24' end period from resp")
+con.sql("create table r2 as select *, case when year<=2005 then '2003-05' when year<=2008 then '2006-08' when year<=2011 then '2009-11' when year<=2014 then '2012-14' when year<=2017 then '2015-17' when year<=2019 then '2018-19' when year<=2022 then '2020-22' else '2023-25' end period from resp")
 cols = ", ".join(f"round(sum(w*{k})/sum(w),1) as {k}" for k in ["sleep","homework","class","educ_all","social_inperson","computer_leisure","games","tv","sports","phone"])
 p = con.sql(f"select period, agegrp, season, daytype, count(*) n, {cols} from r2 where agegrp='15-17' group by 1,2,3,4 order by 2,3,4,1").df()
 p.to_csv(OUT/"atus_1517_period_season_daytype.csv", index=False)

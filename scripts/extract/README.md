@@ -23,14 +23,14 @@ Weights. The internal ACS `PERWT` carries two implied decimals, and the slim fil
 ## IPUMS CPS (Computer and Internet Use Supplement months)
 `cps_extract_sql.py` writes `build/sql/cps_internet_supplement.sql` and `run_cps.sh` for the ten supplement samples (cps2009_10s, cps2010_10s, cps2011_07s, cps2012_10s, cps2013_07s, cps2015_07s, cps2017_11s, cps2019_11s, cps2021_11s, cps2023_11s): the CI* supplement items, WTFINL, HWTFINL, CISUPPWT, CIPWT, YEAR, MONTH, SERIAL, PERNUM, CPSID, CPSIDP, MISH, STATEFIP, COUNTY, METFIPS, METAREA, METRO, CBSASZ, INDIVIDCC, FAMINC, HHTENURE, AGE, SEX, RACE, HISPAN. Output: `data/extracts/cps/cps_ci_<sample>.parquet`.
 
-## IPUMS ATUS (at2003–at2024)
+## IPUMS ATUS (at2003–at2025)
 `atus_extract.py` writes `build/sql/atus_<sample>.sql` and `run_atus.sh`. Each joins the activity records (ACTIVITY, DURATION, WHERE, START, ACTLINE, CASEID, LINENO) to the diary respondent's person record (YEAR, CASEID, LINENO, RESP, AGE, SEX, RACE, HISPAN, EDUC, SCHLCOLL, FULLPART, EMPSTAT, DAY, HOLIDAY, MONTH, DIFFREM, STATEFIP, METRO, METFIPS, HH_CHILD, FAMINCOME, POVERTY185, KIDBEDTIME, GENHEALTH, WBWT, WT06 written as WT, and WT20 for 2020). A hierarchical extract is split into `<sample>_A.parquet` and `<sample>_P.parquet` by record type before conversion.
 
 ## IPUMS International (ke2009a, ke2019a, mx2010a, mx2020a)
 `ipumsi_extract.sql`: YEAR, SERIAL, PERWT, AGE, SEX, SCHOOL, LIT, EDATTAIN, DISABLED, DISMNTL, DISPSYC, the source-variable Washington Group and ICT items named in the file, HHWT, URBAN, GEOLEV2, GEO2_KE / GEO2_MX (written as GEO2), CELL, INTERNET, COMPUTER and the household source variables. The file uses the internal names (`YEARP`, `_H`); edit them for a standard extract as in the table above.
 
-## IPUMS DHS (np2022ir, ke2022ir)
-`dhs_extract.sql`: SAMPLE, COUNTRY, YEAR, IDHSPSU, CLUSTERNO, PERWEIGHT, AGE, URBAN, WEALTHQ, EDUCLVL, the mental-health module (DEPRESSIONSCORE, DEPRESSIONREFER, GADSCORE, DEPRESSIONDIAG, ANXIETYDIAG), and the internet and phone items (INTERNETEVYR, INTERNETMO, CELLPHONSELF, CELLPHONESMART, MOBPHONE).
+## IPUMS DHS (np2022ir, mz2022ir, bd2022ir, ke2022ir, mg2021ir, mg2021mr)
+`dhs_extract.sql`: SAMPLE, COUNTRY, YEAR, IDHSPSU, CLUSTERNO, PERWEIGHT, AGE, URBAN, WEALTHQ, EDUCLVL, the mental-health module (DEPRESSIONSCORE, DEPRESSIONREFER, GADSCORE, DEPRESSIONDIAG, ANXIETYDIAG), and the internet and phone items (INTERNETEVYR, INTERNETMO, CELLPHONSELF, CELLPHONESMART, MOBPHONE). `dhs_extract.py` generalizes it: it writes `data/extracts/dhs/<sample>_slim.parquet` (adding SEX) for every IPUMS DHS parquet placed in `data/ipums/dhs/`, including men's files, and is what Phase 2 ran for the Mozambique, Bangladesh and Madagascar samples.
 
 ## IPUMS MICS (fixed-width)
 `mics_reader.py` reads IPUMS MICS fixed-width files with their layout files (space-separated: name, record type, start column, width, type) and `mics_extract.py` builds the children 5–17, women, men, and household extracts for every MICS6/MICS7 sample carrying the Child Functioning Module. Value labels are in the IPUMS MICS documentation; the codes used are listed in `notes/` and in the analysis script.

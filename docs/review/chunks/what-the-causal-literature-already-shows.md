@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 4 · The interaction (H3): phones in the same hours as high-pressure school → School phone bans → What the causal literature already shows
 
-Editable source entry points: [scripts/report/90_build_report.py:528](../../../scripts/report/90_build_report.py#L528)
+Editable source entry points: [scripts/report/90_build_report.py:516](../../../scripts/report/90_build_report.py#L516)
 
 ---
 

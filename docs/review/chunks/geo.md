@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 1 · The rise, and whether public data can measure it → Geographic variation: is there anything to explain?
 
-Editable source entry points: [scripts/report/90_build_report.py:79](../../../scripts/report/90_build_report.py#L79)
+Editable source entry points: [scripts/report/90_build_report.py:69](../../../scripts/report/90_build_report.py#L69)
 
 ---
 

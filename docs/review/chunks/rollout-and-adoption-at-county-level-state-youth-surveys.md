@@ -4,7 +4,7 @@
 
 Context: Teen Distress Pilot → Part 2 · Phones and social media (H1) → Rollout and adoption at county level, state youth surveys
 
-Editable source entry points: [scripts/report/90_build_report.py:408](../../../scripts/report/90_build_report.py#L408)
+Editable source entry points: [scripts/report/90_build_report.py:396](../../../scripts/report/90_build_report.py#L396)
 
 ---
 

@@ -4,8 +4,8 @@
 
 Context: Publication note
 
-Editable source entry points: [scripts/report/90_build_report.py:572](../../../scripts/report/90_build_report.py#L572)
+Editable source entry points: [scripts/report/90_build_report.py:564](../../../scripts/report/90_build_report.py#L564)
 
 ---
 
-Public-data pilot · smartphones vs. school pressure · updated 2026-09-17
+Public-data pilot · smartphones vs. school pressure · updated 2026-10-24

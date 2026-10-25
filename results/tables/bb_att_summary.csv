@@ -1,0 +1,21 @@
+stat,value
+counties,3141
+mean att share (unweighted),0.43625081184336206
+mean att share (pop-2000 weighted),0.8541532825721108
+"counties treated (>90% in block groups, Myers-Hooper)",892
+counties control (<10%),1447
+counties intermediate,802
+"mean att share, metro counties",0.7516078902229845
+"mean att share, non-metro counties",0.25007037974683544
+"mean att share, counties with LTE by school year 2012",0.7553193548387098
+"mean att share, dated-LTE counties with LTE after 2012 or undated",0.2889655653792462
+correlation att share vs Verizon share,0.22116610157327926
+correlation att share vs LTE onset year (dated metros),-0.2618964307656254
+share of 2000 population in treated counties,0.7802593732699685
+share of 2000 population in control counties,0.10298614778054982
+MN counties: mean att share,0.4525425287356323
+MN counties treated / control / intermediate,25 / 37 / 25
+ME counties: mean att share,0.46805
+WA counties: mean att share,0.7495589743589742
+June-2010 release: mean att share (incomplete submissions),0.25632661572747534
+correlation att Dec-2010 vs June-2010 where June > 0,0.8231140395620539

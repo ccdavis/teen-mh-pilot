@@ -1,0 +1,24 @@
+coef,se,n,item,sex,states,counties,y0,y1,spec
+-0.40833741735385043,3.3542648329631333,1319,sad_hopeless,all,CA;IL;ME;PA;WA,240,2010,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-1.3484525910344822,3.9315766646089823,551,sad_hopeless,all,CA,55,2013,2019,single state: att x (years since 2010)/10
+-1.6228181159878121,2.3679175124005147,79,sad_hopeless,all,ME,16,2011,2019,single state: att x (years since 2010)/10
+1.1786430990975751,2.493805628925415,167,sad_hopeless,all,PA,60,2015,2019,single state: att x (years since 2010)/10
+0.09683611952789098,6.12684635665869,522,sad_hopeless,all,WA,38,2010,2018,single state: att x (years since 2010)/10
+-1.6256222406448702,4.166561235365507,613,sad_hopeless,female,CA;ME,71,2011,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-0.3811010982130083,1.9270279253243516,613,sad_hopeless,male,CA;ME,71,2011,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-2.006455261057163,0.9693536683306234,1481,considered_suicide,all,CA;IL;ME;MN;PA;WA,318,2010,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-10.666513408177652,2.3187498767554584,373,considered_suicide,all,CA,54,2013,2019,single state: att x (years since 2010)/10
+-0.04154314229636961,2.272442228767222,79,considered_suicide,all,ME,16,2011,2019,single state: att x (years since 2010)/10
+-1.1665302665837025,1.1847260464460794,340,considered_suicide,all,MN,87,2010,2019,single state: att x (years since 2010)/10
+-0.31245445643637454,3.3155518736797793,167,considered_suicide,all,PA,60,2015,2019,single state: att x (years since 2010)/10
+-1.4487141143140054,2.4155016364786888,522,considered_suicide,all,WA,38,2010,2018,single state: att x (years since 2010)/10
+-7.560042297045245,3.475608820488317,435,considered_suicide,female,CA;ME,70,2011,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-4.489929498992506,2.6353637760873716,435,considered_suicide,male,CA;ME,70,2011,2019,"pooled: att x (years since 2010)/10, county x grade + state x year FE"
+-0.37643940706836837,0.7457813579575656,15,sad_hopeless,all,ME,15,2009,2009,Maine cross-section: level 2009 on att (r = -0.13)
+-0.9629227576696262,1.532447759254248,15,sad_hopeless,all,ME,15,2009,2009,Maine cross-section: change 2009->2013 on att (r = -0.18)
+-1.1431426030884637,1.4755434175203304,15,sad_hopeless,all,ME,15,2009,2009,Maine cross-section: change 2009->2019 on att (r = -0.20)
+2.428687808134273,0.9389381464504595,10,sad_hopeless,all,ME,10,2009,2009,Maine cross-section: change 2009->2021 on att (r = 0.69)
+-0.06336299795976795,1.1917445493074175,15,considered_suicide,all,ME,15,2009,2009,Maine cross-section: level 2009 on att (r = -0.01)
+0.624640652600021,1.209299403289171,15,considered_suicide,all,ME,15,2009,2009,Maine cross-section: change 2009->2013 on att (r = 0.12)
+0.3820803044349237,1.1906570415211213,15,considered_suicide,all,ME,15,2009,2009,Maine cross-section: change 2009->2019 on att (r = 0.08)
+1.4003547229349589,1.7401234595683683,10,considered_suicide,all,ME,10,2009,2009,Maine cross-section: change 2009->2021 on att (r = 0.27)

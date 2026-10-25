@@ -1,0 +1,31 @@
+coef,se,n,item,label,spec,counties,y0,y1,mean_pre2007
+-0.2360340625702612,0.40130538919594644,344,considered_suicide,"Considered suicide (grade 9, 1998-2019)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,21.44688953488372
+-1.5884315842344618,0.8249223420123529,684,considered_suicide,"Considered suicide (grade 9, 1998-2019)",att share (0-1) x post-2007,87,1998,2019,21.44688953488372
+-1.6619084199181966,0.9006945804679256,486,considered_suicide,"Considered suicide (grade 9, 1998-2019)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2019,21.13648979591837
+2.667479615147816,1.9545895695207944,684,considered_suicide,"Considered suicide (grade 9, 1998-2019)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2019,21.44688953488372
+-2.556599756562682,0.8964885984537599,684,considered_suicide,"Considered suicide (grade 9, 1998-2019)","att x post, controlling Verizon x post",87,1998,2019,21.44688953488372
+-0.16299441633524162,0.23329871231092575,344,attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,6.44264534883721
+-0.7158086069105116,0.4284546245679988,684,attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",att share (0-1) x post-2007,87,1998,2019,6.44264534883721
+-0.9798677597999695,0.4329481827467821,486,attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2019,6.280775510204082
+-0.0002574575126231097,0.7762651559625222,684,attempted_suicide,"Attempted suicide (grade 9, 1998-2019)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2019,6.44264534883721
+-0.8646231502462307,0.5241568631296785,684,attempted_suicide,"Attempted suicide (grade 9, 1998-2019)","att x post, controlling Verizon x post",87,1998,2019,6.44264534883721
+-0.1292529876038264,0.22219473270299284,1030,sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,11.76680582524272
+-1.0163355836186303,0.44785977193368715,1291,sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",att share (0-1) x post-2007,87,1998,2010,11.76680582524272
+-1.1828522238007284,0.43533377147492197,919,sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2010,11.58713506139154
+-0.856853686277334,0.9498179131559586,1291,sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2010,11.76680582524272
+-1.021527080780915,0.5284038271654927,1291,sad_hopeless,"Sad all/most of last 30 days (grades 6/9/12, 1998-2010)","att x post, controlling Verizon x post",87,1998,2010,11.76680582524272
+-0.1830290224614083,0.20026766236461974,1030,hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,12.340446601941748
+-0.9418090652544295,0.5097396437813723,1291,hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",att share (0-1) x post-2007,87,1998,2010,12.340446601941748
+-0.8465835743136647,0.49434859974117873,919,hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2010,12.160231923601637
+-2.637693746457514,1.0985668425358581,1291,hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2010,12.340446601941748
+-0.516260782801882,0.5811673458685772,1291,hopeless_30d,"Discouraged or hopeless, last 30 days (1998-2010)","att x post, controlling Verizon x post",87,1998,2010,12.340446601941748
+0.15316765653374714,0.19651993979962096,1030,nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,13.82426213592233
+-0.5996605928851703,0.4815569855762496,1291,nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",att share (0-1) x post-2007,87,1998,2010,13.82426213592233
+-0.6478024719190448,0.4664458830681842,919,nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2010,13.65961800818554
+-1.4218572515473942,1.1778792174783583,1291,nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2010,13.82426213592233
+-0.38883766181214685,0.5619217104994535,1291,nervous_30d,"Nervous, worried or upset, last 30 days (1998-2010)","att x post, controlling Verizon x post",87,1998,2010,13.82426213592233
+-0.2539755699391478,0.34423135588030496,1030,stress_high,"Under great stress or pressure, last 30 days (1998-2010)",pre-trend 1998-2007: att x waves (per 3-year wave),87,1998,2007,30.387417475728157
+-0.806303978745022,0.771224985871831,1291,stress_high,"Under great stress or pressure, last 30 days (1998-2010)",att share (0-1) x post-2007,87,1998,2010,30.387417475728157
+-1.0427693719887898,0.73774901135672,919,stress_high,"Under great stress or pressure, last 30 days (1998-2010)",Myers-Hooper binary: treated (>90%) vs control (<10%) x post-2007,62,1998,2010,30.078458390177357
+0.7772812739594231,1.3278112668886761,1291,stress_high,"Under great stress or pressure, last 30 days (1998-2010)",comparison: Verizon share (0-1) x post-2007 (no iPhone until Feb 2011),87,1998,2010,30.387417475728157
+-1.1505371047020179,0.9388645803278376,1291,stress_high,"Under great stress or pressure, last 30 days (1998-2010)","att x post, controlling Verizon x post",87,1998,2010,30.387417475728157

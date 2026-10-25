@@ -1,0 +1,319 @@
+block,outcome,outcome_label,sex,agegrp,term,term_label,spec,mean,coef,se,n
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,26.412023963544385,0.6156779763359265,1.4678563045611903,134783
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,26.412023963544385,4.404034046375471,0.8915157921180574,134783
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,26.412023963544385,7.053979783172755,0.912041060075335,134783
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,26.412023963544385,10.098013600815758,0.8664335396121987,134783
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.98533647851651,-0.31093902503527,0.7309167099852883,134239
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.98533647851651,1.0599542913773063,0.5076451205091554,134239
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.98533647851651,3.0518348000455036,0.5324539328719976,134239
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.98533647851651,7.028098854124749,0.5141860421460644,134239
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.563656683696045,0.25230209412819066,0.5078258943352674,134239
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.563656683696045,0.33014730582922996,0.3227340698691961,134239
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.563656683696045,1.234344844422068,0.331917487112962,134239
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.563656683696045,3.8989891221597115,0.3378457401729451,134239
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,79.93017948872779,-2.716528840751925,1.192638636700869,133897
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,79.93017948872779,-2.5405597444656673,0.7299998154311942,133897
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,79.93017948872779,-6.036124345215019,0.7504418891281411,133897
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,79.93017948872779,-16.25736608100495,0.721594259034704,133897
+screen -> mediator,physact_daily,Physically active 60 min every day,all,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,14.947694837724349,3.9081128598691874,1.5868260708474373,134487
+screen -> mediator,physact_daily,Physically active 60 min every day,all,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,14.947694837724349,-4.654689305292455,0.903341759401998,134487
+screen -> mediator,physact_daily,Physically active 60 min every day,all,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,14.947694837724349,-8.606338007527638,0.8988590229012705,134487
+screen -> mediator,physact_daily,Physically active 60 min every day,all,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,14.947694837724349,-11.903735097933115,0.8447204200161503,134487
+gradient with mediators,anx_cur,Current anxiety,all,12-17,scr_4p,4+ h vs 1 h,base,14.713654981802366,11.027217084751047,0.5559352371386461,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,per_hour,per weekday hour (linear),base,14.713654981802366,3.0313600638278393,0.13854482200648735,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,14.713654981802366,10.505222115640503,0.5525400837298337,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,14.713654981802366,2.9011913433010537,0.13741806079380342,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,scr_4p,4+ h vs 1 h,+ bullying,14.713654981802366,8.83440303157907,0.5435399682471499,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,per_hour,per weekday hour (linear),+ bullying,14.713654981802366,2.374398653493895,0.13480175406772085,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,14.713654981802366,8.407625710135767,0.5393531263496424,132143
+gradient with mediators,anx_cur,Current anxiety,all,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,14.713654981802366,2.2687452660397107,0.13357437335195155,132143
+mediator -> outcome,anx_cur,Current anxiety,all,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,14.713654981802366,4.385707773249026,0.47862689314917906,132143
+mediator -> outcome,anx_cur,Current anxiety,all,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,14.713654981802366,23.687464800438082,1.0163996225645764,132143
+mediator -> outcome,anx_cur,Current anxiety,all,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,14.713654981802366,13.36974455722734,1.5084487304477985,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,scr_4p,4+ h vs 1 h,base,7.739447160951175,7.721381664443721,0.3620638098107792,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,per_hour,per weekday hour (linear),base,7.739447160951175,1.9947508328196673,0.11478630769780414,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,7.739447160951175,7.297922405741988,0.36191476461827726,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,7.739447160951175,1.8891330426329866,0.1147539183928768,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,scr_4p,4+ h vs 1 h,+ bullying,7.739447160951175,6.160753838659631,0.35414231572376204,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,per_hour,per weekday hour (linear),+ bullying,7.739447160951175,1.526737833019139,0.11142490367782364,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,7.739447160951175,5.807684867427684,0.3543231543327552,132143
+gradient with mediators,dep_cur,Current depression,all,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,7.739447160951175,1.4393245654943465,0.11154296158237767,132143
+mediator -> outcome,dep_cur,Current depression,all,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,7.739447160951175,3.628255893233272,0.3849878496738192,132143
+mediator -> outcome,dep_cur,Current depression,all,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,7.739447160951175,15.425059975775003,0.8538053349312,132143
+mediator -> outcome,dep_cur,Current depression,all,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,7.739447160951175,12.030332929538655,1.3239937319299773,132143
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p,4+ h vs 1 h,base,12.835491403884362,4.984843132733922,0.6603262697733939,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,per weekday hour (linear),base,12.835491403884362,1.5510664701118906,0.13446685596342717,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,12.835491403884362,4.663828315564366,0.6614140017036809,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,12.835491403884362,1.4715880326364041,0.13449870138497091,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p,4+ h vs 1 h,+ bullying,12.835491403884362,3.3064954396943826,0.6521028615028335,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,per weekday hour (linear),+ bullying,12.835491403884362,1.0480133084698091,0.13249294613902257,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,12.835491403884362,3.0567122922940575,0.6535378228098107,130918
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,12.835491403884362,0.9866581610320124,0.13252222772989153,130918
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,12.835491403884362,2.567199659472034,0.43750168748926954,130918
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,12.835491403884362,17.263283885763304,1.0064511819031663,130918
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,12.835491403884362,11.904263842688435,1.4609557121621328,130918
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,26.953247768607376,1.0144998055827923,1.9647411279493745,64904
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,26.953247768607376,5.164985265562074,1.2993282134808206,64904
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,26.953247768607376,7.149517442920886,1.2738849419540434,64904
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,26.953247768607376,10.61521499589548,1.2355258698964753,64904
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.676498791978487,-0.0987590456678817,0.9713683722775694,64666
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.676498791978487,2.197125269688839,0.71590589857949,64666
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.676498791978487,3.643467683826346,0.7203666970568418,64666
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.676498791978487,8.599335501416794,0.7342294803434414,64666
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.8056618760608005,-0.2770804838358435,0.5679079304683035,64666
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.8056618760608005,0.8295765326505485,0.43694394645805357,64666
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.8056618760608005,1.6317044333393558,0.4483710321901132,64666
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.8056618760608005,4.526399531778879,0.4583920278639402,64666
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,85.29024456829704,-1.4645557739981279,1.3777843250399509,64489
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,85.29024456829704,-1.778145292415684,0.9832667076092564,64489
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,85.29024456829704,-3.762664725383064,0.9636978633106478,64489
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,85.29024456829704,-13.699914600738976,0.9801130829729862,64489
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,10.988509354672239,1.073368997226288,1.9570334942348284,64770
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,10.988509354672239,-5.055086028192335,1.2124300226991873,64770
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,10.988509354672239,-8.493195744721099,1.1855491535109006,64770
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,10.988509354672239,-10.250900464701546,1.1388164105913263,64770
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,base,17.928385739830922,14.609379793421557,0.7882464808014922,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),base,17.928385739830922,3.9614939139839063,0.2138135859046608,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,17.928385739830922,13.939281061713649,0.7787907171818527,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,17.928385739830922,3.797638573738379,0.21116179187809245,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,+ bullying,17.928385739830922,11.920353817824523,0.7664347582641051,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),+ bullying,17.928385739830922,3.1943065148979306,0.20774975928765715,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,17.928385739830922,11.38443184714947,0.7564186611659656,63625
+gradient with mediators,anx_cur,Current anxiety,girls,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,17.928385739830922,3.0644402569015776,0.20509665923788056,63625
+mediator -> outcome,anx_cur,Current anxiety,girls,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,17.928385739830922,5.313408839900406,0.7117352673088696,63625
+mediator -> outcome,anx_cur,Current anxiety,girls,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,17.928385739830922,25.179618662369165,1.4784805939857242,63625
+mediator -> outcome,anx_cur,Current anxiety,girls,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,17.928385739830922,12.376049650023567,2.1534645372885532,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,base,9.895517238771129,10.053594433615716,0.6087088588700753,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),base,9.895517238771129,2.6388782066196055,0.18332500834259285,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,9.895517238771129,9.518682946901055,0.6085009026975469,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,9.895517238771129,2.5082009905360776,0.18403488566200368,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,+ bullying,9.895517238771129,8.000458792380975,0.5850103670818436,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),+ bullying,9.895517238771129,2.050088302892643,0.17670442516921125,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,9.895517238771129,7.570691837529039,0.5860032278271174,63625
+gradient with mediators,dep_cur,Current depression,girls,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,9.895517238771129,1.9460838644668799,0.1778675785925546,63625
+mediator -> outcome,dep_cur,Current depression,girls,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,9.895517238771129,4.260932863287907,0.5835583247938526,63625
+mediator -> outcome,dep_cur,Current depression,girls,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,9.895517238771129,17.361272191510217,1.3095021060717704,63625
+mediator -> outcome,dep_cur,Current depression,girls,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,9.895517238771129,13.005245203189029,1.986360434635186,63625
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,base,9.001670755240259,3.2870380609974847,0.8752239695140613,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),base,9.001670755240259,1.2379357235180612,0.15622899445137206,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,9.001670755240259,3.0136202523052362,0.8781870103323358,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,9.001670755240259,1.1724755935189075,0.15686573612363802,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,+ bullying,9.001670755240259,1.801419947667821,0.8641916772336548,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),+ bullying,9.001670755240259,0.8086526385408226,0.1545532191407052,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,9.001670755240259,1.6022250634817317,0.868331315806701,63075
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,9.001670755240259,0.7615748311044691,0.15555296827814316,63075
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,9.001670755240259,1.9660161796871691,0.4988026965651418,63075
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,9.001670755240259,11.57608507357946,1.0702055158363546,63075
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,9.001670755240259,11.78469849412406,1.7432642127358065,63075
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,25.89493301075357,0.57332823190463,2.1212528916876616,69879
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,25.89493301075357,3.554975841700826,1.1833364587610984,69879
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,25.89493301075357,6.6518159488643525,1.2504811197886623,69879
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,25.89493301075357,9.15873356798283,1.1689547504536426,69879
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,9.324410432239738,-0.5169714633597655,1.103299904764545,69573
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,9.324410432239738,-0.2032204897764498,0.7240193304356121,69573
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,9.324410432239738,2.358816493664746,0.7813150389513778,69573
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,9.324410432239738,5.406608629401592,0.7185987706933844,69573
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,4.332238488790534,0.8037552460651685,0.8650808882249937,69573
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,4.332238488790534,-0.208785043572109,0.4797613972533041,69573
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,4.332238488790534,0.761892273594189,0.49789982924295295,69573
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,4.332238488790534,3.2036316669363556,0.5003056254643915,69573
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,74.80797544819889,-4.031131347084851,1.9635679274117284,69408
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,74.80797544819889,-3.5235799220235893,1.0700520790199373,69408
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,74.80797544819889,-8.303222752965302,1.1251227644198112,69408
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,74.80797544819889,-18.91314638697161,1.0424825588469298,69408
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,12-17,scr_lt1,<1 h vs 1 h,covariates + state x year FE,18.730787901867316,6.70255640434648,2.4721436187798975,69717
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,12-17,scr_2,2 h vs 1 h,covariates + state x year FE,18.730787901867316,-4.283096358776529,1.350298482741561,69717
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,12-17,scr_3,3 h vs 1 h,covariates + state x year FE,18.730787901867316,-8.812406938420267,1.3333767296921135,69717
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,12-17,scr_4p,4+ h vs 1 h,covariates + state x year FE,18.730787901867316,-13.548658011451245,1.2491956599082883,69717
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,base,11.638343632334234,7.063512304501919,0.7749102534920883,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),base,11.638343632334234,2.1062718332270265,0.17052941524040013,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,11.638343632334234,6.69318677671415,0.7754140388589988,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,11.638343632334234,2.0132175222389024,0.17013684822641903,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,+ bullying,11.638343632334234,5.373469929820429,0.7626299463002737,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),+ bullying,11.638343632334234,1.5620109856499602,0.16600515098004107,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,11.638343632334234,5.065335830687597,0.7617568487375777,68518
+gradient with mediators,anx_cur,Current anxiety,boys,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,11.638343632334234,1.4851617748784656,0.16534780867318186,68518
+mediator -> outcome,anx_cur,Current anxiety,boys,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,11.638343632334234,3.46601694872954,0.6197496894456316,68518
+mediator -> outcome,anx_cur,Current anxiety,boys,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,11.638343632334234,21.571135033440274,1.3382708251000723,68518
+mediator -> outcome,anx_cur,Current anxiety,boys,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,11.638343632334234,14.604697892000873,2.0464459587660446,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,base,5.676883518876661,5.30181037249193,0.39213398251335896,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),base,5.676883518876661,1.3654577516898145,0.13210717773972389,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,5.676883518876661,4.992478221319213,0.3905767857582394,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,5.676883518876661,1.2876015595420411,0.13048210766860036,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,+ bullying,5.676883518876661,4.206452866474847,0.3973309926277656,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),+ bullying,5.676883518876661,1.013826491841598,0.12979544794757364,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,5.676883518876661,3.939433278609528,0.39556481809588556,68518
+gradient with mediators,dep_cur,Current depression,boys,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,5.676883518876661,0.9471048180213625,0.128119426118288,68518
+mediator -> outcome,dep_cur,Current depression,boys,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,5.676883518876661,3.0035443003177864,0.4850714311818464,68518
+mediator -> outcome,dep_cur,Current depression,boys,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,5.676883518876661,13.019326532685598,1.0316213575418365,68518
+mediator -> outcome,dep_cur,Current depression,boys,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,5.676883518876661,10.991048184030245,1.6574075027649868,68518
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,base,16.50922990489483,6.885275552673789,0.9694666036243931,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),base,16.50922990489483,1.870531184636711,0.2165476003827067,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,+ sleep < 8 h,16.50922990489483,6.545311188707006,0.9675317558670865,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),+ sleep < 8 h,16.50922990489483,1.7843583225422306,0.21600134117886688,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,+ bullying,16.50922990489483,5.1629501954233765,0.961044167241146,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),+ bullying,16.50922990489483,1.315081288971626,0.2121635520206384,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,scr_4p,4+ h vs 1 h,+ sleep and bullying,16.50922990489483,4.883028992514874,0.9589391695818188,67843
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,per_hour,per weekday hour (linear),+ sleep and bullying,16.50922990489483,1.2445909439171126,0.21128697766565857,67843
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,16.50922990489483,3.1922310781584637,0.7109276768246954,67843
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,16.50922990489483,23.794002890613758,1.6734832594030262,67843
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,12-17,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,16.50922990489483,11.524850974244533,2.303086627999341,67843
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.682653485819981,0.8019832329305335,0.6225013701772325,103106
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,7.682653485819981,1.367571980502704,0.4197646319815874,103106
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,7.682653485819981,3.4465473488064338,0.538056218578944,103106
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.682653485819981,6.990126872010553,0.6577716196567696,103106
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,13.165540103601542,0.6595620742389491,0.8328505321234816,102792
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,13.165540103601542,0.634862783579577,0.555095644846615,102792
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,13.165540103601542,3.0860359448718873,0.6595768109653792,102792
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,13.165540103601542,6.671631006381647,0.7347946729364935,102792
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.412506852178308,0.14722121801378119,0.5172861167925589,102792
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.412506852178308,0.05729582224018217,0.36083529785182944,102792
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.412506852178308,1.5964224321987321,0.4559778244021264,102792
+screen -> mediator,bullied_weekly,Bullied weekly or more,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.412506852178308,4.418869543239881,0.5775149242962697,102792
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,84.51331210033965,-0.9461893735145493,0.9211242275932222,102372
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,84.51331210033965,-0.4761883581043852,0.6252092671765787,102372
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,84.51331210033965,-3.9174598503625897,0.7326649517260657,102372
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,84.51331210033965,-12.568694014160718,0.8601955911435301,102372
+screen -> mediator,physact_daily,Physically active 60 min every day,all,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,26.146798443249452,3.582620139165675,1.1640805205245073,102891
+screen -> mediator,physact_daily,Physically active 60 min every day,all,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,26.146798443249452,-5.599224422334631,0.83061782495702,102891
+screen -> mediator,physact_daily,Physically active 60 min every day,all,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,26.146798443249452,-10.559693491356526,0.9195493283849661,102891
+screen -> mediator,physact_daily,Physically active 60 min every day,all,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,26.146798443249452,-13.977566344384755,0.9334928788102327,102891
+gradient with mediators,anx_cur,Current anxiety,all,6-11,scr_4p,4+ h vs 1 h,base,8.410587537736024,5.033728841800375,0.5429375395270656,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,per_hour,per weekday hour (linear),base,8.410587537736024,1.3553164263748254,0.13207632710456946,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,8.410587537736024,4.545948073990928,0.5373400817246978,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,8.410587537736024,1.23024207995668,0.13101638856759576,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,scr_4p,4+ h vs 1 h,+ bullying,8.410587537736024,3.7290777872301475,0.5390127625600667,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,per_hour,per weekday hour (linear),+ bullying,8.410587537736024,1.0103678907434843,0.13068115528455532,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,8.410587537736024,3.381793705333791,0.5348783677710982,101642
+gradient with mediators,anx_cur,Current anxiety,all,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,8.410587537736024,0.9217626498896092,0.1301859105142718,101642
+mediator -> outcome,anx_cur,Current anxiety,all,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,8.410587537736024,5.168935116800068,0.828005544318312,101642
+mediator -> outcome,anx_cur,Current anxiety,all,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,8.410587537736024,12.44923303423132,0.766465954600277,101642
+mediator -> outcome,anx_cur,Current anxiety,all,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,8.410587537736024,10.412144897209252,1.4075615369181247,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,scr_4p,4+ h vs 1 h,base,1.8527866876898689,2.280029808624377,0.3431714577464112,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,per_hour,per weekday hour (linear),base,1.8527866876898689,0.5630089710320354,0.0857197658091196,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,1.8527866876898689,2.0253780914865427,0.32697397482507035,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,1.8527866876898689,0.497572811589282,0.08217914373248611,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,scr_4p,4+ h vs 1 h,+ bullying,1.8527866876898689,1.713947033714212,0.3226196725428997,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,per_hour,per weekday hour (linear),+ bullying,1.8527866876898689,0.41242321173734653,0.08009759605266566,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,1.8527866876898689,1.5250690538187375,0.3134218423329919,101642
+gradient with mediators,dep_cur,Current depression,all,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,1.8527866876898689,0.3641030094889464,0.07842235935496693,101642
+mediator -> outcome,dep_cur,Current depression,all,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,1.8527866876898689,2.8112374680142675,0.5747005597607284,101642
+mediator -> outcome,dep_cur,Current depression,all,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,1.8527866876898689,3.8162542367353898,0.41619238891471905,101642
+mediator -> outcome,dep_cur,Current depression,all,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,1.8527866876898689,6.880276500435046,0.9845116910098906,101642
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p,4+ h vs 1 h,base,10.817737235787627,3.4809317149361556,0.6607053396625883,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,per weekday hour (linear),base,10.817737235787627,0.9974348566572293,0.1592453457255136,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,10.817737235787627,2.904284423245351,0.6602701759149262,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,10.817737235787627,0.8492322825908255,0.1598366632960464,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p,4+ h vs 1 h,+ bullying,10.817737235787627,2.134616580029465,0.648076547094909,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,per weekday hour (linear),+ bullying,10.817737235787627,0.6403956017835142,0.1553426196745887,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,10.817737235787627,1.7008328521283653,0.6497528302214621,100822
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),all,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,10.817737235787627,0.5294525543059515,0.15630795337605125,100822
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,10.817737235787627,6.6153146515155274,0.8926417318863091,100822
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,10.817737235787627,13.236195054173486,0.9050225470495471,100822
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),all,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,10.817737235787627,11.050525905493508,1.5509834553601876,100822
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.650946872319504,0.23821309780693525,0.8324814783910881,49544
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,7.650946872319504,0.9557075122656753,0.6407438755534968,49544
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,7.650946872319504,3.7570405014832806,0.8756264943580643,49544
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.650946872319504,6.311012431266551,1.0240836118250172,49544
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,12.565187694626086,-0.3438669952163685,1.087845799215685,49419
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,12.565187694626086,0.4638647263529486,0.7674338603464124,49419
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,12.565187694626086,3.1676330788168565,0.9728146513950686,49419
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,12.565187694626086,6.57262554967948,1.0056426007867658,49419
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.174220341511892,-0.5627163742692505,0.661763096664539,49419
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.174220341511892,0.3495123102652268,0.5212510569943828,49419
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.174220341511892,1.8688867110019833,0.6867039292419851,49419
+screen -> mediator,bullied_weekly,Bullied weekly or more,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.174220341511892,4.36241163771077,0.7509694250343364,49419
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,88.59138870327655,0.04832594056982821,1.1589908199783148,49189
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,88.59138870327655,0.6240763858666475,0.8296759236063911,49189
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,88.59138870327655,-3.003895563811621,0.9921494503531988,49189
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,88.59138870327655,-10.086953694990129,1.1556094828084735,49189
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,23.517443524481642,5.207660970769451,1.6051829452868822,49450
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,23.517443524481642,-4.243737758343237,1.1112443694182417,49450
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,23.517443524481642,-8.536333243592349,1.22207543123558,49450
+screen -> mediator,physact_daily,Physically active 60 min every day,girls,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,23.517443524481642,-10.332559521234781,1.2723640345990639,49450
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,base,8.040315005247537,5.395696534552156,0.8040704998563907,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),base,8.040315005247537,1.4974164249387143,0.1936437194513907,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,8.040315005247537,4.933522818375707,0.7951561980078313,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,8.040315005247537,1.3717265398195857,0.1916618950784256,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,+ bullying,8.040315005247537,4.2090264217611,0.7896594913071773,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),+ bullying,8.040315005247537,1.1665059876558175,0.189305527153471,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,8.040315005247537,3.8519536548590767,0.78042452673788,48871
+gradient with mediators,anx_cur,Current anxiety,girls,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,8.040315005247537,1.0697617023901895,0.18728122974409048,48871
+mediator -> outcome,anx_cur,Current anxiety,girls,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,8.040315005247537,5.837622482214363,1.2323783919628772,48871
+mediator -> outcome,anx_cur,Current anxiety,girls,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,8.040315005247537,13.261846709156838,1.224742806784119,48871
+mediator -> outcome,anx_cur,Current anxiety,girls,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,8.040315005247537,7.098999239594469,2.065015970370786,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,base,1.754321465763144,2.713292426897871,0.42369590846192917,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),base,1.754321465763144,0.6455895046358028,0.10729635569251365,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,1.754321465763144,2.4911946547825226,0.4177771104277254,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,1.754321465763144,0.5851187084451063,0.1074983575541246,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,+ bullying,1.754321465763144,2.149202451159986,0.40782539059066014,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),+ bullying,1.754321465763144,0.48728366029428405,0.10404205002065633,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,1.754321465763144,1.9803083107240707,0.4064999543958563,48871
+gradient with mediators,dep_cur,Current depression,girls,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,1.754321465763144,0.44145121090642064,0.10500269005247723,48871
+mediator -> outcome,dep_cur,Current depression,girls,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,1.754321465763144,2.7611745355912207,0.71166239907032,48871
+mediator -> outcome,dep_cur,Current depression,girls,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,1.754321465763144,3.648851654237455,0.607644374716745,48871
+mediator -> outcome,dep_cur,Current depression,girls,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,1.754321465763144,7.390667421329794,1.3880939327705026,48871
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,base,7.287764693860936,1.220561610866413,0.8596735879833546,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),base,7.287764693860936,0.3877584189755527,0.2057066355588528,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,7.287764693860936,0.8128179556587471,0.8626095242819528,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,7.287764693860936,0.2767744558109916,0.20695937518022411,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,+ bullying,7.287764693860936,0.11016736411305154,0.84879306131298,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),+ bullying,7.287764693860936,0.07566022877569568,0.2009144076296042,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,7.287764693860936,-0.20091074467073716,0.8526187381893963,48495
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,7.287764693860936,-0.008681489638570176,0.20236879231322225,48495
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,7.287764693860936,5.218236461758957,1.1556149558924094,48495
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,7.287764693860936,10.187420158115696,1.313686858531222,48495
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),girls,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,7.287764693860936,10.288265033967011,2.1619046579506063,48495
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,7.712989118648353,1.4065269836905632,0.8930519325671148,53562
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,7.712989118648353,1.7589945970310064,0.5275213598518557,53562
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,7.712989118648353,3.3169993313708264,0.6420916199348742,53562
+screen -> mediator,sleep_lt8,Sleeps < 8 h on weeknights,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,7.712989118648353,7.576386877388453,0.8217628762805381,53562
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,13.741081341447153,1.6023737808931817,1.2597591815256557,53373
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,13.741081341447153,0.8647485777150472,0.7946272055562024,53373
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,13.741081341447153,3.107982926214658,0.8872369967954935,53373
+screen -> mediator,bullied_monthly,Bullied monthly or more (past 12 m),boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,13.741081341447153,6.998863026738986,1.0369926043861095,53373
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,5.64094553462635,0.903867939097015,0.8192021959399254,53373
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,5.64094553462635,-0.2690740926829365,0.504124065267643,53373
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,5.64094553462635,1.402098834557672,0.6026195530131728,53373
+screen -> mediator,bullied_weekly,Bullied weekly or more,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,5.64094553462635,4.469047702694289,0.8321360533978617,53373
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,80.62029172975936,-1.9108925726079107,1.4421600031593542,53183
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,80.62029172975936,-1.7105919197859814,0.9208453876596958,53183
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,80.62029172975936,-4.931491230544093,1.0519189033408998,53183
+screen -> mediator,engaged,"Engaged in school (cares + does homework, always/usually)",boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,80.62029172975936,-14.971507871450157,1.2199244318874178,53183
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,6-11,scr_lt1,<1 h vs 1 h,covariates + state x year FE,28.665396921781582,2.0943849423771868,1.6622820367714974,53441
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,6-11,scr_2,2 h vs 1 h,covariates + state x year FE,28.665396921781582,-7.112847211445849,1.2031239009490684,53441
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,6-11,scr_3,3 h vs 1 h,covariates + state x year FE,28.665396921781582,-12.579924432427323,1.330136636498021,53441
+screen -> mediator,physact_daily,Physically active 60 min every day,boys,6-11,scr_4p,4+ h vs 1 h,covariates + state x year FE,28.665396921781582,-17.289114917859074,1.3254849320379674,53441
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,base,8.76533388541309,4.789100773561082,0.7381187059625681,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),base,8.76533388541309,1.2618012338494617,0.17968511819937474,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,8.76533388541309,4.292368164636006,0.7312303199199731,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,8.76533388541309,1.1383263556960885,0.17846436565261484,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,+ bullying,8.76533388541309,3.353162573508646,0.7364197903527198,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),+ bullying,8.76533388541309,0.897210761670073,0.17968907994859082,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,8.76533388541309,3.027754634851304,0.7342969852127353,52771
+gradient with mediators,anx_cur,Current anxiety,boys,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,8.76533388541309,0.8167744162213635,0.18011814342162333,52771
+mediator -> outcome,anx_cur,Current anxiety,boys,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,8.76533388541309,4.532155349418105,1.0763773196835023,52771
+mediator -> outcome,anx_cur,Current anxiety,boys,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,8.76533388541309,11.629461166019613,0.9277191257480575,52771
+mediator -> outcome,anx_cur,Current anxiety,boys,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,8.76533388541309,13.439668085283365,1.849709854101226,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,base,1.9471230880082042,1.950017940793713,0.5260749246714993,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),base,1.9471230880082042,0.5171140454154131,0.13165785700904437,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,1.9471230880082042,1.6705529108796757,0.49137803924487095,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,1.9471230880082042,0.44767342370376473,0.12226078614764053,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,+ bullying,1.9471230880082042,1.3763617485145414,0.48865848394874245,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),+ bullying,1.9471230880082042,0.3707682348944178,0.12005609742457367,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,1.9471230880082042,1.1711729361637657,0.46678492414540523,52771
+gradient with mediators,dep_cur,Current depression,boys,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,1.9471230880082042,0.3200639614049868,0.11447203247219152,52771
+mediator -> outcome,dep_cur,Current depression,boys,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,1.9471230880082042,2.857790063061617,0.8358909893988647,52771
+mediator -> outcome,dep_cur,Current depression,boys,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,1.9471230880082042,3.9729654128164764,0.5646116684914978,52771
+mediator -> outcome,dep_cur,Current depression,boys,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,1.9471230880082042,6.331984052953019,1.2861889255320755,52771
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,base,14.202589391280771,5.526217196168472,0.9464775635536185,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),base,14.202589391280771,1.521685886794043,0.23338856806194477,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,+ sleep < 8 h,14.202589391280771,4.786450188262675,0.9439307925174113,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),+ sleep < 8 h,14.202589391280771,1.3374487489605869,0.2342706732974104,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,+ bullying,14.202589391280771,3.9475211318953476,0.9240643896091026,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),+ bullying,14.202589391280771,1.1238653024066068,0.22823109741302183,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,scr_4p,4+ h vs 1 h,+ sleep and bullying,14.202589391280771,3.393106860545428,0.9264144096209516,52327
+gradient with mediators,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,per_hour,per weekday hour (linear),+ sleep and bullying,14.202589391280771,0.9864976751501363,0.22995682992366281,52327
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,sleep_lt8,Sleeps < 8 h (direct),+ sleep and bullying,14.202589391280771,7.9898124939429644,1.3331327379194926,52327
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,bullied_monthly,Bullied monthly+ (direct),+ sleep and bullying,14.202589391280771,15.857427685626236,1.1787405842968905,52327
+mediator -> outcome,adhd_cur,Current ADD/ADHD (contrast),boys,6-11,bullied_weekly,Bullied weekly+ (additional),+ sleep and bullying,14.202589391280771,11.768412613659759,2.098820437409716,52327
